@@ -1,0 +1,69 @@
+{
+    "site": {
+        "title": "Human Activities",
+        "email": "jiriskala25@gmail.com"
+    },
+    "os": [
+        {
+            "system": "macOS",
+            "link": "mactut.html",
+            "applinks": {
+                "macOS Mojave": "https://github.com/jakubvalenta/human-activities/releases/download/v0.11.1/Human_Activities-0.11.1.zip"
+            }
+        },
+        {
+            "system": "Windows",
+            "link": "wintut.html",
+            "applinks": {
+                "Windows 7 or 8": "https://github.com/jakubvalenta/human-activities/releases/download/v0.11.1/Human_Activities-win7.exe",
+                "Windows 10": "https://github.com/jakubvalenta/human-activities/releases/download/v0.11.1/Human_Activities-win10.exe"
+            }
+        },
+        {
+            "system": "Linux",
+            "link": "lnxtut.html",
+            "applinks": {
+                "Ubuntu 18.04 or newer": "https://github.com/jakubvalenta/human-activities/releases/download/v0.11.1/human-activities_0.11.1-1_all.deb"
+            }
+        }
+    ],
+    "names": [
+        {
+            "name": "Jirka Skála,",
+            "content": "is a creative artist and pedagogue who has, for a long time, devoted his efforts to studying various types of work and free-time activities.",
+            "site": "gettoworkjirka.cz"
+        },
+        {
+            "name": "Jakub Valenta,",
+            "content": "is an artist and programmer; his work focuses on the boundary between life and art and tries to render more visible the mundane, albeit bizarre, state of contemporary society.",
+            "site": "jakubvalenta.cz"
+        },
+        {
+            "name": "Foundation for Contemporary Arts Prague,",
+            "content": "is a socially beneficial organization that has financed, in part, this online project and which has long supported artistic and interdisciplinary projects.",
+            "site": "fca.fcca.cz/en/news/"
+        }
+    ],
+    "about": {
+        "title": "The first archiving and monitoring program that won't force you to have greater self-control and or engage in greater self-sacrifice. To the contrary, it will help you uncover the nonsense in such activity.",
+        "img": "01.jpg",
+        "par": "Welcome to the webpage for the Human Activities project which focuses on limiting the exploitation of individuals as part of contemporary production relationships.  This may sound somewhat enthusiastic or arrogant, but we're essentially offering you a software tool that will help you store the data in your computer's memory based on whether it involves paid or unpaid work.",
+        "perex": "Cleaning up the data in your computer is not procrastination: it's liberation.",
+        "par2": "Operating systems like Windows, Mac OS and most Linux derivatives classify data based on formal details.  In the vast majority of cases, they offer us the option of storing data in files like \"Music\", \"Photos\", \"Videos\" or based on a general, meaningless naming such as \"Documents\". The latter is where we are likely meant to save information that does not fit into any of the three prior categories and which mostly relates to paid work. This set-up suits hardware and software creators: but not users. This type of data archiving refers to a clear division of human activities into work for which the individual is paid and recreation during which he/she consumes money earned. Designers of operating systems believe in this formal categorization. Most of them, thanks to their earnings, live in them; and they want the rest of the world's population to share these life values with them.",
+        "par3": "The reality of life for computer users differs greatly from that of corporate employees. This applies mainly to unclear boundaries between paid and unpaid work. This results in a general state of being overworked, frustration, loss of free time, various forms of digital addiction and low wages. ",
+        "img2": "02.jpg",
+        "par4": "Contemporary operating systems do not reflect this state at all; they do not help their users find their way in their own digital data.  Our online platform will try to correct this deficiency.  The software tool you will find here will help you rename folders inside the operating system based on the following categories: Paid Work, Unpaid Work, Recreation, Other and Downloads.  The \"Other\" folder is meant for activities like free-time, procrastination, laziness or sleeping. ",
+        "par5": "This tool will also enable you to monitor individual activities on a regular basis and analyze them.  Part of the application includes a simple statistical overview featuring graphic icons in the operating system's control panel.  When you click on it, a list of all folders (with percentages showing their degree of usage) appears.  Display of image sizes varies based on file size and the amount of information in the given folder along with the time spent interacting with the data therein.  You can set these values in the \"Advanced Configuration\" tab.",
+        "par6": "The Human Activities project focuses on desktops and notebooks, plus hard disks for memory. It is meant for individuals who work based on contracts, who are unhappy with their employer or who are working on a number of part-time projects all at once.  We offer those people our software tool thanks to which they will be able to gain greater control over their time and space and also get a critical look at their daily interaction with their surroundings.  This will help them rationalize their dissatisfaction and subsequently verbalize it in a sensible, public way; for example, in meetings with their employer, their customers or with the bureaucracy of the public administration.",
+        "img3": "03.jpg",
+        "par7": "For the aforementioned reasons, our software tool is not fully automated.  It offers you the option of archiving your data based on human activities and the option of monitoring them. However, it is not able to sort your data automatically. In such cases, just as with other operating systems, you will have to sort your data by yourself.  This is work, indeed unpaid work; but at the same time, it is an activity with the potential to emancipate you."
+    },
+    "tuts": {
+        "title": "Instructions for"
+    },
+    "contact": {
+        "title": "Contact and Assistance",
+        "content": "If you found this website interesting and decided to use our software tool but perhaps found it lacking in some way, we would be glad to hear your feedback. The current version is one that is still based on the programmers' personal experience. We would be happy to get your opinions on how to change given categories or expand them, as well as on how we can change our data monitoring and make better use of it. We will be glad for any and all comments and evaluations.  Thank you in advance.",
+        "content2": "Please direct all your questions and comments to the following email address: "
+    }
+}

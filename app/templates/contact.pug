@@ -1,0 +1,11 @@
+extends layout.pug
+block title
+  | #{contact.title} - #{site.title}
+block body
+  body.contact
+block content
+  section.page
+    h2 #{contact.title}
+    p.pb-0 #{contact.content}
+    p.pb-0 #{contact.content2}
+      a(href="mailto:"+ site.email)  #{site.email}

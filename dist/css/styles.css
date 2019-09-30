@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Unna:300");
+/* latin */
+@font-face {
+  font-family: 'Unna';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Unna Regular"), local("Unna-Regular"), url(https://fonts.gstatic.com/s/unna/v12/AYCEpXzofN0NOp8LlUPBSFI.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+html {
+  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-family: 'Unna';
+  font-weight: 400;
+  background-color: white;
+  color: rgba(28, 32, 24, 0.8);
+  font-size: 22px;
+  line-height: 1.6em;
+  margin-top: 5rem; }
+
+* {
+  box-sizing: border-box; }
+
+.wrap {
+  width: 100vw;
+  height: 41rem;
+  padding: 0% 6%;
+  display: grid;
+  grid-template-columns: 8% 2% auto 2% 8%;
+  grid-template-rows: 9% 60% auto;
+  background-color: white;
+  background-image: url("/images/grid.png");
+  background-size: 99%;
+  background-repeat: no-repeat;
+  background-position: top center; }
+  .wrap .obdel {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3; }
+  .wrap ul {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-auto-flow: dense;
+    margin: 0 auto;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr)); }
+    .wrap ul li {
+      position: relative;
+      background-color: blue; }
+      .wrap ul li:hover {
+        background-color: #FF4F3E; }
+        .wrap ul li:hover img {
+          opacity: 0;
+          transition: opacity 0.3s; }
+        .wrap ul li:hover .text {
+          opacity: 1; }

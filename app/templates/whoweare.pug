@@ -1,0 +1,12 @@
+extends layout.pug
+block title
+  | Who We Are - #{site.title}
+block body
+  body.whoweare
+block content
+  section.page
+    each item in names
+      h2.pb-0 #{item.name}
+      p.pb-0 #{item.content}
+      p
+        a(href="http://#{item.site}}") #{item.site}

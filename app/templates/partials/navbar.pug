@@ -1,0 +1,20 @@
+nav.navbar.navbar-expand-md.bg-light.navbar-light.p-0.bg-transparent
+  a.navbar-brand.mx-auto.mr-0.order-1.order-md-0(href='index.html')
+    h1 #{site.title}
+  button.navbar-toggler.order-0.order-md-1(type='button' data-toggle='collapse' data-target='#navbarsExample09' aria-controls='navbarsExample09' aria-expanded='false' aria-label='Toggle navigation')
+    span Menu
+  #navbarsExample09.collapse.navbar-collapse
+    ul.navbar-nav.text-center.text-md-left
+      li.nav-item.active
+        a.nav-link(href='index.html')
+          | About Us
+          span.sr-only (current)
+      li.nav-item
+        a.nav-link(href='whoweare.html') Who We Are
+      li.nav-item.dropdown
+        a#dropdown09.nav-link.dropdown-toggle(href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') Download
+        .dropdown-menu(aria-labelledby='dropdown09')
+          each inst in os
+            a.dropdown-item(href= inst.link) #{inst.system}
+      li.nav-item
+        a.nav-link(href='contact.html') Contact and Assistance
