@@ -14,50 +14,157 @@ html {
   -moz-osx-font-smoothing: grayscale; }
 
 body {
-  font-family: 'Unna';
+  font-family: 'Arial';
   font-weight: 400;
   background-color: white;
   color: rgba(28, 32, 24, 0.8);
-  font-size: 22px;
-  line-height: 1.6em;
-  margin-top: 5rem; }
+  font-size: 10pt;
+  color: black;
+  line-height: 1;
+  height: 100vh;
+  margin: 0;
+  display: flex; }
 
 * {
   box-sizing: border-box; }
 
+a {
+  color: black;
+  text-decoration: none; }
+  a:hover {
+    color: black;
+    text-decoration: underline; }
+
+.menu {
+  grid-area: header;
+  text-align: center;
+  margin-bottom: -6px; }
+  .menu nav {
+    display: flex; }
+    .menu nav .navbar-nav {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      padding: 0;
+      margin: 0; }
+      .menu nav .navbar-nav .nav-item .nav-link {
+        display: block;
+        padding: .5rem 1rem;
+        min-width: 5rem; }
+      .menu nav .navbar-nav .nav-item .active {
+        text-decoration: underline; }
+      .menu nav .navbar-nav .nav-item:nth-child(-n+2) {
+        text-align: right;
+        color: red; }
+      .menu nav .navbar-nav .nav-item:nth-child(n+3) {
+        text-align: left; }
+
+.lang {
+  grid-area: lang;
+  text-align: right; }
+
+.pagl {
+  grid-area: pagl;
+  text-align: left; }
+
+.pagr {
+  grid-area: pagr;
+  text-align: right; }
+
+.prev {
+  grid-area: footer;
+  text-align: left;
+  white-space: nowrap; }
+
+.next {
+  grid-area: footer;
+  text-align: right;
+  white-space: nowrap; }
+
+.project-name {
+  grid-area: title;
+  text-align: center; }
+
+.project-where {
+  grid-area: where;
+  text-align: center; }
+
+.project-text-modal {
+  grid-area: footer;
+  text-align: center; }
+
+.pcolor {
+  background-color: gold; }
+
+.wrap div:not(.grid) {
+  align-self: end; }
+
 .wrap {
-  width: 100vw;
-  height: 41rem;
-  padding: 0% 6%;
   display: grid;
-  grid-template-columns: 8% 2% auto 2% 8%;
-  grid-template-rows: 9% 60% auto;
-  background-color: white;
-  background-image: url("/images/grid.png");
+  grid-template-columns: 8% 1vw 1vw auto 1vw 1vw 8%;
+  grid-template-rows: 3vw 3.6vw auto 1.33333vw 1.33333vw 1.33333vw;
+  grid-template-areas: "logo . . header . . lang" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer";
+  width: 100vw;
+  height: auto;
+  padding: 2rem 6%;
   background-size: 99%;
   background-repeat: no-repeat;
   background-position: top center; }
-  .wrap .obdel {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3; }
-  .wrap ul {
-    padding: 0;
-    list-style: none;
-    display: grid;
-    grid-auto-flow: dense;
-    margin: 0 auto;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr)); }
-    .wrap ul li {
-      position: relative;
-      background-color: blue; }
-      .wrap ul li:hover {
-        background-color: #FF4F3E; }
-        .wrap ul li:hover img {
+  .wrap .grid {
+    grid-area: content; }
+    .wrap .grid ul > *:first-child {
+      grid-row: 1 / 1;
+      grid-column: 1 / 1; }
+    .wrap .grid ul {
+      padding: 0;
+      list-style: none;
+      display: grid;
+      grid-auto-flow: dense;
+      margin: 0 auto;
+      grid-gap: 2vw;
+      grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+      grid-auto-rows: 1fr; }
+      .wrap .grid ul:before {
+        content: '';
+        width: 0;
+        padding-bottom: 100%;
+        grid-row: 1 / 1;
+        grid-column: 1 / 1; }
+      .wrap .grid ul li {
+        position: relative; }
+        .wrap .grid ul li img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          opacity: 1;
+          transition: opacity 0.1s; }
+        .wrap .grid ul li:hover {
+          background-color: gold; }
+          .wrap .grid ul li:hover img {
+            opacity: 0; }
+          .wrap .grid ul li:hover .hovertext {
+            opacity: 1; }
+        .wrap .grid ul li .hovertext {
+          position: absolute;
           opacity: 0;
-          transition: opacity 0.3s; }
-        .wrap ul li:hover .text {
-          opacity: 1; }
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          transition: opacity 0.3s;
+          line-height: 1.2; }
+
+.body_single .wrap {
+  grid-template-areas: "logo . . header . . lang" ". . . . . . ."  "content content content content content content content" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer";
+  grid-template-columns: 8% 1vw 1vw auto 1vw 1vw 8%; }
+  .body_single .wrap .grid ul {
+    grid-template-columns: 1fr 1fr; }
+    .body_single .wrap .grid ul li img {
+      object-fit: contain; }
+    .body_single .wrap .grid ul li:hover {
+      background-color: transparent; }
+      .body_single .wrap .grid ul li:hover img {
+        opacity: 1; }
+      .body_single .wrap .grid ul li:hover .hovertext {
+        opacity: 1; }
