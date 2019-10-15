@@ -108,7 +108,7 @@ a {
   text-align: center; }
 
 .pcolor {
-  background-color: gold; }
+  background-color: red; }
 
 .wrap div:not(.grid) {
   align-self: end; }
@@ -154,7 +154,7 @@ a {
           opacity: 1;
           transition: opacity 0.1s; }
         .wrap .grid ul li:hover {
-          background-color: gold; }
+          background-color: red; }
           .wrap .grid ul li:hover img {
             opacity: 0; }
           .wrap .grid ul li:hover .hovertext {
