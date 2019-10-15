@@ -120,7 +120,7 @@ a {
   grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer";
   width: 100vw;
   height: 98vh;
-  padding: 0 6% 4vh 6%;
+  padding: 0 6% 20vh 6%;
   background-size: 99%;
   background-repeat: no-repeat;
   background-position: top center; }
