@@ -1,8 +1,9 @@
 
-div.logo 
-	a(href="index.html")
-		img(src="images/logo.svg", alt="")
+
 div.menu
+	div.logo
+		a(href="index.html")
+			img(src="images/logo.svg", alt="")
 	nav
 		ul.navbar-nav
 			li.nav-item
@@ -13,4 +14,9 @@ div.menu
 				a.nav-link(href="") Profile
 			li.nav-item
 				a.nav-link(href="") Contacts
-div.lang CZ ENG
+	nav
+		ul.navbar-nav.lang
+			li.nav-item
+				a.nav-link.active(href="index.html") CZ
+			li.nav-item
+				a.nav-link(href="index.html") EN
