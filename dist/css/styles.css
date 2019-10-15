@@ -52,8 +52,7 @@ a {
   text-align: center;
   margin-bottom: -6px; }
   .menu .logo {
-    width: 12vh;
-    display: inline-flex; }
+    width: 6rem; }
   .menu nav {
     display: flex; }
     .menu nav .navbar-nav {
