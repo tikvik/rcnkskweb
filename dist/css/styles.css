@@ -20,7 +20,6 @@ html {
 
 body {
   font-family: TriviaSans;
-  letter-spacing: .3px;
   background-color: white;
   color: rgba(28, 32, 24, 0.8);
   font-size: 11pt;
@@ -120,7 +119,7 @@ a {
   grid-template-rows: 6vh 7.2vh auto 2.66667vh 2.66667vh 2.66667vh;
   grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer";
   width: 100vw;
-  height: 100vh;
+  height: 98vh;
   padding: 0 6% 4vh 6%;
   background-size: 99%;
   background-repeat: no-repeat;
