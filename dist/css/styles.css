@@ -52,7 +52,8 @@ a {
   text-align: center;
   margin-bottom: -6px; }
   .menu .logo {
-    width: 12vh; }
+    width: 12vh;
+    display: inline-flex; }
   .menu nav {
     display: flex; }
     .menu nav .navbar-nav {
@@ -121,7 +122,7 @@ a {
   grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer";
   width: 100vw;
   height: auto;
-  padding: 0rem 6%;
+  padding: 0 6% 4vh 6%;
   background-size: 99%;
   background-repeat: no-repeat;
   background-position: top center; }
