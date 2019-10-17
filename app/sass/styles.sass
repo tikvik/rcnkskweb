@@ -9,7 +9,7 @@
 
 @include font('TriviaSans', '/rcnksk/dist/fonts/TriviaSans', 'Medium');
 @include font('TriviaSans', '/fonts/TriviaSans', 'Medium');
-
+@import "mixins.scss"
 
 
 html
@@ -31,7 +31,9 @@ body
 	// letter-spacing: .3px
 	background-color: white
 	color: rgba(28,32,24,.8)
-	font-size: 11pt
+	font-size: 9pt
+	@include for-size(sm)
+		font-size: 11pt
 	color: $black
 	line-height: 1.4
 	height: auto
@@ -62,11 +64,22 @@ a
 	justify-content: space-between
 	text-align: center
 	margin-bottom: -6px
+	flex-wrap: wrap
 	.logo
 		width: 6rem
+		order: -1
+		@include for-size(sm)
+			order: 0
 		// width: $gap*3
 		// display: inline-flex
 	// align-self: start!important
+	.nav_menu
+		width: 100%
+		padding-top: 8px
+		@include for-size(sm)
+			width: auto
+			padding-top: auto
+
 	nav
 		display: flex
 		.navbar-nav
@@ -77,6 +90,7 @@ a
 			margin-right: auto !important
 			padding: 0
 			margin: 0
+			align-self: end
 			.nav-item
 				.nav-link
 					display: block
@@ -110,12 +124,17 @@ a
 				&:nth-child(n+3)
 					// text-align: left
 		// Úprava rozestupu pro lang
+	.langer
+		order: -1
+		@include for-size(sm)
+			order: 0
 		.lang
 			.nav-item
 				.nav-link
 					margin: 0 $gap/10
 
-
+.nav_menu
+	grid-area: pagl
 
 .pagl
 	grid-area: pagl
@@ -160,10 +179,14 @@ a
 	display: grid
 	grid-template-columns: 8% $gap/2 $gap/2 auto $gap/2 $gap/2 8%
 	grid-template-rows: $gap*1.5 $gap*1.8 auto $gap/1.5 $gap/1.5 $gap/1.5
-	grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"
+	grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"
+	@include for-size(sm)
+		grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"
 	width: 100vw
-	height: 98vh
-	padding: 0 6%
+	height: 100%
+	padding:  $gap/1.5 6%
+	@include for-size(sm)
+		padding:  0 6%
 	// background-image: url('/images/grid2.png')
 	background-size: 99%
 	background-repeat: no-repeat
