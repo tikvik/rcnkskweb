@@ -121,7 +121,7 @@ a {
   text-align: center; }
 
 .pcolor {
-  background-color: red; }
+  background-color: gold; }
 
 .wrap div:not(.grid) {
   align-self: end; }
@@ -170,7 +170,7 @@ a {
           opacity: 1;
           transition: opacity 0.1s; }
         .wrap .grid ul li:hover {
-          background-color: red; }
+          background-color: gold; }
           .wrap .grid ul li:hover img {
             opacity: 0; }
           .wrap .grid ul li:hover .hovertext {
@@ -185,9 +185,9 @@ a {
           line-height: 1.2; }
 
 .body_single .wrap {
-  grid-template-areas: "header header header header header header header"  "content content content content content content content"  "footer footer footer footer footer footer footer";
+  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer";
   grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
-  grid-template-rows: 6vh auto 8vh;
+  grid-template-rows: 6vh 6vh auto 8vh;
   align-items: center; }
   .body_single .wrap .grid ul {
     grid-template-columns: 1fr;

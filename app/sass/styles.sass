@@ -23,7 +23,7 @@ $gap: 4vh
 $black: black
 $gray: gray
 $white: white
-$pcolor: red
+$pcolor: gold
 $underline: 2px
 
 body
@@ -250,9 +250,9 @@ a
 // Výjimka z designu pro single page
 .body_single
 	.wrap
-		grid-template-areas: "header header header header header header header"  "content content content content content content content"  "footer footer footer footer footer footer footer"
+		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer"
 		grid-template-columns: 8% $gap/2 $gap/2 auto $gap/2 $gap/2 8%
-		grid-template-rows: $gap*1.5 auto $gap*2
+		grid-template-rows: $gap*1.5 $gap*1.5 auto $gap*2
 		align-items: center
 		.grid
 			ul
