@@ -256,7 +256,11 @@ a
 		align-items: center
 		.grid
 			ul
-				grid-template-columns: 1fr 1fr
+				grid-template-columns: 1fr
+				grid-template-rows: 1fr 1fr
+				@include for-size(sm)
+					grid-template-columns: 1fr 1fr
+					grid-template-rows: 1fr
 				&:before
 					padding-bottom: 0%
 				li
@@ -264,7 +268,9 @@ a
 					img
 						object-fit: contain
 						max-width: 100%
-						height: 70vh
+						height: 30vh
+						@include for-size(sm)
+							height: 70vh
 					&:hover // Vztaženo k li elementu
 						background-color: transparent
 						img
