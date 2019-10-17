@@ -63,8 +63,7 @@ a {
       .menu .logo {
         order: 0; } }
   .menu .nav_menu {
-    width: 100%;
-    padding-top: 8px; }
+    width: 100%; }
     @media (min-width: 600px) {
       .menu .nav_menu {
         width: auto;
