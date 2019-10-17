@@ -155,7 +155,7 @@ a {
       grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"; } }
   @media (min-width: 600px) {
     .wrap {
-      padding: 0 6%; } }
+      padding: 0 6% 4vh; } }
   .wrap .grid {
     grid-area: content; }
     .wrap .grid ul > *:first-child {
