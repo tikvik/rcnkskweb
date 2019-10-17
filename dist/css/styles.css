@@ -133,16 +133,13 @@ a {
   grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer";
   width: 100vw;
   height: 100%;
-  padding: 2.66667vh 6%;
+  padding: 2.66667vh 6% 4vh;
   background-size: 99%;
   background-repeat: no-repeat;
   background-position: top center; }
   @media (min-width: 600px) {
     .wrap {
       grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"; } }
-  @media (min-width: 600px) {
-    .wrap {
-      padding: 0 6% 2vh; } }
   .wrap .grid {
     grid-area: content; }
     .wrap .grid ul > *:first-child {
