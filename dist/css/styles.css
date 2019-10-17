@@ -111,23 +111,10 @@ a {
 .nav_menu {
   grid-area: pagl; }
 
-.pagl {
-  grid-area: pagl;
-  text-align: left; }
-
-.pagr {
-  grid-area: pagr;
-  text-align: right; }
-
-.prev {
+.footer {
   grid-area: footer;
-  text-align: left;
-  white-space: nowrap; }
-
-.next {
-  grid-area: footer;
-  text-align: right;
-  white-space: nowrap; }
+  display: flex;
+  justify-content: space-between; }
 
 .project-text-modal {
   grid-area: footer;
@@ -201,8 +188,9 @@ a {
           line-height: 1.2; }
 
 .body_single .wrap {
-  grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer";
+  grid-template-areas: "header header header header header header header"  "content content content content content content content"  "footer footer footer footer footer footer footer";
   grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
+  grid-template-rows: 6vh auto 8vh;
   align-items: center; }
   .body_single .wrap .grid ul {
     grid-template-columns: 1fr 1fr; }
@@ -220,3 +208,5 @@ a {
           opacity: 1; }
         .body_single .wrap .grid ul li:hover .hovertext {
           opacity: 1; }
+  .body_single .wrap .footer .footer-right {
+    text-align: right; }

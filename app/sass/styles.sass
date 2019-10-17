@@ -136,23 +136,27 @@ a
 .nav_menu
 	grid-area: pagl
 
-.pagl
-	grid-area: pagl
-	text-align: left
-
-.pagr
-	grid-area: pagr
-	text-align: right
-
-.prev
+.footer
 	grid-area: footer
-	text-align: left
-	white-space: nowrap
+	display: flex
+	justify-content: space-between
+// .pagl
+// 	grid-area: pagl
+// 	text-align: left
 
-.next
-	grid-area: footer
-	text-align: right
-	white-space: nowrap
+// .pagr
+// 	grid-area: pagr
+// 	text-align: right
+
+// .prev
+// 	grid-area: footer
+// 	text-align: left
+// 	white-space: nowrap
+
+// .next
+// 	grid-area: footer
+// 	text-align: right
+// 	white-space: nowrap
 
 // .project-name
 // 	grid-area: title
@@ -246,8 +250,9 @@ a
 // Výjimka z designu pro single page
 .body_single
 	.wrap
-		grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"
+		grid-template-areas: "header header header header header header header"  "content content content content content content content"  "footer footer footer footer footer footer footer"
 		grid-template-columns: 8% $gap/2 $gap/2 auto $gap/2 $gap/2 8%
+		grid-template-rows: $gap*1.5 auto $gap*2
 		align-items: center
 		.grid
 			ul
@@ -266,6 +271,8 @@ a
 							opacity: 1
 						.hovertext
 							opacity: 1
-
+		.footer
+			.footer-right
+				text-align: right
 
 
