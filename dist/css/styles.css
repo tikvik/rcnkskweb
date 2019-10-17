@@ -23,7 +23,7 @@ body {
   font-family: TriviaSans;
   background-color: white;
   color: rgba(28, 32, 24, 0.8);
-  font-size: 9pt;
+  font-size: 11pt;
   color: black;
   line-height: 1.4;
   height: auto;
@@ -155,7 +155,7 @@ a {
       grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"; } }
   @media (min-width: 600px) {
     .wrap {
-      padding: 0 6% 4vh; } }
+      padding: 0 6% 2vh; } }
   .wrap .grid {
     grid-area: content; }
     .wrap .grid ul > *:first-child {
