@@ -191,7 +191,7 @@ a {
   grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer";
   grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
   grid-template-rows: 6vh 6vh auto 8vh;
-  align-items: center; }
+  align-items: start; }
   .body_single .wrap .grid ul {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr; }
