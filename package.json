@@ -12,7 +12,9 @@
     "gulp-sass": "^4.0.2",
     "vue-carousel": "^0.18.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-vue-single-file-component": "^1.0.12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
