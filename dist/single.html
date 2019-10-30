@@ -1,1 +1,98 @@
-<!DOCTYPE html><html lang="cs"><head><meta charset="UTF-8"><meta name="viewport" content="initial-scale=1, user-scalable=0"><title>RCNKSK architekti</title><link rel="stylesheet" href="css/styles.css"><script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script></head><body class="body_single pcolor"></body><body class="body_index"><div class="wrap"><div class="menu"><div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""></a></div><nav class="nav_menu"><ul class="navbar-nav"><li class="nav-item"><a class="nav-link active" href="index.html">Projects</a></li><li class="nav-item"><a class="nav-link" href="">Archive</a></li><li class="nav-item"><a class="nav-link" href="">Profile</a></li><li class="nav-item"><a class="nav-link" href="">Contacts</a></li></ul></nav><nav class="langer"><ul class="navbar-nav lang"><li class="nav-item"><a class="nav-link active" href="index.html">CZ</a></li><li class="nav-item"><a class="nav-link" href="index.html">EN</a></li></ul></nav></div><div id="app"></div><div class="footer"><div class="footer-left">1/5 <br> <br> Prev project</div><div class="project-text-modal">Chappel of virgin mary<br>In nesvadbicky<br><a href="href#">View text</a></div><div class="footer-right">1/5 <br> <br> Next project</div></div><div class="grid"><ul class="grid-ul"><li class="detail"><img src="images/img02.jpg" alt=""></li><li><img src="images/rys.jpg" alt=""></li></ul></div></div></body></html>
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, user-scalable=0">
+    <title>RCNKSK architekti
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/slick/slick.css">
+    <link rel="stylesheet" href="/slick/slick-theme.css">
+  </head>
+  <body class="body_single pcolor"></body>
+  <body class="body_index">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <div class="wrap">
+      <div class="menu">
+        <div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""></a></div>
+        <nav class="nav_menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Archive</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Profile</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <nav class="langer">
+          <ul class="navbar-nav lang">
+            <li class="nav-item"><a class="nav-link active" href="index.html">CZ</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">EN</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer">
+        <div class="footer-left">
+          <div class="pag-info"></div>
+          <p>Prev project</p>
+        </div>
+        <div class="project-text-modal">Chappel of virgin mary<br>In nesvadbicky<br><a href="href#">View text</a></div>
+        <div class="footer-right">
+          <div class="pag-info"></div>
+          <p>Next project</p>
+        </div>
+      </div>
+      <div class="grid">
+        <ul class="grid-ul">
+          <li>
+            <div class="carousel">
+              <div><img src="images/img02.jpg" alt=""></div>
+              <div><img src="images/img2.jpg" alt=""></div>
+            </div>
+          </li>
+          <li>
+            <div class="carousel2">
+              <div><img src="images/rys.jpg" alt=""></div>
+              <div><img src="images/rys.jpg" alt=""></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <script>
+        $(document).ready(function(){
+        	var $status = $('.pag-info');
+        	var $status2 = $('.pag-info2');
+        	var $slickElement = $('.carousel');
+        	var $slickElement2 = $('.carousel2');
+        
+        	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        	  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        	  var i = (currentSlide ? currentSlide : 0) + 1;
+        	  $status.text(i + '/' + slick.slideCount);
+        	});
+        
+        	$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        	  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        	  var i = (currentSlide ? currentSlide : 0) + 1;
+        	  $status2.text(i + '/' + slick.slideCount);
+        	});
+        
+        
+        
+          $('.carousel').slick({
+        	appendArrows: $(".carousel")
+          });
+        });
+        $(document).ready(function(){
+          $('.carousel2').slick({
+        	arrows: false
+          });
+        });
+        
+        
+        
+      </script>
+    </div>
+  </body>
+</html>

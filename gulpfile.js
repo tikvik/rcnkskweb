@@ -14,7 +14,7 @@ function build() {
 				return JSON.parse(fs.readFileSync('app/data/data.json'));
 			})
 		)
-		.pipe(pug())
+		.pipe(pug({pretty: true}))
 		.pipe(gulp.dest('dist/'));
 }
 
@@ -23,6 +23,13 @@ function style() {
 		.src('app/sass/**/*.sass') // Gets all files ending with .scss in app/scss
 		.pipe(sass().on('error', sass.logError))
 		.pipe(gulp.dest('dist/css'))
+		.pipe(browserSync.stream());
+}
+function slickStyle() {
+	return gulp
+		.src('app/sass/slick/*.scss') // Gets all files ending with .scss in app/scss
+		.pipe(sass().on('error', sass.logError))
+		.pipe(gulp.dest('dist/slick'))
 		.pipe(browserSync.stream());
 }
 
@@ -37,6 +44,7 @@ function watch() {
 		}
 	});
 	gulp.watch('app/sass/**/*.sass', style);
+	gulp.watch('app/sass/slick/**/*.scss', slickStyle);
 	gulp.watch('app/templates/**/*.pug', build);
 	gulp.watch('app/**/*.pug', build);
 	gulp.watch('app/**/*.{ttf,jpg,svg}', assets);
@@ -53,5 +61,6 @@ function watch() {
 
 exports.build = build;
 exports.style = style;
+exports.slickStyle = slickStyle;
 exports.assets = assets;
 exports.watch = watch;
