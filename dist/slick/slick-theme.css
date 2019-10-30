@@ -57,8 +57,7 @@
 
 .slick-prev {
   left: -25px;
-  cursor: url("../dist/images/arrowl.svg"), pointer;
-  cursor: url("../../images/arrowl.svg"), pointer; }
+  cursor: url("../dist/images/arrowl.svg"), pointer; }
   [dir="rtl"] .slick-prev {
     left: auto;
     right: -25px; }
@@ -69,8 +68,7 @@
 
 .slick-next {
   right: -25px;
-  cursor: url("../dist/images/arrowr.svg"), pointer;
-  cursor: url("../../images/arrowr.svg"), pointer; }
+  cursor: url("../dist/images/arrowr.svg"), pointer; }
   [dir="rtl"] .slick-next {
     left: -25px;
     right: auto; }
