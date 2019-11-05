@@ -117,9 +117,12 @@ a {
 .project-text-modal {
   grid-area: footer;
   text-align: center; }
+  .project-text-modal .nav-link {
+    padding-top: 0;
+    display: inline; }
 
 .pcolor {
-  background-color: gold; }
+  background-color: #7BFF6B; }
 
 .wrap div:not(.grid) {
   align-self: end; }
@@ -168,7 +171,7 @@ a {
           opacity: 1;
           transition: opacity 0.1s; }
         .wrap .grid ul li:hover {
-          background-color: gold; }
+          background-color: #7BFF6B; }
           .wrap .grid ul li:hover img {
             opacity: 0; }
           .wrap .grid ul li:hover .hovertext {
@@ -185,8 +188,38 @@ a {
 .body_single .wrap {
   grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer";
   grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
-  grid-template-rows: 6vh 6vh auto 8vh;
+  grid-template-rows: 6vh 6vh auto auto;
   align-items: start; }
+  .body_single .wrap .modal-wrap {
+    display: grid;
+    grid-area: content;
+    grid-template-columns: 8% 2vh repeat(4, 1fr) 2vh 8%;
+    grid-template-areas: "mw mw mw mw mw mw mw mw";
+    align-self: center;
+    height: 100%; }
+    @media (min-width: 600px) {
+      .body_single .wrap .modal-wrap {
+        grid-template-areas: ". . mw mw mw mw . ."; } }
+    .body_single .wrap .modal-wrap .modal-window {
+      grid-area: mw;
+      display: grid;
+      position: relative;
+      grid-template-columns: 2vh repeat(4, 1fr) 2vh;
+      grid-template-areas: "mt mt mt mt  . .";
+      height: 100%; }
+      @media (min-width: 600px) {
+        .body_single .wrap .modal-wrap .modal-window {
+          grid-template-areas: ". . mt mt  . ."; } }
+      .body_single .wrap .modal-wrap .modal-window .modal-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 4vh;
+        height: 4vh;
+        content: url "images/ico_close.svg"; }
+      .body_single .wrap .modal-wrap .modal-window .modal-content {
+        grid-area: mt;
+        align-self: center; }
   .body_single .wrap .grid .grid-ul {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -217,4 +250,4 @@ a {
     text-align: right; }
 
 .closed {
-  display: none; }
+  display: none !important; }
