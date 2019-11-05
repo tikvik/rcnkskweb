@@ -2,14 +2,14 @@
 <html lang="cs">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1, user-scalable=0">
+    <meta name="viewport" content="initial-scale=1, user-scalable=1">
     <title>RCNKSK architekti
     </title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
   </head>
-  <body class="body_single pcolor"></body>
+  <body class="body_single pcolor" id="body"></body>
   <body class="body_index">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -37,13 +37,13 @@
           <div class="pag-info"></div>
           <p>Prev project</p>
         </div>
-        <div class="project-text-modal">Chappel of virgin mary<br>In nesvadbicky<br><a href="href#">View text</a></div>
+        <div class="project-text-modal">Chappel of virgin mary<br>In nesvadbicky<br><a class="open-button nav-link active" id="open-button">View text</a></div>
         <div class="footer-right">
           <div class="pag-info"></div>
           <p>Next project</p>
         </div>
       </div>
-      <div class="grid">
+      <div class="grid" id="content">
         <ul class="grid-ul">
           <li>
             <div class="carousel">
@@ -60,7 +60,33 @@
           </li>
         </ul>
       </div>
+      <div class="grid closed" id="modal">
+        <ul>
+          <div>
+            <p>Chapel of Virgin Mary in Nesvačilky, 2019</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem molestias quae dolor dolorum iste quia. Placeat eligendi adipisci molestias excepturi dolorem cupiditate illum suscipit vitae voluptate, tempora quia recusandae quo.</p>
+          </div>
+        </ul>
+      </div>
       <script>
+        var content = document.querySelector("#content");
+        var modal = document.querySelector("#modal");
+        //- var modalOverlay = document.querySelector("#modal-overlay");
+        //- var closeButton = document.querySelector("#close-button");
+        var openButton = document.querySelector("#open-button");
+        
+        //- closeButton.addEventListener("click", function() {
+        //- 	modal.classList.toggle("closed");
+        //- 	modalOverlay.classList.toggle("closed");
+        //- });
+        
+        openButton.addEventListener("click", function() {
+        	content.classList.toggle("closed");
+        	modal.classList.toggle("closed");
+        	//- modalOverlay.classList.toggle("closed");
+        });
+        
+        
         $(document).ready(function(){
         	var $status = $('.pag-info');
         	var $status2 = $('.pag-info2');
@@ -69,14 +95,14 @@
         
         	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
         	  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-        	  var i = (currentSlide ? currentSlide : 0) + 1;
-        	  $status.text(i + '/' + slick.slideCount);
+        		var i = (currentSlide ? currentSlide : 0) + 1;
+        		$status.text(i + '/' + slick.slideCount);
         	});
         
         	$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-        	  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-        	  var i = (currentSlide ? currentSlide : 0) + 1;
-        	  $status2.text(i + '/' + slick.slideCount);
+        		//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        		var i = (currentSlide ? currentSlide : 0) + 1;
+        		$status2.text(i + '/' + slick.slideCount);
         	});
         
         
