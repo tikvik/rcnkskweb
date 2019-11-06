@@ -37,7 +37,7 @@
           <div class="pag-info"></div><br>
           <div>Prev project</div>
         </div>
-        <div class="project-text-modal">Chappel of virgin mary<br>In nesvadbicky<br><a class="open-button nav-link active" id="open-button">View text</a></div>
+        <div class="project-text-modal">Chappel of virgin mary<br>In nesvadbicky<br><a class="open-button nav-link active" id="open-button" href="#" onclick="return false;">View text</a></div>
         <div class="footer-right">
           <div class="pag-info"></div><br>
           <div>Next project</div>
@@ -62,7 +62,7 @@
       </div>
       <div class="modal-wrap closed" id="modal">
         <div class="modal-window">
-          <div class="modal-close" id="close-button"><img src="images/ico_close.svg" alt=""></div>
+          <div class="modal-close" id="close-button"><a href="#" onclick="return false;"><img src="images/ico_close.svg" alt=""></a></div>
           <div class="modal-content">
             <h4>Chapel of Virgin Mary in Nesvačilky, 2019</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ratione sapiente commodi dolores velit aliquid omnis accusantium culpa reprehenderit numquam quae sit corporis nam, saepe et maxime totam quia alias.</p>
@@ -74,19 +74,26 @@
         var content = document.querySelector("#content");
         var modal = document.querySelector("#modal");
         var closeButton = document.querySelector("#close-button");
-        
         var openButton = document.querySelector("#open-button");
+        
+        
+        openButton.addEventListener("click", function() {
+        	content.classList.toggle("closed");
+        	modal.classList.toggle("closed");
+        	if (openButton.innerHTML === "View text") {
+        	    openButton.innerHTML = "Close text";
+        	  } else {
+        	    openButton.innerHTML = "View text";
+        	  }
+        });
         
         closeButton.addEventListener("click", function() {
         	modal.classList.toggle("closed");
         	content.classList.toggle("closed");
         });
         
-        openButton.addEventListener("click", function() {
-        	content.classList.toggle("closed");
-        	modal.classList.toggle("closed");
-        	//- modalOverlay.classList.toggle("closed");
-        });
+        
+        
         
         
         $(document).ready(function(){
