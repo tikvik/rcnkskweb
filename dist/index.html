@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
   </head>
+  <body class="body_single body_index" id="body"></body>
   <body class="body_index">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -18,7 +19,7 @@
         <div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""></a></div>
         <nav class="nav_menu">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link active" href="index.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="">Archive</a></li>
             <li class="nav-item"><a class="nav-link" href="">Profile</a></li>
             <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
@@ -31,18 +32,42 @@
           </ul>
         </nav>
       </div>
-      <div class="grid">
-        <ul>
-          <li><a href="single.html"><img src="images/kaple.jpg" alt="">
-              <div class="hovertext">Něco cokoliv</div></a></li>
-          <li><img src="images/img1.jpg" alt=""></li>
-          <li><img src="images/img1.jpg" alt=""></li>
-          <li><img src="images/img1.jpg" alt=""></li>
-          <li><img src="images/img1.jpg" alt=""></li>
-          <li><img src="images/img1.jpg" alt=""></li>
-          <li><img src="images/img1.jpg" alt=""></li>
+      <div class="grid" id="content">
+        <ul class="grid-ul">
+          <li>
+            <div class="carousel">
+              <div><img src="images/img02.jpg" alt=""></div>
+              <div><img src="images/img2.jpg" alt=""></div>
+              <div><img src="images/rys.jpg" alt=""></div>
+            </div>
+          </li>
         </ul>
       </div>
+      <div class="footer">
+        <div class="project-text-modal"><a class="open-button nav-link active" href="projects.html">View projects 					</a></div>
+      </div>
+      <script>
+        $(document).ready(function(){
+        	var $status = $('.pag-info');
+        
+        	var $slickElement = $('.carousel');
+        
+        
+        	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        	  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        		var i = (currentSlide ? currentSlide : 0) + 1;
+        		$status.text(i + '/' + slick.slideCount);
+        	});
+        
+        
+        
+        
+        
+        	$('.carousel').slick({
+        	});
+        
+        });
+      </script>
     </div>
   </body>
 </html>

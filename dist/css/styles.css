@@ -52,7 +52,8 @@ a {
   display: block;
   padding: .5rem .2rem;
   margin: 0 1.6vh;
-  line-height: 1; }
+  line-height: 1;
+  display: block; }
   .nav-link::after {
     content: "";
     position: absolute;
@@ -248,6 +249,19 @@ a {
           opacity: 1; }
   .body_single .wrap .footer .footer-right {
     text-align: right; }
+
+.body_index .grid .grid-ul {
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr;
+  grid-gap: 2vh; }
+  .body_index .grid .grid-ul:before {
+    padding-bottom: 0%; }
+
+.body_index .footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-self: start !important; }
 
 .closed {
   display: none !important; }

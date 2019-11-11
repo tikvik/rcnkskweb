@@ -19,7 +19,7 @@
         <div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""></a></div>
         <nav class="nav_menu">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link active" href="index.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="">Archive</a></li>
             <li class="nav-item"><a class="nav-link" href="">Profile</a></li>
             <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
@@ -37,7 +37,7 @@
           <div class="pag-info"></div><br>
           <div>Prev project</div>
         </div>
-        <div class="project-text-modal">Chappel of virgin mary<br>In nesvadbicky<br><a class="open-button nav-link active" id="open-button" href="#" onclick="return false;">View text</a></div>
+        <div class="project-text-modal">Chappel of virgin mary<br>In nesvadbicky<br><a class="open-button nav-link active" href="#" onclick="return false;">View text</a></div>
         <div class="footer-right">
           <div class="pag-info"></div><br>
           <div>Next project</div>
@@ -74,7 +74,7 @@
         var content = document.querySelector("#content");
         var modal = document.querySelector("#modal");
         var closeButton = document.querySelector("#close-button");
-        var openButton = document.querySelector("#open-button");
+        var openButton = document.querySelector(".open-button");
         
         
         openButton.addEventListener("click", function() {
