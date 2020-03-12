@@ -5,8 +5,9 @@
     },
     "projects": [
         {
-        "title": "Kaple in nesvačilky",
-        "img": "img1.jpg"
+        "title": "Červený vrch",
+        "img": "images/projects/00.jpg",
+        "images": "9"
         },
         {
         "title": "Kaple in nesvačilky",
@@ -18,9 +19,8 @@
         },
         {
         "title": "Kaple in nesvačilky",
-        "img": "img4.jpg"
+        "img": "img3.jpg"
         }
-
 
     ],
 
