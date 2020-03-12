@@ -123,7 +123,7 @@ a {
     display: inline; }
 
 .pcolor {
-  background-color: red; }
+  background-color: #B3FF40; }
 
 .wrap div:not(.grid) {
   align-self: end;
@@ -306,7 +306,7 @@ a {
     text-align: right; }
 
 .body_projects .grid ul li:hover {
-  background-color: red; }
+  background-color: #B3FF40; }
   .body_projects .grid ul li:hover img {
     opacity: 0; }
   .body_projects .grid ul li:hover .hovertext {
