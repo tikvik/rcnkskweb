@@ -87,8 +87,7 @@ function watch() {
 	gulp.watch('dist/*.html').on('change', browserSync.reload);
 	gulp.watch('app/js/**/*.js').on('change', browserSync.reload);
 	gulp.watch('app/data/**/*.json').on('change', build);
-	gulp.watch('app/sass/**/*.sass', git_init);
-	gulp.watch('app/sass/**/*.sass', git_add);
+	gulp.watch('app/sass/**/*.sass', debuger);
 }
 
 // function vue() {
@@ -103,8 +102,6 @@ exports.slickStyle = slickStyle;
 exports.assets = assets;
 exports.watch = watch;
 exports.debuger = debuger;
-exports.git_init = git_init;
-exports.git_add = git_add;
 
 
 
