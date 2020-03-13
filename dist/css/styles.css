@@ -130,7 +130,7 @@ a {
     display: inline; }
 
 .pcolor {
-  background-color: #FF00D4; }
+  background-color: pink; }
 
 .wrap div:not(.grid) {
   align-self: end;
@@ -313,7 +313,7 @@ a {
     text-align: right; }
 
 .body_projects .grid ul li:hover {
-  background-color: #FF00D4; }
+  background-color: pink; }
   .body_projects .grid ul li:hover img {
     opacity: 0; }
   .body_projects .grid ul li:hover .hovertext {
