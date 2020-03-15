@@ -176,6 +176,9 @@ a {
       .wrap .grid ul li {
         position: relative;
         line-height: 0; }
+        .wrap .grid ul li a {
+          display: block;
+          height: 100%; }
         .wrap .grid ul li img {
           height: 100%;
           width: 100%;

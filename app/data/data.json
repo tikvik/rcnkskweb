@@ -1,74 +1,121 @@
 {
+    "test": 
+    [
+        {
+        "neco": "aaa"
+        },
+        {
+        "neco2": "aaa"
+        }
+
+    ],
+        
     "site": {
         "title": "RCNKSK architekti",
         "email": "rcnksk@gmail.com"
     },
     "projects": [
         {
-        "title": "Červený vrch",
-        "images": [
-            {   "path": "images/projects/cervenyvrch/",
-                "img" : "00.jpg"
-            }
+        "project": [
+            {
+                "title": "Červený vrch",
+                "path": "images/projects/cervenyvrch/",
+                "pathplans": "images/projects/cervenyvrch/plans/",
+                "images": 
+                    [
+                        "00.jpg",
+                        "01.jpg",
+                        "02.jpg",
+                        "03.jpg",
+                        "04.jpg",
+                        "05.jpg",
+                        "06.jpg",
+                        "07.jpg"
+                    ],
+                "imagesplans": 
+                    [
+                        "00.png",
+                        "01.png",
+                        "02.png",
+                        "03.png",
+                        "04.png"
+                    ],
+                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
 
+            }
         ]
         },
         {
-        "title": "Kaple in nesvačilky",
-        "img": "img2.jpg"
+        "project": [
+            {
+                "title": "František Štorm",
+                "path": "images/projects/franta/",
+                "pathplans": "images/projects/franta/plans/",
+                "images": 
+                    [
+                        "00.jpg",
+                        "01.jpg",
+                        "02.jpg",
+                        "03.jpg",
+                        "04.jpg",
+                        "05.jpg",
+                        "06.jpg",
+                        "07.jpg"
+                    ],
+                "imagesplans": 
+                    [
+                        "00.png",
+                        "01.png",
+                        "02.png",
+                        "03.png"
+                    ],
+                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+
+            }
+        ]
         },
         {
-        "title": "Kaple in nesvačilky",
-        "img": "img4.jpg"
-        },
-        {
-        "title": "Kaple in nesvačilky",
-        "img": "img4.jpg"
+        "project": [
+            {
+                "title": "Ostrava",
+                "path": "images/projects/ostrava/",
+                "pathplans": "images/projects/ostrava/plans/",
+                "images": 
+                    [
+                        "00.jpg",
+                        "01.jpg",
+                        "02.jpg",
+                        "03.jpg",
+                        "04.jpg",
+                        "05.jpg",
+                        "06.jpg",
+                        "07.jpg"
+                    ],
+                "imagesplans": 
+                    [
+                        "00.png",
+                        "01.png",
+                        "02.png",
+                        "03.png",
+                        "04.png",
+                        "05.png",
+                        "06.png"
+                    ],
+                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+
+            }
+        ]
         }
 
-    ],
 
 
-    "os": [
-        {
-            "system": "macOS",
-            "link": "mactut.html",
-            "applinks": {
-                "macOS Mojave": "https://github.com/jakubvalenta/human-activities/releases/download/v0.11.1/Human_Activities-0.11.1.zip"
-            }
-        },
-        {
-            "system": "Windows",
-            "link": "wintut.html",
-            "applinks": {
-                "Windows 7 or 8": "https://github.com/jakubvalenta/human-activities/releases/download/v0.11.1/Human_Activities-win7.exe",
-                "Windows 10": "https://github.com/jakubvalenta/human-activities/releases/download/v0.11.1/Human_Activities-win10.exe"
-            }
-        },
-        {
-            "system": "Linux",
-            "link": "lnxtut.html",
-            "applinks": {
-                "Ubuntu 18.04 or newer": "https://github.com/jakubvalenta/human-activities/releases/download/v0.11.1/human-activities_0.11.1-1_all.deb"
-            }
-        }
-    ],
-    "names": [
-        {
-            "name": "Jirka Skála,",
-            "content": "is a creative artist and pedagogue who has, for a long time, devoted his efforts to studying various types of work and free-time activities.",
-            "site": "gettoworkjirka.cz"
-        },
-        {
-            "name": "Jakub Valenta,",
-            "content": "is an artist and programmer; his work focuses on the boundary between life and art and tries to render more visible the mundane, albeit bizarre, state of contemporary society.",
-            "site": "jakubvalenta.cz"
-        },
-        {
-            "name": "Foundation for Contemporary Arts Prague,",
-            "content": "is a socially beneficial organization that has financed, in part, this online project and which has long supported artistic and interdisciplinary projects.",
-            "site": "fca.fcca.cz/en/news/"
-        }
+
+
+
+
     ]
-    
-}
+}    
+
+
+
+  

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, user-scalable=1">
+    <title>RCNKSK architekti
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+  </head>
+  <body class="body_single pcolor" id="body"></body>
+  <body class="body_index">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <div class="wrap">
+      <div class="menu">
+        <div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""></a></div>
+        <nav class="nav_menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="archive.html">Archive</a></li>
+            <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <nav class="langer">
+          <ul class="navbar-nav lang">
+            <li class="nav-item"><a class="nav-link active" href="index.html">CZ</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">EN</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer">
+        <div class="footer-left">
+          <div class="pag-info"></div><br>
+          <div>Prev project</div>
+        </div>
+        <div class="project-text-modal">Červený vrch<br><a class="open-button nav-link active" href="#" onclick="return false;">View text</a></div>
+        <div class="footer-right">
+          <div class="pag-info2"></div><br>
+          <div>Next project</div>
+        </div>
+      </div>
+      <div class="grid" id="content">
+        <ul class="grid-ul">
+          <li>
+            <div class="carousel">
+              <div><img src="images/projects/cervenyvrch/00.jpg"></div>
+              <div><img src="images/projects/cervenyvrch/01.jpg"></div>
+              <div><img src="images/projects/cervenyvrch/02.jpg"></div>
+              <div><img src="images/projects/cervenyvrch/03.jpg"></div>
+              <div><img src="images/projects/cervenyvrch/04.jpg"></div>
+              <div><img src="images/projects/cervenyvrch/05.jpg"></div>
+              <div><img src="images/projects/cervenyvrch/06.jpg"></div>
+              <div><img src="images/projects/cervenyvrch/07.jpg"></div>
+            </div>
+          </li>
+          <li>
+            <div class="carousel2">
+              <div><img src="images/projects/cervenyvrch/plans/00.png"></div>
+              <div><img src="images/projects/cervenyvrch/plans/01.png"></div>
+              <div><img src="images/projects/cervenyvrch/plans/02.png"></div>
+              <div><img src="images/projects/cervenyvrch/plans/03.png"></div>
+              <div><img src="images/projects/cervenyvrch/plans/04.png"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-wrap closed" id="modal">
+        <div class="modal-window">
+          <div class="modal-close" id="close-button"><a href="#" onclick="return false;"><img src="images/ico_close.svg" alt=""></a></div>
+          <div class="modal-content">oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice.</div>
+        </div>
+      </div>
+      <script>
+        var content = document.querySelector("#content");
+        var popiska = document.querySelector(".project-text-modal");
+        var modal = document.querySelector("#modal");
+        var closeButton = document.querySelector("#close-button");
+        var openButton = document.querySelector(".open-button");
+        
+        
+        openButton.addEventListener("click", function() {
+        	content.classList.toggle("closed");
+        	popiska.classList.toggle("closed");
+        	modal.classList.toggle("closed");
+        	//- if (openButton.innerHTML === "View text") {
+        	//-     openButton.innerHTML = "Close text";
+        	//-   } else {
+        	//-     openButton.innerHTML = "View text";
+        	//-   }
+        });
+        
+        closeButton.addEventListener("click", function() {
+        	modal.classList.toggle("closed");
+        	content.classList.toggle("closed");
+        	popiska.classList.toggle("closed");
+        });
+        
+        
+        
+        
+        
+        $(document).ready(function(){
+        	var $status = $('.pag-info');
+        	var $status2 = $('.pag-info2');
+        	var $slickElement = $('.carousel');
+        	var $slickElement2 = $('.carousel2');
+        
+        	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        	  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        		var i = (currentSlide ? currentSlide : 0) + 1;
+        		$status.text(i + '/' + slick.slideCount);
+        	});
+        
+        	$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        		//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        		var i = (currentSlide ? currentSlide : 0) + 1;
+        		$status2.text(i + '/' + slick.slideCount);
+        	});
+        
+        
+        
+        	$('.carousel').slick({
+        	});
+        	$('.carousel2').slick({
+        
+        	});
+        });
+      </script>
+    </div>
+  </body>
+</html>

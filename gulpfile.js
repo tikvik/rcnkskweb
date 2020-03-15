@@ -6,9 +6,9 @@ var data = require('gulp-data');
 var fs = require('fs');
 const debug = require('gulp-debug');
 
-var argv = require('yargs').argv;
-var git = require('gulp-git');
-var runSequence = require('run-sequence');
+// var argv = require('yargs').argv;
+// var git = require('gulp-git');
+// var runSequence = require('run-sequence');
 
 // var vueComponent = require('gulp-vue-single-file-component');
 
@@ -19,8 +19,6 @@ function debuger() {
 	        .pipe(debug({title: 'unicorn:'}))
 	        .pipe(gulp.dest('dist'))
 }
-
-
 
 function build() {
 	return gulp
@@ -41,6 +39,7 @@ function style() {
 		.pipe(gulp.dest('dist/css'))
 		.pipe(browserSync.stream());
 }
+
 function slickStyle() {
 	return gulp
 		.src('app/sass/slick/*.scss') // Gets all files ending with .scss in app/scss
