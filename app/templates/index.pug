@@ -15,12 +15,11 @@ block content
 			ul.grid-ul
 				li
 					div.carousel
-						div
-							img(src="images/img1.jpg", alt="")
-						div
-							img(src="images/img2.jpg", alt="")
-						div
-							img(src="images/img3.jpg", alt="")
+						each item, index in projects
+							div
+								a(href="single"+ index +".html")
+									img(src=item.project[0].path+item.project[0].images[0] alt="")
+
 		div.footer
 					//- div.pagl 1/5
 					//- div.pagr 1/5
