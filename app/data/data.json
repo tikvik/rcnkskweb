@@ -21,6 +21,7 @@
                 "title": "MŠ Červený vrch",
                 "path": "images/projects/cervenyvrch/",
                 "pathplans": "images/projects/cervenyvrch/plans/",
+                "bgcolor" : "#C1EAB8",
                 "images": 
                     [
                         "00.jpg",
@@ -51,6 +52,7 @@
                 "title": "František Štorm",
                 "path": "images/projects/franta/",
                 "pathplans": "images/projects/franta/plans/",
+                "bgcolor" : "#ECE59B",
                 "images": 
                     [
                         "00.jpg",
@@ -80,6 +82,7 @@
                 "title": "Ostrava",
                 "path": "images/projects/ostrava/",
                 "pathplans": "images/projects/ostrava/plans/",
+                "bgcolor" : "#EBB9C2",
                 "images": 
                     [
                         "00.jpg",

@@ -1,6 +1,6 @@
 extends layout.pug
 block body
-	body.body_single.pcolor#body
+	body.body_single.pcolor#body(style="background-color:"+projects[1].project[0].bgcolor)
 block content
 		//- div#app
 		//- 	|{{ message }}
@@ -14,7 +14,7 @@ block content
 				br
 				div 
 					a.nav-link(href="single0.html") Prev project
-			div.project-text-modal Červený vrch<br>
+			div.project-text-modal #{projects[1].project[0].title}<br>
 				a.open-button.nav-link.active(href="#",onclick="return false;" ) View text
 			div.footer-right
 				div.pag-info2
