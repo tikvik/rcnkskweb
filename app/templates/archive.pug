@@ -1,0 +1,84 @@
+extends layout.pug
+block body
+	body.body_single#body
+block content
+		div.archive
+			section
+				ol.collection.collection-container
+					// The first list item is the header of the table
+					li.item.item-container
+						.attribute 
+						.attribute(data-name='#') Project
+						// Enclose semantically similar attributes as a div hierarchy
+						.attribute-container.part-information
+							.attribute-container.part-id
+								.attribute(data-name='Part Number') Location
+								.attribute(data-name='Part Description') Status
+							.attribute-container.vendor-information
+								.attribute Client
+								.attribute Costs
+						.attribute-container.quantity
+							.attribute Year
+							.attribute Download
+
+
+
+						//- .attribute-container.duty
+						//- 	.attribute Duty %
+						//- 	.attribute Duty
+						//- .attribute-container.freight
+						//- 	.attribute Freight %
+						//- 	.attribute Freight
+						//- .attribute UOM
+						//- .attribute Vendor Part Number
+					// The rest of the items in the list are the actual data
+					li.item.item-container
+						.attribute
+							img(src="images/i01.jpg", alt="", width="50px")
+						.attribute(data-name='#') Chapel of Virgin Mary
+						.attribute-container.part-information
+							.attribute-container.part-id
+								.attribute(data-name='Part Number') Nesvačilky
+								.attribute(data-name='Part Description') Constuction <br> Public <br> Wood
+							.attribute-container.vendor-information
+								.attribute(data-name='Vendor Number') Římskokatolická farnost 
+								.attribute(data-name='Vendor Name') Costs
+						.attribute-container.quantity
+							.attribute(data-name='Order Qty') 2019
+							.attribute(data-name='Receive Qty') PDF
+						//- .attribute-container.cost
+						//- 	.attribute(data-name='Cost') $5.00
+							//- .attribute(data-name='Extended Cost') $2.00
+						//- .attribute-container.duty
+						//- 	.attribute(data-name='Duty %') 3.0%
+						//- 	.attribute(data-name='Duty') $0.15
+						//- .attribute-container.freight
+						//- 	.attribute(data-name='Freight %') 3.0%
+						//- 	.attribute(data-name='Freight') $0.15
+						//- .attribute(data-name='UOM') EA
+						//- .attribute(data-name='Vendor Part Number') 100001
+					li.item.item-container
+						.attribute(data-name='Select')
+						.attribute(data-name='#') 2
+						.attribute-container.part-information
+							.attribute-container.part-id
+								.attribute(data-name='Part Number') 100-10002
+								.attribute(data-name='Part Description')
+									| A long description of part. This description may overflow.
+							.attribute-container.vendor-information
+								.attribute(data-name='Vendor Number') 002
+								.attribute(data-name='Vendor Name') Vendor Name B
+						.attribute-container.quantity
+							.attribute(data-name='Order Qty') 10
+							.attribute(data-name='Receive Qty') 20
+						//- .attribute-container.cost
+						//- 	.attribute(data-name='Cost') $5.00
+							//- .attribute(data-name='Extended Cost') $2.00
+						//- .attribute-container.duty
+						//- 	.attribute(data-name='Duty %') 3.0%
+						//- 	.attribute(data-name='Duty') $0.15
+						//- .attribute-container.freight
+						//- 	.attribute(data-name='Freight %') 3.0%
+						//- 	.attribute(data-name='Freight') $0.15
+						//- .attribute(data-name='UOM') EA
+						//- .attribute(data-name='Vendor Part Number') E4-64B

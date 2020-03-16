@@ -1,0 +1,103 @@
+extends layout.pug
+block body
+	body.body_single.pcolor#body
+block content
+		//- div#app
+		//- 	|{{ message }}
+
+
+		div.footer
+			//- div.pagl 1/5
+			//- div.pagr 1/5
+			div.footer-left
+				div.pag-info
+				br
+				div Prev project
+			div.project-text-modal Červený vrch<br>
+				a.open-button.nav-link.active(href="#",onclick="return false;" ) View text
+			div.footer-right
+				div.pag-info2
+				br
+				div Next project
+		div.grid#content
+			ul.grid-ul
+				li
+					div.carousel
+						each item in projects[0].project[0].images
+							div
+								img(src=projects[0].project[0].path+item)
+								//- img(src=img, alt="")
+
+				li
+					div.carousel2
+						each itemplans in projects[0].project[0].imagesplans
+							div
+								img(src=projects[0].project[0].pathplans+itemplans)
+								//- img(src=img, alt="")
+		.modal-wrap.closed#modal
+			.modal-window
+				.modal-close#close-button
+					a(href="#",onclick="return false;" )
+						img(src="images/ico_close.svg", alt="")
+				.modal-content !{projects[0].project[0].text}
+
+
+
+			
+		script.
+			var content = document.querySelector("#content");
+			var popiska = document.querySelector(".project-text-modal");
+			var modal = document.querySelector("#modal");
+			var closeButton = document.querySelector("#close-button");
+			var openButton = document.querySelector(".open-button");
+
+
+			openButton.addEventListener("click", function() {
+				content.classList.toggle("closed");
+				popiska.classList.toggle("closed");
+				modal.classList.toggle("closed");
+				//- if (openButton.innerHTML === "View text") {
+				//-     openButton.innerHTML = "Close text";
+				//-   } else {
+				//-     openButton.innerHTML = "View text";
+				//-   }
+			});
+
+			closeButton.addEventListener("click", function() {
+				modal.classList.toggle("closed");
+				content.classList.toggle("closed");
+				popiska.classList.toggle("closed");
+			});
+
+
+
+
+			
+			$(document).ready(function(){
+				var $status = $('.pag-info');
+				var $status2 = $('.pag-info2');
+				var $slickElement = $('.carousel');
+				var $slickElement2 = $('.carousel2');
+
+				$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+				  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+					var i = (currentSlide ? currentSlide : 0) + 1;
+					$status.text(i + '/' + slick.slideCount);
+				});
+
+				$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+					//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+					var i = (currentSlide ? currentSlide : 0) + 1;
+					$status2.text(i + '/' + slick.slideCount);
+				});
+
+
+
+				$('.carousel').slick({
+				});
+				$('.carousel2').slick({
+
+				});
+			});
+
+
