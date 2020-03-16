@@ -121,6 +121,9 @@ a {
   grid-area: footer;
   display: flex;
   justify-content: space-between; }
+  .footer .nav-link {
+    margin: 0;
+    padding: .5rem 0rem; }
 
 .project-text-modal {
   grid-area: footer;

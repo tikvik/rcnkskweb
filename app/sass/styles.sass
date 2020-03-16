@@ -28,6 +28,8 @@ $underline: 2px
 .carousel2
 	background-color: $white
 
+
+
 body
 	font-family: TriviaSans
 	// letter-spacing: .3px
@@ -62,6 +64,7 @@ a
 
 
 
+
 .nav-link
 	display: block
 	padding: .5rem .2rem
@@ -69,7 +72,6 @@ a
 	margin: 0 $gap/2.5
 	line-height: 1
 	display: block
-
 	&::after 
 		content: ""
 		position: absolute
@@ -85,9 +87,15 @@ a
 		&::after 
 			width: 100%
 			background-color: black
+
 .active
 	&::after
 		width: 100%
+
+
+
+
+
 .menu
 	grid-area: header
 	display: flex
@@ -142,6 +150,9 @@ a
 	grid-area: footer
 	display: flex
 	justify-content: space-between
+	.nav-link
+		margin: 0
+		padding: .5rem 0rem
 // .pagl
 //  grid-area: pagl
 //  text-align: left
