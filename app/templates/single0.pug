@@ -1,10 +1,8 @@
 extends layout.pug
 block body
-	- var i = 0
+	- var i = 0;
 	body.body_single.pcolor#body(style="background-color:"+projects[i].project[0].bgcolor)
 block content
-
-		
 		+mfooter(i)
 		div.grid#content
 			ul.grid-ul

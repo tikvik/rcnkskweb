@@ -2,7 +2,7 @@ extends layout.pug
 block body
 	body.body_single#body
 block content
-		div.archive
+		div.grid
 			section
 				ol.collection.collection-container
 					// The first list item is the header of the table
@@ -34,7 +34,7 @@ block content
 					// The rest of the items in the list are the actual data
 					li.item.item-container
 						.attribute
-							img(src="images/i01.jpg", alt="", width="50px")
+							img(src="images/01.jpg", alt="", width="50px")
 						.attribute(data-name='#') Chapel of Virgin Mary
 						.attribute-container.part-information
 							.attribute-container.part-id

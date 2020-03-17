@@ -52,7 +52,7 @@ li {
     --column-width-min: 5em; }
   /* In order to maximize row lines, only display one line for a cell*/
   .attribute {
-    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 2px;
     overflow: hidden;
     white-space: wrap;
@@ -71,4 +71,4 @@ li {
     white-space: normal; } }
 
 .attribute, .attribute-container {
-  align-self: stretch; }
+  align-self: stretch !important; }
