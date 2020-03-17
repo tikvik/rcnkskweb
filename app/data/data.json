@@ -22,6 +22,17 @@
                 "path": "images/projects/cervenyvrch/",
                 "pathplans": "images/projects/cervenyvrch/plans/",
                 "bgcolor" : "#C1EAB8",
+                "lokace" : "Nesvačilky",
+                "status" : 
+                    [
+                        "Konstrukce",
+                        "Veřejná",
+                        "Dřevostavba"
+                        ],
+                "klient" : "Římskokatolická farnost",
+                "naklady" : "1 500 000",
+                "rok" : "2019",
+                "PDF" : "images/projects/cervenyvrch/pdf/",
                 "images": 
                     [
                         "00.jpg",
@@ -53,6 +64,12 @@
                 "path": "images/projects/franta/",
                 "pathplans": "images/projects/franta/plans/",
                 "bgcolor" : "#ECE59B",
+                "lokace" : "Nesvačilky",
+                "status" : ["Kaka" , "Laka"],
+                "klient" : "Římskokatolická farnost",
+                "naklady" : "1 500 000",
+                "rok" : "2019",
+                "PDF" : "images/projects/cervenyvrch/pdf/",
                 "images": 
                     [
                         "00.jpg",
@@ -83,6 +100,12 @@
                 "path": "images/projects/ostrava/",
                 "pathplans": "images/projects/ostrava/plans/",
                 "bgcolor" : "#EBB9C2",
+                "lokace" : "Nesvačilky",
+                "status" : ["Kaka" , "Laka"],
+                "klient" : "Město",
+                "naklady" : "1 500 000",
+                "rok" : "2019",
+                "PDF" : "images/projects/cervenyvrch/pdf/",
                 "images": 
                     [
                         "00.jpg",
@@ -116,6 +139,12 @@
                 "path": "images/projects/cimala/",
                 "pathplans": "images/projects/cimala/plans/",
                 "bgcolor" : "#CC00EC",
+                "lokace" : "Nesvačilky",
+                "status" : ["Kaka" , "Laka"],
+                "klient" : "Zřizovatel",
+                "naklady" : "1 500 000",
+                "rok" : "2019",
+                "PDF" : "images/projects/cervenyvrch/pdf/",
                 "images": 
                     [
                         "00.jpg",
