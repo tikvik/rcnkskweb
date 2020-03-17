@@ -9,7 +9,13 @@ li
 
 *
   box-sizing: border-box
+.noborder
+  border: none!important
 
+.boldborder
+  border-bottom: 3px solid black !important
+  .attribute
+    border: none
 /* 2 Column Card Layout */
 @media screen and (max-width: 736px)
   .collection-container
@@ -30,7 +36,7 @@ li
   .attribute
     &::before
       content: attr(data-name)
-    
+
     display: grid
     grid-template-columns: minmax(9em, 30%) 1fr
 
@@ -49,6 +55,9 @@ li
   .item-container
     display: grid
     grid-template-columns: 7em 2fr 4fr 2fr
+    border-bottom: 1px solid black
+    padding-top: .25rem
+
 
   .attribute-container
     display: grid
@@ -72,11 +81,13 @@ li
 
   .attribute
     // border-right: 1px solid gray
-    border-bottom: 1px solid $black
+    border-bottom: none
     padding: 2px
     overflow: hidden
     white-space: wrap
     text-overflow: ellipsis
+
+    
 
   .collection-container > .item-container:first-child
     // background-color: blanchedalmond
@@ -95,4 +106,4 @@ li
     overflow: auto
     white-space: normal
 .attribute,.attribute-container
-	align-self: stretch!important
+	align-self: start!important

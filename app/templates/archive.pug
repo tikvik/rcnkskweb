@@ -7,14 +7,14 @@ block content
 				ol.collection.collection-container
 					// The first list item is the header of the table
 
-					li.item.item-container
-						.attribute 
+					li.item.item-container.boldborder
+						.attribute.noborder
 						.attribute(data-name='#') Project
 						// Enclose semantically similar attributes as a div hierarchy
 						.attribute-container.part-information
 							.attribute-container.part-id
-								.attribute(data-name='Part Number') Location
-								.attribute(data-name='Part Description') Status
+								.attribute(data-name='Part Number').noborder Location
+								.attribute(data-name='Part Description').noborder Status
 							.attribute-container.vendor-information
 								.attribute Client
 								.attribute Costs
