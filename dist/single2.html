@@ -72,13 +72,13 @@
       </div>
       <div class="modal-wrap closed" id="modal">
         <div class="modal-window">
-          <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false;"><img src="images/ico_close.svg" alt=""></a></div>
+          <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""></a></div>
           <div class="modal-content">oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice.</div>
         </div>
       </div>
       <script>
         var content = document.querySelector("#content");
-        var popiska = document.querySelector(".project-text-modal");
+        var popiska = document.querySelector(".open-button");
         var modal = document.querySelector("#modal");
         var closeButton = document.querySelector("#close-button");
         var openButton = document.querySelector(".open-button");
@@ -86,19 +86,24 @@
         
         openButton.addEventListener("click", function() {
         	content.classList.toggle("closed");
-        	popiska.classList.toggle("closed");
+        	//- popiska.classList.toggle("closed");
         	modal.classList.toggle("closed");
-        	//- if (openButton.innerHTML === "View text") {
-        	//-     openButton.innerHTML = "Close text";
-        	//-   } else {
-        	//-     openButton.innerHTML = "View text";
-        	//-   }
+        	if (openButton.innerHTML === "View text") {
+        	    openButton.innerHTML = "Close text";
+        	  } else {
+        	    openButton.innerHTML = "View text";
+        	  }
         });
         
         closeButton.addEventListener("click", function() {
         	modal.classList.toggle("closed");
         	content.classList.toggle("closed");
-        	popiska.classList.toggle("closed");
+        	//- popiska.classList.toggle("closed");
+        	if (popiska.innerHTML === "View text") {
+        	    popiska.innerHTML = "Close text";
+        	  } else {
+        	    popiska.innerHTML = "View text";
+        	  }
         });
         
         
