@@ -1,9 +1,9 @@
 extends layout.pug
 block body
-	- var i = 0
+	
 	body.body_single.pcolor#body(style="background-color:"+projects[i].project[0].bgcolor)
 block content
-		
+		- var i = 0
 		
 		+mfooter(i)
 		div.grid#content
@@ -31,7 +31,7 @@ block content
 
 
 			
-		script.
+		script
 			var content = document.querySelector("#content");
 			var popiska = document.querySelector(".project-text-modal");
 			var modal = document.querySelector("#modal");
@@ -43,11 +43,7 @@ block content
 				content.classList.toggle("closed");
 				popiska.classList.toggle("closed");
 				modal.classList.toggle("closed");
-				//- if (openButton.innerHTML === "View text") {
-				//-     openButton.innerHTML = "Close text";
-				//-   } else {
-				//-     openButton.innerHTML = "View text";
-				//-   }
+
 			});
 
 			closeButton.addEventListener("click", function() {

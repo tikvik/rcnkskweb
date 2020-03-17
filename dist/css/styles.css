@@ -221,7 +221,7 @@ a {
         right: 0;
         width: 4vh;
         height: 4vh;
-        content: url "images/ico_close.svg"; }
+        content: url("images/ico_close.svg"); }
       .body_single .wrap .modal-wrap .modal-window .modal-content {
         grid-area: mt;
         align-self: center; }
@@ -285,7 +285,7 @@ a {
         right: 0;
         width: 4vh;
         height: 4vh;
-        content: url "images/ico_close.svg"; }
+        content: url("../images/ico_close.svg"); }
       .body_index .wrap .modal-wrap .modal-window .modal-content {
         grid-area: mt;
         align-self: center; }
