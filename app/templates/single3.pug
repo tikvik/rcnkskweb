@@ -1,6 +1,6 @@
 extends layout.pug
 block body
-	- var i = 1
+	- var i = 3
 	body.body_single.pcolor#body(style="background-color:"+projects[i].project[0].bgcolor)
 block content
 		
@@ -29,8 +29,6 @@ block content
 				.modal-content !{projects[i].project[0].text}
 
 
-
-			
 		script.
 			var content = document.querySelector("#content");
 			var popiska = document.querySelector(".project-text-modal");

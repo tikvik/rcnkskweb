@@ -1,17 +1,28 @@
 mixin mfooter (footerData)
+	
+	-  var ni = footerData+1
+	-  var pi = footerData-1
+	if footerData >= projects.length -1
+		- var ni = 0
+	if footerData <= 0
+		- var pi = projects.length -1
+	br
 	.footer
 		.footer-left
 			.pag-info
 			br
 			div
-				a.nav-link(href="single2.html") Prev project
-		div.project-text-modal #{projects[footerData].project[0].title}<br>
+				a.nav-link(href="single" + pi + ".html") Prev project
+		div.project-text-modal #{projects[i].project[0].title}<br>
 			a.open-button.nav-link.active(href="#",onclick="return false;" ) View text
 		div.footer-right
 			.pag-info2 
 			br
 			div
-				a.nav-link(href="single1.html") Next project
+				a.nav-link(href="single" + ni + ".html") Next project
+
+
+
 
 div.menu
 	div.logo

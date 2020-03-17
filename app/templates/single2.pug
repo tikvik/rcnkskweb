@@ -1,51 +1,35 @@
 extends layout.pug
 block body
-	body.body_single.pcolor#body(style="background-color:"+projects[2].project[0].bgcolor)
+	- var i = 2
+	body.body_single.pcolor#body(style="background-color:"+projects[i].project[0].bgcolor)
 block content
-		//- div#app
-		//- 	|{{ message }}
-
-
-		div.footer
-			//- div.pagl 1/5
-			//- div.pagr 1/5
-			div.footer-left
-				div.pag-info
-				br
-				div
-					a.nav-link(href="single1.html") Prev project
-			div.project-text-modal #{projects[2].project[0].title}<br>
-				a.open-button.nav-link.active(href="#",onclick="return false;" ) View text
-			div.footer-right
-				div.pag-info2
-				br
-				div
-					a.nav-link(href="single0.html") Next project
+		
+		
+		+mfooter(i)
 		div.grid#content
 			ul.grid-ul
 				li
 					div.carousel
-						each item in projects[2].project[0].images
+						each item in projects[i].project[0].images
 							div
-								img(src=projects[2].project[0].path+item)
+								img(src=projects[i].project[0].path+item)
 								//- img(src=img, alt="")
 
 				li
 					div.carousel2
-						each itemplans in projects[2].project[0].imagesplans
+						each itemplans in projects[i].project[0].imagesplans
 							div
-								img(src=projects[2].project[0].pathplans+itemplans)
+								img(src=projects[i].project[0].pathplans+itemplans)
 								//- img(src=img, alt="")
 		.modal-wrap.closed#modal
 			.modal-window
 				.modal-close#close-button
-					a(href="#",onclick="return false;" )
+					a(class="nav-link", href="#",onclick="return false;" )
 						img(src="images/ico_close.svg", alt="")
-				.modal-content !{projects[2].project[0].text}
+				.modal-content !{projects[i].project[0].text}
 
 
 
-			
 		script.
 			var content = document.querySelector("#content");
 			var popiska = document.querySelector(".project-text-modal");

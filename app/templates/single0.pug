@@ -1,32 +1,32 @@
 extends layout.pug
 block body
-	body.body_single.pcolor#body(style="background-color:"+projects[0].project[0].bgcolor)
+	- var i = 0
+	body.body_single.pcolor#body(style="background-color:"+projects[i].project[0].bgcolor)
 block content
 		
-		+mfooter('0')
 		
+		+mfooter(i)
 		div.grid#content
 			ul.grid-ul
 				li
 					div.carousel
-						- var i = "0";
-						each item in projects[i].project[i].images
+						each item in projects[i].project[0].images
 							div
-								img(src=projects[i].project[i].path+item)
+								img(src=projects[i].project[0].path+item)
 								//- img(src=img, alt="")
 
 				li
 					div.carousel2
-						each itemplans in projects[i].project[i].imagesplans
+						each itemplans in projects[i].project[0].imagesplans
 							div
-								img(src=projects[i].project[i].pathplans+itemplans)
+								img(src=projects[i].project[0].pathplans+itemplans)
 								//- img(src=img, alt="")
 		.modal-wrap.closed#modal
 			.modal-window
 				.modal-close#close-button
-					a(href="#",onclick="return false;" )
+					a(class="nav-link", href="#",onclick="return false;" )
 						img(src="images/ico_close.svg", alt="")
-				.modal-content !{projects[i].project[i].text}
+				.modal-content !{projects[i].project[0].text}
 
 
 

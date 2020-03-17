@@ -108,6 +108,39 @@
 
             }
         ]
+        },
+        {
+        "project": [
+            {
+                "title": "Cimala",
+                "path": "images/projects/cimala/",
+                "pathplans": "images/projects/cimala/plans/",
+                "bgcolor" : "#CC00EC",
+                "images": 
+                    [
+                        "00.jpg",
+                        "01.jpg",
+                        "02.jpg",
+                        "03.jpg",
+                        "04.jpg",
+                        "05.jpg",
+                        "06.jpg",
+                        "07.jpg"
+                    ],
+                "imagesplans": 
+                    [
+                        "00.png",
+                        "01.png",
+                        "02.png",
+                        "03.png",
+                        "04.png",
+                        "05.png",
+                        "06.png"
+                    ],
+                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+
+            }
+        ]
         }
 
 
