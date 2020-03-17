@@ -9,23 +9,24 @@ block content
 			ul.grid-ul
 				li
 					div.carousel
-						each item in projects[0].project[0].images
+						- var i = "0";
+						each item in projects[i].project[i].images
 							div
-								img(src=projects[0].project[0].path+item)
+								img(src=projects[i].project[i].path+item)
 								//- img(src=img, alt="")
 
 				li
 					div.carousel2
-						each itemplans in projects[0].project[0].imagesplans
+						each itemplans in projects[i].project[i].imagesplans
 							div
-								img(src=projects[0].project[0].pathplans+itemplans)
+								img(src=projects[i].project[i].pathplans+itemplans)
 								//- img(src=img, alt="")
 		.modal-wrap.closed#modal
 			.modal-window
 				.modal-close#close-button
 					a(href="#",onclick="return false;" )
 						img(src="images/ico_close.svg", alt="")
-				.modal-content !{projects[0].project[0].text}
+				.modal-content !{projects[i].project[i].text}
 
 
 
