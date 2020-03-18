@@ -137,6 +137,9 @@ a {
     outline: none !important;
     -webkit-tap-highlight-color: transparent; }
 
+.slick-arrow {
+  width: 30% !important; }
+
 .nav-link {
   display: block;
   padding: .5rem .2rem;

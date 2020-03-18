@@ -1,15 +1,5 @@
 {
-    "test": 
-    [
-        {
-        "neco": "aaa"
-        },
-        {
-        "neco2": "aaa"
-        }
 
-    ],
-        
     "site": {
         "title": "RCNKSK architekti",
         "email": "rcnksk@gmail.com"
@@ -17,7 +7,7 @@
     "projects": [
         {
         "project": [
-            {
+            {   
                 "title": "MŠ Červený vrch",
                 "path": "images/projects/cervenyvrch/",
                 "pathplans": "images/projects/cervenyvrch/plans/",
