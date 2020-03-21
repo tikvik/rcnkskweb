@@ -1,35 +1,9 @@
 extends layout.pug
 block body
-	- var i = 2
+	- var i = 2;
 	body.body_single.pcolor#body(style="background-color:"+projects[i].project[0].bgcolor)
 block content
-
-		
 		+mfooter(i)
-		div.grid#content
-			ul.grid-ul
-				li
-					div.carousel
-						each item in projects[i].project[0].images
-							div
-								img(src=projects[i].project[0].path+item)
-								//- img(src=img, alt="")
-
-				li
-					div.carousel2
-						each itemplans in projects[i].project[0].imagesplans
-							div
-								img(src=projects[i].project[0].pathplans+itemplans)
-								//- img(src=img, alt="")
-		.modal-wrap.closed#modal
-			.modal-window
-				.modal-close#close-button
-					a(class="nav-link", href="#",onclick="return false" )
-						img(src="images/ico_close.svg", alt="")
-				.modal-content !{projects[i].project[0].text}
-
-
-
-			
+		
+		include partials/single_template.pug
 		include partials/script.pug
-

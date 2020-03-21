@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="cs">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1, user-scalable=1">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="initial-scale=1, user-scalable=1"/>
     <title>RCNKSK architekti
     </title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="slick/slick.css"/>
+    <link rel="stylesheet" href="slick/slick-theme.css"/>
   </head>
   <body class="body_single" id="body"></body>
   <body class="body_index">
@@ -16,13 +16,13 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <div class="wrap">
       <div class="menu">
-        <div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""></a></div>
+        <div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""/></a></div>
         <nav class="nav_menu">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="archive.html">Archive</a></li>
-            <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
+            <li class="nav-item"> <a class="nav-link" href="Projects.html">Projects</a></li>
+            <li class="nav-item"> <a class="nav-link" href="Archive.html">Archive</a></li>
+            <li class="nav-item"> <a class="nav-link" href="Profile.html">Profile</a></li>
+            <li class="nav-item"> <a class="nav-link" href="Contacts.html">Contacts</a></li>
           </ul>
         </nav>
         <nav class="langer">
@@ -38,32 +38,36 @@
             <!-- The first list item is the header of the table-->
             <li class="item item-container boldborder">
               <div class="attribute noborder"></div>
-              <div class="attribute" data-name="#">Project</div>
-              <!-- Enclose semantically similar attributes as a div hierarchy-->
               <div class="attribute-container part-information">
                 <div class="attribute-container part-id">
-                  <div class="attribute noborder" data-name="Part Number">Location</div>
-                  <div class="attribute noborder" data-name="Part Description">Status</div>
+                  <div class="attribute noborder" data-name="Part Number">Project</div>
+                  <div class="attribute noborder" data-name="Part Description">Location</div>
                 </div>
+              </div>
+              <!-- Enclose semantically similar attributes as a div hierarchy-->
+              <div class="attribute-container part-information clientcosts">
+                <div class="attribute noborder" data-name="Part Description">Status</div>
                 <div class="attribute-container vendor-information">
                   <div class="attribute">Client</div>
                   <div class="attribute">Costs</div>
                 </div>
               </div>
               <div class="attribute-container quantity">
-                <div class="attribute">Year</div>
-                <div class="attribute">Download</div>
+                <div class="attribute justify-self-end">Year</div>
+                <div class="attribute justify-self-end">File</div>
               </div>
             </li>
             <!-- The rest of the items in the list are the actual data-->
             <li class="item item-container">
-              <div class="attribute"><img src="images/projects/cervenyvrch/00.jpg" alt="" width="150px"></div>
-              <div class="attribute" data-name="#">MŠ Červený vrch</div>
+              <div class="attribute"><img src="images/projects/cervenyvrch/00.jpg" alt="" width="150px"/></div>
               <div class="attribute-container part-information">
                 <div class="attribute-container part-id">
+                  <div class="attribute" data-name="#">MŠ Červený vrch</div>
                   <div class="attribute" data-name="Part Number">Nesvačilky</div>
-                  <div class="attribute" data-name="Part Description"><span>Konstrukce <br></span><span>Veřejná <br></span><span>Dřevostavba <br></span>
-                  </div>
+                </div>
+              </div>
+              <div class="attribute-container quantity clientcosts">
+                <div class="attribute" data-name="Part Description"><span>Konstrukce <br></span><span>Veřejná <br></span><span>Dřevostavba <br></span>
                 </div>
                 <div class="attribute-container vendor-information">
                   <div class="attribute" data-name="Vendor Number">Římskokatolická farnost</div>
@@ -71,18 +75,20 @@
                 </div>
               </div>
               <div class="attribute-container quantity">
-                <div class="attribute" data-name="Order Qty">2019</div>
-                <div class="attribute" data-name="Receive Qty">PDF</div>
+                <div class="attribute justify-self-end" data-name="Order Qty">2019</div>
+                <div class="attribute justify-self-end" data-name="Receive Qty">PDF</div>
               </div>
             </li>
             <li class="item item-container">
-              <div class="attribute"><img src="images/projects/franta/00.jpg" alt="" width="150px"></div>
-              <div class="attribute" data-name="#">František Štorm</div>
+              <div class="attribute"><img src="images/projects/franta/00.jpg" alt="" width="150px"/></div>
               <div class="attribute-container part-information">
                 <div class="attribute-container part-id">
+                  <div class="attribute" data-name="#">František Štorm</div>
                   <div class="attribute" data-name="Part Number">Nesvačilky</div>
-                  <div class="attribute" data-name="Part Description"><span>Kaka <br></span><span>Laka <br></span>
-                  </div>
+                </div>
+              </div>
+              <div class="attribute-container quantity clientcosts">
+                <div class="attribute" data-name="Part Description"><span>Kaka <br></span><span>Laka <br></span>
                 </div>
                 <div class="attribute-container vendor-information">
                   <div class="attribute" data-name="Vendor Number">Římskokatolická farnost</div>
@@ -90,18 +96,20 @@
                 </div>
               </div>
               <div class="attribute-container quantity">
-                <div class="attribute" data-name="Order Qty">2019</div>
-                <div class="attribute" data-name="Receive Qty">PDF</div>
+                <div class="attribute justify-self-end" data-name="Order Qty">2019</div>
+                <div class="attribute justify-self-end" data-name="Receive Qty">PDF</div>
               </div>
             </li>
             <li class="item item-container">
-              <div class="attribute"><img src="images/projects/ostrava/00.jpg" alt="" width="150px"></div>
-              <div class="attribute" data-name="#">Ostrava</div>
+              <div class="attribute"><img src="images/projects/ostrava/00.jpg" alt="" width="150px"/></div>
               <div class="attribute-container part-information">
                 <div class="attribute-container part-id">
+                  <div class="attribute" data-name="#">Ostrava</div>
                   <div class="attribute" data-name="Part Number">Nesvačilky</div>
-                  <div class="attribute" data-name="Part Description"><span>Kaka <br></span><span>Laka <br></span>
-                  </div>
+                </div>
+              </div>
+              <div class="attribute-container quantity clientcosts">
+                <div class="attribute" data-name="Part Description"><span>Kaka <br></span><span>Laka <br></span>
                 </div>
                 <div class="attribute-container vendor-information">
                   <div class="attribute" data-name="Vendor Number">Město</div>
@@ -109,18 +117,20 @@
                 </div>
               </div>
               <div class="attribute-container quantity">
-                <div class="attribute" data-name="Order Qty">2019</div>
-                <div class="attribute" data-name="Receive Qty">PDF</div>
+                <div class="attribute justify-self-end" data-name="Order Qty">2019</div>
+                <div class="attribute justify-self-end" data-name="Receive Qty">PDF</div>
               </div>
             </li>
             <li class="item item-container">
-              <div class="attribute"><img src="images/projects/cimala/00.jpg" alt="" width="150px"></div>
-              <div class="attribute" data-name="#">Cimala</div>
+              <div class="attribute"><img src="images/projects/cimala/00.jpg" alt="" width="150px"/></div>
               <div class="attribute-container part-information">
                 <div class="attribute-container part-id">
+                  <div class="attribute" data-name="#">Cimala</div>
                   <div class="attribute" data-name="Part Number">Nesvačilky</div>
-                  <div class="attribute" data-name="Part Description"><span>Kaka <br></span><span>Laka <br></span>
-                  </div>
+                </div>
+              </div>
+              <div class="attribute-container quantity clientcosts">
+                <div class="attribute" data-name="Part Description"><span>Kaka <br></span><span>Laka <br></span>
                 </div>
                 <div class="attribute-container vendor-information">
                   <div class="attribute" data-name="Vendor Number">Zřizovatel</div>
@@ -128,8 +138,8 @@
                 </div>
               </div>
               <div class="attribute-container quantity">
-                <div class="attribute" data-name="Order Qty">2019</div>
-                <div class="attribute" data-name="Receive Qty">PDF</div>
+                <div class="attribute justify-self-end" data-name="Order Qty">2019</div>
+                <div class="attribute justify-self-end" data-name="Receive Qty">PDF</div>
               </div>
             </li>
           </ol>

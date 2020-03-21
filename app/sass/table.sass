@@ -11,11 +11,20 @@ li
   box-sizing: border-box
 .noborder
   border: none!important
-
+.attribute
+  margin-right: .5rem
+//   border: 1px solid blue
+// .attribute-container
+//   border: 2px solid red!important
 .boldborder
   border-bottom: 3px solid black !important
   .attribute
     border: none
+
+
+.clientcosts
+  grid-template-columns: 1fr 2fr !important
+
 /* 2 Column Card Layout */
 @media screen and (max-width: 736px)
   .collection-container
@@ -51,10 +60,9 @@ li
 /* Tabular Layout */
 @media screen and (min-width: 737px)
   /* The maximum column width, that can wrap */
-
   .item-container
     display: grid
-    grid-template-columns: 7em 2fr 4fr 2fr
+    grid-template-columns: 8em 2fr 4fr 2fr
     border-bottom: 1px solid black
     padding-top: .25rem
 
@@ -73,6 +81,72 @@ li
 
   .quantity, .cost, .duty, .freight
     --column-width-min: 5em
+
+
+  .collection
+    // border-top: 1px solid $black
+
+  /* In order to maximize row lines, only display one line for a cell*/
+
+  .attribute
+    // border-right: 1px solid gray
+    border-bottom: none
+    padding: 2px
+    overflow: hidden
+    white-space: wrap
+    text-overflow: ellipsis
+
+    
+
+  .collection-container > .item-container:first-child
+    // background-color: blanchedalmond
+    border-bottom: 2px solid $black
+
+  .item-container:hover
+    background-color: rgb(200, 227, 252)
+
+  /* Center header labels*/
+
+  .collection-container > .item-container:first-child .attribute
+    display: flex
+    align-items: center
+    justify-content: start
+    text-overflow: initial
+    overflow: auto
+    white-space: normal
+.attribute,.attribute-container
+  align-self: start!important
+
+
+
+
+
+
+  /* Tabular Layout */
+@media screen and (min-width: 900px)
+  /* The maximum column width, that can wrap */
+  .item-container
+    display: grid
+    grid-template-columns: 8em 4fr 4fr 2fr
+    border-bottom: 1px solid black
+    padding-top: .25rem
+
+
+  .attribute-container
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(var(--column-width-min), 1fr))
+
+  /* Definition of wrapping column width for attribute groups.*/
+
+  .part-information, .part-id
+    --column-width-min: 10em
+
+  .vendor-information
+    --column-width-min: 8em
+
+  .quantity, .cost, .duty, .freight
+    --column-width-min: 5em
+
 
   .collection
     // border-top: 1px solid $black

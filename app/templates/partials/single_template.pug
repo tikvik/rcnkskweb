@@ -1,0 +1,49 @@
+.grid#content
+	ul.grid-ul
+		li
+			div.carousel
+				each item in projects[i].project[0].images
+					div
+						img(src=projects[i].project[0].path+item)
+						//- img(src=img, alt="")
+
+		li
+			div.carousel2
+				each itemplans in projects[i].project[0].imagesplans
+					div
+						img(src=projects[i].project[0].pathplans+itemplans)
+						//- img(src=img, alt="")
+.modal-wrap.closed#modal
+	.modal-window
+		.modal-close#close-button
+			a(class="nav-link", href="#",onclick="return false" )
+				img(src="images/ico_close", alt="")
+		.modal-content 
+			p #{projects[i].project[0].title}<br><br>
+			p #{projects[i].project[0].text}
+			.credentials
+				.cred
+					span Lokace 
+				.cred
+					span #{projects[i].project[0].lokace}
+			.credentials
+				.cred
+					span Klient 
+				.cred
+					span #{projects[i].project[0].klient}
+			.credentials
+				.cred
+					span Náklady 
+				.cred
+					span #{projects[i].project[0].naklady}
+			.credentials
+				.cred
+					span Rok 
+				.cred
+					span #{projects[i].project[0].rok}
+			.credentials
+				.cred
+					span Status 
+				.cred
+					each item in projects[i].project[0].status
+						span #{item} <br>

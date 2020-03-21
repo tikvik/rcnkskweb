@@ -6,6 +6,12 @@ var data = require('gulp-data');
 var fs = require('fs');
 const debug = require('gulp-debug');
 
+// const testFolder = './app/data';
+// fs.readdirSync(testFolder).forEach(file => {
+//   console.log("aaa:" +file);
+// });
+
+
 // var argv = require('yargs').argv;
 // var git = require('gulp-git');
 // var runSequence = require('run-sequence');
@@ -29,8 +35,17 @@ function build() {
 			})
 		)
 		.pipe(pug({pretty: true}))
+		// .pipe(pug({
+		// 	pretty: true,
+		// 	data: {
+		// 		test : 'Jo vyšlo'
+		// 	}
+		// }))
 		.pipe(gulp.dest('dist/'));
 }
+
+
+
 
 function style() {
 	return gulp
@@ -87,6 +102,7 @@ function watch() {
 	gulp.watch('dist/*.html').on('change', browserSync.reload);
 	gulp.watch('app/js/**/*.js').on('change', browserSync.reload);
 	gulp.watch('app/data/**/*.json').on('change', build);
+
 
 	// gulp.watch('app/sass/**/*.sass', push);
 }

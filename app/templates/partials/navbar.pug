@@ -1,25 +1,27 @@
 mixin mfooter (footerData)
 	-  var ni = footerData+1
 	-  var pi = footerData-1
-	if footerData >= projects.length -1
+	if (footerData >= projects.length -1)
 		- var ni = 0
-	if footerData <= 0
-		- var pi = projects.length -1
+	if (footerData <= 0)
+		- var pi = projects.length -1;
 	br
 	.footer
 		.footer-left
 			.pag-info
 			br
-			div
-				a.nav-link(href="single" + pi + ".html") Prev project
-		div.project-text-modal #{projects[i].project[0].title}<br>
-			a.open-button.nav-link.active(href="#",onclick="return false" ) View text
+			span
+				a(href="single" + pi + ".html") Prev project
+		div.project-text-modal #{projects[i].project[0].title}
+			br
+			span #{projects[i].project[0].rok}
+			br
+			a.open-button.active(href="#",onclick="return false" ) View text
 		div.footer-right
 			.pag-info2 
 			br
-			div
-				a.nav-link(href="single" + ni + ".html") Next project
-
+			span
+				a(href="single" + ni + ".html") Next project
 
 
 
@@ -29,14 +31,13 @@ div.menu
 			img(src="images/logo.svg", alt="")
 	nav.nav_menu
 		ul.navbar-nav
-			li.nav-item
-				a.nav-link(href="projects.html") Projects
-			li.nav-item
-				a.nav-link(href="archive.html") Archive
-			li.nav-item
-				a.nav-link(href="profile.html") Profile
-			li.nav-item
-				a.nav-link(href="contact.html") Contacts
+			each item in pages
+				li.nav-item 
+					a.nav-link(href=item + ".html") #{item}
+				
+				
+				
+
 	nav.langer
 		ul.navbar-nav.lang
 			li.nav-item

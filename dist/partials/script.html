@@ -1,0 +1,62 @@
+
+<script>
+  var content = document.querySelector("#content");
+  var popiska = document.querySelector(".open-button");
+  var modal = document.querySelector("#modal");
+  var closeButton = document.querySelector("#close-button");
+  var openButton = document.querySelector(".open-button");
+  
+  
+  openButton.addEventListener("click", function() {
+  	content.classList.toggle("closed");
+  	//- popiska.classList.toggle("closed");
+  	modal.classList.toggle("closed");
+  	if (openButton.innerHTML === "View text") {
+  	    openButton.innerHTML = "Close text";
+  	  } else {
+  	    openButton.innerHTML = "View text";
+  	  }
+  });
+  
+  closeButton.addEventListener("click", function() {
+  	modal.classList.toggle("closed");
+  	content.classList.toggle("closed");
+  	//- popiska.classList.toggle("closed");
+  	if (popiska.innerHTML === "View text") {
+  	    popiska.innerHTML = "Close text";
+  	  } else {
+  	    popiska.innerHTML = "View text";
+  	  }
+  });
+  
+  
+  
+  
+  
+  $(document).ready(function(){
+  	var $status = $('.pag-info');
+  	var $status2 = $('.pag-info2');
+  	var $slickElement = $('.carousel');
+  	var $slickElement2 = $('.carousel2');
+  
+  	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+  	  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+  		var i = (currentSlide ? currentSlide : 0) + 1;
+  		$status.text(i + '/' + slick.slideCount);
+  	});
+  
+  	$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+  		//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+  		var i = (currentSlide ? currentSlide : 0) + 1;
+  		$status2.text(i + '/' + slick.slideCount);
+  	});
+  
+  
+  
+  	$('.carousel').slick({
+  	});
+  	$('.carousel2').slick({
+  
+  	});
+  });
+</script>

@@ -9,18 +9,20 @@ block content
 
 					li.item.item-container.boldborder
 						.attribute.noborder
-						.attribute(data-name='#') Project
-						// Enclose semantically similar attributes as a div hierarchy
 						.attribute-container.part-information
 							.attribute-container.part-id
-								.attribute(data-name='Part Number').noborder Location
-								.attribute(data-name='Part Description').noborder Status
+								.attribute(data-name='Part Number').noborder Project
+								.attribute(data-name='Part Description').noborder Location
+
+						// Enclose semantically similar attributes as a div hierarchy
+						.attribute-container.part-information.clientcosts
+							.attribute(data-name='Part Description').noborder Status
 							.attribute-container.vendor-information
 								.attribute Client
 								.attribute Costs
 						.attribute-container.quantity
-							.attribute Year
-							.attribute Download
+							.attribute.justify-self-end Year
+							.attribute.justify-self-end File
 
 
 
@@ -38,16 +40,19 @@ block content
 							li.item.item-container
 								.attribute
 									img(src=item.path+item.images[0], alt="", width="150px")
-								.attribute(data-name='#') #{item.title}
 								.attribute-container.part-information
 									.attribute-container.part-id
+										.attribute(data-name='#') #{item.title}
 										.attribute(data-name='Part Number') #{item.lokace}
-										.attribute(data-name='Part Description')
-											each stat in projects[index].project[0].status
-												span #{stat} <br>
+
+								.attribute-container.quantity.clientcosts
+									.attribute(data-name='Part Description')
+										each stat in projects[index].project[0].status
+											span #{stat} <br>
+
 									.attribute-container.vendor-information
 										.attribute(data-name='Vendor Number') #{item.klient}
 										.attribute(data-name='Vendor Name') #{item.naklady}
 								.attribute-container.quantity
-									.attribute(data-name='Order Qty') #{item.rok}
-									.attribute(data-name='Receive Qty') PDF
+									.attribute(data-name='Order Qty').justify-self-end #{item.rok}
+									.attribute(data-name='Receive Qty').justify-self-end PDF
