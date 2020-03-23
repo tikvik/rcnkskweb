@@ -4,19 +4,44 @@ var browserSync = require('browser-sync').create();
 var pug = require('gulp-pug');
 var data = require('gulp-data');
 var fs = require('fs');
+var path = require('path');
 const debug = require('gulp-debug');
 
-// const testFolder = './app/data';
-// fs.readdirSync(testFolder).forEach(file => {
-//   console.log("aaa:" +file);
-// });
+// Reads every image in projects folder in images
+const folderPath = './app/images/projects/'
+var thumbs = new Array();
+var i = 0;
+var j = 0;
+thumbs[0] = new Array();
+fs.readdirSync(folderPath).forEach(fileName => {
+	if (fileName != ".DS_Store") {
+		// thumbs[][]
+		fs.readdirSync(folderPath+fileName+"/").forEach(images => {
+			if (images != ".DS_Store") {
+				if (images != "plans") {
+				thumbs[i][j] = images
+				j=j+1
+			}}
+		})
+
+		j=0
+		i=i+1
+		thumbs[i] = new Array();
+		}
+})
+for (var i = 0; i < thumbs.length; i++) { 
+    for (var j = 0; j < thumbs[i].length; j++)    { 
+        console.log(thumbs[i][j]); 
+    } 
+    console.log("<br>"); 
+}  
 
 
-// var argv = require('yargs').argv;
-// var git = require('gulp-git');
-// var runSequence = require('run-sequence');
 
-// var vueComponent = require('gulp-vue-single-file-component');
+
+
+
+
 
 
 function debuger() {
@@ -34,7 +59,16 @@ function build() {
 				return JSON.parse(fs.readFileSync('app/data/data.json'));
 			})
 		)
-		.pipe(pug({pretty: true}))
+		.pipe(pug({
+			pretty: true,
+			data: {
+				"gimg" : thumbs
+			}
+
+
+
+
+		}))
 		// .pipe(pug({
 		// 	pretty: true,
 		// 	data: {
@@ -102,6 +136,7 @@ function watch() {
 	gulp.watch('dist/*.html').on('change', browserSync.reload);
 	gulp.watch('app/js/**/*.js').on('change', browserSync.reload);
 	gulp.watch('app/data/**/*.json').on('change', build);
+	gulp.watch('gulpfile.js').on('change', build);
 
 
 	// gulp.watch('app/sass/**/*.sass', push);
