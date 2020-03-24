@@ -9,29 +9,47 @@ const debug = require('gulp-debug');
 
 // Reads every image in projects folder in images
 const folderPath = './app/images/projects/'
+const imgPath = '/images/projects/'
 var thumbs = new Array();
 var i = 0;
 var j = 0;
+var x = 0;
 thumbs[0] = new Array();
+thumbs[0][0] = new Array();
+thumbs[0][1] = new Array();
+// Třetí položka pole pro cestu k obrázkům
+thumbs[0][2] = "";
 fs.readdirSync(folderPath).forEach(fileName => {
 	if (fileName != ".DS_Store") {
 		// thumbs[][]
+		thumbs[i][2] = imgPath+fileName+"/"
 		fs.readdirSync(folderPath+fileName+"/").forEach(images => {
 			if (images != ".DS_Store") {
 				if (images != "plans") {
-				thumbs[i][j] = images
+				thumbs[i][0][j] = images
 				j=j+1
 			}}
 		})
 
+		fs.readdirSync(folderPath+fileName+"/plans/").forEach(planimages => {
+			if (planimages != ".DS_Store") {
+				if (planimages != "plans") {
+				thumbs[i][1][x] = planimages
+				x=x+1
+			}}
+		})
+
 		j=0
+		x=0
 		i=i+1
 		thumbs[i] = new Array();
+		thumbs[i][0] = new Array();
+		thumbs[i][1] = new Array();
 		}
 })
 for (var i = 0; i < thumbs.length; i++) { 
-    for (var j = 0; j < thumbs[i].length; j++)    { 
-        console.log(thumbs[i][j]); 
+    for (var j = 0; j < thumbs[i][1].length; j++)    { 
+        console.log(thumbs[3][2]); 
     } 
     console.log("<br>"); 
 }  
