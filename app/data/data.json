@@ -5,10 +5,10 @@
         "email": "rcnksk@gmail.com"
     },
     "pages" : [
-        "Projects",
-        "Archive",
-        "Profile",
-        "Contacts"
+        "projects",
+        "archive",
+        "profile",
+        "contacts"
     ],
     
     "projects": [
