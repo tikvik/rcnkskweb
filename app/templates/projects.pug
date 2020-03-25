@@ -6,9 +6,9 @@ block content
 			ul
 				each item, index in projects
 					//- p #{item.project[0].title}
-					li
+					li 
 						a(href="single"+ index +".html" style="background-color:"+projects[index].project[0].bgcolor)
-							img(src=item.project[0].path+item.project[0].images[0] alt="")
+							img(src=gimg[index][0][0] alt="")
 							div.hovertext #{item.project[0].title}
 
 

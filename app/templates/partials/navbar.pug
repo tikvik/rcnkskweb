@@ -28,17 +28,17 @@ mixin mimages (index)
 	.grid#content
 		ul.grid-ul
 			li
-				div.carousel #{gimg[index][1][0]}
+				div.carousel
 					each item in gimg[index][0]
 						div
-							img(src=gimg[index][2]+item)
+							img(src=item)
 				
 
 			li
 				div.carousel2
 					each item in gimg[index][1]
 						div
-							img(src=gimg[index][2]+"/plans/"+item)
+							img(src=item)
 
 	.modal-wrap.closed#modal
 		.modal-window

@@ -321,6 +321,7 @@ a {
   grid-template-rows: 6vh 6vh auto auto;
   align-items: start; }
   .body_single .wrap .modal-wrap {
+    min-height: 70vh;
     display: grid;
     padding-bottom: 2rem;
     grid-area: content;

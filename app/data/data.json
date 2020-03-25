@@ -12,12 +12,21 @@
     ],
     
     "projects": [
-        {
-        "project": [
-            {   
+        
+        { "project": [{
+                "title": "František Štorm",
+                "bgcolor" : "#ECE59B",
+                "lokace" : "Nesvačilky",
+                "status" : ["Kaka" , "Laka"],
+                "klient" : "Římskokatolická farnost",
+                "naklady" : "1 500 000",
+                "rok" : "2019",
+                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+            }]
+        },
+
+        { "project": [{   
                 "title": "MŠ Červený vrch",
-                "path": "images/projects/cervenyvrch/",
-                "pathplans": "images/projects/cervenyvrch/plans/",
                 "bgcolor" : "white",
                 "lokace" : "Nesvačilky",
                 "status" : 
@@ -29,150 +38,34 @@
                 "klient" : "Římskokatolická farnost",
                 "naklady" : "1 500 000",
                 "rok" : "2019",
-                "PDF" : "images/projects/cervenyvrch/pdf/",
-                "images": 
-                    [
-                        "00.jpg",
-                        "01.jpg",
-                        "02.jpg",
-                        "03.jpg",
-                        "04.jpg",
-                        "05.jpg",
-                        "06.jpg",
-                        "07.jpg"
-                    ],
-                "imagesplans": 
-                    [
-                        "00.png",
-                        "01.png",
-                        "02.png",
-                        "03.png",
-                        "04.png"
-                    ],
                 "text": "Architektonická soutěž na novou školku byla vypsána městskou částí Praha 6. Zvolená parcela se strategicky nachází na sídlišti. Ačkoliv severo-západní roh pozemku základní školy Červený Vrch vypadá jako ideální pro novou budovu, při bližším průzkumu narazíme na řadu protichůdných limitů – ulice ležící téměř o 4 metry níže, páteřní trasa teplovodu na hranici pozemku a zejména nároží v soukromém vlastnictví. Na první pohled nelogicky navrhujeme umístit budovu do její limitní polohy v rohu. Nezastavitelné plochy definujeme jako veřejnou zeleň a poloveřejnou cestu s dvěma předprostory, z kterých se vstupuje do budovy a neotáčíme se k okolí zády. Tím nám zůstává velká jihovýchodní zahrada, která využívá 100% z nepraktického tvaru pozemku. Budova je koncipována jako nehierarchická. U obou předprostorů se nachází vstup spolu s modelárnou a výukovou učebnou, které mohou sloužit také externím návštěvníkům. Čtyři třídy a multifunkční herna jsou na jedné straně propojeny proplétArchitektonická soutěž na novou školku byla vypsána městskou částí Praha 6. Zvolená parcela se strategicky nachází na sídlišti. Ačkoliv severo-západní roh pozemku základní školy Červený Vrch vypadá jako ideální pro novou budovu, při bližším průzkumu narazíme na řadu protichůdných limitů – ulice ležící téměř o 4 metry níže, páteřní trasa teplovodu na hranici pozemku a zejména nároží v soukromém vlastnictví. Na první pohled nelogicky navrhujeme umístit budovu do její limitní polohy v rohu. Nezastavitelné plochy definujeme jako veřejnou zeleň a poloveřejnou cestu s dvěma předprostory, z kterých se vstupuje do budovy a neotáčíme se k okolí zády. Tím nám zůstává velká jihovýchodní zahrada, která využívá 100% z nepraktického tvaru pozemku. Budova je koncipována jako nehierarchická. U obou předprostorů se nachází vstup spolu s modelárnou a výukovou učebnou, které mohou sloužit také externím návštěvníkům. Čtyři třídy a multifunkční herna jsou na jedné straně propojeny proplétajícím se hravým koridorem a na druhé se ocitají přímo v zahradě. Spirálové schodiště stoupá do meditativního kruhového spícího patérka. Použitím posuvných oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice. Školka je první místo, kde děti čelí cizímu prostředí samy bez rodičů. Myslíme si, že je důležité aby jejich první vztahy a zkušenosti vznikali v přírodě. Zejména dnes se všudypřítomnou technikou by děti měly být schopni ocenit skutečný svět. Proto navrhujeme budovu jako dřevostavbu s pohledovou tesařskou trámovou konstrukcí doplněnou přírodním linoleem. Nicméně nosné sloupy jsou betonové, aby lépe přenesly boční zatížení a dali větší svobodu stěnám. Školka je zabalena vlnitým hliníkovým plechem a roštem ve tvaru mraků, čímž dostává téměř surrealní ráz aniž by přitahovala na sebe pozornost. Nejedná se však o samoúčelný design – provětrávaná vrstva a slunolamy udržují budovu chladnou v létě téměř bez údržby."
-
-            }
-        ]
+            }]
         },
-        {
-        "project": [
-            {
-                "title": "František Štorm",
-                "path": "images/projects/franta/",
-                "pathplans": "images/projects/franta/plans/",
-                "bgcolor" : "#ECE59B",
-                "lokace" : "Nesvačilky",
-                "status" : ["Kaka" , "Laka"],
-                "klient" : "Římskokatolická farnost",
-                "naklady" : "1 500 000",
-                "rok" : "2019",
-                "PDF" : "images/projects/cervenyvrch/pdf/",
-                "images": 
-                    [
-                        "00.jpg",
-                        "01.jpg",
-                        "02.jpg",
-                        "03.jpg",
-                        "04.jpg",
-                        "05.jpg",
-                        "06.jpg",
-                        "07.jpg"
-                    ],
-                "imagesplans": 
-                    [
-                        "00.png",
-                        "01.png",
-                        "02.png",
-                        "03.png"
-                    ],
-                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
 
-            }
-        ]
-        },
-        {
-        "project": [
-            {
+        { "project": [{
                 "title": "Ostrava",
-                "path": "images/projects/ostrava/",
-                "pathplans": "images/projects/ostrava/plans/",
                 "bgcolor" : "#EBB9C2",
                 "lokace" : "Nesvačilky",
                 "status" : ["Kaka" , "Laka"],
                 "klient" : "Město",
                 "naklady" : "1 500 000",
                 "rok" : "2019",
-                "PDF" : "images/projects/cervenyvrch/pdf/",
-                "images": 
-                    [
-                        "00.jpg",
-                        "01.jpg",
-                        "02.jpg",
-                        "03.jpg",
-                        "04.jpg",
-                        "05.jpg",
-                        "06.jpg",
-                        "07.jpg"
-                    ],
-                "imagesplans": 
-                    [
-                        "00.png",
-                        "01.png",
-                        "02.png",
-                        "03.png",
-                        "04.png",
-                        "05.png",
-                        "06.png"
-                    ],
                 "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
-
-            }
-        ]
+            }]
         },
-        {
-        "project": [
+
+        { "project": [
             {
                 "title": "Cimala",
-                "path": "images/projects/cimala/",
-                "pathplans": "images/projects/cimala/plans/",
                 "bgcolor" : "#CC00EC",
                 "lokace" : "Nesvačilky",
                 "status" : ["Kaka" , "Laka"],
                 "klient" : "Zřizovatel",
                 "naklady" : "1 500 000",
                 "rok" : "2019",
-                "PDF" : "images/projects/cervenyvrch/pdf/",
-                "images": 
-                    [
-                        "00.jpg",
-                        "01.jpg",
-                        "02.jpg",
-                        "03.jpg",
-                        "04.jpg",
-                        "05.jpg",
-                        "06.jpg",
-                        "07.jpg"
-                    ],
-                "imagesplans": 
-                    [
-                        "00.png",
-                        "01.png",
-                        "02.png",
-                        "03.png",
-                        "04.png",
-                        "05.png",
-                        "06.png"
-                    ],
                 "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
-
-            }
-        ]
+            }]
         }
-
-
-
-
-
 
 
     ]

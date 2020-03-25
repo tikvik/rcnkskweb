@@ -15,10 +15,10 @@ block content
 			ul.grid-ul
 				li
 					div.carousel
-						each item, index in projects
+						each item, index in gimg
 							div
 								a(href="single"+ index +".html")
-									img(src=item.project[0].path+item.project[0].images[0] alt="")
+									img(src=gimg[index][0][0] alt="")
 
 		div.footer
 					//- div.pagl 1/5
