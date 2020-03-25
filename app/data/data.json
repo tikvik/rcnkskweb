@@ -65,6 +65,45 @@
                 "rok" : "2019",
                 "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
             }]
+        },
+
+        { "project": [
+            {
+                "title": "Žitná",
+                "bgcolor" : "#E3EFA1",
+                "lokace" : "Někde",
+                "status" : ["Kaka" , "Laka"],
+                "klient" : "Zřizovatel",
+                "naklady" : "1 500 000",
+                "rok" : "2019",
+                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+            }]
+        },
+
+        { "project": [
+            {
+                "title": "Žabětín",
+                "bgcolor" : "#EDECE7",
+                "lokace" : "Někde",
+                "status" : ["Kaka" , "Laka"],
+                "klient" : "Zřizovatel",
+                "naklady" : "1 500 000",
+                "rok" : "2019",
+                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+            }]
+        },
+
+        { "project": [
+            {
+                "title": "Vršovická kramle, kde dobře je tam se daří",
+                "bgcolor" : "#62AEAE",
+                "lokace" : "Někde",
+                "status" : ["Kaka" , "Laka"],
+                "klient" : "Zřizovatel",
+                "naklady" : "1 500 000",
+                "rok" : "2019",
+                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+            }]
         }
 
 

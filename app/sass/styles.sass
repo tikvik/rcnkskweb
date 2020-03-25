@@ -236,6 +236,8 @@ a
 			margin: 0 auto
 			grid-gap: $gap
 			grid-template-columns: repeat(auto-fill, minmax(210px, 1fr))
+			@include for-size(lg)
+				grid-template-columns: repeat(auto-fill, minmax(14vw, 1fr))
 			grid-auto-rows: 1fr
 			// grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
 			// grid-template-rows: repeat(auto-fit, minmax(200px, 1fr))

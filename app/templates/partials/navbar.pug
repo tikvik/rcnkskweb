@@ -31,14 +31,14 @@ mixin mimages (index)
 				div.carousel
 					each item in gimg[index][0]
 						div
-							img(src=item)
+							img(data-lazy=item)
 				
 
 			li
 				div.carousel2
 					each item in gimg[index][1]
 						div
-							img(src=item)
+							img(data-lazy=item)
 
 	.modal-wrap.closed#modal
 		.modal-window

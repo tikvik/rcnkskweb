@@ -301,6 +301,9 @@ a {
         padding-bottom: 100%;
         grid-row: 1 / 1;
         grid-column: 1 / 1; }
+      @media (min-width: 1200px) {
+        .wrap .grid ul {
+          grid-template-columns: repeat(auto-fill, minmax(14vw, 1fr)); } }
       .wrap .grid ul li {
         position: relative;
         line-height: 0; }
