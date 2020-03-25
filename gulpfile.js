@@ -10,7 +10,7 @@ const debug = require('gulp-debug');
 
 // Reads every image in projects folder in images
 const folderPath = './app/images/projects/'
-const imgPath = '/images/projects/'
+const imgPath = 'images/projects/'
 var thumbs = new Array();
 var i = 0;
 var j = 0;
