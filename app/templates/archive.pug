@@ -5,7 +5,6 @@ block content
 		div.grid
 			section
 				ol.collection.collection-container
-					// The first list item is the header of the table
 
 					li.item.item-container.boldborder
 						.attribute.noborder
@@ -14,7 +13,7 @@ block content
 								.attribute(data-name='Part Number').noborder Project
 								.attribute(data-name='Part Description').noborder Location
 
-						// Enclose semantically similar attributes as a div hierarchy
+
 						.attribute-container.part-information.clientcosts
 							.attribute(data-name='Part Description').noborder Status
 							.attribute-container.vendor-information
@@ -25,34 +24,25 @@ block content
 							.attribute.justify-self-end File
 
 
+			each proj, index in projects
+				each item in proj.project
+					a(href="single"+ index +".html")
+						li.item.item-container
+							.attribute
+								img(src=gimg[index][0][0], alt="", width="150px")
+							.attribute-container.part-information
+								.attribute-container.part-id
+									.attribute(data-name='#') #{item.title}
+									.attribute(data-name='Part Number') #{item.lokace}
 
-						//- .attribute-container.duty
-						//- 	.attribute Duty %
-						//- 	.attribute Duty
-						//- .attribute-container.freight
-						//- 	.attribute Freight %
-						//- 	.attribute Freight
-						//- .attribute UOM
-						//- .attribute Vendor Part Number
-					// The rest of the items in the list are the actual data
-					each proj, index in projects
-						each item in proj.project
-							li.item.item-container
-								.attribute
-									img(src=gimg[index][0][0], alt="", width="150px")
-								.attribute-container.part-information
-									.attribute-container.part-id
-										.attribute(data-name='#') #{item.title}
-										.attribute(data-name='Part Number') #{item.lokace}
+							.attribute-container.quantity.clientcosts
+								.attribute(data-name='Part Description')
+									each stat in projects[index].project[0].status
+										span #{stat} <br>
 
-								.attribute-container.quantity.clientcosts
-									.attribute(data-name='Part Description')
-										each stat in projects[index].project[0].status
-											span #{stat} <br>
-
-									.attribute-container.vendor-information
-										.attribute(data-name='Vendor Number') #{item.klient}
-										.attribute(data-name='Vendor Name') #{item.naklady}
-								.attribute-container.quantity
-									.attribute(data-name='Order Qty').justify-self-end #{item.rok}
-									.attribute(data-name='Receive Qty').justify-self-end PDF
+								.attribute-container.vendor-information
+									.attribute(data-name='Vendor Number') #{item.klient}
+									.attribute(data-name='Vendor Name') #{item.naklady}
+							.attribute-container.quantity
+								.attribute(data-name='Order Qty').justify-self-end #{item.rok}
+								.attribute(data-name='Receive Qty').justify-self-end PDF

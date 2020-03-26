@@ -124,7 +124,7 @@ li {
   .collection-container > .item-container:first-child {
     border-bottom: 2px solid black; }
   .item-container:hover {
-    background-color: #c8e3fc; }
+    background-color: #EAEBFE; }
   /* Center header labels*/
   .collection-container > .item-container:first-child .attribute {
     display: flex;
@@ -152,6 +152,7 @@ body {
   color: black;
   line-height: 1.4;
   height: auto;
+  margin: 0;
   display: flex; }
   @media (min-width: 600px) {
     body {
@@ -264,17 +265,17 @@ a {
 .wrap div:not(.grid) {
   align-self: end; }
 
+.hovertext {
+  text-align: center; }
+
 .wrap {
   display: grid;
   grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
   grid-template-rows: 6vh 7.2vh auto 2.66667vh 2.66667vh 2.66667vh;
   grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer";
   width: 100vw;
-  height: 100%;
-  padding: 2.66667vh 1%;
-  background-size: 99%;
-  background-repeat: no-repeat;
-  background-position: top center; }
+  min-height: 100vh;
+  padding: 2.66667vh 1%; }
   @media (min-width: 600px) {
     .wrap {
       grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"; } }
@@ -322,7 +323,8 @@ a {
   grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer";
   grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
   grid-template-rows: 6vh 6vh auto auto;
-  align-items: start; }
+  align-items: start;
+  min-height: 100vh; }
   .body_single .wrap .modal-wrap {
     min-height: 70vh;
     display: grid;
@@ -330,8 +332,7 @@ a {
     grid-area: content;
     grid-template-columns: 8% 2vh repeat(4, 1fr) 2vh 8%;
     grid-template-areas: "mw mw mw mw mw mw mw mw";
-    align-self: center;
-    height: 100%; }
+    align-self: center; }
     @media (min-width: 600px) {
       .body_single .wrap .modal-wrap {
         grid-template-areas: ". mw mw mw mw mw . ."; } }

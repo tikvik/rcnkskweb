@@ -14,7 +14,8 @@
     "projects": [
         
         { "project": [{
-                "title": "František Štorm",
+                "title": "Franta",
+                "title2": "Atelier mezi rybníky",
                 "bgcolor" : "#ECE59B",
                 "lokace" : "Nesvačilky",
                 "status" : ["Kaka" , "Laka"],
@@ -26,7 +27,8 @@
         },
 
         { "project": [{   
-                "title": "MŠ Červený vrch",
+                "title": "Červeňák školka",
+                "title2": "MŠ Červený Vrch",
                 "bgcolor" : "white",
                 "lokace" : "Nesvačilky",
                 "status" : 
@@ -43,8 +45,9 @@
         },
 
         { "project": [{
-                "title": "Ostrava",
-                "bgcolor" : "#EBB9C2",
+                "title": "Ostrava parkhaus",
+                "title2": "Parkovací dům v Ostravě",
+                "bgcolor" : "#FFE4F6",
                 "lokace" : "Nesvačilky",
                 "status" : ["Kaka" , "Laka"],
                 "klient" : "Město",
@@ -57,6 +60,7 @@
         { "project": [
             {
                 "title": "Cimala",
+                "title2": "Michal Cimala: Ecstasy",
                 "bgcolor" : "#CC00EC",
                 "lokace" : "Nesvačilky",
                 "status" : ["Kaka" , "Laka"],
@@ -70,6 +74,7 @@
         { "project": [
             {
                 "title": "Žitná",
+                "title2": "?????????",
                 "bgcolor" : "#E3EFA1",
                 "lokace" : "Někde",
                 "status" : ["Kaka" , "Laka"],
@@ -83,6 +88,7 @@
         { "project": [
             {
                 "title": "Žabětín",
+                "title2": "????????????",
                 "bgcolor" : "#EDECE7",
                 "lokace" : "Někde",
                 "status" : ["Kaka" , "Laka"],
@@ -95,7 +101,8 @@
 
         { "project": [
             {
-                "title": "Vršovická kramle, kde dobře je tam se daří",
+                "title": "Vršovická",
+                "title2": "???????????????",
                 "bgcolor" : "#62AEAE",
                 "lokace" : "Někde",
                 "status" : ["Kaka" , "Laka"],

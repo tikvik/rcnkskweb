@@ -1,0 +1,77 @@
+//- Připojené v navbar.pug
+
+mixin mfooter (footerData)
+	-  var ni = footerData+1
+	-  var pi = footerData-1
+	if (footerData >= projects.length -1)
+		- var ni = 0
+	if (footerData <= 0)
+		- var pi = projects.length -1;
+	br
+	.footer
+		.footer-left
+			.pag-info
+			br
+			span
+				a(href="single" + pi + ".html") Prev project
+		div.project-text-modal #{projects[i].project[0].title2}
+			br
+			span #{projects[i].project[0].rok}
+			br
+			a.open-button.active(href="#",onclick="return false" ) View text
+		div.footer-right
+			.pag-info2 
+			br
+			span
+				a(href="single" + ni + ".html") Next project
+
+
+mixin mimages (index)
+	.grid#content
+		ul.grid-ul
+			li
+				div.carousel
+					each item in gimg[index][0]
+						div
+							img(data-lazy=item)
+				
+
+			li
+				div.carousel2
+					each item in gimg[index][1]
+						div
+							img(data-lazy=item)
+	.modal-wrap.closed#modal
+		.modal-window
+			.modal-close#close-button
+				a(class="nav-link", href="#",onclick="return false" )
+					img(src="images/ico_close", alt="")
+			.modal-content 
+				p #{projects[i].project[0].title2}<br><br>
+				p #{projects[i].project[0].text}
+				.credentials
+					.cred
+						span Lokace 
+					.cred
+						span #{projects[i].project[0].lokace}
+				.credentials
+					.cred
+						span Klient 
+					.cred
+						span #{projects[i].project[0].klient}
+				.credentials
+					.cred
+						span Náklady 
+					.cred
+						span #{projects[i].project[0].naklady}
+				.credentials
+					.cred
+						span Rok 
+					.cred
+						span #{projects[i].project[0].rok}
+				.credentials
+					.cred
+						span Status 
+					.cred
+						each item in projects[i].project[0].status
+							span #{item} <br>

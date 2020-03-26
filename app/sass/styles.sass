@@ -44,7 +44,7 @@ body
 	line-height: 1.4
 	height: auto
 	// margin-top: 5%
-	// margin: 0
+	margin: 0
 	display: flex
 
 	@include for-size(sm)
@@ -197,24 +197,25 @@ a
 	&:not(.grid)
 		align-self: end
 
-
+.hovertext
+	text-align: center
 
 .wrap
 	display: grid
 	grid-template-columns: 8% $gap/2 $gap/2 auto $gap/2 $gap/2 8%
 	grid-template-rows: $gap*1.5 $gap*1.8 auto $gap/1.5 $gap/1.5 $gap/1.5
 	grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"
+	width: 100vw
+	min-height: 100vh
+	padding:  $gap/1.5 1%
 	@include for-size(sm)
 		grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"
-	width: 100vw
-	height: 100%
-	padding:  $gap/1.5 1%
 	@include for-size(sm)
 		padding:  $gap/1.5 6%
 	// background-image: url('/images/grid2.png')
-	background-size: 99%
-	background-repeat: no-repeat
-	background-position: top center
+	// background-size: 99%
+	// background-repeat: no-repeat
+	// background-position: top center
 
 	.grid
 		grid-area: content
@@ -263,6 +264,7 @@ a
 		grid-template-columns: 8% $gap/2 $gap/2 auto $gap/2 $gap/2 8%
 		grid-template-rows: $gap*1.5 $gap*1.5 auto auto
 		align-items: start
+		min-height: 100vh
 		.modal-wrap
 			min-height: 70vh
 			display: grid
@@ -276,7 +278,6 @@ a
 				grid-template-areas: ". . mw mw mw mw . ."
 			// grid-gap: $gap
 			align-self: center
-			height: 100%
 			.modal-window
 				grid-area: mw
 				display: grid

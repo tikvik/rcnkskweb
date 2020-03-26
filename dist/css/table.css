@@ -117,7 +117,7 @@ li {
   .collection-container > .item-container:first-child {
     border-bottom: 2px solid black; }
   .item-container:hover {
-    background-color: #c8e3fc; }
+    background-color: #EAEBFE; }
   /* Center header labels*/
   .collection-container > .item-container:first-child .attribute {
     display: flex;
