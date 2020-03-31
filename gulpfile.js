@@ -6,6 +6,7 @@ var data = require('gulp-data');
 var fs = require('fs');
 var path = require('path');
 const debug = require('gulp-debug');
+var merge = require('merge-json');
 // var merge = require('gulp-controlled-merge-json');
 
 // Reads every image in projects folder in images
@@ -66,23 +67,35 @@ function debuger() {
 function build() {
 	return gulp
 		.src('app/templates/*.pug')
-		.pipe(
-			data(function(file) {
-				return JSON.parse(fs.readFileSync('app/data/data.json'));
-			})
-		)
+		.pipe(data(() => {
+			const result = {
+							// projects: require('./app/data/data.json')
+							about: require('./app/data/about.json')
+						}
+
+							// result.assets = require('./app/data/rev_manifest.json')
+
+						return result.about.text
+
+		}))
+
+
+
+		.pipe(data(function(file) {
+				return JSON.parse(
+					fs.readFileSync('app/data/data.json')
+					);
+			}))
+		
+
 		.pipe(pug({
+			
 			pretty: true,
 			data: {
 				"gimg" : thumbs
 			}
+
 		}))
-		// .pipe(pug({
-		// 	pretty: true,
-		// 	data: {
-		// 		test : 'Jo vyšlo'
-		// 	}
-		// }))
 		.pipe(gulp.dest('dist/'));
 }
 

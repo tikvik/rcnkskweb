@@ -1,7 +1,7 @@
 {
 
     "site": {
-        "title": "RCNKSK architekti",
+        "nickname": "RCNKSK architekti",
         "email": "rcnksk@gmail.com"
     },
     "pages" : [
@@ -12,107 +12,177 @@
     ],
     
     "projects": [
-        
         { "project": [{
-                "title": "Franta",
-                "title2": "Atelier mezi rybníky",
-                "bgcolor" : "#ECE59B",
+                "nickname": "Nesvačilka__dodělat",
+                "title": "Atelier mezi rybníky",
+                "klient" : "František Štorm",
                 "lokace" : "Nesvačilky",
-                "status" : ["Kaka" , "Laka"],
-                "klient" : "Římskokatolická farnost",
-                "naklady" : "1 500 000",
+                "typologie" : ["Kaka" , "Laka"],
+                "typ" : "interiér",
                 "rok" : "2019",
-                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+                "status" : "2019",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "1 500 000",
+                "autori" : "",
+                "spoluautori" : "",
+                "odbspoluprace" : "",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic sequi alias sit officia ex dolor, voluptate ad nesciunt quibusdam. Ducimus nostrum culpa vitae dolorem rem ipsam expedita repellendus assumenda maxime.",
+                "bgcolor" : "#ECE59B"
             }]
         },
-
-        { "project": [{   
-                "title": "Červeňák školka",
-                "title2": "MŠ Červený Vrch",
-                "bgcolor" : "white",
-                "lokace" : "Nesvačilky",
-                "status" : 
-                    [
-                        "Konstrukce",
-                        "Veřejná",
-                        "Dřevostavba"
-                        ],
-                "klient" : "Římskokatolická farnost",
-                "naklady" : "1 500 000",
-                "rok" : "2019",
-                "text": "Architektonická soutěž na novou školku byla vypsána městskou částí Praha 6. Zvolená parcela se strategicky nachází na sídlišti. Ačkoliv severo-západní roh pozemku základní školy Červený Vrch vypadá jako ideální pro novou budovu, při bližším průzkumu narazíme na řadu protichůdných limitů – ulice ležící téměř o 4 metry níže, páteřní trasa teplovodu na hranici pozemku a zejména nároží v soukromém vlastnictví. Na první pohled nelogicky navrhujeme umístit budovu do její limitní polohy v rohu. Nezastavitelné plochy definujeme jako veřejnou zeleň a poloveřejnou cestu s dvěma předprostory, z kterých se vstupuje do budovy a neotáčíme se k okolí zády. Tím nám zůstává velká jihovýchodní zahrada, která využívá 100% z nepraktického tvaru pozemku. Budova je koncipována jako nehierarchická. U obou předprostorů se nachází vstup spolu s modelárnou a výukovou učebnou, které mohou sloužit také externím návštěvníkům. Čtyři třídy a multifunkční herna jsou na jedné straně propojeny proplétArchitektonická soutěž na novou školku byla vypsána městskou částí Praha 6. Zvolená parcela se strategicky nachází na sídlišti. Ačkoliv severo-západní roh pozemku základní školy Červený Vrch vypadá jako ideální pro novou budovu, při bližším průzkumu narazíme na řadu protichůdných limitů – ulice ležící téměř o 4 metry níže, páteřní trasa teplovodu na hranici pozemku a zejména nároží v soukromém vlastnictví. Na první pohled nelogicky navrhujeme umístit budovu do její limitní polohy v rohu. Nezastavitelné plochy definujeme jako veřejnou zeleň a poloveřejnou cestu s dvěma předprostory, z kterých se vstupuje do budovy a neotáčíme se k okolí zády. Tím nám zůstává velká jihovýchodní zahrada, která využívá 100% z nepraktického tvaru pozemku. Budova je koncipována jako nehierarchická. U obou předprostorů se nachází vstup spolu s modelárnou a výukovou učebnou, které mohou sloužit také externím návštěvníkům. Čtyři třídy a multifunkční herna jsou na jedné straně propojeny proplétajícím se hravým koridorem a na druhé se ocitají přímo v zahradě. Spirálové schodiště stoupá do meditativního kruhového spícího patérka. Použitím posuvných oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice. Školka je první místo, kde děti čelí cizímu prostředí samy bez rodičů. Myslíme si, že je důležité aby jejich první vztahy a zkušenosti vznikali v přírodě. Zejména dnes se všudypřítomnou technikou by děti měly být schopni ocenit skutečný svět. Proto navrhujeme budovu jako dřevostavbu s pohledovou tesařskou trámovou konstrukcí doplněnou přírodním linoleem. Nicméně nosné sloupy jsou betonové, aby lépe přenesly boční zatížení a dali větší svobodu stěnám. Školka je zabalena vlnitým hliníkovým plechem a roštem ve tvaru mraků, čímž dostává téměř surrealní ráz aniž by přitahovala na sebe pozornost. Nejedná se však o samoúčelný design – provětrávaná vrstva a slunolamy udržují budovu chladnou v létě téměř bez údržby."
-            }]
-        },
-
         { "project": [{
-                "title": "Ostrava parkhaus",
-                "title2": "Parkovací dům v Ostravě",
-                "bgcolor" : "#FFE4F6",
-                "lokace" : "Nesvačilky",
-                "status" : ["Kaka" , "Laka"],
-                "klient" : "Město",
-                "naklady" : "1 500 000",
+                "nickname": "BMW kongresák",
+                "title": "Renocar BMW Urban Store, Praha",
+                "klient" : "soukromý",
+                "lokace" : "Praha, Česká republika",
+                "typologie" : ["komerční prostor" ],
+                "typ" : "interiér",
                 "rok" : "2019",
-                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "1 500 000",
+                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
+                "spoluautori" : "MgA. Bibiana Heinichová",
+                "odbspoluprace" : "Mojmír Veselka – truhlář",
+                "text": "",
+                "bgcolor" : "#ECE59B"
             }]
         },
-
-        { "project": [
-            {
-                "title": "Cimala",
-                "title2": "Michal Cimala: Ecstasy",
-                "bgcolor" : "#CC00EC",
-                "lokace" : "Nesvačilky",
-                "status" : ["Kaka" , "Laka"],
-                "klient" : "Zřizovatel",
+        { "project": [{
+                "nickname": "Proměna Vítězného Náměstí",
+                "title": "Proměna Vítězného Náměstí",
+                "klient" : "Institut Plánování a Rozvoje Hl. Města Prahy",
+                "lokace" : "Praha 6 – Dejvice, Česká republika",
+                "typologie" : ["urbanismus" ],
+                "typ" : "vyzvaná soutež",
+                "rok" : "2018",
+                "status" : "soutěžní návrh",
+                "uzplocha" : "",
+                "velikost" : "",
                 "naklady" : "1 500 000",
-                "rok" : "2019",
-                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný, Ing. arch. Jakub Jirman, MgA. Jarin Krouz",
+                "spoluautori" : "Bc. Petr Müller",
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : "#B9C7EC"
             }]
         },
-
-        { "project": [
-            {
-                "title": "Žitná",
-                "title2": "?????????",
-                "bgcolor" : "#E3EFA1",
-                "lokace" : "Někde",
-                "status" : ["Kaka" , "Laka"],
-                "klient" : "Zřizovatel",
+        { "project": [{
+                "nickname": "Kostnice",
+                "title": "Rekonstrukce a přístavba kaple Všech Svatých s kostnicí",
+                "klient" : "Římskokatolická farnost Kutná Hora – Sedlec",
+                "lokace" : "Kutná Hora – Sedlec, Česká republika",
+                "typologie" : ["sakrální stavby" ],
+                "typ" : "rekonstrukce s dostavbou",
+                "rok" : "",
+                "status" : "v realizaci",
+                "uzplocha" : "",
+                "velikost" : "",
                 "naklady" : "1 500 000",
-                "rok" : "2019",
-                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
+                "spoluautori" : "",
+                "odbspoluprace" : "Ing. Vít Mlázovský",
+                "text": "",
+                "bgcolor" : "#EB8A7D"
             }]
         },
-
-        { "project": [
-            {
-                "title": "Žabětín",
-                "title2": "????????????",
-                "bgcolor" : "#EDECE7",
-                "lokace" : "Někde",
-                "status" : ["Kaka" , "Laka"],
-                "klient" : "Zřizovatel",
+        { "project": [{
+                "nickname": "Franta",
+                "title": "Ateliér mezi rybníky",
+                "klient" : "František Štorm",
+                "lokace" : "Domanín u Třeboně, Česká republika",
+                "typologie" : ["rodinný dům", "ateliér" ],
+                "typ" : "rekonstrukce",
+                "rok" : "2017-2020",
+                "status" : "realizace",
+                "uzplocha" : "276 m²",
+                "velikost" : "0,39 ha",
                 "naklady" : "1 500 000",
-                "rok" : "2019",
-                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+                "autori" : "MgA. Jan Říčný, MgA. Filip Kosek",
+                "spoluautori" : "MgA. Marie Adámková, Ing. arch. Petr Müller",
+                "odbspoluprace" : "Ing. Filip Chmel, Ing. Petr Honzátko",
+                "text": "František Štorm je světoznámý český typograf, grafický umělec a hudebník. Sdědil usedlost v jižních Čechách, kde tráví volný čas. Jeho kreativní se tam však postupně přesouvá a rád by ji obýval celoročně. Ačkoliv usedlost byla rozšířena do dnešní archetypální formy jeho otcem teprve nedávno, místní úřady ji považují za cennou. Proto je nutné zachovat její formu z exteriéru.<br> Nový ateliér nahrazuje stávající stodolu a zasahuje do dvorku. Jeho archtyp je vymezen dvěma domy a dvěma stěnami s bránami vytvářejícími centrální osu. Stávající brána se stává oknem ateliéru a dvorní fasáda je vytvořena skleněnou stěnou. Osa je zachycena rámem otevíratelného okna. Střecha ateliéru je definována původní fasádní stěnou, čímž respektuje požadavek uloženým místní samosprávou.<br>Až na čelní zděnou stěnu se jedná o dřevostavbu s teřaskými spoji. Roznášecí deska je vytvořena z dusané hlíny, jež také stabilizuje vnitřní vlhkost. Složitý střešní tvar a omezený rozpočet nás vedly do atypických řešení jako vložení skleněných tabulí přímo do dřevěné konstrukce. Byla zpracována velmi podrobná dokumentace, která objekt řeší také po technické stránce, čímž jsme měli až do konce kontrolu nad cenou i designem.",
+                "bgcolor" : "#EDDC92"
             }]
         },
-
-        { "project": [
-            {
-                "title": "Vršovická",
-                "title2": "???????????????",
-                "bgcolor" : "#62AEAE",
-                "lokace" : "Někde",
-                "status" : ["Kaka" , "Laka"],
-                "klient" : "Zřizovatel",
+        { "project": [{
+                "nickname": "Chuchle",
+                "title": "Viladomy Hvězdárna, Velká Chuchle, Praha",
+                "klient" : "soukromý",
+                "lokace" : "Praha – Velká Chuchle, Česká republika",
+                "typologie" : ["obytné budovy" ],
+                "typ" : "novostavba",
+                "rok" : "2012-",
+                "status" : "v realizace",
+                "uzplocha" : "276 m²",
+                "velikost" : "0,39 ha",
                 "naklady" : "1 500 000",
+                "autori" : "Ing.arch.,akad.arch. Jaroslav Kosek",
+                "spoluautori" : "MgA. Filip Kosek, MgA. Jan Říčný",
+                "odbspoluprace" : "Mařena – krajinná architektura",
+                "text": "",
+                "bgcolor" : "#A5B259"
+            }]
+        },
+        { "project": [{
+                "nickname": "Tajemné Dálky",
+                "title": "Národní galerie – Tajemné dálky",
+                "klient" : "Národní galerie Praha",
+                "lokace" : "Praha, Česká republika",
+                "typologie" : ["výstava" ],
+                "typ" : "novostavba",
+                "rok" : "2015",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
+                "spoluautori" : "Otto M. Urban Ph.D. – autor výstavy",
+                "odbspoluprace" : "Phdr. Anna Pravdová, Ph.D – kurátorka",
+                "text": "",
+                "bgcolor" : "#C7D0D0"
+            }]
+        },
+        { "project": [{
+                "nickname": "Žitná",
+                "title": "Žitná 14, dostavba a rekonstrukce bytového domu",
+                "klient" : "soukromý",
+                "lokace" : "Praha 2 – Nové město, Česká republika",
+                "typologie" : ["obytná budova" ],
+                "typ" : "dostavba, rekonstrukce",
+                "rok" : "2018",
+                "status" : "územní řízení",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA. Jan Říčný, MgA. Filip Kosek",
+                "spoluautori" : "Bc. Barbora Tauerová, Bc. Erika Trang Nguyen Thu, Ing. arch. Petr Müller",
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : "#F3B790"
+            }]
+        },
+        { "project": [{
+                "nickname": "Parkovací dům u Krajského úřadu",
+                "title": "Parkovací dům u Krajského úřadu",
+                "klient" : "Statutární město Ostrava",
+                "lokace" : "Ostrava, Česká republika",
+                "typologie" : ["občanská vybavenost" ],
+                "typ" : "novostavba",
                 "rok" : "2019",
-                "text": "oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice."
+                "status" : "jednofázová otevřená projektová architektonická soutěž",
+                "uzplocha" : "27 733 m²",
+                "velikost" : "0,89 ha",
+                "naklady" : "328,5 mil. Kč",
+                "autori" : "Ing. arch. Petr Müller, Bc. Erika Trang Nguyen Thu, MgA. Jan Říčný, MgA. Filip Kosek",
+                "spoluautori" : "Ing. arch. Michal Říčný, Ing. Arch. Tuan Manh Nguyen, Marie-Anne Poully, Michal Sljusar, Hanka Turnovská",
+                "odbspoluprace" : "Ing. arch. Michal Říčný",
+                "text": "Ulice 28. října v Ostravě je dlouhou osou spojující kraj města s jeho jádrem. Má potenciál stát se bulvárem nesoucím důležité instituce a kulturní budovy. Město Ostrava vypsalo soutěž na nový parkovací dům jako řešení nedostatku stání pro stávající instituce.<br>Předepsaný program považujeme za protikladný k vizi ulice 28. října. Naše odpověď na rozporuplnou funkci je hledání nového významu. Parkovací dům čteme jako součást infrastruktury města a rozšíření veřejného prostoru. Konstrukci lze užít a reinterpretovat pro maximum možných dočasných i stálých provozů v měřítku od malých stánků po plnohodnotné kanceláře a galerie a to bez omezení primární funkce.<br>Budova s maximálním objemem je situována těsně k ulici, aby posílila městský charakter a definovala náležitý veřejný prostor pro sousední koncertní sál, knihovnu a krajský úřad. Odpovědí na formální městský charakter sousedních instituací je konstrukční symetrie, centrální rampa tvořená dvojitou spirálou a flexibilně využitelné a oddělitelné převýšené prostory. Přízemí a fasáda jsou záměrně ponechány prázdné jako tabula rasa. Naší vizí je vytvoření nestárnoucí struktury, protože si dnes jen těžko dokážeme představit jak budovy a veřejný prostor budou v budoucnu užívány.",
+                "bgcolor" : "#F2A3B9"
             }]
         }
-
 
     ]
 }    

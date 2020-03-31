@@ -15,7 +15,7 @@ block content
 
 
 						.attribute-container.part-information.clientcosts
-							.attribute(data-name='Part Description').noborder Status
+							.attribute(data-name='Part Description').noborder Typologie
 							.attribute-container.vendor-information
 								.attribute Client
 								.attribute Costs
@@ -32,12 +32,12 @@ block content
 								img(src=gimg[index][0][0], alt="", width="150px")
 							.attribute-container.part-information
 								.attribute-container.part-id
-									.attribute(data-name='#') #{item.title}
+									.attribute(data-name='#') #{item.nickname}
 									.attribute(data-name='Part Number') #{item.lokace}
 
 							.attribute-container.quantity.clientcosts
 								.attribute(data-name='Part Description')
-									each stat in projects[index].project[0].status
+									each stat in projects[index].project[0].typologie
 										span #{stat} <br>
 
 								.attribute-container.vendor-information

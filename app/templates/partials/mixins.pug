@@ -14,7 +14,7 @@ mixin mfooter (footerData)
 			br
 			span
 				a(href="single" + pi + ".html") Prev project
-		div.project-text-modal #{projects[i].project[0].title2}
+		div.project-text-modal #{projects[i].project[0].title}
 			br
 			span #{projects[i].project[0].rok}
 			br
@@ -27,7 +27,7 @@ mixin mfooter (footerData)
 
 
 mixin mimages (index)
-	.grid#content
+	.grid#content #{ahoj}
 		ul.grid-ul
 			li
 				div.carousel
@@ -41,14 +41,15 @@ mixin mimages (index)
 					each item in gimg[index][1]
 						div
 							img(data-lazy=item)
+	
 	.modal-wrap.closed#modal
 		.modal-window
 			.modal-close#close-button
 				a(class="nav-link", href="#",onclick="return false" )
 					img(src="images/ico_close", alt="")
 			.modal-content 
-				p #{projects[i].project[0].title2}<br><br>
-				p #{projects[i].project[0].text}
+				p #{projects[i].project[0].title}<br><br>
+				p !{projects[i].project[0].text}
 				.credentials
 					.cred
 						span Lokace 
@@ -71,7 +72,7 @@ mixin mimages (index)
 						span #{projects[i].project[0].rok}
 				.credentials
 					.cred
-						span Status 
+						span Typologie 
 					.cred
-						each item in projects[i].project[0].status
+						each item in projects[i].project[0].typologie
 							span #{item} <br>
