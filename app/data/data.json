@@ -165,6 +165,7 @@
             }]
         },
         { "project": [{
+                "comment": "project id 24",
                 "nickname": "Parkovací dům u Krajského úřadu",
                 "title": "Parkovací dům u Krajského úřadu",
                 "klient" : "Statutární město Ostrava",
@@ -181,6 +182,26 @@
                 "odbspoluprace" : "Ing. arch. Michal Říčný",
                 "text": "Ulice 28. října v Ostravě je dlouhou osou spojující kraj města s jeho jádrem. Má potenciál stát se bulvárem nesoucím důležité instituce a kulturní budovy. Město Ostrava vypsalo soutěž na nový parkovací dům jako řešení nedostatku stání pro stávající instituce.<br>Předepsaný program považujeme za protikladný k vizi ulice 28. října. Naše odpověď na rozporuplnou funkci je hledání nového významu. Parkovací dům čteme jako součást infrastruktury města a rozšíření veřejného prostoru. Konstrukci lze užít a reinterpretovat pro maximum možných dočasných i stálých provozů v měřítku od malých stánků po plnohodnotné kanceláře a galerie a to bez omezení primární funkce.<br>Budova s maximálním objemem je situována těsně k ulici, aby posílila městský charakter a definovala náležitý veřejný prostor pro sousední koncertní sál, knihovnu a krajský úřad. Odpovědí na formální městský charakter sousedních instituací je konstrukční symetrie, centrální rampa tvořená dvojitou spirálou a flexibilně využitelné a oddělitelné převýšené prostory. Přízemí a fasáda jsou záměrně ponechány prázdné jako tabula rasa. Naší vizí je vytvoření nestárnoucí struktury, protože si dnes jen těžko dokážeme představit jak budovy a veřejný prostor budou v budoucnu užívány.",
                 "bgcolor" : "#F2A3B9"
+            }]
+        },
+        { "project": [{
+                "comment": "project id 26",
+                "nickname": "MŠ Červený Vrch",
+                "title": "MŠ Červený Vrch",
+                "klient" : "Městská část Praha 6",
+                "lokace" : "Praha 6 – Dejvice, Česká republika",
+                "typologie" : ["občanská vybavenost" ],
+                "typ" : "novostavba",
+                "rok" : "2020",
+                "status" : "jednofázová otevřená projektová architektonická soutěž",
+                "uzplocha" : "1 320 m²",
+                "velikost" : "0,34 ha",
+                "naklady" : "50 mil. Kč",
+                "autori" : "MgA. Jan Říčný, MgA. Filip Kosek, Ing. arch. Petr Müller, MgA. Bibiana Heinichová",
+                "spoluautori" : "Marie-Anne Poully",
+                "odbspoluprace" : "",
+                "text": "Architektonická soutěž na novou školku byla vypsána městskou částí Praha 6. Zvolená parcela se strategicky nachází na sídlišti. Ačkoliv severo-západní roh pozemku základní školy Červený Vrch vypadá jako ideální pro novou budovu, při bližším průzkumu narazíme na řadu protichůdných limitů – ulice ležící téměř o 4 metry níže, páteřní trasa teplovodu na hranici pozemku a zejména nároží v soukromém vlastnictví.<br>Na první pohled nelogicky navrhujeme umístit budovu do její limitní polohy v rohu. Nezastavitelné plochy definujeme jako veřejnou zeleň a poloveřejnou cestu s dvěma předprostory, z kterých se vstupuje do budovy a neotáčíme se k okolí zády. Tím nám zůstává velká jihovýchodní zahrada, která využívá 100% z nepraktického tvaru pozemku.<br> Budova je koncipována jako nehierarchická. U obou předprostorů se nachází vstup spolu s modelárnou a výukovou učebnou, které mohou sloužit také externím návštěvníkům. Čtyři třídy a multifunkční herna jsou na jedné straně propojeny proplétajícím se hravým koridorem a na druhé se ocitají přímo v zahradě. Spirálové schodiště stoupá do meditativního kruhového spícího patérka. Použitím posuvných oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice.<br>Školka je první místo, kde děti čelí cizímu prostředí samy bez rodičů. Myslíme si, že je důležité aby jejich první vztahy a zkušenosti vznikali v přírodě. Zejména dnes se všudypřítomnou technikou by děti měly být schopni ocenit skutečný svět. Proto navrhujeme budovu jako dřevostavbu s pohledovou tesařskou trámovou konstrukcí doplněnou přírodním linoleem. Nicméně nosné sloupy jsou betonové, aby lépe přenesly boční zatížení a dali větší svobodu stěnám.<br>Školka je zabalena vlnitým hliníkovým plechem a roštem ve tvaru mraků, čímž dostává téměř surrealní ráz aniž by přitahovala na sebe pozornost. Nejedná se však o samoúčelný design – provětrávaná vrstva a slunolamy udržují budovu chladnou v létě téměř bez údržby.",
+                "bgcolor" : "#BFA785"
             }]
         }
 
