@@ -241,6 +241,12 @@ a {
     .menu .langer .lang .nav-item .nav-link {
       margin: 0 0.4vh; }
 
+.slick-slider .slick-arrow {
+  display: none; }
+  @media (min-width: 900px) {
+    .slick-slider .slick-arrow {
+      display: block; } }
+
 .nav_menu {
   grid-area: pagl; }
 

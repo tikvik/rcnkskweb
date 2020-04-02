@@ -146,6 +146,12 @@ a
 				.nav-link
 					margin: 0 $gap/10
 
+// vypnutí šipek pro mobily
+.slick-slider
+	.slick-arrow
+		display: none
+		@include for-size(md)
+			display: block
 .nav_menu
 	grid-area: pagl
 
