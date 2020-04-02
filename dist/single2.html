@@ -45,9 +45,15 @@
               <ul class="grid-ul">
                 <li>
                   <div class="carousel">
-                    <div><img src="images/projects/02_kulatak/00.jpg"/></div>
-                    <div><img src="images/projects/02_kulatak/01.jpg"/></div>
-                    <div><img src="images/projects/02_kulatak/02.jpg"/></div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/02_kulatak/00.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/02_kulatak/01.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/02_kulatak/02.jpg"/></div>
+                    </div>
                   </div>
                 </li>
                 <li>
@@ -64,7 +70,7 @@
             </div>
             <div class="modal-wrap closed" id="modal">
               <div class="modal-window">
-                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close" alt=""/></a></div>
+                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
                 <div class="modal-content"> 
                   <p>Proměna Vítězného Náměstí<br><br></p>
                   <p></p>
@@ -92,70 +98,108 @@
                 </div>
               </div>
             </div>
+            <!-- The Modal-->
+            <div class="modal" id="myModal">
+              <!-- Modal content-->
+              <div class="modal-content"><span class="close">&times;</span>
+                <div class="slider-for">
+                  <div><img class="img-fluid" src="images/projects/02_kulatak/00.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/02_kulatak/01.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/02_kulatak/02.jpg"/></div>
+                </div>
+              </div>
+            </div>
       <script>
-        var content = document.querySelector("#content");
-        var popiska = document.querySelector(".open-button");
-        var modal = document.querySelector("#modal");
-        var closeButton = document.querySelector("#close-button");
-        var openButton = document.querySelector(".open-button");
+        		var content = document.querySelector("#content");
+        		var popiska = document.querySelector(".open-button");
+        		var modal = document.querySelector("#modal");
+        		var closeButton = document.querySelector("#close-button");
+        		var openButton = document.querySelector(".open-button");
         
         
-        openButton.addEventListener("click", function() {
-        	content.classList.toggle("closed");
-        	//- popiska.classList.toggle("closed");
-        	modal.classList.toggle("closed");
-        	if (openButton.innerHTML === "View text") {
-        	    openButton.innerHTML = "Close text";
-        	  } else {
-        	    openButton.innerHTML = "View text";
-        	  }
-        });
+        		openButton.addEventListener("click", function() {
+        			content.classList.toggle("closed");
+        			//- popiska.classList.toggle("closed");
+        			modal.classList.toggle("closed");
+        			if (openButton.innerHTML === "View text") {
+        			    openButton.innerHTML = "Close text";
+        			  } else {
+        			    openButton.innerHTML = "View text";
+        			  }
+        		});
         
-        closeButton.addEventListener("click", function() {
-        	modal.classList.toggle("closed");
-        	content.classList.toggle("closed");
-        	//- popiska.classList.toggle("closed");
-        	if (popiska.innerHTML === "View text") {
-        	    popiska.innerHTML = "Close text";
-        	  } else {
-        	    popiska.innerHTML = "View text";
-        	  }
-        });
+        		closeButton.addEventListener("click", function() {
+        			modal.classList.toggle("closed");
+        			content.classList.toggle("closed");
+        			//- popiska.classList.toggle("closed");
+        			if (popiska.innerHTML === "View text") {
+        			    popiska.innerHTML = "Close text";
+        			  } else {
+        			    popiska.innerHTML = "View text";
+        			  }
+        		});
         
-        $('.lazy').slick({
-          lazyLoad: 'ondemand',
-          slidesToShow: 2,
-          slidesToScroll: 2
-        });
-        
-        
-        
-        $(document).ready(function(){
-        	var $status = $('.pag-info');
-        	var $status2 = $('.pag-info2');
-        	var $slickElement = $('.carousel');
-        	var $slickElement2 = $('.carousel2');
-        
-        	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-        	  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-        		var i = (currentSlide ? currentSlide : 0) + 1;
-        		$status.text(i + '/' + slick.slideCount);
-        	});
-        
-        	$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-        		//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-        		var i = (currentSlide ? currentSlide : 0) + 1;
-        		$status2.text(i + '/' + slick.slideCount);
-        	});
+        		$('.lazy').slick({
+        		  lazyLoad: 'ondemand',
+        		  slidesToShow: 2,
+        		  slidesToScroll: 2
+        		});
         
         
+        		
+        		$(document).ready(function(){
+        			var $status = $('.pag-info');
+        			var $status2 = $('.pag-info2');
+        			var $slickElement = $('.carousel');
+        			var $slickElement2 = $('.carousel2');
         
-        	$('.carousel').slick({
-        	});
-        	$('.carousel2').slick({
+        			$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        			  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        				var i = (currentSlide ? currentSlide : 0) + 1;
+        				$status.text(i + '/' + slick.slideCount);
+        			});
         
-        	});
-        });
+        			$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        				//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        				var i = (currentSlide ? currentSlide : 0) + 1;
+        				$status2.text(i + '/' + slick.slideCount);
+        			});
+        
+        
+        			$('.slider-for').slick({
+        				arrows: false,
+        				fade: false,
+        				asNavFor: '.carousel',
+        				variableWidth: false
+        			});
+        
+        			$('.carousel').slick({
+        				asNavFor: '.slider-for',
+        			});
+        
+        			$('.carousel2').slick({
+        
+        			});
+        
+        		});
+        
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("#myBtn");
+        var span = document.getElementsByClassName("close")[0];
+        var myslider = document.getElementsByClassName(".slider-for");
+        function mymodal() {
+        	
+        	  modal.style.display = "block";
+        	  $('.slider-for').slick('refresh');
+        }
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
       </script>
     </div>
   </body>

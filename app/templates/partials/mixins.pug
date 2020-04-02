@@ -27,14 +27,20 @@ mixin mfooter (footerData)
 
 
 mixin mimages (index)
-	.grid#content #{ahoj}
+
+	.grid#content
 		ul.grid-ul
 			li
 				div.carousel
-					each item in gimg[index][0]
+					each item, i in gimg[index][0]
 						div
 							//- img(data-lazy=item)
-							img(src=item)
+							div(onclick="mymodal()")
+								img(src=item)
+
+
+
+
 				
 
 			li
@@ -44,11 +50,12 @@ mixin mimages (index)
 							//- img(data-lazy=item)
 							img(src=item)
 	
+
 	.modal-wrap.closed#modal
 		.modal-window
 			.modal-close#close-button
 				a(class="nav-link", href="#",onclick="return false" )
-					img(src="images/ico_close", alt="")
+					img(src="images/ico_close.svg", alt="")
 			.modal-content 
 				p #{projects[i].project[0].title}<br><br>
 				p !{projects[i].project[0].text}
@@ -78,3 +85,19 @@ mixin mimages (index)
 					.cred
 						each item in projects[i].project[0].typologie
 							span #{item} <br>
+
+
+
+	// The Modal
+	#myModal.modal
+		// Modal content
+		.modal-content
+			span.close &times;
+			div.slider-for
+				each item in gimg[index][0]
+						div
+							//- img(data-lazy=item)
+							img.img-fluid(src=item)
+
+
+

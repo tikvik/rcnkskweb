@@ -45,14 +45,30 @@
               <ul class="grid-ul">
                 <li>
                   <div class="carousel">
-                    <div><img src="images/projects/04_franta/00.jpg"/></div>
-                    <div><img src="images/projects/04_franta/01.jpg"/></div>
-                    <div><img src="images/projects/04_franta/02.jpg"/></div>
-                    <div><img src="images/projects/04_franta/03.jpg"/></div>
-                    <div><img src="images/projects/04_franta/04.jpg"/></div>
-                    <div><img src="images/projects/04_franta/05.jpg"/></div>
-                    <div><img src="images/projects/04_franta/06.jpg"/></div>
-                    <div><img src="images/projects/04_franta/07.jpg"/></div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/04_franta/00.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/04_franta/01.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/04_franta/02.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/04_franta/03.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/04_franta/04.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/04_franta/05.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/04_franta/06.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/04_franta/07.jpg"/></div>
+                    </div>
                   </div>
                 </li>
                 <li>
@@ -74,7 +90,7 @@
             </div>
             <div class="modal-wrap closed" id="modal">
               <div class="modal-window">
-                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close" alt=""/></a></div>
+                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
                 <div class="modal-content"> 
                   <p>Ateliér mezi rybníky<br><br></p>
                   <p>František Štorm je světoznámý český typograf, grafický umělec a hudebník. Sdědil usedlost v jižních Čechách, kde tráví volný čas. Jeho kreativní se tam však postupně přesouvá a rád by ji obýval celoročně. Ačkoliv usedlost byla rozšířena do dnešní archetypální formy jeho otcem teprve nedávno, místní úřady ji považují za cennou. Proto je nutné zachovat její formu z exteriéru.<br> Nový ateliér nahrazuje stávající stodolu a zasahuje do dvorku. Jeho archtyp je vymezen dvěma domy a dvěma stěnami s bránami vytvářejícími centrální osu. Stávající brána se stává oknem ateliéru a dvorní fasáda je vytvořena skleněnou stěnou. Osa je zachycena rámem otevíratelného okna. Střecha ateliéru je definována původní fasádní stěnou, čímž respektuje požadavek uloženým místní samosprávou.<br>Až na čelní zděnou stěnu se jedná o dřevostavbu s teřaskými spoji. Roznášecí deska je vytvořena z dusané hlíny, jež také stabilizuje vnitřní vlhkost. Složitý střešní tvar a omezený rozpočet nás vedly do atypických řešení jako vložení skleněných tabulí přímo do dřevěné konstrukce. Byla zpracována velmi podrobná dokumentace, která objekt řeší také po technické stránce, čímž jsme měli až do konce kontrolu nad cenou i designem.</p>
@@ -102,70 +118,113 @@
                 </div>
               </div>
             </div>
+            <!-- The Modal-->
+            <div class="modal" id="myModal">
+              <!-- Modal content-->
+              <div class="modal-content"><span class="close">&times;</span>
+                <div class="slider-for">
+                  <div><img class="img-fluid" src="images/projects/04_franta/00.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/04_franta/01.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/04_franta/02.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/04_franta/03.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/04_franta/04.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/04_franta/05.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/04_franta/06.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/04_franta/07.jpg"/></div>
+                </div>
+              </div>
+            </div>
       <script>
-        var content = document.querySelector("#content");
-        var popiska = document.querySelector(".open-button");
-        var modal = document.querySelector("#modal");
-        var closeButton = document.querySelector("#close-button");
-        var openButton = document.querySelector(".open-button");
+        		var content = document.querySelector("#content");
+        		var popiska = document.querySelector(".open-button");
+        		var modal = document.querySelector("#modal");
+        		var closeButton = document.querySelector("#close-button");
+        		var openButton = document.querySelector(".open-button");
         
         
-        openButton.addEventListener("click", function() {
-        	content.classList.toggle("closed");
-        	//- popiska.classList.toggle("closed");
-        	modal.classList.toggle("closed");
-        	if (openButton.innerHTML === "View text") {
-        	    openButton.innerHTML = "Close text";
-        	  } else {
-        	    openButton.innerHTML = "View text";
-        	  }
-        });
+        		openButton.addEventListener("click", function() {
+        			content.classList.toggle("closed");
+        			//- popiska.classList.toggle("closed");
+        			modal.classList.toggle("closed");
+        			if (openButton.innerHTML === "View text") {
+        			    openButton.innerHTML = "Close text";
+        			  } else {
+        			    openButton.innerHTML = "View text";
+        			  }
+        		});
         
-        closeButton.addEventListener("click", function() {
-        	modal.classList.toggle("closed");
-        	content.classList.toggle("closed");
-        	//- popiska.classList.toggle("closed");
-        	if (popiska.innerHTML === "View text") {
-        	    popiska.innerHTML = "Close text";
-        	  } else {
-        	    popiska.innerHTML = "View text";
-        	  }
-        });
+        		closeButton.addEventListener("click", function() {
+        			modal.classList.toggle("closed");
+        			content.classList.toggle("closed");
+        			//- popiska.classList.toggle("closed");
+        			if (popiska.innerHTML === "View text") {
+        			    popiska.innerHTML = "Close text";
+        			  } else {
+        			    popiska.innerHTML = "View text";
+        			  }
+        		});
         
-        $('.lazy').slick({
-          lazyLoad: 'ondemand',
-          slidesToShow: 2,
-          slidesToScroll: 2
-        });
-        
-        
-        
-        $(document).ready(function(){
-        	var $status = $('.pag-info');
-        	var $status2 = $('.pag-info2');
-        	var $slickElement = $('.carousel');
-        	var $slickElement2 = $('.carousel2');
-        
-        	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-        	  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-        		var i = (currentSlide ? currentSlide : 0) + 1;
-        		$status.text(i + '/' + slick.slideCount);
-        	});
-        
-        	$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-        		//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-        		var i = (currentSlide ? currentSlide : 0) + 1;
-        		$status2.text(i + '/' + slick.slideCount);
-        	});
+        		$('.lazy').slick({
+        		  lazyLoad: 'ondemand',
+        		  slidesToShow: 2,
+        		  slidesToScroll: 2
+        		});
         
         
+        		
+        		$(document).ready(function(){
+        			var $status = $('.pag-info');
+        			var $status2 = $('.pag-info2');
+        			var $slickElement = $('.carousel');
+        			var $slickElement2 = $('.carousel2');
         
-        	$('.carousel').slick({
-        	});
-        	$('.carousel2').slick({
+        			$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        			  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        				var i = (currentSlide ? currentSlide : 0) + 1;
+        				$status.text(i + '/' + slick.slideCount);
+        			});
         
-        	});
-        });
+        			$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        				//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        				var i = (currentSlide ? currentSlide : 0) + 1;
+        				$status2.text(i + '/' + slick.slideCount);
+        			});
+        
+        
+        			$('.slider-for').slick({
+        				arrows: false,
+        				fade: false,
+        				asNavFor: '.carousel',
+        				variableWidth: false
+        			});
+        
+        			$('.carousel').slick({
+        				asNavFor: '.slider-for',
+        			});
+        
+        			$('.carousel2').slick({
+        
+        			});
+        
+        		});
+        
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("#myBtn");
+        var span = document.getElementsByClassName("close")[0];
+        var myslider = document.getElementsByClassName(".slider-for");
+        function mymodal() {
+        	
+        	  modal.style.display = "block";
+        	  $('.slider-for').slick('refresh');
+        }
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
       </script>
     </div>
   </body>

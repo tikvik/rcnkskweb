@@ -55,10 +55,41 @@ script.
 				});
 
 
+				$('.slider-for').slick({
+					arrows: false,
+					fade: false,
+					asNavFor: '.carousel',
+					variableWidth: false
+				});
 
 				$('.carousel').slick({
+					asNavFor: '.slider-for',
 				});
+
 				$('.carousel2').slick({
 
 				});
+
 			});
+
+	var modal = document.getElementById("myModal");
+	var btn = document.getElementById("#myBtn");
+	var span = document.getElementsByClassName("close")[0];
+	var myslider = document.getElementsByClassName(".slider-for");
+	function mymodal() {
+		
+		  modal.style.display = "block";
+		  $('.slider-for').slick('refresh');
+	}
+	span.onclick = function() {
+	  modal.style.display = "none";
+	}
+	window.onclick = function(event) {
+	  if (event.target == modal) {
+	    modal.style.display = "none";
+	  }
+	}
+
+
+
+

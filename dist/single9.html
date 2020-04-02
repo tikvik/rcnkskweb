@@ -45,13 +45,27 @@
               <ul class="grid-ul">
                 <li>
                   <div class="carousel">
-                    <div><img src="images/projects/26_cervenakskolka/00.jpg"/></div>
-                    <div><img src="images/projects/26_cervenakskolka/01.jpg"/></div>
-                    <div><img src="images/projects/26_cervenakskolka/02.jpg"/></div>
-                    <div><img src="images/projects/26_cervenakskolka/03.jpg"/></div>
-                    <div><img src="images/projects/26_cervenakskolka/04.jpg"/></div>
-                    <div><img src="images/projects/26_cervenakskolka/05.jpg"/></div>
-                    <div><img src="images/projects/26_cervenakskolka/06.jpg"/></div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/26_cervenakskolka/00.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/26_cervenakskolka/01.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/26_cervenakskolka/02.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/26_cervenakskolka/03.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/26_cervenakskolka/04.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/26_cervenakskolka/05.jpg"/></div>
+                    </div>
+                    <div>
+                      <div onclick="mymodal()"><img src="images/projects/26_cervenakskolka/06.jpg"/></div>
+                    </div>
                   </div>
                 </li>
                 <li>
@@ -73,7 +87,7 @@
             </div>
             <div class="modal-wrap closed" id="modal">
               <div class="modal-window">
-                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close" alt=""/></a></div>
+                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
                 <div class="modal-content"> 
                   <p>MŠ Červený Vrch<br><br></p>
                   <p>Architektonická soutěž na novou školku byla vypsána městskou částí Praha 6. Zvolená parcela se strategicky nachází na sídlišti. Ačkoliv severo-západní roh pozemku základní školy Červený Vrch vypadá jako ideální pro novou budovu, při bližším průzkumu narazíme na řadu protichůdných limitů – ulice ležící téměř o 4 metry níže, páteřní trasa teplovodu na hranici pozemku a zejména nároží v soukromém vlastnictví.<br>Na první pohled nelogicky navrhujeme umístit budovu do její limitní polohy v rohu. Nezastavitelné plochy definujeme jako veřejnou zeleň a poloveřejnou cestu s dvěma předprostory, z kterých se vstupuje do budovy a neotáčíme se k okolí zády. Tím nám zůstává velká jihovýchodní zahrada, která využívá 100% z nepraktického tvaru pozemku.<br> Budova je koncipována jako nehierarchická. U obou předprostorů se nachází vstup spolu s modelárnou a výukovou učebnou, které mohou sloužit také externím návštěvníkům. Čtyři třídy a multifunkční herna jsou na jedné straně propojeny proplétajícím se hravým koridorem a na druhé se ocitají přímo v zahradě. Spirálové schodiště stoupá do meditativního kruhového spícího patérka. Použitím posuvných oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice.<br>Školka je první místo, kde děti čelí cizímu prostředí samy bez rodičů. Myslíme si, že je důležité aby jejich první vztahy a zkušenosti vznikali v přírodě. Zejména dnes se všudypřítomnou technikou by děti měly být schopni ocenit skutečný svět. Proto navrhujeme budovu jako dřevostavbu s pohledovou tesařskou trámovou konstrukcí doplněnou přírodním linoleem. Nicméně nosné sloupy jsou betonové, aby lépe přenesly boční zatížení a dali větší svobodu stěnám.<br>Školka je zabalena vlnitým hliníkovým plechem a roštem ve tvaru mraků, čímž dostává téměř surrealní ráz aniž by přitahovala na sebe pozornost. Nejedná se však o samoúčelný design – provětrávaná vrstva a slunolamy udržují budovu chladnou v létě téměř bez údržby.</p>
@@ -101,70 +115,112 @@
                 </div>
               </div>
             </div>
+            <!-- The Modal-->
+            <div class="modal" id="myModal">
+              <!-- Modal content-->
+              <div class="modal-content"><span class="close">&times;</span>
+                <div class="slider-for">
+                  <div><img class="img-fluid" src="images/projects/26_cervenakskolka/00.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/26_cervenakskolka/01.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/26_cervenakskolka/02.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/26_cervenakskolka/03.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/26_cervenakskolka/04.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/26_cervenakskolka/05.jpg"/></div>
+                  <div><img class="img-fluid" src="images/projects/26_cervenakskolka/06.jpg"/></div>
+                </div>
+              </div>
+            </div>
       <script>
-        var content = document.querySelector("#content");
-        var popiska = document.querySelector(".open-button");
-        var modal = document.querySelector("#modal");
-        var closeButton = document.querySelector("#close-button");
-        var openButton = document.querySelector(".open-button");
+        		var content = document.querySelector("#content");
+        		var popiska = document.querySelector(".open-button");
+        		var modal = document.querySelector("#modal");
+        		var closeButton = document.querySelector("#close-button");
+        		var openButton = document.querySelector(".open-button");
         
         
-        openButton.addEventListener("click", function() {
-        	content.classList.toggle("closed");
-        	//- popiska.classList.toggle("closed");
-        	modal.classList.toggle("closed");
-        	if (openButton.innerHTML === "View text") {
-        	    openButton.innerHTML = "Close text";
-        	  } else {
-        	    openButton.innerHTML = "View text";
-        	  }
-        });
+        		openButton.addEventListener("click", function() {
+        			content.classList.toggle("closed");
+        			//- popiska.classList.toggle("closed");
+        			modal.classList.toggle("closed");
+        			if (openButton.innerHTML === "View text") {
+        			    openButton.innerHTML = "Close text";
+        			  } else {
+        			    openButton.innerHTML = "View text";
+        			  }
+        		});
         
-        closeButton.addEventListener("click", function() {
-        	modal.classList.toggle("closed");
-        	content.classList.toggle("closed");
-        	//- popiska.classList.toggle("closed");
-        	if (popiska.innerHTML === "View text") {
-        	    popiska.innerHTML = "Close text";
-        	  } else {
-        	    popiska.innerHTML = "View text";
-        	  }
-        });
+        		closeButton.addEventListener("click", function() {
+        			modal.classList.toggle("closed");
+        			content.classList.toggle("closed");
+        			//- popiska.classList.toggle("closed");
+        			if (popiska.innerHTML === "View text") {
+        			    popiska.innerHTML = "Close text";
+        			  } else {
+        			    popiska.innerHTML = "View text";
+        			  }
+        		});
         
-        $('.lazy').slick({
-          lazyLoad: 'ondemand',
-          slidesToShow: 2,
-          slidesToScroll: 2
-        });
-        
-        
-        
-        $(document).ready(function(){
-        	var $status = $('.pag-info');
-        	var $status2 = $('.pag-info2');
-        	var $slickElement = $('.carousel');
-        	var $slickElement2 = $('.carousel2');
-        
-        	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-        	  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-        		var i = (currentSlide ? currentSlide : 0) + 1;
-        		$status.text(i + '/' + slick.slideCount);
-        	});
-        
-        	$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-        		//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-        		var i = (currentSlide ? currentSlide : 0) + 1;
-        		$status2.text(i + '/' + slick.slideCount);
-        	});
+        		$('.lazy').slick({
+        		  lazyLoad: 'ondemand',
+        		  slidesToShow: 2,
+        		  slidesToScroll: 2
+        		});
         
         
+        		
+        		$(document).ready(function(){
+        			var $status = $('.pag-info');
+        			var $status2 = $('.pag-info2');
+        			var $slickElement = $('.carousel');
+        			var $slickElement2 = $('.carousel2');
         
-        	$('.carousel').slick({
-        	});
-        	$('.carousel2').slick({
+        			$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        			  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        				var i = (currentSlide ? currentSlide : 0) + 1;
+        				$status.text(i + '/' + slick.slideCount);
+        			});
         
-        	});
-        });
+        			$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        				//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        				var i = (currentSlide ? currentSlide : 0) + 1;
+        				$status2.text(i + '/' + slick.slideCount);
+        			});
+        
+        
+        			$('.slider-for').slick({
+        				arrows: false,
+        				fade: false,
+        				asNavFor: '.carousel',
+        				variableWidth: false
+        			});
+        
+        			$('.carousel').slick({
+        				asNavFor: '.slider-for',
+        			});
+        
+        			$('.carousel2').slick({
+        
+        			});
+        
+        		});
+        
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("#myBtn");
+        var span = document.getElementsByClassName("close")[0];
+        var myslider = document.getElementsByClassName(".slider-for");
+        function mymodal() {
+        	
+        	  modal.style.display = "block";
+        	  $('.slider-for').slick('refresh');
+        }
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
       </script>
     </div>
   </body>
