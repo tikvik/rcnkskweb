@@ -167,13 +167,15 @@ html {
 /* Modal Content/Box */
 .modal-content {
   margin: 5% auto;
-  width: 80%; }
+  width: 80%;
+  position: relative; }
 
 /* The Close Button */
 .close {
-  color: white;
   float: right;
-  font-size: 28px;
+  text-align: center;
+  color: white;
+  font-size: 48px;
   font-weight: bold; }
 
 .close:hover,
