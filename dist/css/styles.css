@@ -152,7 +152,7 @@ html {
 #myModal {
   z-index: 5000; }
 
-.modal {
+.pmodal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -165,21 +165,21 @@ html {
   background-color: rgba(0, 0, 0, 0.8); }
 
 /* Modal Content/Box */
-.modal-content {
+.pmodal-content {
   margin: 5% auto;
   width: 80%;
   position: relative; }
 
 /* The Close Button */
-.close {
+.pclose {
   float: right;
   text-align: center;
   color: white;
   font-size: 48px;
   font-weight: bold; }
 
-.close:hover,
-.close:focus {
+.pclose:hover,
+.pclose:focus {
   color: black;
   text-decoration: none;
   cursor: pointer; }

@@ -89,13 +89,13 @@ mixin mimages (index)
 
 
 	// The Modal
-	#myModal.modal
+	#myModal.pmodal
 		// Modal content
-		.modal-content
-			span.close &times;
+		.pmodal-content
+			span.pclose &times;
 			div.slider-for
 				each item in gimg[index][0]
-						div
+						div.ppclose
 							//- img(data-lazy=item)
 							img.img-fluid(src=item)
 

@@ -111,7 +111,7 @@
                 <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
                 <div class="modal-content"> 
                   <p>Renocar BMW Urban Store, Praha<br><br></p>
-                  <p></p>
+                  <p>aaaaa</p>
                   <div class="credentials">
                     <div class="cred"><span>Lokace </span></div>
                     <div class="cred"><span>Praha, Česká republika</span></div>
@@ -137,27 +137,27 @@
               </div>
             </div>
             <!-- The Modal-->
-            <div class="modal" id="myModal">
+            <div class="pmodal" id="myModal">
               <!-- Modal content-->
-              <div class="modal-content"><span class="close">&times;</span>
+              <div class="pmodal-content"><span class="pclose">&times;</span>
                 <div class="slider-for">
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/00.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/01.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/02.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/03.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/04.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/05.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/06.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/07.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/08.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/09.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/10.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/11.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/12.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/13.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/14.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/15.jpg"/></div>
-                  <div><img class="img-fluid" src="images/projects/01_BMW_kongresak/16.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/00.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/01.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/02.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/03.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/04.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/05.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/06.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/07.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/08.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/09.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/10.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/11.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/12.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/13.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/14.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/15.jpg"/></div>
+                  <div class="ppclose"><img class="img-fluid" src="images/projects/01_BMW_kongresak/16.jpg"/></div>
                 </div>
               </div>
             </div>
@@ -191,11 +191,11 @@
         			  }
         		});
         
-        		$('.lazy').slick({
-        		  lazyLoad: 'ondemand',
-        		  slidesToShow: 2,
-        		  slidesToScroll: 2
-        		});
+        		//- $('.lazy').slick({
+        		//-   lazyLoad: 'ondemand',
+        		//-   slidesToShow: 2,
+        		//-   slidesToScroll: 2
+        		//- });
         
         
         		
@@ -226,6 +226,7 @@
         			});
         
         			$('.carousel').slick({
+        				arrows: true,
         				asNavFor: '.slider-for',
         			});
         
@@ -235,21 +236,21 @@
         
         		});
         
-        var modal = document.getElementById("myModal");
+        var pmodal = document.getElementById("myModal");
         var btn = document.getElementById("#myBtn");
-        var span = document.getElementsByClassName("close")[0];
+        var span = document.getElementsByClassName("pclose")[0];
         var myslider = document.getElementsByClassName(".slider-for");
         function mymodal() {
         	
-        	  modal.style.display = "block";
+        	  pmodal.style.display = "block";
         	  $('.slider-for').slick('refresh');
         }
         span.onclick = function() {
-          modal.style.display = "none";
+          pmodal.style.display = "none";
         }
         window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
+          if (event.target == pmodal) {
+            pmodal.style.display = "none";
           }
         }
       </script>
