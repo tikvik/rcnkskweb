@@ -48,7 +48,8 @@ mixin mimages (index)
 					each item in gimg[index][1]
 						div
 							//- img(data-lazy=item)
-							img(src=item)
+							div.pmodal-ico(onclick="mymodal2()")
+								img(src=item)
 	
 
 	.modal-wrap.closed#modal
@@ -96,6 +97,18 @@ mixin mimages (index)
 			//- 	img.svgimg(src="../images/ico_close.svg")
 			div.slider-for
 				each item in gimg[index][0]
+						div
+							//- img(data-lazy=item)
+							img.img-fluid.img-close(src=item)
+
+	// The Modal
+	#myModal2.pmodal.pmodal2
+		// Modal content
+		.pmodal-content
+			//- span.pclose
+			//- 	img.svgimg(src="../images/ico_close.svg")
+			div.slider-for2
+				each item in gimg[index][1]
 						div
 							//- img(data-lazy=item)
 							img.img-fluid.img-close(src=item)

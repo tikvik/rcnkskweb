@@ -73,17 +73,39 @@
                 </li>
                 <li>
                   <div class="carousel2">
-                    <div><img src="images/projects/04_franta/plans/P00.png"/></div>
-                    <div><img src="images/projects/04_franta/plans/P01.png"/></div>
-                    <div><img src="images/projects/04_franta/plans/P02.png"/></div>
-                    <div><img src="images/projects/04_franta/plans/P03.png"/></div>
-                    <div><img src="images/projects/04_franta/plans/P04.png"/></div>
-                    <div><img src="images/projects/04_franta/plans/P05.png"/></div>
-                    <div><img src="images/projects/04_franta/plans/P06.png"/></div>
-                    <div><img src="images/projects/04_franta/plans/P07.jpg"/></div>
-                    <div><img src="images/projects/04_franta/plans/P08.jpg"/></div>
-                    <div><img src="images/projects/04_franta/plans/P09.jpg"/></div>
-                    <div><img src="images/projects/04_franta/plans/P10.jpg"/></div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P00.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P01.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P02.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P03.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P04.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P05.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P06.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P07.jpg"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P08.jpg"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P09.jpg"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/04_franta/plans/P10.jpg"/></div>
+                    </div>
                   </div>
                 </li>
               </ul>
@@ -131,6 +153,25 @@
                   <div><img class="img-fluid img-close" src="images/projects/04_franta/05.jpg"/></div>
                   <div><img class="img-fluid img-close" src="images/projects/04_franta/06.jpg"/></div>
                   <div><img class="img-fluid img-close" src="images/projects/04_franta/07.jpg"/></div>
+                </div>
+              </div>
+            </div>
+            <!-- The Modal-->
+            <div class="pmodal pmodal2" id="myModal2">
+              <!-- Modal content-->
+              <div class="pmodal-content">
+                <div class="slider-for2">
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P00.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P01.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P02.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P03.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P04.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P05.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P06.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P07.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P08.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P09.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/04_franta/plans/P10.jpg"/></div>
                 </div>
               </div>
             </div>
@@ -202,6 +243,17 @@
         				initialSlide: 0
         
         			});
+        			$('.slider-for2').slick({
+        				arrows: true,
+        				fade: false,
+        				asNavFor: '.carousel2',
+        				variableWidth: false,
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0
+        
+        			});
         
         			$('.carousel').slick({
         				arrows: true,
@@ -213,6 +265,8 @@
         			});
         
         			$('.carousel2').slick({
+        				arrows: true,
+        				asNavFor: '.slider-for2',
         				focusOnSelect: false,
         				accessibility: true,
         				speed: 300,
@@ -225,6 +279,12 @@
         var btn = document.getElementById("#myBtn");
         var span = document.getElementsByClassName("pclose")[0];
         var color = document.getElementById("body").style.backgroundColor
+        
+        var pmodal2 = document.getElementById("myModal2");
+        var btn2 = document.getElementById("#myBtn");
+        var span2 = document.getElementsByClassName("pclose")[0];
+        var color2 = document.getElementById("body").style.backgroundColor
+        
         
         $(document).keyup(function(e) {
           if (e.keyCode == 27) { 
@@ -239,15 +299,43 @@
         	  pmodal.style.background = color;
         	  $('.slider-for').slick('refresh');
         }
-        span.onclick = function() {
-          pmodal.style.display = "none";
-        }
+        //- span.onclick = function() {
+        //-   pmodal.style.display = "none";
+        //- }
         //- slickSlide.onclick = function() {
         //-   pmodal.style.display = "none";
         //- }
         window.onclick = function(event) {
           if (event.target == pmodal) {
             pmodal.style.display = "none";
+          }
+        }
+        
+        
+        
+        
+        $(document).keyup(function(e) {
+          if (e.keyCode == 27) { 
+          	pmodal2.style.display = "none";
+           }   // esc
+        });
+        $('.img-close').click(function() {
+           pmodal2.style.display = "none";
+        });
+        function mymodal2() {
+        	  pmodal2.style.display = "flex";
+        	  pmodal2.style.background = color;
+        	  $('.slider-for2').slick('refresh');
+        }
+        //- span.onclick = function() {
+        //-   pmodal2.style.display = "none";
+        //- }
+        //- slickSlide.onclick = function() {
+        //-   pmodal2.style.display = "none";
+        //- }
+        window.onclick = function(event) {
+          if (event.target == pmodal2) {
+            pmodal2.style.display = "none";
           }
         }
       </script>

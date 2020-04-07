@@ -148,10 +148,13 @@ html {
   max-width: 100%;
   height: auto;
   max-height: 90vh;
-  margin: 0 auto; }
+  margin: auto auto; }
 
 #myModal {
   z-index: 5000; }
+
+#myModal2 {
+  z-index: 6000; }
 
 .pmodal-ico {
   cursor: url("../images/magnif.png") 34 12, auto !important; }
@@ -197,7 +200,13 @@ html {
   margin: 4vh; }
 
 .slick-arrow {
-  height: 50% !important; }
+  height: 100% !important; }
+
+.slick-track {
+  display: flex !important;
+  align-items: center !important; }
+  .slick-track .slick-slide {
+    align-self: center !important; }
 
 .flexmodal {
   display: flex;

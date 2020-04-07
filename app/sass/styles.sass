@@ -34,11 +34,13 @@ $underline: 2px
 	max-width: 100%
 	height: auto
 	max-height: 90vh
-	margin: 0 auto
+	margin: auto auto
 
 
 #myModal
 	z-index: 5000
+#myModal2
+	z-index: 6000
 .pmodal-ico
 	cursor: url("../images/magnif.png") 34 12, auto !important
 .pmodal
@@ -62,7 +64,7 @@ $underline: 2px
 	width: 90% /* Could be more or less, depending on screen size */
 	position: relative
 	cursor: url("../images/ico_close.svg") 34 12, auto !important
-	
+
 
 /* The Close Button */
 .pclose
@@ -87,7 +89,12 @@ $underline: 2px
 	margin: $gap
 
 .slick-arrow
-	height: 50% !important
+	height: 100% !important
+.slick-track
+	display: flex !important
+	align-items: center !important
+	.slick-slide
+		align-self: center !important
 
 .flexmodal
 	display: flex
