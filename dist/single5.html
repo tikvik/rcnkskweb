@@ -136,20 +136,20 @@
             <!-- The Modal-->
             <div class="pmodal" id="myModal">
               <!-- Modal content-->
-              <div class="pmodal-content"><span class="pclose"><img class="svgimg" src="../images/ico_close.svg"/></span>
+              <div class="pmodal-content">
                 <div class="slider-for">
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/00.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/01.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/02.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/03.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/04.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/05.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/06.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/07.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/08.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/09.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/10.jpg"/></div>
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/05_chuchle/11.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/00.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/01.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/02.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/03.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/04.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/05.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/06.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/07.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/08.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/09.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/10.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/05_chuchle/11.jpg"/></div>
                 </div>
               </div>
             </div>
@@ -243,21 +243,27 @@
         var pmodal = document.getElementById("myModal");
         var btn = document.getElementById("#myBtn");
         var span = document.getElementsByClassName("pclose")[0];
-        var myslider = document.getElementsByClassName(".slider-for");
+        var color = document.getElementById("body").style.backgroundColor
         
         $(document).keyup(function(e) {
           if (e.keyCode == 27) { 
           	pmodal.style.display = "none";
            }   // esc
         });
-        
+        $('.img-close').click(function() {
+           pmodal.style.display = "none";
+        });
         function mymodal() {
-        	  pmodal.style.display = "block";
+        	  pmodal.style.display = "flex";
+        	  pmodal.style.background = color;
         	  $('.slider-for').slick('refresh');
         }
         span.onclick = function() {
           pmodal.style.display = "none";
         }
+        //- slickSlide.onclick = function() {
+        //-   pmodal.style.display = "none";
+        //- }
         window.onclick = function(event) {
           if (event.target == pmodal) {
             pmodal.style.display = "none";

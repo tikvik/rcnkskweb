@@ -170,15 +170,16 @@ html {
 
 /* Modal Content/Box */
 .pmodal-content {
-  margin: 2% auto;
+  margin: auto auto;
   width: 90%;
-  position: relative; }
+  position: relative;
+  cursor: url("../images/ico_close.svg") 34 12, auto !important; }
 
 /* The Close Button */
 .pclose {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -20px;
+  right: -20px;
   float: right;
   color: black;
   font-size: 48px;
@@ -197,6 +198,10 @@ html {
 
 .slick-arrow {
   height: 50% !important; }
+
+.flexmodal {
+  display: flex;
+  background-color: red; }
 
 body {
   font-family: TriviaSans, sans-serif;

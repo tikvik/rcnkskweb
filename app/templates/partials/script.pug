@@ -88,21 +88,27 @@ script.
 	var pmodal = document.getElementById("myModal");
 	var btn = document.getElementById("#myBtn");
 	var span = document.getElementsByClassName("pclose")[0];
-	var myslider = document.getElementsByClassName(".slider-for");
+	var color = document.getElementById("body").style.backgroundColor
 
 	$(document).keyup(function(e) {
 	  if (e.keyCode == 27) { 
 	  	pmodal.style.display = "none";
 	   }   // esc
 	});
-
+	$('.img-close').click(function() {
+	   pmodal.style.display = "none";
+	});
 	function mymodal() {
-		  pmodal.style.display = "block";
+		  pmodal.style.display = "flex";
+		  pmodal.style.background = color;
 		  $('.slider-for').slick('refresh');
 	}
 	span.onclick = function() {
 	  pmodal.style.display = "none";
 	}
+	//- slickSlide.onclick = function() {
+	//-   pmodal.style.display = "none";
+	//- }
 	window.onclick = function(event) {
 	  if (event.target == pmodal) {
 	    pmodal.style.display = "none";

@@ -57,16 +57,18 @@ $underline: 2px
 /* Modal Content/Box */
 .pmodal-content 
 	// background-color: #fefefe
-	margin: 2% auto /* 15% from the top and centered */
+	margin: auto auto /* 15% from the top and centered */
 	// border: 1px solid #888
 	width: 90% /* Could be more or less, depending on screen size */
 	position: relative
+	cursor: url("../images/ico_close.svg") 34 12, auto !important
+	
 
 /* The Close Button */
 .pclose
 	position: absolute
-	top: 0
-	right: 0
+	top: -20px
+	right: -20px
 	float: right
 	color: $black
 	font-size: 48px
@@ -87,7 +89,9 @@ $underline: 2px
 .slick-arrow
 	height: 50% !important
 
-
+.flexmodal
+	display: flex
+	background-color: red
 
 
 

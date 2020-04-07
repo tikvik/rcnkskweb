@@ -90,9 +90,9 @@
             <!-- The Modal-->
             <div class="pmodal" id="myModal">
               <!-- Modal content-->
-              <div class="pmodal-content"><span class="pclose"><img class="svgimg" src="../images/ico_close.svg"/></span>
+              <div class="pmodal-content">
                 <div class="slider-for">
-                  <div class="ppclose"><img class="img-fluid" src="images/projects/00_nesvacilka/00.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/00_nesvacilka/00.jpg"/></div>
                 </div>
               </div>
             </div>
@@ -186,21 +186,27 @@
         var pmodal = document.getElementById("myModal");
         var btn = document.getElementById("#myBtn");
         var span = document.getElementsByClassName("pclose")[0];
-        var myslider = document.getElementsByClassName(".slider-for");
+        var color = document.getElementById("body").style.backgroundColor
         
         $(document).keyup(function(e) {
           if (e.keyCode == 27) { 
           	pmodal.style.display = "none";
            }   // esc
         });
-        
+        $('.img-close').click(function() {
+           pmodal.style.display = "none";
+        });
         function mymodal() {
-        	  pmodal.style.display = "block";
+        	  pmodal.style.display = "flex";
+        	  pmodal.style.background = color;
         	  $('.slider-for').slick('refresh');
         }
         span.onclick = function() {
           pmodal.style.display = "none";
         }
+        //- slickSlide.onclick = function() {
+        //-   pmodal.style.display = "none";
+        //- }
         window.onclick = function(event) {
           if (event.target == pmodal) {
             pmodal.style.display = "none";
