@@ -146,11 +146,15 @@ html {
 
 .img-fluid {
   max-width: 100%;
-  height: 80vh;
+  height: auto;
+  max-height: 90vh;
   margin: 0 auto; }
 
 #myModal {
   z-index: 5000; }
+
+.pmodal-ico {
+  cursor: url("../images/magnif.png") 34 12, auto !important; }
 
 .pmodal {
   display: none;
@@ -162,27 +166,37 @@ html {
   height: 100%;
   overflow: auto;
   background-color: black;
-  background-color: rgba(0, 0, 0, 0.8); }
+  background-color: rgba(255, 255, 255, 0.6); }
 
 /* Modal Content/Box */
 .pmodal-content {
-  margin: 5% auto;
-  width: 80%;
+  margin: 2% auto;
+  width: 90%;
   position: relative; }
 
 /* The Close Button */
 .pclose {
+  position: absolute;
+  top: 0;
+  right: 0;
   float: right;
-  text-align: center;
-  color: white;
+  color: black;
   font-size: 48px;
-  font-weight: bold; }
+  font-weight: bold;
+  z-index: 6000; }
 
 .pclose:hover,
 .pclose:focus {
   color: black;
   text-decoration: none;
   cursor: pointer; }
+
+.svgimg {
+  height: 40px;
+  margin: 4vh; }
+
+.slick-arrow {
+  height: 50% !important; }
 
 body {
   font-family: TriviaSans, sans-serif;
@@ -420,6 +434,11 @@ a {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         grid-gap: 4vh; } }
+    @media screen and (min-height: 1000px) and (max-width: 1200px) {
+      .body_single .wrap .grid .grid-ul {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 2vh; } }
     .body_single .wrap .grid .grid-ul:before {
       padding-bottom: 0%; }
     .body_single .wrap .grid .grid-ul li {

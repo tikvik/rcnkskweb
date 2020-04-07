@@ -46,19 +46,19 @@
                 <li>
                   <div class="carousel">
                     <div>
-                      <div onclick="mymodal()"><img src="images/projects/24_ostravaparkhouse/00.jpg"/></div>
+                      <div class="pmodal-ico" onclick="mymodal()"><img src="images/projects/24_ostravaparkhouse/00.jpg"/></div>
                     </div>
                     <div>
-                      <div onclick="mymodal()"><img src="images/projects/24_ostravaparkhouse/01.jpg"/></div>
+                      <div class="pmodal-ico" onclick="mymodal()"><img src="images/projects/24_ostravaparkhouse/01.jpg"/></div>
                     </div>
                     <div>
-                      <div onclick="mymodal()"><img src="images/projects/24_ostravaparkhouse/02.jpg"/></div>
+                      <div class="pmodal-ico" onclick="mymodal()"><img src="images/projects/24_ostravaparkhouse/02.jpg"/></div>
                     </div>
                     <div>
-                      <div onclick="mymodal()"><img src="images/projects/24_ostravaparkhouse/03.jpg"/></div>
+                      <div class="pmodal-ico" onclick="mymodal()"><img src="images/projects/24_ostravaparkhouse/03.jpg"/></div>
                     </div>
                     <div>
-                      <div onclick="mymodal()"><img src="images/projects/24_ostravaparkhouse/04.jpg"/></div>
+                      <div class="pmodal-ico" onclick="mymodal()"><img src="images/projects/24_ostravaparkhouse/04.jpg"/></div>
                     </div>
                   </div>
                 </li>
@@ -109,7 +109,7 @@
             <!-- The Modal-->
             <div class="pmodal" id="myModal">
               <!-- Modal content-->
-              <div class="pmodal-content"><span class="pclose">&times;</span>
+              <div class="pmodal-content"><span class="pclose"><img class="svgimg" src="../images/ico_close.svg"/></span>
                 <div class="slider-for">
                   <div class="ppclose"><img class="img-fluid" src="images/projects/24_ostravaparkhouse/00.jpg"/></div>
                   <div class="ppclose"><img class="img-fluid" src="images/projects/24_ostravaparkhouse/01.jpg"/></div>
@@ -177,19 +177,31 @@
         
         
         			$('.slider-for').slick({
-        				arrows: false,
+        				arrows: true,
         				fade: false,
         				asNavFor: '.carousel',
-        				variableWidth: false
+        				variableWidth: false,
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0
+        
         			});
         
         			$('.carousel').slick({
         				arrows: true,
         				asNavFor: '.slider-for',
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0
         			});
         
         			$('.carousel2').slick({
-        
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0
         			});
         
         		});
@@ -198,8 +210,14 @@
         var btn = document.getElementById("#myBtn");
         var span = document.getElementsByClassName("pclose")[0];
         var myslider = document.getElementsByClassName(".slider-for");
+        
+        $(document).keyup(function(e) {
+          if (e.keyCode == 27) { 
+          	pmodal.style.display = "none";
+           }   // esc
+        });
+        
         function mymodal() {
-        	
         	  pmodal.style.display = "block";
         	  $('.slider-for').slick('refresh');
         }

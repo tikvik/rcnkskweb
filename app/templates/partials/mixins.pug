@@ -35,7 +35,7 @@ mixin mimages (index)
 					each item, i in gimg[index][0]
 						div
 							//- img(data-lazy=item)
-							div(onclick="mymodal()")
+							div.pmodal-ico(onclick="mymodal()")
 								img(src=item)
 
 
@@ -92,7 +92,8 @@ mixin mimages (index)
 	#myModal.pmodal
 		// Modal content
 		.pmodal-content
-			span.pclose &times;
+			span.pclose
+				img.svgimg(src="../images/ico_close.svg")
 			div.slider-for
 				each item in gimg[index][0]
 						div.ppclose
