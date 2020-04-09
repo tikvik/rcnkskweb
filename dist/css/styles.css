@@ -147,6 +147,7 @@ html {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  max-height: 90vh;
   margin: auto auto; }
 
 #myModal {
@@ -201,13 +202,15 @@ html {
 .slick-arrow {
   height: 100% !important; }
 
-.slick-track .slick-slide {
-  height: 100vh;
+.slick-track {
   display: flex !important;
-  justify-content: center !important; }
+  align-items: center !important; }
+  .slick-track .slick-slide {
+    align-self: center !important; }
 
 .flexmodal {
-  display: flex; }
+  display: flex;
+  background-color: red; }
 
 body {
   font-family: TriviaSans, sans-serif;
