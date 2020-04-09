@@ -62,19 +62,25 @@ mixin mimages (index)
 				p !{projects[i].project[0].text}
 				.credentials
 					.cred
-						span Lokace 
-					.cred
-						span #{projects[i].project[0].lokace}
-				.credentials
-					.cred
 						span Klient 
 					.cred
 						span #{projects[i].project[0].klient}
 				.credentials
 					.cred
-						span Náklady 
+						span Lokace 
 					.cred
-						span #{projects[i].project[0].naklady}
+						span #{projects[i].project[0].lokace}
+				.credentials
+					.cred
+						span Typologie 
+					.cred
+						each item in projects[i].project[0].typologie
+							span #{item} <br>
+				.credentials
+					.cred
+						span Typ 
+					.cred
+						span #{projects[i].project[0].typ}
 				.credentials
 					.cred
 						span Rok 
@@ -82,10 +88,42 @@ mixin mimages (index)
 						span #{projects[i].project[0].rok}
 				.credentials
 					.cred
-						span Typologie 
+						span Status 
 					.cred
-						each item in projects[i].project[0].typologie
-							span #{item} <br>
+						span #{projects[i].project[0].status}	
+				.credentials
+					.cred
+						span Užitná plocha 
+					.cred
+						span #{projects[i].project[0].uzplocha}
+				.credentials
+					.cred
+						span Velikost 
+					.cred
+						span #{projects[i].project[0].velikost}
+				.credentials
+					.cred
+						span Náklady 
+					.cred
+						span #{projects[i].project[0].naklady}
+				.credentials
+					.cred
+						span Autoři 
+					.cred
+						span #{projects[i].project[0].autori}
+				.credentials
+					.cred
+						span Spoluautoři 
+					.cred
+						span #{projects[i].project[0].spoluautori}
+				.credentials
+					.cred
+						span Odborná spolupráce 
+					.cred
+						span #{projects[i].project[0].odbspoluprace}
+
+
+
 
 
 

@@ -93,25 +93,53 @@
                   <p>Rekonstrukce a přístavba kaple Všech Svatých s kostnicí<br><br></p>
                   <p></p>
                   <div class="credentials">
-                    <div class="cred"><span>Lokace </span></div>
-                    <div class="cred"><span>Kutná Hora – Sedlec, Česká republika</span></div>
-                  </div>
-                  <div class="credentials">
                     <div class="cred"><span>Klient </span></div>
                     <div class="cred"><span>Římskokatolická farnost Kutná Hora – Sedlec</span></div>
                   </div>
                   <div class="credentials">
-                    <div class="cred"><span>Náklady </span></div>
-                    <div class="cred"><span>1 500 000</span></div>
+                    <div class="cred"><span>Lokace </span></div>
+                    <div class="cred"><span>Kutná Hora – Sedlec, Česká republika</span></div>
+                  </div>
+                  <div class="credentials">
+                    <div class="cred"><span>Typologie </span></div>
+                    <div class="cred"><span>sakrální stavby <br></span>
+                    </div>
+                  </div>
+                  <div class="credentials">
+                    <div class="cred"><span>Typ </span></div>
+                    <div class="cred"><span>rekonstrukce s dostavbou</span></div>
                   </div>
                   <div class="credentials">
                     <div class="cred"><span>Rok </span></div>
                     <div class="cred"><span></span></div>
                   </div>
                   <div class="credentials">
-                    <div class="cred"><span>Typologie </span></div>
-                    <div class="cred"><span>sakrální stavby <br></span>
-                    </div>
+                    <div class="cred"><span>Status </span></div>
+                    <div class="cred"><span>v realizaci	</span></div>
+                  </div>
+                  <div class="credentials">
+                    <div class="cred"><span>Užitná plocha </span></div>
+                    <div class="cred"><span></span></div>
+                  </div>
+                  <div class="credentials">
+                    <div class="cred"><span>Velikost </span></div>
+                    <div class="cred"><span></span></div>
+                  </div>
+                  <div class="credentials">
+                    <div class="cred"><span>Náklady </span></div>
+                    <div class="cred"><span>1 500 000</span></div>
+                  </div>
+                  <div class="credentials">
+                    <div class="cred"><span>Autoři </span></div>
+                    <div class="cred"><span>MgA. Filip Kosek, MgA. Jan Říčný</span></div>
+                  </div>
+                  <div class="credentials">
+                    <div class="cred"><span>Spoluautoři </span></div>
+                    <div class="cred"><span></span></div>
+                  </div>
+                  <div class="credentials">
+                    <div class="cred"><span>Odborná spolupráce </span></div>
+                    <div class="cred"><span>Ing. Vít Mlázovský</span></div>
                   </div>
                 </div>
               </div>
@@ -257,11 +285,15 @@
         $(document).keyup(function(e) {
           if (e.keyCode == 27) { 
           	pmodal.style.display = "none";
+          	pmodal2.style.display = "none";
            }   // esc
         });
         $('.img-close').click(function() {
            pmodal.style.display = "none";
         });
+        
+        
+        
         function mymodal() {
         	  pmodal.style.display = "flex";
         	  pmodal.style.background = color;
@@ -281,12 +313,6 @@
         
         
         
-        
-        $(document).keyup(function(e) {
-          if (e.keyCode == 27) { 
-          	pmodal2.style.display = "none";
-           }   // esc
-        });
         $('.img-close').click(function() {
            pmodal2.style.display = "none";
         });

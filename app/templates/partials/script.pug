@@ -112,11 +112,15 @@ script.
 	$(document).keyup(function(e) {
 	  if (e.keyCode == 27) { 
 	  	pmodal.style.display = "none";
+	  	pmodal2.style.display = "none";
 	   }   // esc
 	});
 	$('.img-close').click(function() {
 	   pmodal.style.display = "none";
 	});
+
+
+	
 	function mymodal() {
 		  pmodal.style.display = "flex";
 		  pmodal.style.background = color;
@@ -136,12 +140,6 @@ script.
 
 
 
-
-	$(document).keyup(function(e) {
-	  if (e.keyCode == 27) { 
-	  	pmodal2.style.display = "none";
-	   }   // esc
-	});
 	$('.img-close').click(function() {
 	   pmodal2.style.display = "none";
 	});

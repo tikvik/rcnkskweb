@@ -90,22 +90,32 @@ $underline: 2px
 
 .slick-arrow
 	height: 100% !important
-.slick-track
-	display: flex !important
-	align-items: center !important
-	.slick-slide
-		align-self: center !important
+// .slick-track
+// 	display: flex !important
+// 	align-items: center !important
+// 	.slick-slide
+// 		align-self: center !important
 
 .flexmodal
 	display: flex
 	background-color: red
 
 
+.archive-item
+	height: $gap*5
+	display: block
 
+.item-container
+	min-height: $gap*2.5
+	overflow: hidden
+	img
+		width: $gap*3
+@media screen and (max-width: 736px)
+	.item-container
+		min-height: $gap*6
 
-
-
-
+.reset
+	height: $gap
 
 
 

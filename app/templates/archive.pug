@@ -3,46 +3,44 @@ block body
 	body.body_single#body
 block content
 		div.grid
-			section
-				ol.collection.collection-container
-
-					li.item.item-container.boldborder
-						.attribute.noborder
-						.attribute-container.part-information
-							.attribute-container.part-id
-								.attribute(data-name='Part Number').noborder Project
-								.attribute(data-name='Part Description').noborder Location
+			ol.collection.collection-container
+				li.item.item-container.reset.boldborder
+					.attribute.noborder
+					.attribute-container.part-information
+						.attribute-container.part-id
+							.attribute(data-name='Part Number').noborder Project
+							.attribute(data-name='Part Description').noborder Location
 
 
-						.attribute-container.part-information.clientcosts
-							.attribute(data-name='Part Description').noborder Typologie
-							.attribute-container.vendor-information
-								.attribute Client
-								.attribute Costs
-						.attribute-container.quantity
-							.attribute.justify-self-end Year
-							.attribute.justify-self-end File
+					.attribute-container.part-information.clientcosts
+						.attribute(data-name='Part Description').noborder Typologie
+						.attribute-container.vendor-information
+							.attribute Client
+							.attribute Costs
+					.attribute-container.quantity
+						.attribute.justify-self-end Year
+						.attribute.justify-self-end File
 
+			ol.collection.collection-container
+				each proj, index in projects
+					each item in proj.project
+						a(href="single"+ index +".html")
+							li.item.item-container
+								.attribute
+									img(src=gimg[index][0][0], alt="")
+								.attribute-container.part-information
+									.attribute-container.part-id
+										.attribute(data-name='Project') #{item.nickname}
+										.attribute(data-name='Location') #{item.lokace}
 
-			each proj, index in projects
-				each item in proj.project
-					a(href="single"+ index +".html")
-						li.item.item-container
-							.attribute
-								img(src=gimg[index][0][0], alt="", width="150px")
-							.attribute-container.part-information
-								.attribute-container.part-id
-									.attribute(data-name='#') #{item.nickname}
-									.attribute(data-name='Part Number') #{item.lokace}
+								.attribute-container.quantity.clientcosts
+									.attribute(data-name='Typologie')
+										each stat in projects[index].project[0].typologie
+											span #{stat} <br>
 
-							.attribute-container.quantity.clientcosts
-								.attribute(data-name='Part Description')
-									each stat in projects[index].project[0].typologie
-										span #{stat} <br>
-
-								.attribute-container.vendor-information
-									.attribute(data-name='Vendor Number') #{item.klient}
-									.attribute(data-name='Vendor Name') #{item.naklady}
-							.attribute-container.quantity
-								.attribute(data-name='Order Qty').justify-self-end #{item.rok}
-								.attribute(data-name='Receive Qty').justify-self-end PDF
+									.attribute-container.vendor-information
+										.attribute(data-name='Client') #{item.klient}
+										.attribute(data-name='Costs') #{item.naklady}
+								.attribute-container.quantity
+									.attribute(data-name='Year').justify-self-end #{item.rok}
+									.attribute(data-name='File').justify-self-end PDF
