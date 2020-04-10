@@ -105,19 +105,75 @@ $underline: 2px
 	height: $gap*5
 	display: block
 
+
 .item-container
 	min-height: $gap*2.5
 	overflow: hidden
-	img
-		width: $gap*3
-@media screen and (max-width: 736px)
-	.item-container
-		min-height: $gap*6
+	a
+		display: block
+
 
 .reset
-	height: $gap
+	min-height: $gap
 
 
+.atribute-img
+	&:before
+		content: none
+	width: 120px
+	display: block
+	.crop
+		position: relative
+		overflow: hidden
+		width: 120px
+		height: 120px
+		img
+			position: absolute
+			left: 50%
+			top: 50%
+			height: 100%
+			width: auto
+			-webkit-transform: translate(-50%,-50%)
+			    -ms-transform: translate(-50%,-50%)
+			        transform: translate(-50%,-50%)
+
+
+@media screen and (max-width: 736px)
+	.nevim
+		display: block
+		float: right
+		width: 55%
+
+	.atribute-img
+		width: 180px
+		.crop
+			margin-bottom: $gap/2
+			margin-right: $gap/2
+			float: left
+			position: relative
+			overflow: hidden
+			width: 180px
+			height: 180px
+			img
+				position: absolute
+				left: 50%
+				top: 50%
+				height: 100%
+				width: auto
+				-webkit-transform: translate(-50%,-50%)
+				    -ms-transform: translate(-50%,-50%)
+				        transform: translate(-50%,-50%)
+
+
+@media screen and (max-width: 350px)
+	.atribute-img
+		display: inline
+		.crop
+			width: 180px
+			height: 180px
+
+	.nevim
+		float: left
 
 
 

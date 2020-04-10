@@ -26,21 +26,24 @@ block content
 					each item in proj.project
 						a(href="single"+ index +".html")
 							li.item.item-container
-								.attribute
-									img(src=gimg[index][0][0], alt="")
-								.attribute-container.part-information
+								.attribute.atribute-img
+									.crop
+										img(src=gimg[index][0][0], alt="")
+
+								.attribute-container.part-information.nevim
 									.attribute-container.part-id
 										.attribute(data-name='Project') #{item.nickname}
 										.attribute(data-name='Location') #{item.lokace}
 
-								.attribute-container.quantity.clientcosts
+								.attribute-container.quantity.clientcosts.nevim
 									.attribute(data-name='Typologie')
-										each stat in projects[index].project[0].typologie
-											span #{stat} <br>
+										div
+											each stat in projects[index].project[0].typologie
+													span #{stat} <br>
 
 									.attribute-container.vendor-information
 										.attribute(data-name='Client') #{item.klient}
 										.attribute(data-name='Costs') #{item.naklady}
-								.attribute-container.quantity
+								.attribute-container.quantity.nevim
 									.attribute(data-name='Year').justify-self-end #{item.rok}
 									.attribute(data-name='File').justify-self-end PDF

@@ -60,9 +60,10 @@ li {
   /* The maximum column width, that can wrap */
   .item-container {
     display: grid;
-    grid-template-columns: 8em 2fr 4fr 2fr;
-    border-bottom: 1px solid black;
-    padding-top: .25rem; }
+    grid-template-columns: 10em 2fr 4fr 2fr;
+    border-bottom: 1px solid bl;
+    padding-top: .25remack;
+    padding-bottom: .25rem; }
   .attribute-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(var(--column-width-min), 1fr)); }
@@ -101,7 +102,7 @@ li {
   /* The maximum column width, that can wrap */
   .item-container {
     display: grid;
-    grid-template-columns: 8em 4fr 4fr 2fr;
+    grid-template-columns: 10em 4fr 4fr 2fr;
     border-bottom: 1px solid black;
     padding-top: .25rem; }
   .attribute-container {
@@ -213,15 +214,65 @@ html {
 .item-container {
   min-height: 10vh;
   overflow: hidden; }
-  .item-container img {
-    width: 12vh; }
-
-@media screen and (max-width: 736px) {
-  .item-container {
-    min-height: 24vh; } }
+  .item-container a {
+    display: block; }
 
 .reset {
-  height: 4vh; }
+  min-height: 4vh; }
+
+.atribute-img {
+  width: 120px;
+  display: block; }
+  .atribute-img:before {
+    content: none; }
+  .atribute-img .crop {
+    position: relative;
+    overflow: hidden;
+    width: 120px;
+    height: 120px; }
+    .atribute-img .crop img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%, -50%);
+        -webkit-transform--ms-transform: translate(-50%, -50%);
+          -webkit-transform--ms-transform-transform: translate(-50%, -50%); }
+
+@media screen and (max-width: 736px) {
+  .nevim {
+    display: block;
+    float: right;
+    width: 55%; }
+  .atribute-img {
+    width: 180px; }
+    .atribute-img .crop {
+      margin-bottom: 2vh;
+      margin-right: 2vh;
+      float: left;
+      position: relative;
+      overflow: hidden;
+      width: 180px;
+      height: 180px; }
+      .atribute-img .crop img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        height: 100%;
+        width: auto;
+        -webkit-transform: translate(-50%, -50%);
+          -webkit-transform--ms-transform: translate(-50%, -50%);
+            -webkit-transform--ms-transform-transform: translate(-50%, -50%); } }
+
+@media screen and (max-width: 350px) {
+  .atribute-img {
+    display: inline; }
+    .atribute-img .crop {
+      width: 180px;
+      height: 180px; }
+  .nevim {
+    float: left; } }
 
 body {
   font-family: TriviaSans, sans-serif;
