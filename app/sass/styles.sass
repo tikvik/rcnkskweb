@@ -361,16 +361,19 @@ a
 
 .wrap
 	display: grid
+	grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer"
 	grid-template-columns: 8% $gap/2 $gap/2 auto $gap/2 $gap/2 8%
-	grid-template-rows: $gap*1.5 $gap*1.8 auto $gap/1.5 $gap/1.5 $gap/1.5
-	grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"
+	grid-template-rows: $gap*2 $gap*1.5 auto $gap*1.5 $gap*1.5
+	align-items: center
 	width: 100vw
 	min-height: 100vh
-	padding:  $gap/1.5 1%
+	padding:  $gap/1.5 6%
+	// padding:  $gap/1.5 1%
 	@include for-size(sm)
+		grid-template-rows: $gap*1.5 $gap*1.5 auto $gap*1.5 $gap*1.5
 		grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"
-	@include for-size(sm)
-		padding:  $gap/1.5 6%
+
+	
 	// background-image: url('/images/grid2.png')
 	// background-size: 99%
 	// background-repeat: no-repeat
@@ -416,160 +419,10 @@ a
 					margin: 0 auto 0 auto
 
 
-// Výjimka z designu pro single page
-.body_single
-	.wrap
-		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer"
-		grid-template-columns: 8% $gap/2 $gap/2 auto $gap/2 $gap/2 8%
-		grid-template-rows: $gap*1.5 $gap*1.5 auto auto
-		align-items: start
-		min-height: 100vh
-		.modal-wrap
-			min-height: 70vh
-			display: grid
-			padding-bottom: 2rem
-			grid-area: content
-			grid-template-columns: 8% $gap/2 repeat(4, 1fr) $gap/2 8%
-			grid-template-areas: "mw mw mw mw mw mw mw mw"
-			@include for-size(sm)
-				grid-template-areas: ". mw mw mw mw mw . ."
-			@include for-size(md)
-				grid-template-areas: ". . mw mw mw mw . ."
-			// grid-gap: $gap
-			align-self: center
-			.modal-window
-				grid-area: mw
-				display: grid
-				position: relative
-				grid-template-columns: $gap/2 repeat(4, 1fr) $gap/2
-				grid-template-areas: "mt mt mt mt  . ."
-				@include for-size(md)
-					grid-template-areas: ". . mt mt  . ."
-				// background: red
-				height: 100%
-				.modal-close
-					position: absolute
-					top: 0
-					right: 0
-					width: $gap
-					height: $gap
-					content: url('../images/ico_close.svg')
-					cursor: pointer
-				.modal-content
-					grid-area: mt
-					align-self: center
-			.credentials
-				.cred
-					float: left
-					width: 25%
-					&:nth-child(2)
-						width: 75%
-
-		.grid
-			.grid-ul
-				grid-template-columns: 1fr
-				grid-template-rows: 1fr 1fr
-				grid-gap: $gap/2
-
-				@include for-size(sm)
-					grid-template-columns: 1fr 1fr
-					grid-template-rows: 1fr
-					grid-gap: $gap
-				@media screen and (min-height: 1000px) and (max-width: 1200px)
-					grid-template-columns: 1fr
-					grid-template-rows: 1fr 1fr
-					grid-gap: $gap/2
-
-				&:before
-					padding-bottom: 0%
-				li
-					align-self: middle
-					img
-						object-fit: contain
-						max-width: 100%
-						height: 35vh
-						@include for-size(sm)
-							height: 70vh
-					&:hover // Vztaženo k li elementu
-						background-color: transparent
-						img
-							opacity: 1
-						.hovertext
-							opacity: 1
-		.footer
-
-			.footer-right
-				text-align: right
-
-
-
-
-
-// Výjimka z designu pro index page
+// Výjimka z designu index page mezera mezi menu
 .body_index
 	.wrap
-		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer"
-		grid-template-columns: 8% $gap/2 $gap/2 auto $gap/2 $gap/2 8%
-		grid-template-rows: $gap*1.5 $gap*1.5 auto auto
-		align-items: start
-		.modal-wrap
-			display: grid
-			grid-area: content
-			grid-template-columns: 8% $gap/2 repeat(4, 1fr) $gap/2 8%
-			grid-template-areas: "mw mw mw mw mw mw mw mw"
-			@include for-size(sm)
-				grid-template-areas: ". . mw mw mw mw . ."
-			// grid-gap: $gap
-			align-self: center
-			height: 100%
-			.modal-window
-				grid-area: mw
-				display: grid
-				position: relative
-				grid-template-columns: $gap/2 repeat(4, 1fr) $gap/2
-				grid-template-areas: "mt mt mt mt  . ."
-				@include for-size(sm)
-					grid-template-areas: ". . mt mt  . ."
-				// background: red
-				height: 100%
-				.modal-close
-					position: absolute
-					top: 0
-					right: 0
-					width: $gap
-					height: $gap
-					content: url('../images/ico_close.svg')
-				.modal-content
-					grid-area: mt
-					align-self: center
-		.grid
-			.grid-ul
-				grid-template-columns: 1fr
-				grid-template-rows: 1fr 1fr
-				grid-gap: $gap/2
-				@include for-size(sm)
-					grid-template-columns: 1fr 1fr
-					grid-template-rows: 1fr
-					grid-gap: $gap
-				&:before
-					padding-bottom: 0%
-				li
-					align-self: middle
-					img
-						object-fit: contain
-						width: 100%
-						height: 35vh
-						@include for-size(sm)
-							height: 70vh
-					&:hover // Vztaženo k li elementu
-						background-color: transparent
-						img
-							opacity: 1
-						.hovertext
-							opacity: 1
-		.footer
-			.footer-right
-				text-align: right
+		grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content"  "content content content content content content content"  "footer footer footer footer footer footer footer"
 
 
 .body_projects
@@ -583,8 +436,6 @@ a
 					.hovertext
 						opacity: 1
 				
-
-
 				.hovertext 
 					position: absolute
 					opacity: 0
@@ -595,15 +446,100 @@ a
 					line-height: 1.2
 
 
+.body_single
+	.wrap
+		grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content" ". . . . . . ." "footer footer footer footer footer footer footer"
+		
+
+	.grid
+		.grid-ul
+			grid-template-columns: 1fr
+			grid-template-rows: 1fr 1fr
+			grid-gap: $gap/2
+
+			@include for-size(sm)
+				grid-template-columns: 1fr 1fr
+				grid-template-rows: 1fr
+				grid-gap: $gap
+			@media screen and (min-height: 1000px) and (max-width: 1200px)
+				grid-template-columns: 1fr
+				grid-template-rows: 1fr 1fr
+				grid-gap: $gap/2
+
+			&:before
+				padding-bottom: 0%
+			li
+				align-self: middle
+				img
+					object-fit: contain
+					max-width: 100%
+					height: 35vh
+					@include for-size(sm)
+						height: 70vh
+				&:hover // Vztaženo k li elementu
+					background-color: transparent
+					img
+						opacity: 1
+					.hovertext
+						opacity: 1
+	.modal-wrap
+		min-height: 70vh
+		display: grid
+		padding-bottom: 2rem
+		grid-area: content
+		grid-template-columns: 8% $gap/2 repeat(4, 1fr) $gap/2 8%
+		grid-template-areas: "mw mw mw mw mw mw mw mw"
+		@include for-size(sm)
+			grid-template-areas: ". mw mw mw mw mw . ."
+		@include for-size(md)
+			grid-template-areas: ". . mw mw mw mw . ."
+		// grid-gap: $gap
+		align-self: center
+		.modal-window
+			grid-area: mw
+			display: grid
+			position: relative
+			grid-template-columns: $gap/2 repeat(4, 1fr) $gap/2
+			grid-template-areas: "mt mt mt mt  . ."
+			@include for-size(md)
+				grid-template-areas: ". . mt mt  . ."
+			// background: red
+			height: 100%
+			.modal-close
+				position: absolute
+				top: 0
+				right: 0
+				width: $gap
+				height: $gap
+				content: url('../images/ico_close.svg')
+				cursor: pointer
+			.modal-content
+				grid-area: mt
+				align-self: center
+		.credentials
+			.cred
+				float: left
+				width: 25%
+				&:nth-child(2)
+					width: 75%
+
+
+
 // Výjimka z designu pro index page
 .body_index
 	.grid
-		.grid-ul
+		.grid-index
 			grid-template-columns: 1fr !important
 			grid-template-rows: 1fr 
 			grid-gap: $gap/2
 			&:before
 				padding-bottom: 0%
+			img
+				object-fit: contain
+				width: 100%
+				height: 70vh
+				// @include for-size(sm)
+				// 	height: 70vh
 
 	.footer
 		grid-area: footer

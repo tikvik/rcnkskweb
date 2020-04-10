@@ -406,18 +406,17 @@ a {
 
 .wrap {
   display: grid;
+  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer";
   grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
-  grid-template-rows: 6vh 7.2vh auto 2.66667vh 2.66667vh 2.66667vh;
-  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer";
+  grid-template-rows: 8vh 6vh auto 6vh 6vh;
+  align-items: center;
   width: 100vw;
   min-height: 100vh;
-  padding: 2.66667vh 1%; }
+  padding: 2.66667vh 6%; }
   @media (min-width: 600px) {
     .wrap {
+      grid-template-rows: 6vh 6vh auto 6vh 6vh;
       grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"; } }
-  @media (min-width: 600px) {
-    .wrap {
-      padding: 2.66667vh 6%; } }
   .wrap .grid {
     grid-area: content; }
     .wrap .grid ul > *:first-child {
@@ -455,149 +454,8 @@ a {
           transition: opacity 0.1s;
           margin: 0 auto 0 auto; }
 
-.body_single .wrap {
-  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer";
-  grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
-  grid-template-rows: 6vh 6vh auto auto;
-  align-items: start;
-  min-height: 100vh; }
-  .body_single .wrap .modal-wrap {
-    min-height: 70vh;
-    display: grid;
-    padding-bottom: 2rem;
-    grid-area: content;
-    grid-template-columns: 8% 2vh repeat(4, 1fr) 2vh 8%;
-    grid-template-areas: "mw mw mw mw mw mw mw mw";
-    align-self: center; }
-    @media (min-width: 600px) {
-      .body_single .wrap .modal-wrap {
-        grid-template-areas: ". mw mw mw mw mw . ."; } }
-    @media (min-width: 900px) {
-      .body_single .wrap .modal-wrap {
-        grid-template-areas: ". . mw mw mw mw . ."; } }
-    .body_single .wrap .modal-wrap .modal-window {
-      grid-area: mw;
-      display: grid;
-      position: relative;
-      grid-template-columns: 2vh repeat(4, 1fr) 2vh;
-      grid-template-areas: "mt mt mt mt  . .";
-      height: 100%; }
-      @media (min-width: 900px) {
-        .body_single .wrap .modal-wrap .modal-window {
-          grid-template-areas: ". . mt mt  . ."; } }
-      .body_single .wrap .modal-wrap .modal-window .modal-close {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 4vh;
-        height: 4vh;
-        content: url("../images/ico_close.svg");
-        cursor: pointer; }
-      .body_single .wrap .modal-wrap .modal-window .modal-content {
-        grid-area: mt;
-        align-self: center; }
-    .body_single .wrap .modal-wrap .credentials .cred {
-      float: left;
-      width: 25%; }
-      .body_single .wrap .modal-wrap .credentials .cred:nth-child(2) {
-        width: 75%; }
-  .body_single .wrap .grid .grid-ul {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 2vh; }
-    @media (min-width: 600px) {
-      .body_single .wrap .grid .grid-ul {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-gap: 4vh; } }
-    @media screen and (min-height: 1000px) and (max-width: 1200px) {
-      .body_single .wrap .grid .grid-ul {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 2vh; } }
-    .body_single .wrap .grid .grid-ul:before {
-      padding-bottom: 0%; }
-    .body_single .wrap .grid .grid-ul li {
-      align-self: middle; }
-      .body_single .wrap .grid .grid-ul li img {
-        object-fit: contain;
-        max-width: 100%;
-        height: 35vh; }
-        @media (min-width: 600px) {
-          .body_single .wrap .grid .grid-ul li img {
-            height: 70vh; } }
-      .body_single .wrap .grid .grid-ul li:hover {
-        background-color: transparent; }
-        .body_single .wrap .grid .grid-ul li:hover img {
-          opacity: 1; }
-        .body_single .wrap .grid .grid-ul li:hover .hovertext {
-          opacity: 1; }
-  .body_single .wrap .footer .footer-right {
-    text-align: right; }
-
 .body_index .wrap {
-  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer";
-  grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
-  grid-template-rows: 6vh 6vh auto auto;
-  align-items: start; }
-  .body_index .wrap .modal-wrap {
-    display: grid;
-    grid-area: content;
-    grid-template-columns: 8% 2vh repeat(4, 1fr) 2vh 8%;
-    grid-template-areas: "mw mw mw mw mw mw mw mw";
-    align-self: center;
-    height: 100%; }
-    @media (min-width: 600px) {
-      .body_index .wrap .modal-wrap {
-        grid-template-areas: ". . mw mw mw mw . ."; } }
-    .body_index .wrap .modal-wrap .modal-window {
-      grid-area: mw;
-      display: grid;
-      position: relative;
-      grid-template-columns: 2vh repeat(4, 1fr) 2vh;
-      grid-template-areas: "mt mt mt mt  . .";
-      height: 100%; }
-      @media (min-width: 600px) {
-        .body_index .wrap .modal-wrap .modal-window {
-          grid-template-areas: ". . mt mt  . ."; } }
-      .body_index .wrap .modal-wrap .modal-window .modal-close {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 4vh;
-        height: 4vh;
-        content: url("../images/ico_close.svg"); }
-      .body_index .wrap .modal-wrap .modal-window .modal-content {
-        grid-area: mt;
-        align-self: center; }
-  .body_index .wrap .grid .grid-ul {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 2vh; }
-    @media (min-width: 600px) {
-      .body_index .wrap .grid .grid-ul {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-gap: 4vh; } }
-    .body_index .wrap .grid .grid-ul:before {
-      padding-bottom: 0%; }
-    .body_index .wrap .grid .grid-ul li {
-      align-self: middle; }
-      .body_index .wrap .grid .grid-ul li img {
-        object-fit: contain;
-        width: 100%;
-        height: 35vh; }
-        @media (min-width: 600px) {
-          .body_index .wrap .grid .grid-ul li img {
-            height: 70vh; } }
-      .body_index .wrap .grid .grid-ul li:hover {
-        background-color: transparent; }
-        .body_index .wrap .grid .grid-ul li:hover img {
-          opacity: 1; }
-        .body_index .wrap .grid .grid-ul li:hover .hovertext {
-          opacity: 1; }
-  .body_index .wrap .footer .footer-right {
-    text-align: right; }
+  grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content"  "content content content content content content content"  "footer footer footer footer footer footer footer"; }
 
 .body_projects .grid ul li:hover {
   background-color: pink; }
@@ -615,12 +473,92 @@ a {
   transition: opacity 0.3s;
   line-height: 1.2; }
 
-.body_index .grid .grid-ul {
+.body_single .wrap {
+  grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content" ". . . . . . ." "footer footer footer footer footer footer footer"; }
+
+.body_single .grid .grid-ul {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2vh; }
+  @media (min-width: 600px) {
+    .body_single .grid .grid-ul {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-gap: 4vh; } }
+  @media screen and (min-height: 1000px) and (max-width: 1200px) {
+    .body_single .grid .grid-ul {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 2vh; } }
+  .body_single .grid .grid-ul:before {
+    padding-bottom: 0%; }
+  .body_single .grid .grid-ul li {
+    align-self: middle; }
+    .body_single .grid .grid-ul li img {
+      object-fit: contain;
+      max-width: 100%;
+      height: 35vh; }
+      @media (min-width: 600px) {
+        .body_single .grid .grid-ul li img {
+          height: 70vh; } }
+    .body_single .grid .grid-ul li:hover {
+      background-color: transparent; }
+      .body_single .grid .grid-ul li:hover img {
+        opacity: 1; }
+      .body_single .grid .grid-ul li:hover .hovertext {
+        opacity: 1; }
+
+.body_single .modal-wrap {
+  min-height: 70vh;
+  display: grid;
+  padding-bottom: 2rem;
+  grid-area: content;
+  grid-template-columns: 8% 2vh repeat(4, 1fr) 2vh 8%;
+  grid-template-areas: "mw mw mw mw mw mw mw mw";
+  align-self: center; }
+  @media (min-width: 600px) {
+    .body_single .modal-wrap {
+      grid-template-areas: ". mw mw mw mw mw . ."; } }
+  @media (min-width: 900px) {
+    .body_single .modal-wrap {
+      grid-template-areas: ". . mw mw mw mw . ."; } }
+  .body_single .modal-wrap .modal-window {
+    grid-area: mw;
+    display: grid;
+    position: relative;
+    grid-template-columns: 2vh repeat(4, 1fr) 2vh;
+    grid-template-areas: "mt mt mt mt  . .";
+    height: 100%; }
+    @media (min-width: 900px) {
+      .body_single .modal-wrap .modal-window {
+        grid-template-areas: ". . mt mt  . ."; } }
+    .body_single .modal-wrap .modal-window .modal-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 4vh;
+      height: 4vh;
+      content: url("../images/ico_close.svg");
+      cursor: pointer; }
+    .body_single .modal-wrap .modal-window .modal-content {
+      grid-area: mt;
+      align-self: center; }
+  .body_single .modal-wrap .credentials .cred {
+    float: left;
+    width: 25%; }
+    .body_single .modal-wrap .credentials .cred:nth-child(2) {
+      width: 75%; }
+
+.body_index .grid .grid-index {
   grid-template-columns: 1fr !important;
   grid-template-rows: 1fr;
   grid-gap: 2vh; }
-  .body_index .grid .grid-ul:before {
+  .body_index .grid .grid-index:before {
     padding-bottom: 0%; }
+  .body_index .grid .grid-index img {
+    object-fit: contain;
+    width: 100%;
+    height: 70vh; }
 
 .body_index .footer {
   grid-area: footer;
