@@ -61,7 +61,7 @@ $underline: 2px
 	// background-color: #fefefe
 	margin: auto auto /* 15% from the top and centered */
 	// border: 1px solid #888
-	width: 90% /* Could be more or less, depending on screen size */
+	width: 90% !important /* Could be more or less, depending on screen size */
 	position: relative
 	cursor: url("../images/ico_close.svg") 34 12, auto !important
 
@@ -365,12 +365,12 @@ a
 	grid-template-columns: 8% $gap/2 $gap/2 auto $gap/2 $gap/2 8%
 	grid-template-rows: $gap*2 $gap*1.5 auto $gap*1.5 $gap*1.5
 	align-items: center
-	width: 100vw
+	width: 99vw
 	min-height: 90vh
 	padding:  $gap/1.5 6%
 	// padding:  $gap/1.5 1%
 	@include for-size(sm)
-		grid-template-rows: $gap*1.5 $gap*1.5 auto $gap*1.5 $gap*1.5
+		grid-template-rows: $gap*1.5 $gap*1.5 auto $gap*1.5 $gap*2
 		grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"
 
 	
@@ -422,7 +422,7 @@ a
 // Výjimka z designu index page mezera mezi menu
 .body_index
 	.wrap
-		grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content"  "content content content content content content content"  "footer footer footer footer footer footer footer"
+		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"
 
 
 .body_projects
@@ -448,7 +448,7 @@ a
 
 .body_single
 	.wrap
-		grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content" ". . . . . . ." "footer footer footer footer footer footer footer"
+		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" ". . . . . . ." "footer footer footer footer footer footer footer"
 
 
 	.grid
@@ -549,8 +549,8 @@ a
 
 
 
-.grid
-	overflow: hidden
+// .grid
+// 	overflow: hidden
 
 // Modal
 

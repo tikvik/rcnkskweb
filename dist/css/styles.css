@@ -175,7 +175,7 @@ html {
 /* Modal Content/Box */
 .pmodal-content {
   margin: auto auto;
-  width: 90%;
+  width: 90% !important;
   position: relative;
   cursor: url("../images/ico_close.svg") 34 12, auto !important; }
 
@@ -410,12 +410,12 @@ a {
   grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
   grid-template-rows: 8vh 6vh auto 6vh 6vh;
   align-items: center;
-  width: 100vw;
+  width: 99vw;
   min-height: 90vh;
   padding: 2.66667vh 6%; }
   @media (min-width: 600px) {
     .wrap {
-      grid-template-rows: 6vh 6vh auto 6vh 6vh;
+      grid-template-rows: 6vh 6vh auto 6vh 8vh;
       grid-template-areas: "header header header header header header header" ". . . . . . ."  "lefts . . content . . rights" "pagl . . title . . pagr"  ". . . where . . ."   "footer footer footer footer footer footer footer"; } }
   .wrap .grid {
     grid-area: content; }
@@ -455,7 +455,7 @@ a {
           margin: 0 auto 0 auto; }
 
 .body_index .wrap {
-  grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content"  "content content content content content content content"  "footer footer footer footer footer footer footer"; }
+  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"; }
 
 .body_projects .grid ul li:hover {
   background-color: pink; }
@@ -474,7 +474,7 @@ a {
   line-height: 1.2; }
 
 .body_single .wrap {
-  grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content" ". . . . . . ." "footer footer footer footer footer footer footer"; }
+  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" ". . . . . . ." "footer footer footer footer footer footer footer"; }
 
 .body_single .grid .grid-ul {
   grid-template-columns: 1fr;
@@ -565,9 +565,6 @@ a {
   display: flex;
   justify-content: center;
   align-self: start !important; }
-
-.grid {
-  overflow: hidden; }
 
 .closed {
   display: none !important; }
