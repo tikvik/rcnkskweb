@@ -208,8 +208,10 @@
         		//- });
         
         
-        		
+        
         		$(document).ready(function(){
+        
+        
         			var $status = $('.pag-info');
         			var $status2 = $('.pag-info2');
         			var $slickElement = $('.carousel');
@@ -271,10 +273,12 @@
         
         		});
         
+        
         var pmodal = document.getElementById("myModal");
         var btn = document.getElementById("#myBtn");
         var span = document.getElementsByClassName("pclose")[0];
         var color = document.getElementById("body").style.backgroundColor
+        var body = document.getElementsByTagName("body")[0];
         
         var pmodal2 = document.getElementById("myModal2");
         var btn2 = document.getElementById("#myBtn");
@@ -298,6 +302,11 @@
         	  pmodal.style.display = "flex";
         	  pmodal.style.background = color;
         	  $('.slider-for').slick('refresh');
+        	  
+        	  var arrow = document.querySelectorAll(".slick-arrow");
+        	  for (i = 0; i < arrow.length; i++) {
+        	    arrow[i].removeAttribute("style");
+        	  }
         }
         //- span.onclick = function() {
         //-   pmodal.style.display = "none";
@@ -312,14 +321,19 @@
         }
         
         
-        
         $('.img-close').click(function() {
            pmodal2.style.display = "none";
         });
+        
         function mymodal2() {
         	  pmodal2.style.display = "flex";
         	  pmodal2.style.background = color;
         	  $('.slider-for2').slick('refresh');
+        	  var arrow = document.querySelectorAll(".slick-arrow");
+        	  for (i = 0; i < arrow.length; i++) {
+        	    arrow[i].removeAttribute("style");
+        	  }
+        
         }
         //- span.onclick = function() {
         //-   pmodal2.style.display = "none";
@@ -332,6 +346,17 @@
             pmodal2.style.display = "none";
           }
         }
+        
+        
+        $(window).on('load', function() {
+        
+        //- Odstranění arrows pro slide 
+        var arrow = document.querySelectorAll(".slick-arrow");
+        for (i = 0; i < arrow.length; i++) {
+          arrow[i].removeAttribute("style");
+        }
+        
+        })
       </script>
     </div>
   </body>

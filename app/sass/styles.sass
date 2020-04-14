@@ -64,7 +64,7 @@ $underline: 2px
 	width: 90% !important /* Could be more or less, depending on screen size */
 	position: relative
 	cursor: url("../images/ico_close.svg") 34 12, auto !important
-
+	margin: auto auto
 
 /* The Close Button */
 .pclose
@@ -367,7 +367,8 @@ a
 	align-items: center
 	width: 99vw
 	min-height: 90vh
-	padding:  $gap/1.5 6%
+	padding:  $gap 4%
+	overflow: hidden
 	// padding:  $gap/1.5 1%
 	@include for-size(sm)
 		grid-template-rows: $gap*1.5 $gap*1.5 auto $gap*1.5 $gap*2

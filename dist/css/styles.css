@@ -176,7 +176,8 @@ html {
 .pmodal-content {
   width: 90% !important;
   position: relative;
-  cursor: url("../images/ico_close.svg") 34 12, auto !important; }
+  cursor: url("../images/ico_close.svg") 34 12, auto !important;
+  margin: auto auto; }
 
 /* The Close Button */
 .pclose {
@@ -410,7 +411,8 @@ a {
   align-items: center;
   width: 99vw;
   min-height: 90vh;
-  padding: 2.66667vh 6%; }
+  padding: 4vh 4%;
+  overflow: hidden; }
   @media (min-width: 600px) {
     .wrap {
       grid-template-rows: 6vh 6vh auto 6vh 8vh;
