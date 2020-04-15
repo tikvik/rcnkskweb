@@ -577,9 +577,11 @@ a {
       grid-area: mt;
       align-self: center; }
       .body_single .modal-wrap .modal-window .modal-content table {
-        width: 100%; }
+        width: 100%;
+        -webkit-border-horizontal-spacing: 0; }
         .body_single .modal-wrap .modal-window .modal-content table tbody tr td {
-          vertical-align: top; }
+          vertical-align: top;
+          padding-left: 0; }
           .body_single .modal-wrap .modal-window .modal-content table tbody tr td:nth-child(1) {
             width: 30%;
             padding-right: 4vh; }
