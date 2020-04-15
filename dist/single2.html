@@ -230,7 +230,8 @@
         				focusOnSelect: false,
         				accessibility: true,
         				speed: 300,
-        				initialSlide: 0
+        				initialSlide: 0,
+        				verticalSwiping: false
         
         			});
         			$('.slider-for2').slick({
@@ -241,7 +242,8 @@
         				focusOnSelect: false,
         				accessibility: true,
         				speed: 300,
-        				initialSlide: 0
+        				initialSlide: 0,
+        				verticalSwiping: false
         
         			});
         
@@ -251,7 +253,8 @@
         				focusOnSelect: false,
         				accessibility: true,
         				speed: 300,
-        				initialSlide: 0
+        				initialSlide: 0,
+        				verticalSwiping: false
         			});
         
         			$('.carousel2').slick({
@@ -260,7 +263,8 @@
         				focusOnSelect: false,
         				accessibility: true,
         				speed: 300,
-        				initialSlide: 0
+        				initialSlide: 0,
+        				verticalSwiping: false
         			});
         
         		});
@@ -269,8 +273,8 @@
         var pmodal = document.getElementById("myModal");
         var btn = document.getElementById("#myBtn");
         var span = document.getElementsByClassName("pclose")[0];
-        var color = document.getElementById("body").style.backgroundColor
-        var body = document.getElementsByTagName("body")[0];
+        var color = document.getElementById("body").style.backgroundColor;
+        var body = document.getElementById("body");
         
         var pmodal2 = document.getElementById("myModal2");
         var btn2 = document.getElementById("#myBtn");
@@ -282,6 +286,7 @@
           if (e.keyCode == 27) { 
           	pmodal.style.display = "none";
           	pmodal2.style.display = "none";
+          	body.style.overflow = "auto"
            }   // esc
         });
         $('.img-close').click(function() {
@@ -294,7 +299,8 @@
         	  pmodal.style.display = "flex";
         	  pmodal.style.background = color;
         	  $('.slider-for').slick('refresh');
-        	  
+        	  body.style.overflow = "hidden";
+        
         	  var arrow = document.querySelectorAll(".slick-arrow");
         	  for (i = 0; i < arrow.length; i++) {
         	    arrow[i].removeAttribute("style");
@@ -309,18 +315,23 @@
         window.onclick = function(event) {
           if (event.target == pmodal) {
             pmodal.style.display = "none";
+            body.style.overflow = "auto"
+        
           }
         }
         
         
         $('.img-close').click(function() {
            pmodal2.style.display = "none";
+           body.style.overflow = "auto"
         });
         
         function mymodal2() {
         	  pmodal2.style.display = "flex";
         	  pmodal2.style.background = color;
         	  $('.slider-for2').slick('refresh');
+        	  body.style.overflow = "hidden";
+        	  //- vypnutí šipek na mobilu
         	  var arrow = document.querySelectorAll(".slick-arrow");
         	  for (i = 0; i < arrow.length; i++) {
         	    arrow[i].removeAttribute("style");

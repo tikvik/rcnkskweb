@@ -300,6 +300,29 @@ a
 					margin: 0 $gap/10
 
 // vypnutí šipek pro mobily
+// .slick-slide 
+// 	text-align: center
+
+
+// .slick-slide::before 
+// 	content: ''
+// 	display: inline-block
+// 	height: 100%
+// 	vertical-align: middle
+
+
+// .slick-slide img 
+// 	vertical-align: middle
+// 	display: inline-block
+
+.slick-initialized .slick-slide 
+       float: inherit
+       display: inline-block !important
+       vertical-align: middle
+
+
+
+
 .slick-slider
 	.slick-arrow
 		display: none
@@ -366,7 +389,7 @@ a
 	grid-template-rows: $gap*2 $gap*1.5 auto $gap*1.5 $gap*1.5
 	align-items: center
 	width: 99vw
-	min-height: 90vh
+	min-height: 97vh
 	padding:  $gap 4%
 	overflow: hidden
 	// padding:  $gap/1.5 1%
@@ -449,7 +472,7 @@ a
 
 .body_single
 	.wrap
-		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" ". . . . . . ." "footer footer footer footer footer footer footer"
+		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" "footer footer footer footer footer footer footer" "footer footer footer footer footer footer footer"
 
 
 	.grid
@@ -474,9 +497,10 @@ a
 				img
 					object-fit: contain
 					max-width: 100%
-					height: 35vh
+					height: 40vh
+					// Obrázky natahují celý rám gridu
 					@include for-size(sm)
-						height: 70vh
+						height: 60vh
 				&:hover // Vztaženo k li elementu
 					background-color: transparent
 					img

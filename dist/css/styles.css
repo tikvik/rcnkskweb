@@ -370,6 +370,11 @@ a {
     .menu .langer .lang .nav-item .nav-link {
       margin: 0 0.4vh; }
 
+.slick-initialized .slick-slide {
+  float: inherit;
+  display: inline-block !important;
+  vertical-align: middle; }
+
 .slick-slider .slick-arrow {
   display: none; }
   @media (min-width: 900px) {
@@ -410,7 +415,7 @@ a {
   grid-template-rows: 8vh 6vh auto 6vh 6vh;
   align-items: center;
   width: 99vw;
-  min-height: 90vh;
+  min-height: 97vh;
   padding: 4vh 4%;
   overflow: hidden; }
   @media (min-width: 600px) {
@@ -474,7 +479,7 @@ a {
   line-height: 1.2; }
 
 .body_single .wrap {
-  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" ". . . . . . ." "footer footer footer footer footer footer footer"; }
+  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" "footer footer footer footer footer footer footer" "footer footer footer footer footer footer footer"; }
 
 .body_single .grid .grid-ul {
   grid-template-columns: 1fr;
@@ -497,10 +502,10 @@ a {
     .body_single .grid .grid-ul li img {
       object-fit: contain;
       max-width: 100%;
-      height: 35vh; }
+      height: 40vh; }
       @media (min-width: 600px) {
         .body_single .grid .grid-ul li img {
-          height: 70vh; } }
+          height: 60vh; } }
     .body_single .grid .grid-ul li:hover {
       background-color: transparent; }
       .body_single .grid .grid-ul li:hover img {
