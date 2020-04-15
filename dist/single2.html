@@ -32,13 +32,15 @@
           </ul>
         </nav>
       </div><br/>
+            <div class="pag-info hidelg"></div>
+            <div class="pag-info2 hidelg"></div>
             <div class="footer">
               <div class="footer-left">
-                <div class="pag-info"></div><br/><span><a href="single1.html">Prev project</a></span>
+                <div class="pag-info hidemob"></div><br/><span><a href="single1.html">Prev project</a></span>
               </div>
-              <div class="project-text-modal">Proměna Vítězného Náměstí<br/><span>2018</span><br/><a class="open-button active" href="#" onclick="return false">View text</a></div>
+              <div class="project-text-modal">Proměna Vítězného Náměstí<br/><span>2018</span><br/><a class="open-button nav-link active" href="#" onclick="return false">View text</a></div>
               <div class="footer-right">
-                <div class="pag-info2"> </div><br/><span><a href="single3.html">Next project</a></span>
+                <div class="pag-info2 hidemob"></div><br/><span><a href="single3.html">Next project</a></span>
               </div>
             </div>
             <div class="grid" id="content">
@@ -86,55 +88,57 @@
                 <div class="modal-content"> 
                   <p>Proměna Vítězného Náměstí<br><br></p>
                   <p></p>
-                  <div class="credentials">
-                    <div class="cred"><span>Klient </span></div>
-                    <div class="cred"><span>Institut Plánování a Rozvoje Hl. Města Prahy</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Lokace </span></div>
-                    <div class="cred"><span>Praha 6 – Dejvice, Česká republika</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Typologie </span></div>
-                    <div class="cred"><span>urbanismus <br></span>
-                    </div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Typ </span></div>
-                    <div class="cred"><span>vyzvaná soutež</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Rok </span></div>
-                    <div class="cred"><span>2018</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Status </span></div>
-                    <div class="cred"><span>soutěžní návrh	</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Užitná plocha </span></div>
-                    <div class="cred"><span></span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Velikost </span></div>
-                    <div class="cred"><span></span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Náklady </span></div>
-                    <div class="cred"><span>1 500 000</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Autoři </span></div>
-                    <div class="cred"><span>MgA. Filip Kosek, MgA. Jan Říčný, Ing. arch. Jakub Jirman, MgA. Jarin Krouz</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Spoluautoři </span></div>
-                    <div class="cred"><span>Bc. Petr Müller</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Odborná spolupráce </span></div>
-                    <div class="cred"><span></span></div>
-                  </div>
+                  <table>
+                    <tr>
+                      <td>Klient</td>
+                      <td>Institut Plánování a Rozvoje Hl. Města Prahy</td>
+                    </tr>
+                    <tr>
+                      <td>Lokace</td>
+                      <td>Praha 6 – Dejvice, Česká republika</td>
+                    </tr>
+                    <tr>
+                      <td>Typologie</td>
+                      <td> <span>urbanismus</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Typ</td>
+                      <td>vyzvaná soutež</td>
+                    </tr>
+                    <tr>
+                      <td>Rok</td>
+                      <td>2018</td>
+                    </tr>
+                    <tr>
+                      <td>Status</td>
+                      <td>soutěžní návrh	</td>
+                    </tr>
+                    <tr>
+                      <td>Užitná plocha</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Velikost</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Náklady</td>
+                      <td>1 500 000</td>
+                    </tr>
+                    <tr>
+                      <td>Autoři</td>
+                      <td>MgA. Filip Kosek, MgA. Jan Říčný, Ing. arch. Jakub Jirman, MgA. Jarin Krouz</td>
+                    </tr>
+                    <tr>
+                      <td>Spoluautoři</td>
+                      <td>Bc. Petr Müller</td>
+                    </tr>
+                    <tr>
+                      <td>Odborná spolupráce </td>
+                      <td></td>
+                    </tr>
+                  </table>
                 </div>
               </div>
             </div>
@@ -169,12 +173,17 @@
         		var modal = document.querySelector("#modal");
         		var closeButton = document.querySelector("#close-button");
         		var openButton = document.querySelector(".open-button");
+        		var pinfo = document.querySelector(".pag-info");
+        		var pinfo2 = document.querySelector(".pag-info2");
         
         
         		openButton.addEventListener("click", function() {
         			content.classList.toggle("closed");
         			//- popiska.classList.toggle("closed");
         			modal.classList.toggle("closed");
+        			pinfo.classList.toggle("closed");
+        			pinfo2.classList.toggle("closed");
+        
         			if (openButton.innerHTML === "View text") {
         			    openButton.innerHTML = "Close text";
         			  } else {
@@ -185,6 +194,8 @@
         		closeButton.addEventListener("click", function() {
         			modal.classList.toggle("closed");
         			content.classList.toggle("closed");
+        			pinfo.classList.toggle("closed");
+        			pinfo2.classList.toggle("closed");
         			//- popiska.classList.toggle("closed");
         			if (popiska.innerHTML === "View text") {
         			    popiska.innerHTML = "Close text";

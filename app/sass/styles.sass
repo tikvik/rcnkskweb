@@ -198,7 +198,7 @@ body
 	height: auto
 	// margin-top: 5%
 	// margin: 0
-	display: flex
+	// display: flex
 
 	@include for-size(sm)
 		padding-top: auto
@@ -321,7 +321,9 @@ a
        vertical-align: middle
 
 
-
+.credentials
+	border: 1px solid red
+	display: block
 
 .slick-slider
 	.slick-arrow
@@ -338,6 +340,11 @@ a
 	.nav-link
 		margin: 0
 		padding: .5rem 0rem
+	.footer-left
+		margin-top: auto
+	.footer-right
+		margin-top: auto
+		text-align: right
 // .pagl
 //  grid-area: pagl
 //  text-align: left
@@ -382,14 +389,15 @@ a
 .hovertext
 	text-align: center
 
+
 .wrap
 	display: grid
 	grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer"
 	grid-template-columns: 8% $gap/2 $gap/2 auto $gap/2 $gap/2 8%
 	grid-template-rows: $gap*2 $gap*1.5 auto $gap*1.5 $gap*1.5
 	align-items: center
-	width: 99vw
-	min-height: 97vh
+	@include for-size(sm)
+		min-height: 97vh
 	padding:  $gap 4%
 	overflow: hidden
 	// padding:  $gap/1.5 1%
@@ -445,6 +453,7 @@ a
 
 // Výjimka z designu index page mezera mezi menu
 .body_index
+	overflow: hidden
 	.wrap
 		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"
 
@@ -471,9 +480,22 @@ a
 
 
 .body_single
+	.hidelg
+		@include for-size(sm)
+			display: none !important	
+	.hidemob
+		display: none
+		@include for-size(sm)
+			display: block !important
 	.wrap
-		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" "footer footer footer footer footer footer footer" "footer footer footer footer footer footer footer"
-
+		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" ". . . . . . ." "footer footer footer footer footer footer footer"
+	.pag-info
+		grid-area: content
+		align-self: center !important	
+	.pag-info2
+		grid-area: content
+		text-align: right
+		// align-self: end !important
 
 	.grid
 		.grid-ul
@@ -508,18 +530,19 @@ a
 					.hovertext
 						opacity: 1
 	.modal-wrap
-		min-height: 70vh
+		// min-height: 70vh
 		display: grid
 		padding-bottom: 2rem
 		grid-area: content
 		grid-template-columns: 8% $gap/2 repeat(4, 1fr) $gap/2 8%
 		grid-template-areas: "mw mw mw mw mw mw mw mw"
+		align-self: center !important
 		@include for-size(sm)
 			grid-template-areas: ". mw mw mw mw mw . ."
 		@include for-size(md)
 			grid-template-areas: ". . mw mw mw mw . ."
 		// grid-gap: $gap
-		align-self: center
+		
 		.modal-window
 			grid-area: mw
 			display: grid
@@ -541,6 +564,17 @@ a
 			.modal-content
 				grid-area: mt
 				align-self: center
+				table
+					width: 100%
+					tbody
+						tr
+							td
+								vertical-align: top
+								&:nth-child(1)
+									// background: red
+									width: 30%
+									padding-right: $gap
+									
 		.credentials
 			.cred
 				float: left
@@ -562,7 +596,7 @@ a
 			img
 				object-fit: contain
 				width: 100%
-				height: 70vh
+				height: 50vh
 				// @include for-size(sm)
 				// 	height: 70vh
 

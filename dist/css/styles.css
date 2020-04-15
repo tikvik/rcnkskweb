@@ -281,8 +281,7 @@ body {
   font-size: 9pt;
   color: black;
   line-height: 1.4;
-  height: auto;
-  display: flex; }
+  height: auto; }
   @media (min-width: 600px) {
     body {
       font-size: 10pt; } }
@@ -375,6 +374,10 @@ a {
   display: inline-block !important;
   vertical-align: middle; }
 
+.credentials {
+  border: 1px solid red;
+  display: block; }
+
 .slick-slider .slick-arrow {
   display: none; }
   @media (min-width: 900px) {
@@ -391,6 +394,11 @@ a {
   .footer .nav-link {
     margin: 0;
     padding: .5rem 0rem; }
+  .footer .footer-left {
+    margin-top: auto; }
+  .footer .footer-right {
+    margin-top: auto;
+    text-align: right; }
 
 .project-text-modal {
   grid-area: footer;
@@ -414,10 +422,11 @@ a {
   grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
   grid-template-rows: 8vh 6vh auto 6vh 6vh;
   align-items: center;
-  width: 99vw;
-  min-height: 97vh;
   padding: 4vh 4%;
   overflow: hidden; }
+  @media (min-width: 600px) {
+    .wrap {
+      min-height: 97vh; } }
   @media (min-width: 600px) {
     .wrap {
       grid-template-rows: 6vh 6vh auto 6vh 8vh;
@@ -459,8 +468,10 @@ a {
           transition: opacity 0.1s;
           margin: 0 auto 0 auto; }
 
-.body_index .wrap {
-  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"; }
+.body_index {
+  overflow: hidden; }
+  .body_index .wrap {
+    grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"; }
 
 .body_projects .grid ul li:hover {
   background-color: pink; }
@@ -478,8 +489,26 @@ a {
   transition: opacity 0.3s;
   line-height: 1.2; }
 
+@media (min-width: 600px) {
+  .body_single .hidelg {
+    display: none !important; } }
+
+.body_single .hidemob {
+  display: none; }
+  @media (min-width: 600px) {
+    .body_single .hidemob {
+      display: block !important; } }
+
 .body_single .wrap {
-  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" "footer footer footer footer footer footer footer" "footer footer footer footer footer footer footer"; }
+  grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content" ". . . . . . ." "footer footer footer footer footer footer footer"; }
+
+.body_single .pag-info {
+  grid-area: content;
+  align-self: center !important; }
+
+.body_single .pag-info2 {
+  grid-area: content;
+  text-align: right; }
 
 .body_single .grid .grid-ul {
   grid-template-columns: 1fr;
@@ -514,13 +543,12 @@ a {
         opacity: 1; }
 
 .body_single .modal-wrap {
-  min-height: 70vh;
   display: grid;
   padding-bottom: 2rem;
   grid-area: content;
   grid-template-columns: 8% 2vh repeat(4, 1fr) 2vh 8%;
   grid-template-areas: "mw mw mw mw mw mw mw mw";
-  align-self: center; }
+  align-self: center !important; }
   @media (min-width: 600px) {
     .body_single .modal-wrap {
       grid-template-areas: ". mw mw mw mw mw . ."; } }
@@ -548,6 +576,13 @@ a {
     .body_single .modal-wrap .modal-window .modal-content {
       grid-area: mt;
       align-self: center; }
+      .body_single .modal-wrap .modal-window .modal-content table {
+        width: 100%; }
+        .body_single .modal-wrap .modal-window .modal-content table tbody tr td {
+          vertical-align: top; }
+          .body_single .modal-wrap .modal-window .modal-content table tbody tr td:nth-child(1) {
+            width: 30%;
+            padding-right: 4vh; }
   .body_single .modal-wrap .credentials .cred {
     float: left;
     width: 25%; }
@@ -563,7 +598,7 @@ a {
   .body_index .grid .grid-index img {
     object-fit: contain;
     width: 100%;
-    height: 70vh; }
+    height: 50vh; }
 
 .body_index .footer {
   grid-area: footer;

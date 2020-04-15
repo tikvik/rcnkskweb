@@ -32,13 +32,15 @@
           </ul>
         </nav>
       </div><br/>
+            <div class="pag-info hidelg"></div>
+            <div class="pag-info2 hidelg"></div>
             <div class="footer">
               <div class="footer-left">
-                <div class="pag-info"></div><br/><span><a href="single9.html">Prev project</a></span>
+                <div class="pag-info hidemob"></div><br/><span><a href="single9.html">Prev project</a></span>
               </div>
-              <div class="project-text-modal">Atelier mezi rybníky<br/><span>2019</span><br/><a class="open-button active" href="#" onclick="return false">View text</a></div>
+              <div class="project-text-modal">Atelier mezi rybníky<br/><span>2019</span><br/><a class="open-button nav-link active" href="#" onclick="return false">View text</a></div>
               <div class="footer-right">
-                <div class="pag-info2"> </div><br/><span><a href="single1.html">Next project</a></span>
+                <div class="pag-info2 hidemob"></div><br/><span><a href="single1.html">Next project</a></span>
               </div>
             </div>
             <div class="grid" id="content">
@@ -65,55 +67,57 @@
                 <div class="modal-content"> 
                   <p>Atelier mezi rybníky<br><br></p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic sequi alias sit officia ex dolor, voluptate ad nesciunt quibusdam. Ducimus nostrum culpa vitae dolorem rem ipsam expedita repellendus assumenda maxime.</p>
-                  <div class="credentials">
-                    <div class="cred"><span>Klient </span></div>
-                    <div class="cred"><span>František Štorm</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Lokace </span></div>
-                    <div class="cred"><span>Nesvačilky</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Typologie </span></div>
-                    <div class="cred"><span>Kaka <br></span><span>Laka <br></span>
-                    </div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Typ </span></div>
-                    <div class="cred"><span>interiér</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Rok </span></div>
-                    <div class="cred"><span>2019</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Status </span></div>
-                    <div class="cred"><span>??????	</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Užitná plocha </span></div>
-                    <div class="cred"><span></span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Velikost </span></div>
-                    <div class="cred"><span></span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Náklady </span></div>
-                    <div class="cred"><span>1 500 000</span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Autoři </span></div>
-                    <div class="cred"><span></span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Spoluautoři </span></div>
-                    <div class="cred"><span></span></div>
-                  </div>
-                  <div class="credentials">
-                    <div class="cred"><span>Odborná spolupráce </span></div>
-                    <div class="cred"><span></span></div>
-                  </div>
+                  <table>
+                    <tr>
+                      <td>Klient</td>
+                      <td>František Štorm</td>
+                    </tr>
+                    <tr>
+                      <td>Lokace</td>
+                      <td>Nesvačilky</td>
+                    </tr>
+                    <tr>
+                      <td>Typologie</td>
+                      <td> <span>Kaka</span><span>Laka</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Typ</td>
+                      <td>interiér</td>
+                    </tr>
+                    <tr>
+                      <td>Rok</td>
+                      <td>2019</td>
+                    </tr>
+                    <tr>
+                      <td>Status</td>
+                      <td>??????	</td>
+                    </tr>
+                    <tr>
+                      <td>Užitná plocha</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Velikost</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Náklady</td>
+                      <td>1 500 000</td>
+                    </tr>
+                    <tr>
+                      <td>Autoři</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Spoluautoři</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Odborná spolupráce </td>
+                      <td></td>
+                    </tr>
+                  </table>
                 </div>
               </div>
             </div>
@@ -141,12 +145,17 @@
         		var modal = document.querySelector("#modal");
         		var closeButton = document.querySelector("#close-button");
         		var openButton = document.querySelector(".open-button");
+        		var pinfo = document.querySelector(".pag-info");
+        		var pinfo2 = document.querySelector(".pag-info2");
         
         
         		openButton.addEventListener("click", function() {
         			content.classList.toggle("closed");
         			//- popiska.classList.toggle("closed");
         			modal.classList.toggle("closed");
+        			pinfo.classList.toggle("closed");
+        			pinfo2.classList.toggle("closed");
+        
         			if (openButton.innerHTML === "View text") {
         			    openButton.innerHTML = "Close text";
         			  } else {
@@ -157,6 +166,8 @@
         		closeButton.addEventListener("click", function() {
         			modal.classList.toggle("closed");
         			content.classList.toggle("closed");
+        			pinfo.classList.toggle("closed");
+        			pinfo2.classList.toggle("closed");
         			//- popiska.classList.toggle("closed");
         			if (popiska.innerHTML === "View text") {
         			    popiska.innerHTML = "Close text";

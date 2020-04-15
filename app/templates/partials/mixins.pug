@@ -8,9 +8,12 @@ mixin mfooter (footerData)
 	if (footerData <= 0)
 		- var pi = projects.length -1;
 	br
+	.pag-info.hidelg
+	.pag-info2.hidelg
+
 	.footer
 		.footer-left
-			.pag-info
+			.pag-info.hidemob
 			br
 			span
 				a(href="single" + pi + ".html") Prev project
@@ -18,9 +21,9 @@ mixin mfooter (footerData)
 			br
 			span #{projects[i].project[0].rok}
 			br
-			a.open-button.active(href="#",onclick="return false" ) View text
+			a.open-button.nav-link.active(href="#",onclick="return false" ) View text
 		div.footer-right
-			.pag-info2 
+			.pag-info2.hidemob
 			br
 			span
 				a(href="single" + ni + ".html") Next project
@@ -60,69 +63,48 @@ mixin mimages (index)
 			.modal-content 
 				p #{projects[i].project[0].title}<br><br>
 				p !{projects[i].project[0].text}
-				.credentials
-					.cred
-						span Klient 
-					.cred
-						span #{projects[i].project[0].klient}
-				.credentials
-					.cred
-						span Lokace 
-					.cred
-						span #{projects[i].project[0].lokace}
-				.credentials
-					.cred
-						span Typologie 
-					.cred
-						each item in projects[i].project[0].typologie
-							span #{item} <br>
-				.credentials
-					.cred
-						span Typ 
-					.cred
-						span #{projects[i].project[0].typ}
-				.credentials
-					.cred
-						span Rok 
-					.cred
-						span #{projects[i].project[0].rok}
-				.credentials
-					.cred
-						span Status 
-					.cred
-						span #{projects[i].project[0].status}	
-				.credentials
-					.cred
-						span Užitná plocha 
-					.cred
-						span #{projects[i].project[0].uzplocha}
-				.credentials
-					.cred
-						span Velikost 
-					.cred
-						span #{projects[i].project[0].velikost}
-				.credentials
-					.cred
-						span Náklady 
-					.cred
-						span #{projects[i].project[0].naklady}
-				.credentials
-					.cred
-						span Autoři 
-					.cred
-						span #{projects[i].project[0].autori}
-				.credentials
-					.cred
-						span Spoluautoři 
-					.cred
-						span #{projects[i].project[0].spoluautori}
-				.credentials
-					.cred
-						span Odborná spolupráce 
-					.cred
-						span #{projects[i].project[0].odbspoluprace}
+				table
+					tr
+						td Klient
+						td #{projects[i].project[0].klient}
+					tr
+						td Lokace
+						td #{projects[i].project[0].lokace}
+					tr
+						td Typologie
+						td 
+							each item in projects[i].project[0].typologie
+								span #{item}
+					tr
+						td Typ
+						td #{projects[i].project[0].typ}
+					tr
+						td Rok
+						td #{projects[i].project[0].rok}
+					tr
+						td Status
+						td #{projects[i].project[0].status}	
+					tr
+						td Užitná plocha
+						td #{projects[i].project[0].uzplocha}
+					tr
+						td Velikost
+						td #{projects[i].project[0].velikost}
+					tr
+						td Náklady
+						td #{projects[i].project[0].naklady}
+					tr
+						td Autoři
+						td #{projects[i].project[0].autori}
+					tr
+						td Spoluautoři
+						td #{projects[i].project[0].spoluautori}
+					tr
+						td Odborná spolupráce 
+						td #{projects[i].project[0].odbspoluprace}
+								
 
-
+				
 
 
 

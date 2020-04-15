@@ -4,12 +4,17 @@ script.
 			var modal = document.querySelector("#modal");
 			var closeButton = document.querySelector("#close-button");
 			var openButton = document.querySelector(".open-button");
+			var pinfo = document.querySelector(".pag-info");
+			var pinfo2 = document.querySelector(".pag-info2");
 
 
 			openButton.addEventListener("click", function() {
 				content.classList.toggle("closed");
 				//- popiska.classList.toggle("closed");
 				modal.classList.toggle("closed");
+				pinfo.classList.toggle("closed");
+				pinfo2.classList.toggle("closed");
+
 				if (openButton.innerHTML === "View text") {
 				    openButton.innerHTML = "Close text";
 				  } else {
@@ -20,6 +25,8 @@ script.
 			closeButton.addEventListener("click", function() {
 				modal.classList.toggle("closed");
 				content.classList.toggle("closed");
+				pinfo.classList.toggle("closed");
+				pinfo2.classList.toggle("closed");
 				//- popiska.classList.toggle("closed");
 				if (popiska.innerHTML === "View text") {
 				    popiska.innerHTML = "Close text";
