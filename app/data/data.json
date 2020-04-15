@@ -2,7 +2,8 @@
 
     "site": {
         "nickname": "RCNKSK architekti",
-        "email": "rcnksk@gmail.com"
+        "email": "rcnksk@gmail.com",
+        "scolor": "gray"
     },
     "pages" : [
         "projects",

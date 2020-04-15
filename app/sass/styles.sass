@@ -30,6 +30,18 @@ $underline: 2px
 // .carousel2
 // 	background-color: $white
 
+
+
+
+h1
+	margin-inline-start: $gap/1.5
+	margin-block-start: 0
+	margin-block-end: 12pt
+	font-size: 12pt
+p
+	margin-block-end: $gap/2
+
+
 .img-fluid
 	max-width: 100%
 	height: auto
@@ -609,6 +621,14 @@ a
 		justify-content: center
 		align-self: start !important
 
+.body_pages
+	.grid
+		.grid-ul
+			grid-template-columns: 1fr 1fr 1fr
+			grid-template-rows: 1fr
+			grid-gap: $gap/2
+			& > div
+				align-self: start
 
 
 // .grid

@@ -145,6 +145,15 @@ html {
   -moz-osx-font-smoothing: grayscale;
   height: 100%; }
 
+h1 {
+  margin-inline-start: 2.66667vh;
+  margin-block-start: 0;
+  margin-block-end: 12pt;
+  font-size: 12pt; }
+
+p {
+  margin-block-end: 2vh; }
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -607,6 +616,13 @@ a {
   display: flex;
   justify-content: center;
   align-self: start !important; }
+
+.body_pages .grid .grid-ul {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 2vh; }
+  .body_pages .grid .grid-ul > div {
+    align-self: start; }
 
 .closed {
   display: none !important; }
