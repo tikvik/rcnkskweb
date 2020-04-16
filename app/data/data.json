@@ -166,6 +166,129 @@
             }]
         },
         { "project": [{
+                "nickname": "Krymská",
+                "title": "Nástavba v Krymské",
+                "klient" : "soukromý",
+                "lokace" : "Praha 10 – Vršovice, Česká republika ",
+                "typologie" : ["obytná stavba" ],
+                "typ" : "stavební úpravy ",
+                "rok" : "2017-",
+                "status" : "ve výstavbě",
+                "uzplocha" : "75,7 m²",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA. Marek Kundrata, MgA. Jan Říčný",
+                "spoluautori" : "MgA. Bibiana Heinichová",
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Hynek Martinec : Cesta na Island",
+                "title": "Hynek Martinec : Cesta na Island",
+                "klient" : "Národní galerie Praha",
+                "lokace" : "Praha, Česká republika",
+                "typologie" : ["výstava" ],
+                "typ" : "",
+                "rok" : "2018",
+                "status" : "realizováno",
+                "uzplocha" : "75,7 m²",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
+                "spoluautori" : "",
+                "odbspoluprace" : "Otto M. Urban Ph.D., Petr Nedoma – kurátoři",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Soubor čtyř dvoudomků",
+                "title": "Soubor čtyř dvoudomků ",
+                "klient" : "soukromý",
+                "lokace" : "Mokrá u Brna, Česká republika",
+                "typologie" : ["obytné stavby " ],
+                "typ" : "novostavba",
+                "rok" : "2017",
+                "status" : "dokumentace k územnímu řízení",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA. Jan Říčný, MgA. Filip Kosek",
+                "spoluautori" : "Ing. arch. Štěpánka Úlehlová",
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Norbert Grund (1717 – 1767). Půvab Všedního Dne",
+                "title": "Norbert Grund (1717 – 1767). Půvav Všedního Dne",
+                "klient" : "Národní galerie Praha",
+                "lokace" : "Praha, Česká republika",
+                "typologie" : ["výstava" ],
+                "typ" : "",
+                "rok" : "2018",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
+                "spoluautori" : "",
+                "odbspoluprace" : "Mgr. Marcela Vondráčková PhD. – kurátorka",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "BMW Urban Store",
+                "title": "BMW Urban Store",
+                "klient" : "soukromý",
+                "lokace" : "Praha, Česká republika",
+                "typologie" : ["komerční prostor" ],
+                "typ" : "interiér",
+                "rok" : "2019",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
+                "spoluautori" : "MgA. Bibiana Heinichová",
+                "odbspoluprace" : "Mojmír Veselka – truhlař",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Řeznictví & Bistro Mikrofarma",
+                "title": "Řeznictví & Bistro Mikrofarma",
+                "klient" : "soukromý",
+                "lokace" : "Praha 3 – Žižkov, Česká republika ",
+                "typologie" : ["občanské stavby" ],
+                "typ" : "konverze",
+                "rok" : "2017",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA. Jan Říčný, MgA. Marek Kundrata",
+                "spoluautori" : "",
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+
+
+
+
+
+
+
+
+
+        { "project": [{
                 "comment": "project id 24",
                 "nickname": "Parkovací dům u Krajského úřadu",
                 "title": "Parkovací dům u Krajského úřadu",

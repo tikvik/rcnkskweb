@@ -179,7 +179,7 @@ p {
   height: 100%;
   overflow: auto;
   background-color: black;
-  background-color: rgba(255, 255, 255, 0.6); }
+  background-color: white; }
 
 /* Modal Content/Box */
 .pmodal-content {
@@ -418,7 +418,7 @@ a {
     display: inline; }
 
 .pcolor {
-  background-color: pink; }
+  background-color: white; }
 
 .hovertext {
   text-align: center; }
@@ -481,7 +481,7 @@ a {
     grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"; }
 
 .body_projects .grid ul li:hover {
-  background-color: pink; }
+  background-color: white; }
   .body_projects .grid ul li:hover img {
     opacity: 0; }
   .body_projects .grid ul li:hover .hovertext {
@@ -623,7 +623,7 @@ a {
   grid-area: content;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 8vh;
+  grid-gap: 12vh;
   height: 100%; }
   .body_pages .gridpages .vertmenu .nav {
     display: flex;
