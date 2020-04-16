@@ -266,6 +266,7 @@ a
 
 .menu
 	grid-area: header
+	align-self: end
 	display: flex
 	justify-content: space-between
 	text-align: center
@@ -296,7 +297,6 @@ a
 			margin-right: auto !important
 			padding: 0
 			margin: 0
-			align-self: end
 			.nav-item
 
 
@@ -347,6 +347,7 @@ a
 
 .footer
 	grid-area: footer
+	align-self: end
 	display: flex
 	justify-content: space-between
 	.nav-link
@@ -394,9 +395,9 @@ a
 	background-color: $pcolor
 
 // Align self end pro ne.grid elementy
-.wrap div
-	&:not(.grid)
-		align-self: end
+// .wrap div
+// 	&:not(.grid)
+// 		align-self: end
 
 .hovertext
 	text-align: center
@@ -622,13 +623,37 @@ a
 		align-self: start !important
 
 .body_pages
-	.grid
-		.grid-ul
-			grid-template-columns: 1fr 1fr 1fr
-			grid-template-rows: 1fr
-			grid-gap: $gap/2
-			& > div
-				align-self: start
+	.wrap
+		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"
+
+	.gridpages
+		display: grid
+		grid-area: content
+		grid-template-columns: 1fr 1fr 1fr
+
+		grid-template-rows: 1fr
+		grid-gap: $gap*2
+		height: 100%
+		.obr
+			// order: 2
+
+		.text
+			// order: 1
+		.vertmenu
+			// order: 0
+			.nav
+				display: flex
+				-ms-flex-wrap: wrap
+				flex-wrap: wrap
+				padding-left: 0
+				margin-bottom: 0
+				list-style: none
+				flex-direction: column
+				.nav-item
+					.nav-link
+						display: inline-block
+
+
 
 
 // .grid
