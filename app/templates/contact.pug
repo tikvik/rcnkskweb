@@ -1,0 +1,46 @@
+extends layout.pug
+block body
+	body.body_pages.scolor#body(style="background-color:" + site.scolor)
+block content
+	.gridpages
+		.obr
+			img.img-fluid(src="images/studio.jpg", alt="")
+
+		.text
+			h1 Office / Mailing Address
+			span RCNKSK s.r.o. <br>
+				| U Lužického semináře 26 <br>
+				| 118 00 Prague 1 – Malá Strana
+			p 
+				a(href="#").nav-link View Map
+
+			h1#biographies Contacts
+			p MgA. Filip Kosek  <br>
+				| +420 777 030 425
+			p MgA. Jan Říčný <br>
+				| +420 608 132 567
+			p RCNKSK authorization <br>
+				| ČKA: 4606
+			h1#exhi Billing Address
+			p RCNKSK s.r.o.
+				| Na Pernikářce 775/26<br>
+				| 160 00 Prague 6 – Dejvice<br>
+				| Czech Republic<br>
+				| IČO 26454351<br>
+				| DIČ CZ26454351
+			p Bank Account
+				| 2301356317/2010 <br>
+				| Bank: Fio banka <br>
+				| IBAN: CZ6520100000002301356317 <br>
+				| SWIFT: fiobczppxxx <br>
+
+
+		.vertmenu
+			ul.nav
+				li.nav-item 
+					a.nav-link.active(href="#biographies") Facebook
+				li.nav-item 
+					a.nav-link.active(href="#exhi") Instagram
+				li.nav-item 
+					a.nav-link.active(href="#awards") Twitter
+

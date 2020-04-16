@@ -320,7 +320,7 @@ a {
   width: 30% !important; }
 
 .nav-link {
-  display: block;
+  display: inline-block;
   padding: .5rem .2rem;
   margin: 0 1.6vh;
   line-height: 1;
@@ -635,6 +635,9 @@ a {
     flex-direction: column; }
     .body_pages .gridpages .vertmenu .nav .nav-item .nav-link {
       display: inline-block; }
+
+.nav-link {
+  display: inline-block; }
 
 .closed {
   display: none !important; }
