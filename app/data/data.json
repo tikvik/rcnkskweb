@@ -14,20 +14,23 @@
     
     "projects": [
         { "project": [{
-                "nickname": "Nesvačilka__dodělat",
-                "title": "Atelier mezi rybníky",
-                "klient" : "František Štorm",
-                "lokace" : "Nesvačilky",
-                "typologie" : ["Kaka" , "Laka"],
-                "typ" : "interiér",
-                "rok" : "2019",
-                "status" : "??????",
-                "uzplocha" : "",
+                "nickname": "Nesvačilka",
+                "title": "Kaple Panny Marie Bolestné v Nesvačilce",
+                "klient" : "Řimskokatolická farnost Moutnice",
+                "lokace" : "Nesvačilka, Česká republika",
+                "typologie" : ["sakrální stavby"],
+                "typ" : "novostavba",
+                "rok" : "2012 - dosud",
+                "status" : "ve výstavbě",
+                "uzplocha" : "147 m²",
                 "velikost" : "",
-                "naklady" : "1 500 000",
-                "autori" : "",
-                "spoluautori" : "",
-                "odbspoluprace" : "",
+                "naklady" : "14 000 000 Kč",
+                "autori" : "MgA. Jan Říčný",
+                "spoluautori" : "ing. arch. Michal Říčný",
+                "odbspoluprace" : [{
+                    "statika" : "Ing. Vít Mlázovský, Ing. Filip Chmel",
+                    "inženýring" : "test only"
+                }],
                 "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic sequi alias sit officia ex dolor, voluptate ad nesciunt quibusdam. Ducimus nostrum culpa vitae dolorem rem ipsam expedita repellendus assumenda maxime.",
                 "bgcolor" : "#ECE59B"
             }]

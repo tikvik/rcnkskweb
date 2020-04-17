@@ -471,6 +471,7 @@ a {
           height: 100%;
           width: 100%;
           object-fit: cover;
+          position: absolute;
           opacity: 1;
           transition: opacity 0.1s;
           margin: 0 auto 0 auto; }
