@@ -31,25 +31,25 @@ mixin mfooter (footerData)
 
 mixin mimages (index)
 	.grid#content
-		ul.grid-ul
-			li
-				div.carousel
-					each item, i in gimg[index][0]
-						div
-							div.pmodal-ico(onclick="mymodal()")
-								img(src=item)
+		//- ul.grid-ul
+		//- 	li
+		//- 		div.carousel
+		//- 			each item, i in gimg[index][0]
+		//- 				div
+		//- 					div.pmodal-ico(onclick="mymodal()")
+		//- 						img(src=item)
 
 
 
 
 				
 
-			li
-				div.carousel2
-					each item in gimg[index][1]
-						div
-							div.pmodal-ico(onclick="mymodal2()")
-								img(src=item)
+		//- 	li
+		//- 		div.carousel2
+		//- 			each item in gimg[index][1]
+		//- 				div
+		//- 					div.pmodal-ico(onclick="mymodal2()")
+		//- 						img(src=item)
 	
 
 	.modal-wrap.closed#modal
@@ -92,12 +92,12 @@ mixin mimages (index)
 						td #{projects[i].project[0].naklady}
 					tr
 						td Autoři
-						td #{projects[i].project[0].autori}
+						td !{projects[i].project[0].autori}
 					tr
 						td Spoluautoři
-						td #{projects[i].project[0].spoluautori}
+						td !{projects[i].project[0].spoluautori}
 					tr
-						td Odborná spolupráce 
+						td Spolupráce 
 						td 
 							each item in projects[i].project[0].odbspoluprace
 								span #{item.profese}: #{item.name}<br>
