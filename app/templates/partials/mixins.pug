@@ -30,14 +30,12 @@ mixin mfooter (footerData)
 
 
 mixin mimages (index)
-
 	.grid#content
 		ul.grid-ul
 			li
 				div.carousel
 					each item, i in gimg[index][0]
 						div
-							//- img(data-lazy=item)
 							div.pmodal-ico(onclick="mymodal()")
 								img(src=item)
 
@@ -50,7 +48,6 @@ mixin mimages (index)
 				div.carousel2
 					each item in gimg[index][1]
 						div
-							//- img(data-lazy=item)
 							div.pmodal-ico(onclick="mymodal2()")
 								img(src=item)
 	
@@ -61,7 +58,7 @@ mixin mimages (index)
 				a(class="nav-link", href="#",onclick="return false" )
 					img(src="images/ico_close.svg", alt="")
 			.modal-content 
-				p #{projects[i].project[0].title}<br><br>
+				h1 #{projects[i].project[0].title}<br><br>
 				p !{projects[i].project[0].text}
 				table
 					tr
@@ -74,7 +71,7 @@ mixin mimages (index)
 						td Typologie
 						td 
 							each item in projects[i].project[0].typologie
-								span #{item}
+								span #{item}<br>
 					tr
 						td Typ
 						td #{projects[i].project[0].typ}
@@ -101,7 +98,10 @@ mixin mimages (index)
 						td #{projects[i].project[0].spoluautori}
 					tr
 						td Odborná spolupráce 
-						td #{projects[i].project[0].odbspoluprace}
+						td 
+							each item in projects[i].project[0].odbspoluprace
+								span #{item.profese}: #{item.name}<br>
+								
 								
 
 				
