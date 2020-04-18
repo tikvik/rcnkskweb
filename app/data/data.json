@@ -24,7 +24,7 @@
                 "status" : "ve výstavbě",
                 "uzplocha" : "147 m²",
                 "velikost" : "",
-                "naklady" : "14 000 000 Kč",
+                "naklady" : "14 000 000",
                 "autori" : "MgA. Jan Říčný",
                 "spoluautori" : "ing. arch. Michal Říčný",
                 "odbspoluprace" : [
@@ -45,8 +45,8 @@
                 "status" : "realizováno",
                 "uzplocha" : "513,3 m²",
                 "velikost" : "",
-                "naklady" : "15 000 000 Kč",
-                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
+                "naklady" : "15 000 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
                 "spoluautori" : "ing.&nbsp;arch.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Bibiana&nbsp;Heinichová, Bc.&nbsp;Jan&nbsp;Poslušný, Bc.&nbsp;Erika&nbsp;Trang&nbsp;Nguyen&nbsp;Thu, Ing.&nbsp;arch.&nbsp;Štěpánka&nbsp;Úlehlová",
                 "odbspoluprace" : [
                     {"profese" : "inženýring", "name" : "ing. Jan Moravec"},
@@ -72,7 +72,7 @@
                 "status" : "soutěž – otevřená",
                 "uzplocha" : "",
                 "velikost" : "",
-                "naklady" : "550 000 000 Kč",
+                "naklady" : "550 000 000",
                 "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, Ing.&nbsp;arch.&nbsp;Jakub&nbsp;Jirman, MgA.&nbsp;Jarin&nbsp;Krouz",
                 "spoluautori" : "Bc. Petr Müller",
                 "odbspoluprace" : [
@@ -138,7 +138,7 @@
                 "status" : "ve výstavbě",
                 "uzplocha" : "2430 m²",
                 "velikost" : "0,41 ha",
-                "naklady" : "55 000 000 Kč",
+                "naklady" : "55 000 000",
                 "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, Ing.&nbsp;arch.&nbsp;akad.&nbsp;arch.&nbsp;Jaroslav Kosek",
                 "spoluautori" : "",
                 "odbspoluprace" : [
@@ -153,37 +153,45 @@
                 "nickname": "Tajemné Dálky",
                 "title": "Národní galerie – Tajemné dálky",
                 "klient" : "Národní galerie Praha",
-                "lokace" : "Praha, Česká republika",
+                "lokace" : "Praha 1 – Staré Město, Česká republika",
                 "typologie" : ["výstava" ],
-                "typ" : "novostavba",
+                "typ" : "dočasná instalace",
                 "rok" : "2015",
                 "status" : "realizováno",
-                "uzplocha" : "",
+                "uzplocha" : "1 760 m²",
                 "velikost" : "",
-                "naklady" : "",
-                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
-                "spoluautori" : "Otto M. Urban Ph.D. – autor výstavy",
-                "odbspoluprace" : "Phdr. Anna Pravdová, Ph.D – kurátorka",
-                "text": "",
+                "naklady" : "875 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "",
+                "odbspoluprace" : [
+                                {"profese" : "kurátor", "name" : "Otto M.&nbsp;Urban&nbsp;Ph.D., Phdr.&nbsp;Anna Pravdová,&nbsp;Ph.D"},
+                                {"profese" : "grafický design", "name" : "Robert V. Novák"},
+                                {"profese" : "osvětlení", "name" : "Etna s.r.o."},
+                                {"profese" : "výroba", "name" : "Sikorski, a.s."},
+                                {"profese" : "instalace", "name" : "Vetamber s.r.o."}
+                            ],
+                "text": "<b>Datum konání: 22.4.2015 - 27.9.2015</b><br><b>Místo konání: Klášter sv. Anežky České</b><p>Od počátku prací na výstavě Tajemné dálky jsme věřili že gotické prostory Anežského kláštera musí symbolistními výtvarnými díly vytvářet symbiózu, než kontrast. Šlo o to udělat z prázdného chrámu, chrám umění. Tradiční duchovní prostory naplněné uměním, které hledá duchovno v překotné době, kdy se na úkor pokroku tradiční hodnoty ztrácí.<br>Při vytváření expozice Tajemných Dálek, symbolismus v českých zemích v komplikovaných a rozmanitých prostorách kláštera sv. Anežy České bylo nutné učinit provést diváka expozicí správným směrem a především vytvořit atmosféry šité na míru jednotlivým prostorám.<br>Výstava začíná v ambitu kláštera historickou osou na jejímž konci je panel s logem výstavy. Výstava začíná třemi menšími místnostmi bývalou šatnou, refektářem a černou kuchyní. Abychom udrželi kontinuitu výstavy a umožnili vystavit díla se specifickými světelnými požadavky bylo nutné do ambitu vystavět dlouhou místnost tzv.černý tunel. Tento tunel slouži nejen jako spojovací prvek mezi třemi místnostmi v první části expozice a velkým finálem v kostelech Panny Marie a mauzoleu sv. Salvátora, ale především jako hlavní pohledová osa - páteř výstavy. V kostlech i dalších místnostech byla vytvořena tajemná atmodséra a to dvěma nástroji, jednak celkévým zatmavením oken a především zvolením specifické paneláže pokryté nelakovaným plechem. Plechové panely umocňovali atmosféru děl na nich umístěných a v odlescích symbolizovali jejich skrytý význam. V kostele panny Marie a v mauzoleu sv. Salvatora byla vystavena velkoformátová díla a sochy. Velkoformátová díla byla umístěna v kostele sv. Salvátora tak jako by to byly oltáře.<br>Výstava Tajemné dálky byla zakončením dlouhodobého badatelského projektu historika umění Otto M. Urbana, který se touto tematikou více než desetiletí zabýval a souběžně s výstavou byla vydána obsáhlá monografie.</p><b>Kurátorský koncept:<br>Tajemné dálky: symbolismus v českých zemích, 1880 – 1914 </b><br><p>Výstava Tajemné dálky, symbolismus v českých zemích se věnuje specifické části výtvarné umělecké scény v českých zemích, ovlivněné symbolismem v období mezi lety 1880 a 1914. Datace výstavy je pomyslně rámována dobou otevření Národního divadla a začátkem první světové války, název je odvozen z titulu básnické sbírky Otakara Březiny z 90. let 19. století. Výstava je prvním podobným projektem, až do současnosti byl symbolismus prezentován jako specifická kapitola v rámci rozsáhlejších výstavních projektů. V jednotlivých tematických kapitolách se tak představují vedle známých a uznávaných umělců (Alfons Mucha, Max Švabinský, František Bílek, Josef Váchal, Bohumil Kubišta, Jan Zrzavý ad.) i autoři méně vystavovaní a zvláště v mezinárodním kontextu téměř neznámí (Maxmilián Pirner, Beneš Knüpfer, August Brömse, Jaroslav Panuška, Josef Mandl, Tavík František Šimon, Alois Boháč aj.). Exponáty jsou jak z velkých etablovaných galerií (Národní galerie v Praze, Galerie hlavního města Prahy nebo Památník národního písemnictví), tak z menších museí a regionálních institucí, stejně jako ze soukromých sbírek. V několika případech se jedná i o zápůjčky ze zahraničí (Řezno, Oslo, Paříž). Vedle známých jsou zde tak představeny i doposud nevystavené práce. Jakkoli výstava tematicky vychází a navazuje na expozice, které v rámci tohoto projektu proběhly v Krakově a Olomouci, její struktura je od předcházejících poněkud odlišná, neboť vychází ze specifických podmínek kláštera sv. Anežky České. Na rozdíl od zmíněných prezentací tvoří jádro výstavy soubor děl ze sbírek Národní galerie v Praze. Jedná se často o zásadní práce, které se zde objevují v novém kontextu. Výrazně větší je také soubor vystavených knih. </p><p>Bylo to právě v prostředí symbolismu, kde se poprvé a nejvýrazněji objevily vyhraněné kritické názory k nacionálním tendencím, jež české kultuře v 19. století dominovaly. Umělci se cítili jako součást jakéhosi duchovního společenství bez ohledu na národnostní či sociální podmíněnost. Výrazně se tomuto tématu věnovala klíčová postava českého symbolismu a dekadence, básník, kritik a výtvarník Karel Hlaváček v textu příznačně nazvaném „Nacionalismus a internacionalismus“ z roku 1896. Pro Hlaváčka a jeho druhy bylo fascinující poznávat tvorbu „spřízněných duší“ z Paříže, Londýna, Berlína, Vídně, Bruselu, Krakova či Říma; jejich díla jim nebyla cizí, ale naopak hluboce blízká a příbuzná.</p><p>V teoretických diskusích se stále častěji objevoval pojem syntetismu, který se záhy stal jedním ze zásadních témat umělecké kritiky a teorie té doby. Syntetismus byl snahou o svébytné propojení umění a života, o vnímání krásy, harmonie, ale i bolesti a hrůzy jakýmsi vyšším a hlubším způsobem, který by se zásadně projevil i v samotném lidském konání.</p><p>Realita ovšem stála v přímé opozici, pragmatismus doby světla chápal problém zcela opačně: technologický rozvoj sám ovlivní tvář umění a kultury. S takovou situací se řada umělců a myslitelů odmítala smířit a volila dobrovolně osamělé snění v přítmí kaváren či ateliérů.</p><p>Symbolismus byl v českém prostředí prvním uměleckým směrem, jenž proklamativně vystupoval jako součást širšího evropského uměleckého proudu. Jeho zásluhou pak v následujících desetiletích patřilo české umění přirozeně k evropské kultuře. Díky uměleckým i osobním kontaktům, které generace 90. let navázala s mnoha umělci v zahraničí, mohly ty následující zcela samozřejmě vstupovat do mezinárodního kontextu. Stačí připomenout pozdější úzké kontakty s německým, zejména mnichovským expresionismem, těsné umělecké i lidské vazby s pařížskými kubisty, po první světové válce pak propojení s mezinárodním hnutím surrealismu..</p>  <p>Otto M. Urban</p><b>Web výstavy</b><br><a href=\"https://www.ngprague.cz/exposition-detail/tajemne-dalky-symbolismus-v-ceskych-zemich-1880-1914/\">Link na ngprague.cz</a><br><br><b>Recenze:</b><br>Radan Wagner, Česká pozice, <a href=\"https://ceskapozice.lidovky.cz/recenze/tajemne-dalky-ceskeho-symbolismu.A150702_124837_pozice-recenze_kasa\">Lidovky</a><br>Klára Fleyberková, <a href=\"https://www.irozhlas.cz/kultura_vytvarne-umeni/vystava-tajemne-dalky-predstavi-cesky-symbolismus-z-prelomu-19-a-20-stoleti_201504220110_mkaspar\">Český rozhlas</a><br>Marie Třešňáková, <a href=\"https://ct24.ceskatelevize.cz/kultura/1522676-tajemne-dalky-provokuji-objevny-dialog\">Česká televize</a> <br></a> <br>Peter Kováč, <a href=\"https://www.novinky.cz/kultura/clanek/recenze-tajemne-dalky-ztracejici-se-v-tunelu-298079\">Právo</a> <br>",
                 "bgcolor" : "#C7D0D0"
             }]
         },
         { "project": [{
                 "nickname": "Žitná",
-                "title": "Žitná 14, dostavba a rekonstrukce bytového domu",
+                "title": "Žitná 14, dostavba a rekonstrukce bytového domu",
                 "klient" : "soukromý",
                 "lokace" : "Praha 2 – Nové město, Česká republika",
-                "typologie" : ["obytná budova" ],
-                "typ" : "dostavba, rekonstrukce",
-                "rok" : "2018",
+                "typologie" : ["bytový dům" ],
+                "typ" : "rekonstrukce, dostavba",
+                "rok" : "2018 - dosud",
                 "status" : "územní řízení",
-                "uzplocha" : "",
-                "velikost" : "",
-                "naklady" : "",
-                "autori" : "MgA. Jan Říčný, MgA. Filip Kosek",
-                "spoluautori" : "Bc. Barbora Tauerová, Bc. Erika Trang Nguyen Thu, Ing. arch. Petr Müller",
-                "odbspoluprace" : "",
-                "text": "",
+                "uzplocha" : "1660 m²",
+                "velikost" : "0,074 ha",
+                "naklady" : "42 000 000",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Filip&nbsp;Kosek",
+                "spoluautori" : "Bc.&nbsp;Barbora&nbsp;Tauerová, Bc.&nbsp;Erika&nbsp;Trang Nguyen&nbsp;Thu, Ing.&nbsp;arch.&nbsp;Petr&nbsp;Müller",
+                "odbspoluprace" : [
+                                {"profese" : "generální projektant", "name" : "ing.&nbsp;Aleš&nbsp;Dittert&nbsp;– Profing&nbsp;ML&nbsp;s.r.o."}
+                            ],
+                "text": "Dům &bdquo;U Bílého lva&ldquo; je kulturní památkou ČR. Jedná se o neorenesanční činžovní dům s dvorními trakty a drobnými objekty ve druhém dvoře, který byl postaven v letech 1861 – 1880. Záměrem investora je provést památkově citlivou kompletní rekonstrukci objektu pro bydlení s vestavbou jednotlivých hygienických jader a výtahů pro zvýšení komfortu bydlení. Za účelem rozšíření kapacity bytových jednotek je navržena na 2. dvoře demolice řadových garáží a dvoupodlažního objektu. Na uvolněném místě se navrhuje dostavět pětipodlažní a dvoupodlažní objekt s bytovými jednotkami v duchu činžovních pavlačových domů počátku minulého století. Cílem je vytvořit stavbu, která bude typologicky, formálně a materiálově vycházet z klasických pavlačových domů konce 19.století a zároveň bude současná. Plocha druhého dvoru bude sloužit pro umístění podzemního parkingu ve 3 úrovních propojených auto výtahem. Je navrženo využít stávající půdní prostory k vestavbě půdních bytů prosvětlených ateliérovými okny a střešními světlíky.<br>V dalších fázích by měly postupně následovat rekonstrukce prvního dvorního traktu a závěrem pak rekonstrukce samotného uličního objektu. V domě dlouhou dobu působil a žil hudební skladatel Antonín Dvořák.",
                 "bgcolor" : "#F3B790"
             }]
         },
@@ -192,146 +200,418 @@
                 "title": "Nástavba v Krymské",
                 "klient" : "soukromý",
                 "lokace" : "Praha 10 – Vršovice, Česká republika ",
-                "typologie" : ["obytná stavba" ],
-                "typ" : "stavební úpravy ",
-                "rok" : "2017-",
+                "typologie" : ["bytový dům" ],
+                "typ" : "rekonstrukce",
+                "rok" : "2017 - dosud",
                 "status" : "ve výstavbě",
                 "uzplocha" : "75,7 m²",
                 "velikost" : "",
-                "naklady" : "",
-                "autori" : "MgA. Marek Kundrata, MgA. Jan Říčný",
-                "spoluautori" : "MgA. Bibiana Heinichová",
-                "odbspoluprace" : "",
-                "text": "",
+                "naklady" : "4 500 000",
+                "autori" : "MgA.&nbsp;Marek&nbsp;Kundrata, MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "MgA.&nbsp;Bibiana&nbsp;Heinichová",
+                "odbspoluprace" : [
+                                {"profese" : "statika", "name" : "Ing.&nbsp;Filip&nbsp;Chmel"}
+                            ],
+                "text": "<p>Objekt se nachází v blokové zástavě na západním konci Vršovic, kde je výrazný terén a drobná proporce ulic. Setkává se tu zástavba velkých činžovních domů z počátku 20. století s předchozí drobnou zástavbou starých Vršovic, jejíž dochovaným příkladem je projednávaný dvoupodlažní dům č.p. 294. Je situován uliční fasádou k jihu do ulice Krymské. Je však silně zastíněn protějšími činžovními pětipodlažními domy. Od severu je silně převýšen zástavbou i terénem od ulice Francouzská. Proto i dvůr je silně zastíněn – od severu má opěrnou zeď zahrady sousedícího objektu dosahující poloviny 2. podlaží. V celkové urbanistické kompozici je cenný kontrast větších činžovních domů s dvoupodlažní původnější zástavbou Vršovic. Dává místu specifickou atmosféru, která je výrazným terénem ještě umocněna.</p><p>Zděný dvoupodlažní nepodsklepený objekt se sedlovou střechou vznikl pravděpodobně koncem 19. století. Původně jako jednopodlažní dvojdomek (spolu s vedlejším již neexistujícím objektem). Zanedlouho byl objekt navýšen o podlaží a původní průchod mezi domy nahrazen chodbou. Z přízemí se stal obchodní prostor. V 2. podlaží byla vybudována pavlač se vstupy do tří malých bytů a společným WC s přístupem z pavlače. Jeden byt byl později doplněn dřevěnou verandou do dvora. Výsledný objekt, který od té doby zůstal téměř nezměněn, je velmi typickým příkladem původní zástavby Vršovic s velmi skromným jak dispozičním, tak materiálovým řešením a s nemalým vstupem „lidové tvořivosti“. Např. původní veranda je velmi svérázným neopakovatelným prvkem, kombinací „posbíraných“ starých oken doplněný o velmi zdobné téměř neorenesanční vstupní dveře v detailu a zpracování výrazně vyšší kvality než zbytek objektu. Takových detailů je na objektu více a jako celek tvoří velmi barvitý „slepenec“ se silným geniem loci. To je hlavní tváří objektu: živelnost, barvitost a nestylovost, která tvoří velmi svébytný celek. V 2. polovině 20. století sloužil jako útočiště a dílna mladým umělcům.<br>Požadavky stavebníka (zbudování nové bytové jednotky) byly minimalizovány, tak aby bylo co možná nejvíce zachováno měřítko objektu se svým výrazným charakterem. Nové zásahy mají za cíl ctít principy vzniku původního objektu – vrstvení, jedinečnost každé části, slepenec, drobné měřítko.</p><p>Uliční fasáda: stávající celek získává rytmus v rámci 2.NP s kastlovými okny. Přízemí je živelně upraveno vstupy do obchodní jednotky, nyní Bar v Krymský, a rytmus se zde ztrácí. Plánovaná nástavba se tedy váže na 2.NP, cituje jeho rytmus a tvarosloví. Okna mají menší měřítko než v 2.NP aby podpořily výraz domu – je to jeden z mála posledních malých domů v ulici. Proto by neměl převyšovat římsy již nadstavených vedlejších domů.</p><p>Dvorní fasáda: návrh se snaží zachovat formu pavlačového domu a dům zvýšit co nejméně. Proto severní část domu se schodištěm nadstavena není, stávající střecha zde bude nahrazena pouze terasou a zachován štít k severu. Samotná hmota nástavby je pouze v hlavní hmotě do ulice. Vzniká citace pavlače s plastickým členěním. Který podtrhuje živelnost 2.NP a celého domu.</p><p>Kompozice je doplněna druhou &bdquo;verandou&ldquo;, která není slepě umístěna nad verandu původní, což by nebylo vhodné pro udržení měřítka domu. Naopak je umístěna kompozičně v jakémsi kontrapunktu vůči původní verandě. Nový prvek není slepou citací, protože část původní je neopakovatelná. Pouhým kopírováním bychom nejen ztratili charakter domu, ale též popřeli princip jeho vzniku. V navrhované dostavbě jsou užity tradiční materiály: vápenná omítka a olejované dřevo s využitím tradičních truhlářských detailů a spojů. Nová horní „pavlač“ je doplněna ocelovým zábradlím citující historickou pavlač o patro níže ve zjednodušené formě.<br>Střecha je sedlová se stávající neglazovanou pálenou krytinou, která bude znovu užita vzhledem k bezvadnému stavu. Klempířské prvky budou provedeny v poplastovaném plechu pískově šedé barvy. Stávající komíny jsou odstraněny, již nejsou třeba.</p><p><b>Dispoziční členění nástavby:</b><br>Nástavba je řešena jako 1 bytová jednotka se vstupem přes pavlač.Obytný prostor (3.04) s kuchyní je situován uprostřed dispozice a je doplněn na východ o ložnici (3.07), pokoj (3.09) a na západ pracovnu (3.08). Mezi pokojem a ložnicí je v privátněji pojaté části přístupné přes chodbu k ložnicím (3.03) umístěna koupelna (3.05) s umyvadlem, vanou a sprchovým koutem a samostatná toaleta (3.08) s umývátkem. Pokoje se otvírají do krovu – stěny se totiž lámou ve střechu již ve výši 2m, aby byla nástavba co nejnižší. Principielně se tedy jedná o podkroví, které je doplněno o patýrko s hernou (3.11) a půdou (3.10). Vstup je přes studenou (3.01) a následně teplou chodbu (3.02), které slouží i jako úložný prostor.<br>Obytné pokoje mají dřevěnou prkennou podlahu a stěny z SDK. Koupelna a toaleta jsou obloženy keramickým obkladem.Konstrukčně se jedná o rámovou difuzně otevřenou dřevostavbu s minerální izolací, která je doplněna uvnitř dispozice klasickou tesařskou konstrukcí odkazující na původní krov. Původní strop 1.NP je ponechán v původní skladbě a na něj je založena dřevostavba. Tento systém byl zvolen proto, aby se nepřetěžovaly stávající základy.</p>",
                 "bgcolor" : ""
             }]
         },
         { "project": [{
-                "nickname": "Hynek Martinec : Cesta na Island",
-                "title": "Hynek Martinec : Cesta na Island",
+                "nickname": "Hynek Martinec",
+                "title": "Hynek Martinec: Cesta na Island",
                 "klient" : "Národní galerie Praha",
-                "lokace" : "Praha, Česká republika",
+                "lokace" : "Praha 1 – Hradčany, Česká republika",
                 "typologie" : ["výstava" ],
-                "typ" : "",
+                "typ" : "dočasná instalace",
                 "rok" : "2018",
                 "status" : "realizováno",
-                "uzplocha" : "75,7 m²",
+                "uzplocha" : "",
                 "velikost" : "",
-                "naklady" : "",
-                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
+                "naklady" : "490 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
                 "spoluautori" : "",
-                "odbspoluprace" : "Otto M. Urban Ph.D., Petr Nedoma – kurátoři",
-                "text": "",
-                "bgcolor" : ""
+                "odbspoluprace" : [
+                                {"profese" : "kurátor", "name" : "Otto&nbsp;M.&nbsp;Urban Ph.D.,&nbsp;Petr Nedoma"},
+                                {"profese" : "grafický design", "name" : "Studio Breisky"},
+                                {"profese" : "výroba", "name" : "Kamark&nbsp;s.r.o."},
+                                {"profese" : "osvětlení", "name" : "RCNKSK"}
+                            ],
+                "text": "<b>Datum konání : 27.&nbsp;4.&nbsp;2018 - 16.&nbsp;9.&nbsp;2018<br>Místo konání: Šternberský palác</b><p>Soubor obrazů Hynka Martince je ilustrací konceptuálně formulované hříčky, založené na fiktivní historce o pokusu postavit v první polovině 18. století na Islandu barokní katedrálu a vyzdobit ji obrazy. K. I. Dientzenhofer katedrálu nakonec nepostavil, ale údajně zachovaný soubor obrazů určený pro Island je předmětem této výstavy. Přibližně třicet obrazů a kreseb je tematicky svázáno s mnoha konkrétními díly barokní sbírky Národní galerie v Praze. Martincovy reinterpretace a parafráze v mnohých ohledech vedou k novému čtení původních předloh a zároveň otevírají řadu otázek uvažování o pozicích současné malby a úloze kontextu.</p><p>V roce 1729 byl Island zmítán násilím a chudobou. Právě tehdy pozval učenec a sběratel rukopisů Árni Magnússon (1663‒1730) renomovaného architekta Kiliána Ignáce Dientzenhofera (1689‒1751), aby na ledovém ostrově postavil katedrálu. Po dokončení kláštera v Broumově a žel také po smrti Árniho Magnúsona nakonec Dientzenhofer podnikl roku 1733 dobrodružnou cestu na Island, aby tam našel vhodné místo pro stavbu. Po příjezdu jej místní přijali s nadšením. Zemi procestoval křížem krážem, přesto potřebné vhodné místo nenašel.<br>Vrátil se zpět do Evropy, aby pokračoval v jiných svých projektech. Z té doby se naštěstí dochoval stavební plán zamýšlené katedrály a několik barokních obrazů, které byly určeny k její výzdobě. Je vzrušující, že dnes Národní galerie představuje část ambiciózního projektu, který bohužel vinou nepříznivých podmínek nikdy nebyl zrealizován. Island tím navždy přišel o baroko. (Hynek Martinec, Lost in Time)</p><p>Výstava Hynka Martince oslavuje přátelství současného umění se starými mistry. Tři desítky současných maleb Hynka Martince hostí od 27. dubna do 26. srpna sbírka starého umění Národní galerie v Praze ve Šternberském paláci. Martinec ve svých dílech reaguje na díla velikánů starého umění. Jeho aktuální výstava vychází ze smyšlené historky o pokusu Kiliána Ignáce Dietzenhofera postavit na Islandu barokní katedrály.Výstavu pořádá Národní galerie ve spolupráci s Galerií Rudolfinum.<br>„Soubor obrazů Hynka Martince je ilustrací fiktivního příběhu o snaze postavit v 18. století na Islandu barokní katedrálu. K její stavbě sice nikdy nedošlo, ale Národní galerie nyní vystavuje soubor obrazů určený pro její výzdobu,“ popisuje tajemný příběh výstavy kurátor Národní galerie v Praze Otto M. Urban.</p><p><b>Rembrandtova kyčel</b><br>Obrazy a kresby jsou tematicky svázány s konkrétními díly sbírky Národní galerie v Praze. Podle Hynka Martinec je totiž umění kontinuálním dialogem všech umělců. Martinec vytváří volné série, které reinterpretují velké postavy starého i moderního umění od Dürera, přes Schieleho až po Duchampa.<br>„Jména umělců si vybírám podle nálady nebo podle výstav, které mě zasáhly. Především je ale v něčem obdivuji a má tvorba je snahou odbourat hranice času, a propojit se tak s umělci, které mám rád a rád bych se s nimi osobně setkal,“ uvádí Hynek Martinec.„Hynek Martinec zvolil komprimovanou formu, kompozici sestavenou z výseků evokujícíchsilné momenty barokních předloh. Jeho obrazy nejsou pouhým jevištěm pro exhibici malířské dovednosti. Jsou krokem směrem do historie k již existujícím vrcholům, které se zdají vlivem zduchovnění v čase nepřekonatelné, ale přesto v sobě obsahují potenciál dalšího rozvíjení,“ vysvětluje Petr Nedoma, ředitel Galerie Rudolfinum a kurátor výstavy.Ve Šternberském paláci je k vidění třeba malba Rembrandtova kyčel, Bičování barokního koně nebo Cirkus nočních můr. Podle Martince dnešní doba inspiruje ve své svobodě a možnosti propojovat všechno možné, včetně toho, co již bylo vytvořeno jinými umělci. Umělec podle něho přetváří minulost do nového jazyka, určeného dalším generacím.„Přišlo mi přirozené věnovat se právě baroku a pokusit se vytvořit most mezi barokním uměním a dnešní dobou. Vždy jsem snil o tom, abych mohl jednou vystavovat a konfrontovat své práce s umělci, jako jsou Peter Paul Rubens, Anthonis van Dyck nebo Rembrandt a spousta dalších, které obdivuji. Byla to právě umělecká kolekce Národní galerie, kde jsem jako student objevoval odkaz barokního umění. Vrátit se do Šternberského paláce po několika letech s vlastní výstavou je pro mě něco neskutečného,“ dodává Hynek Martinec.</p><p><b>Život malby</b><br>Hynek Martinec (1980) se narodil v Broumově, v současnosti žije a tvoří v Londýně. S malířskou virtuozitou se ve své tvorbě zmocňuje děl velkých mistrů od konce 16. do 19. století, aby kombinací jednotlivých motivů, převzatých detailů a celých kompozic vytvářel svět vlastních obrazů. Od dětství byl fascinován kresbou a ani dnes si nedokáže bez kreslení představit prakticky žádný den. Od počátku své tvorby měl ctižádost dosáhnout na stálice výtvarného umění – van Gogha nebo Leonarda. Kresby a obrazy starých mistrů studoval v Národní galerii v Praze, Britském muzeu nebo Národní galerii v Londýně. Martincova tvorba otevírá otázky o pozici současné malby a potvrzuje její pevné místo ve vizuální kultuře. Jeho dílo naopak jasně popírá v posledních desetiletích mnohokrát diskutovaný zánik malby a dominanci ryze konceptuálního umění. Na samostatných i skupinových výstavách vystavoval Martinec v Praze, Londýně, Paříži nebo New Yorku.</p><p>Kurátoři: Otto M. Urban, Petr NedomaVýstavu pořádá Národní galerie v Praze ve spolupráci s Galerií Rudolfinum.</p><p>Web výstavy: <a target=\"_blank\" href=\"https://www.ngprague.cz/exposition-detail/hynek-martinec-cesta-na-island/\">Link na ngprague.cz</a></p><p>Video k výstavě: <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=RiPhTHUw2Bo\">https://www.youtube.com/watch?v=RiPhTHUw2Bo</a></p><p>Recenze: <br>Magdalena Čechlovská, <a target=\"_blank\" href=\"https://magazin.aktualne.cz/kultura/umeni/malir-hynek-martinec-spojuje-baroko-a-kauzu-metoo-jeho-kenta/r~476225224aee11e88560ac1f6b220ee8/\">Aktuálně</a> </p>",
+                "bgcolor" : "#564841"
             }]
         },
         { "project": [{
-                "nickname": "Soubor čtyř dvoudomků",
-                "title": "Soubor čtyř dvoudomků ",
+                "nickname": "Mokrá",
+                "title": "Mokrá 4×2 RD",
                 "klient" : "soukromý",
                 "lokace" : "Mokrá u Brna, Česká republika",
-                "typologie" : ["obytné stavby " ],
+                "typologie" : ["bytový dům" ],
                 "typ" : "novostavba",
-                "rok" : "2017",
-                "status" : "dokumentace k územnímu řízení",
-                "uzplocha" : "",
-                "velikost" : "",
-                "naklady" : "",
-                "autori" : "MgA. Jan Říčný, MgA. Filip Kosek",
+                "rok" : "2017 - dosud",
+                "status" : "územní řízení",
+                "uzplocha" : "1090 m²",
+                "velikost" : "0,26 ha",
+                "naklady" : "30 000 000",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Filip&nbsp;Kosek",
                 "spoluautori" : "Ing. arch. Štěpánka Úlehlová",
-                "odbspoluprace" : "",
-                "text": "",
+                "odbspoluprace" : [
+                            {"profese" : "krajinářská architektura", "name" : "Ing.&nbsp;arch.&nbsp;Marie Gelová"}
+
+                        ],
+                "text": "Malý developerský záměr v malebné krajině na východ od Brna. Pozemek se nachází na jižním cípu obce Mokrá nad údolím u hranice listnatého lesa, kde zástavba bytových domů je ukončena několika rodinnými domy. Dále na jih se rozkládá malebná krajina pod Brnem zakončená Pálavou. Domy maximálně využívají daleké výhledy do krajiny, které jsou na tomto místě vyjímečné, proto jsme pro Vás zvolili tři podlaží. Okna jsou navíc umístěna tak, aby člověk nevnímal okolní domy ale při pohledu z okna viděl především okolní krajinu. Díky podlouhlému tvaru domu je dům maximálně propojen se zahradou a celý dům je výrazně prosvětlen. Prostor ulice byl komponován tak, aby byl útulný, plný zeleně.",
                 "bgcolor" : ""
             }]
         },
         { "project": [{
-                "nickname": "Norbert Grund (1717 – 1767). Půvab Všedního Dne",
-                "title": "Norbert Grund (1717 – 1767). Půvav Všedního Dne",
+                "nickname": "NG v NG",
+                "title": "Norbert Grund (1717–1767): Půvab všedního dne",
                 "klient" : "Národní galerie Praha",
-                "lokace" : "Praha, Česká republika",
+                "lokace" : "Praha 1 – Staré Město, Česká republika",
                 "typologie" : ["výstava" ],
-                "typ" : "",
+                "typ" : "dočasná instalace",
                 "rok" : "2018",
                 "status" : "realizováno",
                 "uzplocha" : "",
                 "velikost" : "",
-                "naklady" : "",
-                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
+                "naklady" : "1 300 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
                 "spoluautori" : "",
-                "odbspoluprace" : "Mgr. Marcela Vondráčková PhD. – kurátorka",
+                "odbspoluprace" : [
+                            {"profese" : "kurátor", "name" : "Mgr.&nbsp;Marcela Vondráčková&nbsp;PhD."},
+                            {"profese" : "výroba a instalace", "name" : "Vetamber s.r.o."},
+                            {"profese" : "houpačka", "name" : "Mojmír Veselka"},
+                            {"profese" : "osvětlení", "name" : "Václav Kubela, RCNKSK"},
+                            {"profese" : "zvuková instalace", "name" : "Julie Lupačová"}
+
+                        ],
+                "text": "<p>Datum konání : 1.12.2017 - 18.3.2018<br>Místo konání: Palác Kinských</p><p>Výstava Norbert Grund (1717–1787). Půvab všedního dne představuje poprvé v širších souvislostech Grundovu žánrovou malbu, tedy výjevy z běžného života. V jednotlivých oddílech ukazuje pestrost námětů a přináší možnost porovnat Grundovy práce se soudobou středoevropskou kabinetní malbou i obrazy, z nichž mohl malíř čerpat inspiraci. Samostatná kapitola je věnována grafickým listům Jana Jiřího Balzera (1734–1799), které dokládají oblibu Grundových děl. Expozici navíc doplňují ukázky uměleckého řemesla, ilustrující kulturu doby rokoka.</p><p>Umělecky se Norbert Grund vyškolil u svého otce Christiana Grunda, dvorního malíře a správce obrazárny Libštejnských z Kolowrat. Po vyučení se odebral na cesty a mnohé podněty načerpal také ve šlechtických obrazárnách či z grafických listů. Do Prahy se Grund vrátil nejpozději roku 1751, kdy se oženil. Až do své smrti roku 1767 pak působil na Malé Straně jako člen tamního malířského cechu. Grund nejspíše pracoval pro volný trh a na bezprostřední objednávku asi jen ojediněle. Jeho díla byla oblíbená mezi vzdělanými příslušníky středního stavu a umělci, nacházela se ale také v klášterních a aristokratických sbírkách.</p><p>Poslední monografické výstavy Norberta Grunda se konaly roku 1967 ve vídeňském Belvederu a pražské Loretě (a v menším rozsahu ještě roku 1972 v Liberci). Od té doby se poznatky o Grundově uměleckém díle značně rozšířily a obohatily tak přípravu aktuální výstavy v paláci Kinských i velké monografie o Norbertu Grundovi, která vyjde v roce 2018.</p><p>Kurátorka: Marcela Vondráčková</p><p>Web výstavy: <a href=\"https://www.ngprague.cz/exposition-detail/norbert-grund-1717-1767/\" target=\"_blank\">ngprague.cz</a></p><p>Recenze:<br>Jan Šída, <a href=\"https://www.novinky.cz/kultura/clanek/recenze-vsedni-den-okem-nevsedniho-malire-40054216\" target=\"_blank\">Právo</a><br>Peter Kováč, <a href=\"http://www.stavitele-katedral.cz/praha-narodni-galerie-pripomina-300-vyroci-narozeni-malire-norberta-grunda-vystavou-v-palaci-kinskych/\" target=\"_blank\">Stavitelé katedrál</a><br>Soňa Šálková, <a href=\"https://artmagazin.eu/narodni-galerie-norbert-grund-vystava-v-palaci-kinskych/\">Artmagazín</a></p>",
+                "bgcolor" : "#ecdecf"
+            }]
+        },
+        { "project": [{
+                "nickname": "Renocar Brno",
+                "title": "Renocar Brno – Stará hala",
+                "klient" : "Renocar, a.s.",
+                "lokace" : "Brno – Slatina, Česká republika",
+                "typologie" : ["komerční prostor" ],
+                "typ" : "interiér",
+                "rok" : "2018",
+                "status" : "realizováno",
+                "uzplocha" : "1 954m²",
+                "velikost" : "",
+                "naklady" : "20 000 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "MgA. Bibiana Heinichová",
+                "odbspoluprace" : [
+                            {"profese" : "grafický design", "name" : "Magdalena Říčná"},
+                            {"profese" : "zámečnické práce", "name" : "Michal"}
+
+                        ],
+                "text": "Bývalá hala na výrobu jeřábů v areálu Renocar BMW Brno byla rozdělena na mnoho menších prostorů a sloužila jako servisní zázemí. Díky potřebě zvětšení prodejní plochy jsme halo vyčistili od všech nepůvodních zásahů na elegantní skelet. Záměrem bylo zřídit Museum BMW ze sbírky pana Vránka staršího, prodejnu Mini a BMW Motorrad, BMW Premium Selection, příjem servisu, předávací místnosti a kavárnu s bistrem a sociálním zázemím.",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Mikrofarma Jiřák",
+                "title": "Mikrofarma nám. Jiřího z Poděbrad - řeznictví a bistro",
+                "klient" : "Mikrofarma s.r.o.",
+                "lokace" : "Praha 3 – Žižkov, Česká republika",
+                "typologie" : ["komerční prostor" ],
+                "typ" : "interiér",
+                "rok" : "2017",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "6 600 000",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Marek&nbsp;Kundrata",
+                "spoluautori" : "",
+                "odbspoluprace" : [
+                            {"profese" : "stavba", "name" : "LEVEL a.s."},
+                            {"profese" : "interiér", "name" : "Kamark s.r.o."},
+                            {"profese" : "grafika masa", "name" : "Veronika Vacková"},
+                            {"profese" : "chladící pulty", "name" : "Horkan Klima s.r.o."},
+                            {"profese" : "gastro vybavení", "name" : "AMC gastronom"}
+
+                        ],
+                "text": "<p>Vinohrady jsou čtvrtí s pestrou skladbou obyvatel, jak příjmově, tak národnostně i věkově. Cílem je mířit do jejich středu, aby si zde někdo nepřipadal, že se nachází v předesignovaném obchodě, do něhož neměl ani vstoupit. Na druhou stanu kvalitě produktů musí odpovídat i architektonické i řemeslné zpracování interiéru.</p><p>Řeznictví by mělo navázat na tradiční řemeslo, ale nabídnout něco vice. Materiály a osvětlení navozují spíše divadelní, intimnější až domáckou atmosféru. Působení a komunikace personálu se zákazníkem tomu dodává pocit, že nejde o to jen nakoupit, ale každá návštěva může byt zážitkem, objevováním a učením se něčemu novému.</p><p>Řeznický pult je divadelním jevištěm i vnitřní výlohou zároveň. Právě zde vzniká chuť a touha zákazníka vyzkoušet více, než jen to, pro co přišel. V tradičních italských řeznictvích je dokonce podlaha obsluhy vyvýšena aby se produkty přiblížily ještě více k očím zákazníků. </p><p>V dalším plánu je kuchyně bistra, která nemusí být viditelná na první pohled (ten by měl přitáhnout právě řeznický pult). V kuchyni jde především o to, aby zákazník neztratil kontakt z masem, na které si ukázal u pultu až do jeho finální úpravy. Právě proces vaření je dominantou druhého plánu s grilem v popředí. </p><p>Třetí plán je prostor pro řezníka – přípravna masa - zákulisní dílna pro tvůrce rekvizit na hlavni jeviště. Mistr však není schovaný někde ve sklepě, ale jeho zručnost musí být dobře prezentována a viditelná, byť je v pozadí celé hry. Součást přípravny je také chlazená část, kde budou často viset kusy hovězího masa. I to by mělo být pro zákazníka odkryto jako esteticky zajímavá součást celého procesu. </p><p>Dohromady tak tyto tři plány tvoří prostor pro objevování zákazníka, který může pronikat stále hlouběji a hlouběji do tajemství přípravy kvalitního masa. Vše ostatní je vedlejší a mělo by pouze nerušivě doplňovat obsah prodejny. <br>Snahou bude navrátit místu původní ráz typický pro dané území.</p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Orientační systém Sedlec",
+                "title": "Orientační systém Sedlec",
+                "klient" : "Řimskokatolická farnost Kutná hora – Sedlec",
+                "lokace" : "Kutná Hora – Sedlec, Česká republika",
+                "typologie" : ["orientační systém" ],
+                "typ" : "veřejný prostor",
+                "rok" : "2020 - dosud",
+                "status" : "ve výstavbě",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "6 600 000",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Marek&nbsp;Kundrata",
+                "spoluautori" : "MgA. Bibiana Heinichová",
+                "odbspoluprace" : [
+                            {"profese" : "grafický design", "name" : "František Štorm"}
+
+                        ],
                 "text": "",
                 "bgcolor" : ""
             }]
         },
         { "project": [{
-                "nickname": "BMW Urban Store",
-                "title": "BMW Urban Store",
+                "nickname": "Vodička Šorner House",
+                "title": "Vodička Šorner House",
                 "klient" : "soukromý",
-                "lokace" : "Praha, Česká republika",
-                "typologie" : ["komerční prostor" ],
+                "lokace" : "Brno – Jundrov, Česká republika",
+                "typologie" : ["rodinný dům" ],
+                "typ" : "novostavba",
+                "rok" : "2019",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "2 000 000",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný, ing.&nbsp;arch.&nbsp;Michal&nbsp;Říčný",
+                "spoluautori" : "",
+                "odbspoluprace" : [
+                            {"profese" : "statika", "name" : "Ing. Filip Chmel"},
+                            {"profese" : "výroba opalovené fasády", "name" : "RCNKSK"}
+
+                        ],
+                "text": "<p>V zahrádkářské kolonii v klidné části Brna vysrostla nenápadná dřevostavba. Dům pro designery byl od počátku specifickým projektem s netradičním zadáním na komplikované místo. Pro objekt byl především omezující původní projekt chaty. Tím je dán sklon střech a jedno nadzemní podlaží. Bylo však přidáno podlaží podzemní a využit sklon terénu, aby se docílilo maximálního využití povoleného objemu stavby. Tím vzniká prostorový &bdquo;tetris&ldquo;, kde každý kousek je využit. Na zastavěné ploše 34,47m² je &bdquo;nahňácáno&ldquo; 109,42 m². Rafinovanost a hravost vnitřního prostoru se propisuje i do fasády objektu, která potlačuje reálné měřítko stavby a jednotlivá patra a místnosti jsou z ní nečitelné stejně jako zprvotního dojmu interieru.</p><p>Stavba je postavena jako standardní rámová konstrukce na ŽB pasech s využitím granulátu pěnoskla a podezdívkou ze ztraceného bednění. Krov je z vlašských krokví. Provětrávaná fasáda z modřínových svislých prken na dřevěném roštu je pojednána opalováním Sugi Ban. Technologie umožňuje využití i místního dřeva, např. modřínu, na rozdíl od japonského cedru. Fasáda má minimální množství klempířských prvků. Z opáleného dřeva jsou i parapety, které jsou schopny odolávat vodě, plísním atd.</p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Cimala",
+                "title": "Michal Cimala: Ecstasy",
+                "klient" : "Trafo gallery",
+                "lokace" : "Praha 7 – Holešovice, Česká republika",
+                "typologie" : ["výstava" ],
+                "typ" : "dočasná instalace",
+                "rok" : "2015",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Michal&nbsp;Cimala",
+                "spoluautori" : "",
+                "odbspoluprace" : [
+                            {"profese" : "kurátor výstavy", "name" : "Otto&nbsp;M.&nbsp;Urban&nbsp;Ph.D."}
+
+                        ],
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "P&P Zurich",
+                "title": "Poetry & Performance. <br>The Eastern European Perspective – Zurich",
+                "klient" : "Shedhalle ve spolupráci s ERC-Project \"Performance Art in Easter Europe\"",
+                "lokace" : "Curych, Švýcarsko",
+                "typologie" : ["výstava" ],
+                "typ" : "dočasná instalace",
+                "rok" : "2018",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "320 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "Herrmann&nbsp;&&nbsp;Coufal: MgA.&nbsp;Eduard&nbsp;Herrman, MgA.&nbsp;Matěj&nbsp;Coufal",
+                "odbspoluprace" : [
+                            {"profese" : "kurátor", "name" : "Tomáš&nbsp;Glanc,&nbsp;Dr., Sabine&nbsp;Hänsgen,&nbsp;Dr."},
+                            {"profese" : "výroba", "name" : "Herrmann&nbsp;&&nbsp;Coufal, MgA.&nbsp;Tomáš&nbsp;Černý, MgA.&nbsp;Eduard&nbsp;Herrmann, Mojmír&nbsp;Veselka, RCNKSK"},
+                            {"profese" : "osvětlení", "name" : "RCNKSK"},
+                            {"profese" : "grafický design", "name" : "Studio Breisky"}
+                        ],
+                "text": "<p>Datum konání : 16.09. 2017 - 28.10. 2018<br>Místo konání: Shedhalle, Zurich</p><p>Výstava P&P Zurich byla další ze série výstav k výzkumnému projektu \"Performance Art in Eastern Europe\" probíhajícím na Univerzitě v Curuchu. Vzhledem k velmi napjatému rozpočtu jsme se rozhodli kromě návrhu přistoupit i ke kompletní realizaci výstavy \"na klíč\", abychom docílili požadovaného vizuálního výsledku při takto křehké a zároveň i obtížně prezentovatelné tématice. V rámci několika konzultací s kurátory a galerií přímo na místě vznikl základní prostorový a materiálový koncept. Ve světlem zalitém rozlehlém prostoru bývalé textilní fabriky na břehu Curyšského jezera jsme nainstallovali sedm projekčních kostek, které nám jednolitý prostor galerie rozdělily na další menší zakoutí, kde bylo možné umístit skleněné vitriny, sokly pro televize a především postupně návštěvníka provést jednotlivými tematickými okruhy.<br>Realizace probíhala tím způsobem, že proběhla před-výroba v České republice, následně pak transport do Švýcarska, kompletace a další výroba na místě a následně pak kompletní instalace a osvětlení celé expozice.</p><p>Web výstavy: <a href=\"http://www.performanceart.info/blog/poetry-performance-the-eastern-european-perspective-in-zurich/\" target=\"_blank\">performanceart.info</a> </p><p>Recenze:<br>Olga Stefan, <a href=\"https://artreview.com/reviews/ar_december_2018_review_poetry_and_performance/\" target=\"_blank\">ArtReview</a><br>Jelica Popović, <a href=\"http://www.novinki.de/von-den-raendern-her-poetry-and-performance-the-eastern-european-perspective-in-zuerich/\" target=\"_blank\">novinki.de</a> <br>Matthias Meindl, <a href=\"https://artmargins.com/the-intermedial-scattering-of-the-aura/\" target=\"_blank\">Artmargins</a> <br>Sylvia Sasse, <a href=\"https://www.republik.ch/2018/10/13/wenn-buchstaben-ihre-muskeln-zeigen\" target=\"_blank\">Republik.ch</a> <br>Sylvia Sasse, <a href=\"https://artmargins.com/when-letters-show-their-muscles/\" target=\"_blank\">Artmargins</a></p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Tuřany",
+                "title": "Tuřany 6×1 RD",
+                "klient" : "soukromý",
+                "lokace" : "Brno – Tuřany, Česká republika",
+                "typologie" : ["bytový dům" ],
+                "typ" : "novostavba",
+                "rok" : "2017 - dosud",
+                "status" : "územní řízení",
+                "uzplocha" : "1 954m²",
+                "velikost" : "",
+                "naklady" : "20 000 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "BcA.&nbsp;Jan&nbsp;Poslušný, Bc.&nbsp;Barbora&nbsp;Tauerová",
+                "odbspoluprace" : [
+                            {"profese" : "vizualizace", "name" : "Bc. Michal Kubíček"}
+
+                        ],
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Kaménky",
+                "title": "Na Kaménkách – Brno",
+                "klient" : "Statutární město Brno",
+                "lokace" : "Na Kaménkách – Brno, Černovice, Česká republika",
+                "typologie" : ["urbanismus" ],
+                "typ" : "urbanismus",
+                "rok" : "2018",
+                "status" : "soutěž – vyzvaná",
+                "uzplocha" : "",
+                "velikost" : "46,9 ha",
+                "naklady" : "20 000 000",
+                "autori" : "Ing.&nbsp;Mojmír&nbsp;Kopecký, Ing.&nbsp;arch.&nbsp;Marcela&nbsp;Uřídilová, MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Jakub&nbsp;Klíma, MgA.&nbsp;Zuzana&nbsp;Hebronová",
+                "spoluautori" : "MgA. Jan Stibitz ",
+                "odbspoluprace" : [
+                            {"profese" : "krajinná architektura", "name" : "Ing. Marie Gelová"},
+                            {"profese" : "dopravní řešení", "name" : "Miroslav&nbsp;Patočka, Ing.&nbsp;Martin&nbsp;Smělý"}
+
+                        ],
+                "text": "Rozhodnutí &bdquo;stavět Na Kaménkách&ldquo; rozumíme stavět město a stavět kompaktně, intenzívně. Navrhujeme jako základ pevnou uliční mřížku blokové zástavby a kontextuálně ji modifikujeme podle optimálních míst dopravního napojení, podle konfigurace terénu, podle historických stop v krajině a podle polohy jednotlivých charakterů zástavby, které se liší polohou v území - severně jsou bloky sevřenější, k jihu /ke Starým Černovicím/ jsou formy souborů volnější, prostupnější a jižně přecházejí z bytových domů do rodinných. Mění se v tomto směru i výšková hladina-podlažnost – od výškových akcentů při kontaktu s ul.Olomouckou přes převažující čtyřpodlažní zástavbu po dvoupodlažní na jihu. Pevnou mřížku proto, že v našich představách nejsme na kraji města, ale před jeho možným rozvojem. <br> Hlavní severojižní třída vytváří mezi starou zástavbou a novou šev. Tento ŠEV mezi starým a novým vyjadřuje i snahu splynout se stávající strukturou do fungujícího celku - sociálního, komunitního, kulturního, správního a dopravního. Příčně jej kříží zásadní východo-západní prostupný pás komunitního parku s tržnicí a drobnými aktivitami. V místě křížení navrhujeme náměstí s veřejnými budovami. Východně tato osa pokračuje zelenou historickou stopou přes VMO na hranu Černovické terasy s potenciálem rekreačních a sportovních aktivit celoměstského významu a další rozvoj. Decentralizovaná propojení mezi stávajícími a novými částmi pro všechny druhy pohybu a odstranění bariér jsou mottem našeho návrhu.",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Trnka",
+                "title": "Jiří Trnka: V zahradách imaginace",
+                "klient" : "GASK – Galerie Středočeského kraje",
+                "lokace" : "Kutná Hora, Česká republika",
+                "typologie" : ["výstava" ],
+                "typ" : "dočasná instalace",
+                "rok" : "2019",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Filip&nbsp;Kosek",
+                "spoluautori" : "MgA. Bibiana Heinichová",
+                "odbspoluprace" : [
+                            {"profese" : "kurátor", "name" : "Jan Trnka"},
+                            {"profese" : "produkce", "name" : "Jakub Hora"},
+                            {"profese" : "instalace", "name" : "Martin Houska"},
+                            {"profese" : "výroba", "name" : "Michal Kroupa"},
+                            {"profese" : "osvětlení", "name" : "RCNKSK"}
+
+                        ],
+                "text": "<p>K letošnímu 50. výročí úmrtí Jiřího Trnky probíhá v Galerii Středočeského kraje v Kutné Hoře výstava. Stoly, skříně i postel jsou zvětšeny tak, aby si i dospělý návštěvník připadal jako dítě. V jednotlivých místnostech přeneseného Trnkova bytu je představeno jeho dílo z oblasti loutkového divadla, ilustrace, malby, sochařské tvorby a animovaného filmu.</p><p>kurátor výstavy: Jan Trnka, Matyáš Trnka<br>produkce: Jakub Hora <br>spolupráce na realizaci: Monika Březinová Seifertová (GASK)<br>instalace a výroba: rodina Kroupových, Martin Houska<br>architektura– Jan Říčný, Filip Kosek, Bibiana Heinich <br>osvětlení – Jan Říčný, Filip Kosek</p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "PPNCK - dodelat",
+                "title": "Jiří Trnka: V zahradách imaginace",
+                "klient" : "GASK – Galerie Středočeského kraje",
+                "lokace" : "Kutná Hora, Česká republika",
+                "typologie" : ["výstava" ],
+                "typ" : "dočasná instalace",
+                "rok" : "2019",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Filip&nbsp;Kosek",
+                "spoluautori" : "MgA. Bibiana Heinichová",
+                "odbspoluprace" : [
+                            {"profese" : "kurátor", "name" : "Jan Trnka"},
+                            {"profese" : "produkce", "name" : "Jakub Hora"},
+                            {"profese" : "instalace", "name" : "Martin Houska"},
+                            {"profese" : "výroba", "name" : "Michal Kroupa"},
+                            {"profese" : "osvětlení", "name" : "RCNKSK"}
+
+                        ],
+                "text": "<p>K letošnímu 50. výročí úmrtí Jiřího Trnky probíhá v Galerii Středočeského kraje v Kutné Hoře výstava. Stoly, skříně i postel jsou zvětšeny tak, aby si i dospělý návštěvník připadal jako dítě. V jednotlivých místnostech přeneseného Trnkova bytu je představeno jeho dílo z oblasti loutkového divadla, ilustrace, malby, sochařské tvorby a animovaného filmu.</p><p>kurátor výstavy: Jan Trnka, Matyáš Trnka<br>produkce: Jakub Hora <br>spolupráce na realizaci: Monika Březinová Seifertová (GASK)<br>instalace a výroba: rodina Kroupových, Martin Houska<br>architektura– Jan Říčný, Filip Kosek, Bibiana Heinich <br>osvětlení – Jan Říčný, Filip Kosek</p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Vanity Fair",
+                "title": "Diplomanti AVU: Vanity Fair",
+                "klient" : "Národní galerie Praha",
+                "lokace" : "Praha 7 – Holešovice, Česká republika",
+                "typologie" : ["výstava" ],
+                "typ" : "dočasná instalace",
+                "rok" : "2016",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek",
+                "spoluautori" : "MgA. Bibiana Heinichová",
+                "odbspoluprace" : [
+                            {"profese" : "kurátor", "name" : "Otto&nbsp;M.&nbsp;Urban&nbsp;Ph.D."},
+                            {"profese" : "asistence kurátora", "name" : "MgA.&nbsp;Milan&nbsp;Mikuláštík, MgA.&nbsp;Marek&nbsp;Škubal, MgA.&nbsp;Jiří&nbsp;Lautenkranz"},
+                            {"profese" : "produkce", "name" : "Blanka&nbsp;Čermáková"},
+                            {"profese" : "osvětlení", "name" : "RCNKSK"}
+
+                        ],
+                "text": "<p>Výstava Vanity Fair. Diplomanti AVU 2016 představí tvorbu čerstvých absolventů Akademie výtvarných umění v Praze. AVU je nejstarší uměleckou školou v českých zemích, založenou již v roce 1799. Jejím zakladatelem byla Společnost vlasteneckých přátel umění, tedy instituce stojící také u zrodu Národní galerie v Praze v roce 1796. Výrazná pozice, jakou má Akademie kontinuálně od svého založení, rezonuje s postavením Národní galerie na české výtvarné scéně. Vzájemná spolupráce je tak logickým vyústěním společné historie i skutečnosti, že ve stálých sbírkách Národní galerie nalézáme množství děl absolventů AVU. Studenti nebo čerství absolventi AVU se také pravidelně objevují v nominacích na již tradiční Cenu Jindřicha Chalupeckého.</p><p>Na AVU studují v současné době více než tři stovky studentů v osmnácti různých ateliérech. Počet absolventů se v posledních letech ustálil na více než čtyřiceti. Jejich tvorba reflektuje zaměření jednotlivých ateliérů od klasických sochařských a malířských, přes ateliéry kresby a grafiky po ateliéry intermediální a konceptuální, zvláštní postavení mají ateliéry restaurátorské a škola architektury. Výstava Vanity Fair. Diplomanti AVU 2016 tak představuje široké spektrum uměleckých projevů a přístupů – všechna díla však spojuje snaha o co nejlepší a nejzajímavější výsledek. Ambice každého z vystavujících umělců je vytvořit zásadní dílo, které zakončí období studií, ale také otevře novou etapu, a to nejen uměleckou ale i lidskou.  Výstava v Národní galerii v Praze prezentuje díla umělců, kteří by se mohli a měli v následujících letech výrazně projevit a prosadit nejen na domácí, ale i na zahraniční výtvarné scéně.</p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "nickname": "Obřany chata",
+                "title": "Obřany – interier chaty",
+                "klient" : "soukromý",
+                "lokace" : "Brno – Obřany, Česká republika",
+                "typologie" : ["rekreační objekt" ],
                 "typ" : "interiér",
                 "rok" : "2019",
                 "status" : "realizováno",
                 "uzplocha" : "",
                 "velikost" : "",
                 "naklady" : "",
-                "autori" : "MgA. Filip Kosek, MgA. Jan Říčný",
-                "spoluautori" : "MgA. Bibiana Heinichová",
-                "odbspoluprace" : "Mojmír Veselka – truhlař",
+                "autori" : "MgA. Jan Říčný",
+                "spoluautori" : "Bc.&nbsp;Erika&nbsp;Trang&nbsp;Nguyen&nbsp;Thu",
+                "odbspoluprace" : [
+
+                            {"profese" : "výroba", "name" : "DP Building s.r.o., Acer Woodway s.r.o."}
+
+                        ],
                 "text": "",
                 "bgcolor" : ""
             }]
         },
         { "project": [{
-                "nickname": "Řeznictví & Bistro Mikrofarma",
-                "title": "Řeznictví & Bistro Mikrofarma",
-                "klient" : "soukromý",
-                "lokace" : "Praha 3 – Žižkov, Česká republika ",
-                "typologie" : ["občanské stavby" ],
-                "typ" : "konverze",
-                "rok" : "2017",
-                "status" : "realizováno",
-                "uzplocha" : "",
-                "velikost" : "",
-                "naklady" : "",
-                "autori" : "MgA. Jan Říčný, MgA. Marek Kundrata",
-                "spoluautori" : "",
-                "odbspoluprace" : "",
-                "text": "",
-                "bgcolor" : ""
-            }]
-        },
-
-
-
-
-
-
-
-
-
-        { "project": [{
-                "comment": "project id 24",
-                "nickname": "Parkovací dům u Krajského úřadu",
-                "title": "Parkovací dům u Krajského úřadu",
+                "nickname": "Ostrava parkhaus",
+                "title": "Parkovací dům v Ostravě",
                 "klient" : "Statutární město Ostrava",
                 "lokace" : "Ostrava, Česká republika",
                 "typologie" : ["občanská vybavenost" ],
                 "typ" : "novostavba",
                 "rok" : "2019",
-                "status" : "jednofázová otevřená projektová architektonická soutěž",
+                "status" : "soutěž – otevřená",
                 "uzplocha" : "27 733 m²",
                 "velikost" : "0,89 ha",
-                "naklady" : "328,5 mil. Kč",
-                "autori" : "Ing. arch. Petr Müller, Bc. Erika Trang Nguyen Thu, MgA. Jan Říčný, MgA. Filip Kosek",
-                "spoluautori" : "Ing. arch. Michal Říčný, Ing. Arch. Tuan Manh Nguyen, Marie-Anne Poully, Michal Sljusar, Hanka Turnovská",
+                "naklady" : "328 500 000",
+                "autori" : "Ing.&nbsp;arch.&nbsp;Petr&nbsp;Müller, Bc.&nbsp;Erika&nbsp;Trang&nbsp;Nguyen&nbsp;Thu, MgA.&nbsp;Jan Říčný, MgA.&nbsp;Filip&nbsp;Kosek",
+                "spoluautori" : "Ing.&nbsp;arch.&nbsp;Michal&nbsp;Říčný, Ing.&nbsp;Arch.&nbsp;Tuan&nbsp;Manh&nbsp;Nguyen, Marie-Anne Poully, Michal&nbsp;Sljusar, Hanka&nbsp;Turnovská",
                 "odbspoluprace" : "Ing. arch. Michal Říčný",
-                "text": "Ulice 28. října v Ostravě je dlouhou osou spojující kraj města s jeho jádrem. Má potenciál stát se bulvárem nesoucím důležité instituce a kulturní budovy. Město Ostrava vypsalo soutěž na nový parkovací dům jako řešení nedostatku stání pro stávající instituce.<br>Předepsaný program považujeme za protikladný k vizi ulice 28. října. Naše odpověď na rozporuplnou funkci je hledání nového významu. Parkovací dům čteme jako součást infrastruktury města a rozšíření veřejného prostoru. Konstrukci lze užít a reinterpretovat pro maximum možných dočasných i stálých provozů v měřítku od malých stánků po plnohodnotné kanceláře a galerie a to bez omezení primární funkce.<br>Budova s maximálním objemem je situována těsně k ulici, aby posílila městský charakter a definovala náležitý veřejný prostor pro sousední koncertní sál, knihovnu a krajský úřad. Odpovědí na formální městský charakter sousedních instituací je konstrukční symetrie, centrální rampa tvořená dvojitou spirálou a flexibilně využitelné a oddělitelné převýšené prostory. Přízemí a fasáda jsou záměrně ponechány prázdné jako tabula rasa. Naší vizí je vytvoření nestárnoucí struktury, protože si dnes jen těžko dokážeme představit jak budovy a veřejný prostor budou v budoucnu užívány.",
+                "text": "Ulice 28. října v Ostravě je dlouhou osou spojující kraj města s jeho jádrem. Má potenciál stát se bulvárem nesoucím důležité instituce a kulturní budovy. Město Ostrava vypsalo soutěž na nový parkovací dům jako řešení nedostatku stání pro stávající instituce.",
                 "bgcolor" : "#F2A3B9"
             }]
         },
         { "project": [{
-                "comment": "project id 26",
+                "nickname": "Prygl",
+                "title": "Chata na Pryglu",
+                "klient" : "soukromý",
+                "lokace" : "Prýgl, Česká republika",
+                "typologie" : ["rekreační objekt" ],
+                "typ" : "novostavba",
+                "rok" : "2018 - dosud",
+                "status" : "stavební řízení",
+                "uzplocha" : "66,6 m²",
+                "velikost" : "",
+                "naklady" : "4 500 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "Ing.&nbsp;arch.&nbsp;Štepánka&nbsp;Úlehlová, MgA.&nbsp;Bibiana&nbsp;Heinnichová",
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
                 "nickname": "MŠ Červený Vrch",
                 "title": "MŠ Červený Vrch",
                 "klient" : "Městská část Praha 6",
@@ -342,11 +622,11 @@
                 "status" : "jednofázová otevřená projektová architektonická soutěž",
                 "uzplocha" : "1 320 m²",
                 "velikost" : "0,34 ha",
-                "naklady" : "50 mil. Kč",
-                "autori" : "MgA. Jan Říčný, MgA. Filip Kosek, Ing. arch. Petr Müller, MgA. Bibiana Heinichová",
+                "naklady" : "50 000 000",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Filip&nbsp;Kosek, Ing.&nbsp;arch.&nbsp;Petr&nbsp;Müller, MgA.&nbsp;Bibiana&nbsp;Heinichová",
                 "spoluautori" : "Marie-Anne Poully",
                 "odbspoluprace" : "",
-                "text": "Architektonická soutěž na novou školku byla vypsána městskou částí Praha 6. Zvolená parcela se strategicky nachází na sídlišti. Ačkoliv severo-západní roh pozemku základní školy Červený Vrch vypadá jako ideální pro novou budovu, při bližším průzkumu narazíme na řadu protichůdných limitů – ulice ležící téměř o 4 metry níže, páteřní trasa teplovodu na hranici pozemku a zejména nároží v soukromém vlastnictví.<br>Na první pohled nelogicky navrhujeme umístit budovu do její limitní polohy v rohu. Nezastavitelné plochy definujeme jako veřejnou zeleň a poloveřejnou cestu s dvěma předprostory, z kterých se vstupuje do budovy a neotáčíme se k okolí zády. Tím nám zůstává velká jihovýchodní zahrada, která využívá 100% z nepraktického tvaru pozemku.<br> Budova je koncipována jako nehierarchická. U obou předprostorů se nachází vstup spolu s modelárnou a výukovou učebnou, které mohou sloužit také externím návštěvníkům. Čtyři třídy a multifunkční herna jsou na jedné straně propojeny proplétajícím se hravým koridorem a na druhé se ocitají přímo v zahradě. Spirálové schodiště stoupá do meditativního kruhového spícího patérka. Použitím posuvných oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice.<br>Školka je první místo, kde děti čelí cizímu prostředí samy bez rodičů. Myslíme si, že je důležité aby jejich první vztahy a zkušenosti vznikali v přírodě. Zejména dnes se všudypřítomnou technikou by děti měly být schopni ocenit skutečný svět. Proto navrhujeme budovu jako dřevostavbu s pohledovou tesařskou trámovou konstrukcí doplněnou přírodním linoleem. Nicméně nosné sloupy jsou betonové, aby lépe přenesly boční zatížení a dali větší svobodu stěnám.<br>Školka je zabalena vlnitým hliníkovým plechem a roštem ve tvaru mraků, čímž dostává téměř surrealní ráz aniž by přitahovala na sebe pozornost. Nejedná se však o samoúčelný design – provětrávaná vrstva a slunolamy udržují budovu chladnou v létě téměř bez údržby.",
+                "text": "<p>Architektonická soutěž na novou školku byla vypsána městskou částí Praha 6. Zvolená parcela se strategicky nachází na sídlišti. Ačkoliv severo-západní roh pozemku základní školy Červený Vrch vypadá jako ideální pro novou budovu, při bližším průzkumu narazíme na řadu protichůdných limitů – ulice ležící téměř o 4 metry níže, páteřní trasa teplovodu na hranici pozemku a zejména nároží v soukromém vlastnictví.</p><p>Na první pohled nelogicky navrhujeme umístit budovu do její limitní polohy v rohu. Nezastavitelné plochy definujeme jako veřejnou zeleň a poloveřejnou cestu s dvěma předprostory, z kterých se vstupuje do budovy a neotáčíme se k okolí zády. Tím nám zůstává velká jihovýchodní zahrada, která využívá 100% z nepraktického tvaru pozemku.</p><p>Budova je koncipována jako nehierarchická. U obou předprostorů se nachází vstup spolu s modelárnou a výukovou učebnou, které mohou sloužit také externím návštěvníkům. Čtyři třídy a multifunkční herna jsou na jedné straně propojeny proplétajícím se hravým koridorem a na druhé se ocitají přímo v zahradě. Spirálové schodiště stoupá do meditativního kruhového spícího patérka. Použitím posuvných oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice.</p><p>Školka je první místo, kde děti čelí cizímu prostředí samy bez rodičů. Myslíme si, že je důležité aby jejich první vztahy a zkušenosti vznikali v přírodě. Zejména dnes se všudypřítomnou technikou by děti měly být schopni ocenit skutečný svět. Proto navrhujeme budovu jako dřevostavbu s pohledovou tesařskou trámovou konstrukcí doplněnou přírodním linoleem. Nicméně nosné sloupy jsou betonové, aby lépe přenesly boční zatížení a dali větší svobodu stěnám.</p><p>Školka je zabalena vlnitým hliníkovým plechem a roštem ve tvaru mraků, čímž dostává téměř surrealní ráz aniž by přitahovala na sebe pozornost. Nejedná se však o samoúčelný design – provětrávaná vrstva a slunolamy udržují budovu chladnou v létě téměř bez údržby.</p>",
                 "bgcolor" : "#BFA785"
             }]
         }

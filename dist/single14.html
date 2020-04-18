@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="initial-scale=1, user-scalable=1"/>
+    <title>
+    </title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="slick/slick.css"/>
+    <link rel="stylesheet" href="slick/slick-theme.css"/>
+  </head>
+  <body class="body_single pcolor" id="body" style="background-color:"></body>
+  <body class="body_index">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <div class="wrap">
+      <div class="menu">
+        <div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""/></a></div>
+        <nav class="nav_menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="projects.html">projects</a></li>
+            <li class="nav-item"> <a class="nav-link" href="archive.html">archive</a></li>
+            <li class="nav-item"> <a class="nav-link" href="profile.html">profile</a></li>
+            <li class="nav-item"> <a class="nav-link" href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+        <nav class="langer">
+          <ul class="navbar-nav lang">
+            <li class="nav-item"><a class="nav-link active" href="index.html">CZ</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">EN</a></li>
+          </ul>
+        </nav>
+      </div><br/>
+            <div class="pag-info hidelg"></div>
+            <div class="pag-info2 hidelg"></div>
+            <div class="footer">
+              <div class="footer-left">
+                <div class="pag-info hidemob"></div><br/><span><a class="nav-link" href="single13.html">Prev project</a></span>
+              </div>
+              <div class="project-text-modal">Orientační systém Sedlec<br/><span>2020 - dosud</span><br/><a class="open-button nav-link active" href="#" onclick="return false">View text</a></div>
+              <div class="footer-right">
+                <div class="pag-info2 hidemob"></div><br/><span><a class="nav-link" href="single15.html">Next project</a></span>
+              </div>
+            </div>
+            <div class="grid" id="content">
+              <ul class="grid-ul">
+                <li>
+                  <div class="carousel">
+                  </div>
+                </li>
+                <li>
+                  <div class="carousel2">
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-wrap closed" id="modal">
+              <div class="modal-window">
+                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
+                <div class="modal-content"> 
+                  <h1>Orientační systém Sedlec<br><br></h1>
+                  <p></p>
+                  <table>
+                    <tr>
+                      <td>Klient</td>
+                      <td>Řimskokatolická farnost Kutná hora – Sedlec</td>
+                    </tr>
+                    <tr>
+                      <td>Lokace</td>
+                      <td>Kutná Hora – Sedlec, Česká republika</td>
+                    </tr>
+                    <tr>
+                      <td>Typologie</td>
+                      <td> <span>orientační systém<br></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Typ</td>
+                      <td>veřejný prostor</td>
+                    </tr>
+                    <tr>
+                      <td>Rok</td>
+                      <td>2020 - dosud</td>
+                    </tr>
+                    <tr>
+                      <td>Status</td>
+                      <td>ve výstavbě	</td>
+                    </tr>
+                    <tr>
+                      <td>Užitná plocha</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Velikost</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Náklady</td>
+                      <td>6 600 000 Kč</td>
+                    </tr>
+                    <tr>
+                      <td>Autoři</td>
+                      <td>MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Marek&nbsp;Kundrata</td>
+                    </tr>
+                    <tr>
+                      <td>Spoluautoři</td>
+                      <td>MgA. Bibiana Heinichová</td>
+                    </tr>
+                    <tr>
+                      <td>Spolupráce </td>
+                      <td> <span>grafický design: František Štorm<br></span>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <!-- The Modal-->
+            <div class="pmodal" id="myModal">
+              <!-- Modal content-->
+              <div class="pmodal-content">
+                <div class="slider-for">
+                </div>
+              </div>
+            </div>
+            <!-- The Modal-->
+            <div class="pmodal pmodal2" id="myModal2">
+              <!-- Modal content-->
+              <div class="pmodal-content">
+                <div class="slider-for2">
+                </div>
+              </div>
+            </div>
+      <script>
+        		var content = document.querySelector("#content");
+        		var popiska = document.querySelector(".open-button");
+        		var modal = document.querySelector("#modal");
+        		var closeButton = document.querySelector("#close-button");
+        		var openButton = document.querySelector(".open-button");
+        		var pinfo = document.querySelector(".pag-info");
+        		var pinfo2 = document.querySelector(".pag-info2");
+        
+        
+        		openButton.addEventListener("click", function() {
+        			content.classList.toggle("closed");
+        			//- popiska.classList.toggle("closed");
+        			modal.classList.toggle("closed");
+        			pinfo.classList.toggle("closed");
+        			pinfo2.classList.toggle("closed");
+        
+        			if (openButton.innerHTML === "View text") {
+        			    openButton.innerHTML = "Close text";
+        			  } else {
+        			    openButton.innerHTML = "View text";
+        			  }
+        		});
+        
+        		closeButton.addEventListener("click", function() {
+        			modal.classList.toggle("closed");
+        			content.classList.toggle("closed");
+        			pinfo.classList.toggle("closed");
+        			pinfo2.classList.toggle("closed");
+        			//- popiska.classList.toggle("closed");
+        			if (popiska.innerHTML === "View text") {
+        			    popiska.innerHTML = "Close text";
+        			  } else {
+        			    popiska.innerHTML = "View text";
+        			  }
+        		});
+        
+        		//- $('.lazy').slick({
+        		//-   lazyLoad: 'ondemand',
+        		//-   slidesToShow: 2,
+        		//-   slidesToScroll: 2
+        		//- });
+        
+        
+        
+        		$(document).ready(function(){
+        
+        
+        			var $status = $('.pag-info');
+        			var $status2 = $('.pag-info2');
+        			var $slickElement = $('.carousel');
+        			var $slickElement2 = $('.carousel2');
+        
+        			$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        			  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        				var i = (currentSlide ? currentSlide : 0) + 1;
+        				$status.text(i + '/' + slick.slideCount);
+        			});
+        
+        			$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        				//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        				var i = (currentSlide ? currentSlide : 0) + 1;
+        				$status2.text(i + '/' + slick.slideCount);
+        			});
+        
+        
+        			$('.slider-for').slick({
+        				arrows: true,
+        				fade: false,
+        				asNavFor: '.carousel',
+        				variableWidth: false,
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0,
+        				verticalSwiping: false
+        
+        			});
+        			$('.slider-for2').slick({
+        				arrows: true,
+        				fade: false,
+        				asNavFor: '.carousel2',
+        				variableWidth: false,
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0,
+        				verticalSwiping: false
+        
+        			});
+        
+        			$('.carousel').slick({
+        				arrows: true,
+        				asNavFor: '.slider-for',
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0,
+        				verticalSwiping: false
+        			});
+        
+        			$('.carousel2').slick({
+        				arrows: true,
+        				asNavFor: '.slider-for2',
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0,
+        				verticalSwiping: false
+        			});
+        
+        		});
+        
+        
+        var pmodal = document.getElementById("myModal");
+        var btn = document.getElementById("#myBtn");
+        var span = document.getElementsByClassName("pclose")[0];
+        var color = document.getElementById("body").style.backgroundColor;
+        var body = document.getElementById("body");
+        
+        var pmodal2 = document.getElementById("myModal2");
+        var btn2 = document.getElementById("#myBtn");
+        var span2 = document.getElementsByClassName("pclose")[0];
+        var color2 = document.getElementById("body").style.backgroundColor
+        
+        
+        $(document).keyup(function(e) {
+          if (e.keyCode == 27) { 
+          	pmodal.style.display = "none";
+          	pmodal2.style.display = "none";
+          	body.style.overflow = "auto"
+           }   // esc
+        });
+        $('.img-close').click(function() {
+           pmodal.style.display = "none";
+        });
+        
+        
+        
+        function mymodal() {
+        	  pmodal.style.display = "flex";
+        	  pmodal.style.background = color;
+        	  $('.slider-for').slick('refresh');
+        	  body.style.overflow = "hidden";
+        
+        	  var arrow = document.querySelectorAll(".slick-arrow");
+        	  for (i = 0; i < arrow.length; i++) {
+        	    arrow[i].removeAttribute("style");
+        	  }
+        }
+        //- span.onclick = function() {
+        //-   pmodal.style.display = "none";
+        //- }
+        //- slickSlide.onclick = function() {
+        //-   pmodal.style.display = "none";
+        //- }
+        window.onclick = function(event) {
+          if (event.target == pmodal) {
+            pmodal.style.display = "none";
+            body.style.overflow = "auto"
+        
+          }
+        }
+        
+        
+        $('.img-close').click(function() {
+           pmodal2.style.display = "none";
+           body.style.overflow = "auto"
+        });
+        
+        function mymodal2() {
+        	  pmodal2.style.display = "flex";
+        	  pmodal2.style.background = color;
+        	  $('.slider-for2').slick('refresh');
+        	  body.style.overflow = "hidden";
+        	  //- vypnutí šipek na mobilu
+        	  var arrow = document.querySelectorAll(".slick-arrow");
+        	  for (i = 0; i < arrow.length; i++) {
+        	    arrow[i].removeAttribute("style");
+        	  }
+        
+        }
+        //- span.onclick = function() {
+        //-   pmodal2.style.display = "none";
+        //- }
+        //- slickSlide.onclick = function() {
+        //-   pmodal2.style.display = "none";
+        //- }
+        window.onclick = function(event) {
+          if (event.target == pmodal2) {
+            pmodal2.style.display = "none";
+          }
+        }
+        
+        
+        $(window).on('load', function() {
+        
+        //- Odstranění arrows pro slide 
+        var arrow = document.querySelectorAll(".slick-arrow");
+        for (i = 0; i < arrow.length; i++) {
+          arrow[i].removeAttribute("style");
+        }
+        
+        })
+      </script>
+    </div>
+  </body>
+</html>
