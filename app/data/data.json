@@ -950,6 +950,108 @@
                 "text": "",
                 "bgcolor" : ""
             }]
+        },
+        { "project": [{
+                "id" : "41",
+                "nickname": "Renocar jídelna",
+                "title": "Renocar Brno – jídelna pro zaměstnance",
+                "klient" : "soukromý",
+                "lokace" : "Brno – Slatina, Česká republika",
+                "typologie" : ["komerční prostor" ],
+                "typ" : "interiér",
+                "rok" : "2016",
+                "status" : "realizováno",
+                "uzplocha" : "197 m²",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "",                
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "42",
+                "nickname": "Dům ŘeKa",
+                "title": "Dům ŘeKa – Bohnice",
+                "klient" : "soukromý",
+                "lokace" : "Praha 8 – Bohnice, Česká republika",
+                "typologie" : ["rodinný dům" ],
+                "typ" : "rekonstrukce",
+                "rok" : "2019",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný, MgA.Marek&nbsp;Kundrata",
+                "spoluautori" : "",                
+                "odbspoluprace" : [
+                    {"profese" : "zodpovědný projektant", "name" : "Ing.&nbsp;arch.&nbsp;Michal&nbsp;Říčný"}
+                ],
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "43",
+                "nickname": "La Bouchée",
+                "title": "Rekonstrukce restaurace La Bouchée – Brno",
+                "klient" : "La Bouchee s.r.o.",
+                "lokace" : "Brno – Střed, Česká republika",
+                "typologie" : ["komerční prostor" ],
+                "typ" : "interier",
+                "rok" : "2012",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "",                
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "44",
+                "nickname": "Kříž Jakub",
+                "title": "Řimskokatolická farnost Kutná hora",
+                "klient" : "Kutná Hora, Česká republika",
+                "lokace" : "sakrální stavba",
+                "typologie" : ["stálá instalace" ],
+                "typ" : "interier",
+                "rok" : "2015",
+                "status" : "studie",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "",                
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "45",
+                "nickname": "Žebětín – dům pro dirigenta – semestrální projekt",
+                "title": "",
+                "klient" : "Žebětín, Česká republika",
+                "lokace" : "rodinný dům",
+                "typologie" : ["rodinný dům" ],
+                "typ" : "novostavba",
+                "rok" : "2009",
+                "status" : "akademický projekt",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "",                
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
         }
 
     ]
