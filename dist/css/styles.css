@@ -420,8 +420,7 @@ a {
   grid-area: footer;
   text-align: center; }
   .project-text-modal .nav-link {
-    padding-top: 0;
-    display: inline; }
+    padding-top: 0; }
 
 .pcolor {
   background-color: white; }
