@@ -6,10 +6,10 @@
         "scolor": "gray"
     },
     "pages" : [
-        "projects",
-        "archive",
-        "profile",
-        "contact"
+        "Projects",
+        "Archive",
+        "Profile",
+        "Contact"
     ],
     
     "projects": [
