@@ -13,15 +13,20 @@ mixin mfooter (footerData)
 
 	.footer
 		.footer-left
+
 			.pag-info.hidemob
 			br
 			span
 				a.nav-link(href="single" + pi + ".html") Prev project
-		div.project-text-modal !{projects[i].project[0].title}
+		div.project-text-modal
+			if projects[i]
+				| !{projects[i].project[0].title}
 			br
-			span #{projects[i].project[0].rok}
-			br
-			a.open-button.nav-link.active(href="#",onclick="return false" ) View text
+			span
+				if projects[i]
+					| #{projects[i].project[0].rok}
+				br
+				a.open-button.nav-link.active(href="#",onclick="return false" ) View text
 		div.footer-right
 			.pag-info2.hidemob
 			br
@@ -34,10 +39,11 @@ mixin mimages (index)
 		ul.grid-ul
 			li
 				div.carousel
-					each item, i in gimg[index][0]
-						div
-							div.pmodal-ico(onclick="mymodal()")
-								img(src=item)
+					if gimg[index]
+						each item, i in gimg[index][0]
+							div
+								div.pmodal-ico(onclick="mymodal()")
+									img(src=item)
 
 
 
@@ -46,61 +52,63 @@ mixin mimages (index)
 
 			li
 				div.carousel2
-					each item in gimg[index][1]
-						div
-							div.pmodal-ico(onclick="mymodal2()")
-								img(src=item)
-	
+					if gimg[index]
+						each item in gimg[index][1]
+							div
+								div.pmodal-ico(onclick="mymodal2()")
+									img(src=item)
+		
 
 	.modal-wrap.closed#modal
 		.modal-window
 			.modal-close#close-button
 				a(class="nav-link", href="#",onclick="return false" )
 					img(src="images/ico_close.svg", alt="")
-			.modal-content 
-				h1 #{projects[i].project[0].title}<br><br>
-				p !{projects[i].project[0].text}
-				table
-					tr
-						td Klient
-						td #{projects[i].project[0].klient}
-					tr
-						td Lokace
-						td #{projects[i].project[0].lokace}
-					tr
-						td Typologie
-						td 
-							each item in projects[i].project[0].typologie
-								span #{item}<br>
-					tr
-						td Typ
-						td #{projects[i].project[0].typ}
-					tr
-						td Rok
-						td #{projects[i].project[0].rok}
-					tr
-						td Status
-						td #{projects[i].project[0].status}	
-					tr
-						td Užitná plocha
-						td #{projects[i].project[0].uzplocha}
-					tr
-						td Velikost
-						td #{projects[i].project[0].velikost}
-					tr
-						td Náklady
-						td #{projects[i].project[0].naklady} Kč
-					tr
-						td Autoři
-						td !{projects[i].project[0].autori}
-					tr
-						td Spoluautoři
-						td !{projects[i].project[0].spoluautori}
-					tr
-						td Spolupráce 
-						td 
-							each item in projects[i].project[0].odbspoluprace
-								span #{item.profese}: !{item.name}<br>
+			.modal-content
+				if projects[i] 
+					h1 !{projects[i].project[0].title}<br><br>
+					p !{projects[i].project[0].text}
+					table
+						tr
+							td Klient
+							td !{projects[i].project[0].klient}
+						tr
+							td Lokace
+							td !{projects[i].project[0].lokace}
+						tr
+							td Typologie
+							td 
+								each item in projects[i].project[0].typologie
+									span !{item}<br>
+						tr
+							td Typ
+							td !{projects[i].project[0].typ}
+						tr
+							td Rok
+							td !{projects[i].project[0].rok}
+						tr
+							td Status
+							td !{projects[i].project[0].status}	
+						tr
+							td Užitná plocha
+							td !{projects[i].project[0].uzplocha}
+						tr
+							td Velikost
+							td !{projects[i].project[0].velikost}
+						tr
+							td Náklady
+							td !{projects[i].project[0].naklady} Kč
+						tr
+							td Autoři
+							td !{projects[i].project[0].autori}
+						tr
+							td Spoluautoři
+							td !{projects[i].project[0].spoluautori}
+						tr
+							td Spolupráce 
+							td 
+								each item in projects[i].project[0].odbspoluprace
+									span !{item.profese}: !{item.name}<br>
 								
 								
 
@@ -116,10 +124,11 @@ mixin mimages (index)
 			//- span.pclose
 			//- 	img.svgimg(src="../images/ico_close.svg")
 			div.slider-for
-				each item in gimg[index][0]
-						div
-							//- img(data-lazy=item)
-							img.img-fluid.img-close(src=item)
+				if gimg[index]
+					each item in gimg[index][0]
+							div
+								//- img(data-lazy=item)
+								img.img-fluid.img-close(src=item)
 
 	// The Modal
 	#myModal2.pmodal.pmodal2
@@ -128,10 +137,11 @@ mixin mimages (index)
 			//- span.pclose
 			//- 	img.svgimg(src="../images/ico_close.svg")
 			div.slider-for2
-				each item in gimg[index][1]
-						div
-							//- img(data-lazy=item)
-							img.img-fluid.img-close(src=item)
+				if gimg[index]
+					each item in gimg[index][1]
+							div
+								//- img(data-lazy=item)
+								img.img-fluid.img-close(src=item)
 
 
 

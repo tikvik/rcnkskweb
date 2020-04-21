@@ -1,0 +1,13 @@
+extends layout.pug
+block body
+	- var i = 32;
+	if projects[i]
+		body.body_single.pcolor#body(style="background-color:"+projects[i].project[0].bgcolor)
+	else
+		body.body_single.pcolor#body
+block content
+		+mfooter(i)
+		+mimages(i)
+		
+		include partials/script.pug
+

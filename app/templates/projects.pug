@@ -8,7 +8,8 @@ block content
 					//- p #{item.project[0].title}
 					li 
 						a(href="single"+ index +".html" style="background-color:"+projects[index].project[0].bgcolor)
-							img(src=gimg[index][0][0] alt="")
+							if gimg[index]
+								img(src=gimg[index][0][0] alt="")
 							div.hovertext #{item.project[0].nickname}
 
 

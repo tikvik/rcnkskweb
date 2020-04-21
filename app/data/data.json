@@ -14,6 +14,7 @@
     
     "projects": [
         { "project": [{
+                "id" : "0",
                 "nickname": "Nesvačilka",
                 "title": "Kaple Panny Marie Bolestné v Nesvačilce",
                 "klient" : "Řimskokatolická farnost Moutnice",
@@ -35,6 +36,7 @@
             }]
         },
         { "project": [{
+                "id" : "1",
                 "nickname": "BMW kongresák",
                 "title": "Renocar BMW Urban Store, Praha",
                 "klient" : "Renocar a.s.",
@@ -62,6 +64,7 @@
             }]
         },
         { "project": [{
+                "id" : "2",
                 "nickname": "Kulaťák",
                 "title": "Vítězné náměstí",
                 "klient" : "Institut Plánování a Rozvoje hl. města Prahy",
@@ -84,6 +87,7 @@
             }]
         },
         { "project": [{
+                "id" : "3",
                 "nickname": "Kostnice",
                 "title": "Rekonstrukce a přístavba kaple Všech Svatých s kostnicí",
                 "klient" : "Římskokatolická farnost Kutná Hora – Sedlec",
@@ -106,6 +110,7 @@
             }]
         },
         { "project": [{
+                "id" : "4",
                 "nickname": "Franta",
                 "title": "Atelier mezi rybníky",
                 "klient" : "soukromý",
@@ -128,6 +133,7 @@
             }]
         },
         { "project": [{
+                "id" : "5",
                 "nickname": "Chuchle",
                 "title": "Viladomy Hvězdárna, Velká Chuchle, Praha",
                 "klient" : "Algon, a.s.",
@@ -139,7 +145,7 @@
                 "uzplocha" : "2430 m²",
                 "velikost" : "0,41 ha",
                 "naklady" : "55 000 000",
-                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, Ing.&nbsp;arch.&nbsp;akad.&nbsp;arch.&nbsp;Jaroslav Kosek",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, Ing.&nbsp;arch.&nbsp;akad.&nbsp;arch.&nbsp;Jaroslav&nbsp;Kosek",
                 "spoluautori" : "",
                 "odbspoluprace" : [
                                 {"profese" : "generální projektant", "name" : "LINE architektrura, s.r.o."},
@@ -150,6 +156,7 @@
             }]
         },
         { "project": [{
+                "id" : "6",
                 "nickname": "Tajemné Dálky",
                 "title": "Národní galerie – Tajemné dálky",
                 "klient" : "Národní galerie Praha",
@@ -175,6 +182,7 @@
             }]
         },
         { "project": [{
+                "id" : "7",
                 "nickname": "Žitná",
                 "title": "Žitná 14, dostavba a rekonstrukce bytového domu",
                 "klient" : "soukromý",
@@ -196,6 +204,7 @@
             }]
         },
         { "project": [{
+                "id" : "8",
                 "nickname": "Krymská",
                 "title": "Nástavba v Krymské",
                 "klient" : "soukromý",
@@ -217,6 +226,7 @@
             }]
         },
         { "project": [{
+                "id" : "9",
                 "nickname": "Hynek Martinec",
                 "title": "Hynek Martinec: Cesta na Island",
                 "klient" : "Národní galerie Praha",
@@ -241,6 +251,7 @@
             }]
         },
         { "project": [{
+                "id" : "10",
                 "nickname": "Mokrá",
                 "title": "Mokrá 4×2 RD",
                 "klient" : "soukromý",
@@ -263,6 +274,7 @@
             }]
         },
         { "project": [{
+                "id" : "11",
                 "nickname": "NG v NG",
                 "title": "Norbert Grund (1717–1767): Půvab všedního dne",
                 "klient" : "Národní galerie Praha",
@@ -289,6 +301,7 @@
             }]
         },
         { "project": [{
+                "id" : "12",
                 "nickname": "Renocar Brno",
                 "title": "Renocar Brno – Stará hala",
                 "klient" : "Renocar, a.s.",
@@ -312,6 +325,7 @@
             }]
         },
         { "project": [{
+                "id" : "13",
                 "nickname": "Mikrofarma Jiřák",
                 "title": "Mikrofarma nám. Jiřího z Poděbrad - řeznictví a bistro",
                 "klient" : "Mikrofarma s.r.o.",
@@ -338,6 +352,7 @@
             }]
         },
         { "project": [{
+                "id" : "14",
                 "nickname": "Orientační systém Sedlec",
                 "title": "Orientační systém Sedlec",
                 "klient" : "Řimskokatolická farnost Kutná hora – Sedlec",
@@ -360,6 +375,7 @@
             }]
         },
         { "project": [{
+                "id" : "15",
                 "nickname": "Vodička Šorner House",
                 "title": "Vodička Šorner House",
                 "klient" : "soukromý",
@@ -383,6 +399,7 @@
             }]
         },
         { "project": [{
+                "id" : "16",
                 "nickname": "Cimala",
                 "title": "Michal Cimala: Ecstasy",
                 "klient" : "Trafo gallery",
@@ -405,6 +422,7 @@
             }]
         },
         { "project": [{
+                "id" : "17",
                 "nickname": "P&P Zurich",
                 "title": "Poetry & Performance. <br>The Eastern European Perspective – Zurich",
                 "klient" : "Shedhalle ve spolupráci s ERC-Project \"Performance Art in Easter Europe\"",
@@ -429,6 +447,7 @@
             }]
         },
         { "project": [{
+                "id" : "18",
                 "nickname": "Tuřany",
                 "title": "Tuřany 6×1 RD",
                 "klient" : "soukromý",
@@ -451,6 +470,7 @@
             }]
         },
         { "project": [{
+                "id" : "19",
                 "nickname": "Kaménky",
                 "title": "Na Kaménkách – Brno",
                 "klient" : "Statutární město Brno",
@@ -474,6 +494,7 @@
             }]
         },
         { "project": [{
+                "id" : "20",
                 "nickname": "Trnka",
                 "title": "Jiří Trnka: V zahradách imaginace",
                 "klient" : "GASK – Galerie Středočeského kraje",
@@ -500,6 +521,7 @@
             }]
         },
         { "project": [{
+                "id" : "21",
                 "nickname": "PPNCK - dodelat",
                 "title": "Jiří Trnka: V zahradách imaginace",
                 "klient" : "GASK – Galerie Středočeského kraje",
@@ -526,6 +548,7 @@
             }]
         },
         { "project": [{
+                "id" : "22",
                 "nickname": "Vanity Fair",
                 "title": "Diplomanti AVU: Vanity Fair",
                 "klient" : "Národní galerie Praha",
@@ -551,6 +574,7 @@
             }]
         },
         { "project": [{
+                "id" : "23",
                 "nickname": "Obřany chata",
                 "title": "Obřany – interier chaty",
                 "klient" : "soukromý",
@@ -574,6 +598,7 @@
             }]
         },
         { "project": [{
+                "id" : "24",
                 "nickname": "Ostrava parkhaus",
                 "title": "Parkovací dům v Ostravě",
                 "klient" : "Statutární město Ostrava",
@@ -593,6 +618,7 @@
             }]
         },
         { "project": [{
+                "id" : "25",
                 "nickname": "Prygl",
                 "title": "Chata na Pryglu",
                 "klient" : "soukromý",
@@ -612,6 +638,7 @@
             }]
         },
         { "project": [{
+                "id" : "26",
                 "nickname": "MŠ Červený Vrch",
                 "title": "MŠ Červený Vrch",
                 "klient" : "Městská část Praha 6",
@@ -628,6 +655,300 @@
                 "odbspoluprace" : "",
                 "text": "<p>Architektonická soutěž na novou školku byla vypsána městskou částí Praha 6. Zvolená parcela se strategicky nachází na sídlišti. Ačkoliv severo-západní roh pozemku základní školy Červený Vrch vypadá jako ideální pro novou budovu, při bližším průzkumu narazíme na řadu protichůdných limitů – ulice ležící téměř o 4 metry níže, páteřní trasa teplovodu na hranici pozemku a zejména nároží v soukromém vlastnictví.</p><p>Na první pohled nelogicky navrhujeme umístit budovu do její limitní polohy v rohu. Nezastavitelné plochy definujeme jako veřejnou zeleň a poloveřejnou cestu s dvěma předprostory, z kterých se vstupuje do budovy a neotáčíme se k okolí zády. Tím nám zůstává velká jihovýchodní zahrada, která využívá 100% z nepraktického tvaru pozemku.</p><p>Budova je koncipována jako nehierarchická. U obou předprostorů se nachází vstup spolu s modelárnou a výukovou učebnou, které mohou sloužit také externím návštěvníkům. Čtyři třídy a multifunkční herna jsou na jedné straně propojeny proplétajícím se hravým koridorem a na druhé se ocitají přímo v zahradě. Spirálové schodiště stoupá do meditativního kruhového spícího patérka. Použitím posuvných oken a dveří umožňuje otevřít školku do čtvrti při provozu veřejnějším nebo do zahrady při provozu soukromějším. Kuchyně je od školky oddělena, nachází se dole v úrovni ulice.</p><p>Školka je první místo, kde děti čelí cizímu prostředí samy bez rodičů. Myslíme si, že je důležité aby jejich první vztahy a zkušenosti vznikali v přírodě. Zejména dnes se všudypřítomnou technikou by děti měly být schopni ocenit skutečný svět. Proto navrhujeme budovu jako dřevostavbu s pohledovou tesařskou trámovou konstrukcí doplněnou přírodním linoleem. Nicméně nosné sloupy jsou betonové, aby lépe přenesly boční zatížení a dali větší svobodu stěnám.</p><p>Školka je zabalena vlnitým hliníkovým plechem a roštem ve tvaru mraků, čímž dostává téměř surrealní ráz aniž by přitahovala na sebe pozornost. Nejedná se však o samoúčelný design – provětrávaná vrstva a slunolamy udržují budovu chladnou v létě téměř bez údržby.</p>",
                 "bgcolor" : "#BFA785"
+            }]
+        },
+        { "project": [{
+                "id" : "27",
+                "nickname": "P&P Dresden",
+                "title": "Poetry & Performance.<br>The&nbsp;Eastern&nbsp;European&nbsp;perspective&nbsp;– Dresden",
+                "klient" : "Motorenhalle ve spolupráci s ERC-Project \"Performance Art in Eastern Europe\"",
+                "lokace" : "Drážďany, Německo",
+                "typologie" : ["výstava" ],
+                "typ" : "dočasná instalace",
+                "rok" : "2019",
+                "status" : "realizováno",
+                "uzplocha" : "1 320 m²",
+                "velikost" : "0,34 ha",
+                "naklady" : "50 000 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "Bc.&nbsp;Erika&nbsp;Trang Nguyen&nbsp;Thu",
+                "odbspoluprace" : [
+
+                            {"profese" : "kurátor", "name" : "Tomáš Glanc, Dr., Sabine Hänsgen,Dr."}
+
+                        ],
+                "text": "<p>Datum konání : 12.4.2019 - 7.7.2019<br>Místo konání: Motorenhalle - Wachsbleichstraße 4a, 01067 Dresden</p>Web výstavy: <a target=\"_blank\" href=\"https://riesa-efau.de/kunst-erleben/motorenhalle/poetry-performance-114-7719/\">riesa-efau.de</a> ",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "28",
+                "nickname": "Vršovická",
+                "title": "Byt Vršovická 15",
+                "klient" : "soukromý",
+                "lokace" : "Praha 10 – Vršovice, Česká republika",
+                "typologie" : ["vbytový dům" ],
+                "typ" : "interiér",
+                "rok" : "2017",
+                "status" : "realizováno",
+                "uzplocha" : "93 m²",
+                "velikost" : "",
+                "naklady" : "1 000 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, Ing.arch.,akad.arch.&nbsp;Jaroslav&nbsp;Kosek",
+                "spoluautori" : "Bc.&nbsp;Erika&nbsp;Trang Nguyen&nbsp;Thu",
+                "odbspoluprace" : "",
+                "text": "Byt se nachází v činžovním domě z 30. let 20.století. V domě jsou dobře zachované a udržováné původní společné prostory. Byt je po kompletní rekonstrukci s drobnými dispozičními úpravami avšak s veškerými zachovalými materiály, detaily i povrchy. Srdcem celého bytu je obývací pokoj s velkoryse řešeným kuchyňským koutem kompletně vybaveným vestavěnými spotřebiči. Do všech třech obytných místností se dostaneme z prosvětlené, prostorné haly s původní a velmi originální dlažbou. Hlavní ložnice je orientovaná do vnitrobloku s výhledem do zeleně a je neprůchozí. Druhá ložnice je rovněž neprůchozí a je orientovaná do ulice. Koupelna nově obložená a oproti původní zvětšená a opatřená mozaikovými obklady disponuje vanou. Ve vstupní hale je rovněž nově zbudovaná polotransparentní příčka, která odděluje samostatnou toaletu a šatnu a z pohledové strany tvoří knihovnu. V bytě je dále technická místnost s kotlem, výlevkou a připojením na pračku. K bytu náleží sklepní kóje. V domě je nový výtah. Zabezpečení bytu zajišťuje poplašné zařízení. Byt je částečně vybaven nábytkem a jeho použití, doplnění nebo případné odstranění je na domluvě s nájemcem.",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "29",
+                "nickname": "Íčko",
+                "title": "Sedlec – Infopoint",
+                "klient" : "Řimskokatolická farnost Kutná hora – Sedlec",
+                "lokace" : "Kutná Hora – Sedlec, Česká republika",
+                "typologie" : ["veřejné prostranství – předprostor" ],
+                "typ" : "veřejný prostor",
+                "rok" : "2020",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "Marie-Anne Poully, Bc.&nbsp;Erika&nbsp;Trang&nbsp;Nguyen&nbsp;Thu, Ing.&nbsp;arch.&nbsp;Štěpánka&nbsp;Úlehlová",
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "30",
+                "nickname": "Korunka",
+                "title": "ZŠ Korunovační Praha – rekonstrukce školního dvora",
+                "klient" : "ZŠ Korunovační, Praha",
+                "lokace" : "Praha 7 – Bubeneč, Česká republika",
+                "typologie" : ["občanská vybavenost" ],
+                "typ" : "exteriér",
+                "rok" : "2019 - dosud",
+                "status" : "studie",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Bibiana&nbsp;Heinich",
+                "spoluautori" : "Marie-Anne Poully, Bc.&nbsp;Erika&nbsp;Trang&nbsp;Nguyen&nbsp;Thu, Ing.&nbsp;arch.&nbsp;Štěpánka&nbsp;Úlehlová",
+                 "odbspoluprace" : [
+                        {"profese" : "voda a zeleň", "name" : "Ing.&nbsp;arch.&nbsp;Marie Gelová"},
+                        {"profese" : "ilustrace", "name" : "MgA.&nbsp;Lucie&nbsp;Lučanská"}
+                        ],
+                "text": "<h2>Zadání</h2><p>Škola potřebuje nutně zvýšit využitelnost dvora vložením celé řady dalších funkcí a typů prostor. Nezbytné je zbudovat druhé sportovní hřiště ve vyhovujícím stavu (povrch), venkovní třídu, prostor pro studium, relaxaci i hru, truhlíky pro zahradničení počtem odpovídající celkovému množství tříd, vodní prvky, zázemí pro venkovní výuku. Výhodou by bylo umístění venkovní posilovny, rozběhové dráhy a doskočiště pro skok daleký a lezecké stěny. Důraz je kladen na vhodnost povrchů, bezpečnost, životnost a multifunkčnost hřiště.</p><h2>Materiálové řešení</h2><p>Stávající materiálové řešení je nevyhovující. Jedinou plochou, která zůstane zachována, je pryžové hřiště. Úsek v severní části dvora zůstane travnatý, ostatní travnaté plochy budou eliminovány a nahrazeny vhodnějším povrchem. Zbytek hřiště včetně povrchu kopce bude řešen v lité pryži. Výhodou tohoto materiálu je jeho snadná údržba (cca 1× ročně čištění vysokotlakoou vodou), dlouhá životnost (při správné údržbě 15 let, pak následují drobné opravy), čistota (nezanášení špíny do budovy) a způsob pokládky. Ta je možná na stávající asfaltový povrch, jehož odstranění by bylo náročné z ekonomického, ekologického, časového i praktického hlediska. Komplikovaný přístup na školní dvůr není pro provedení pryžového povrchu překážkou, materiál se dopravuje v pytlích a míchá na místě. Jeho pokládku nedoprovází vysoká prašnost, jako u mnoha jiných materiálů. V okolí herních prvků je možné navýšit podkladní vrstvu pryžového materiálu tak, aby se docílilo bezpečných povrchů při pádu z výšky. Materiál je také možné dotáhnout až do těsné blízkosti k překážkám (např. k sochám ryb), drží na šikmých i vertikálních plochách, umí si poradit s jakýmikoliv oblými tvary. Propouští vodu, která pak stéká po podkladním povrchu do kanalizace a dále pak do nových retenčních nádrží. Pryž je výhodná i z hlediska přímého kontaktu se stromy, kdy se pozitivně uplatňuje dostatečná prosákavost okolního povrchu. V létě se nepřehřívá tolik jako asfalt.</p><h2>Prostorové řešení</h2><p>Vměstnání velkého množství aktivit na poměrně malou plochu školního dvora vede přirozeně k jejich překryvu. Základním rozdělením hřiště do zón sportu, hry, relaxace, výuky a pěstitelské části dochází k vymezení prostoru tak, aby mohlo co největší množství aktivit probíhat souběžně. Snažíme se vyhnout jednoúčelovým prostorám. Pokud je to možné, neurčujeme konkrétní způsob využívání jednotlivých míst, spíše nabízíme širokou paletu míst a funkcí, se kterými je možné pracovat jako s pomůckami pro výuku. O přestávkách a v čase odpolední družiny slouží hřiště k volnému pobytu žáků, naší snahou je vytvořit ze dvora svobodné místo s různými atmosférami.<br>Snažíme se maximálně vyhnout překážkám v rámci plochy hřiště. Bariéry dělící od sebe různé aktivity vytváříme pomocí tvarování dvora jako krajiny. Ústředním prvkem hřiště se stává kopec vložený mezi dvě sportovní hřiště. Zvenčí slouží kopec jako hranice dvou křídel dvora, odraziště míčů při tělesné výchově, místo s největším rozhledem pro dozorujícího pedagoga. Na každé sportovní hřiště je z kopce orientovaná tribuna pro cca 20 žáků. Z vrcholu kopce vede na každou stranu jedna skluzavka. Interiér kopce slouží jako venkovní “jeskynní” třída vhodná pro menší skupinovou výuku. Zadní stěnu tvoří tabule. Uprostřed prostoru je umístěn kruhový stůl s lavicí. Osvětlení vnitřku kopce je zajištěno pomocí kruhového zasíťovaného otvoru na vrcholu kopce. Tudy také proudí vzduch vnikající do kopce vstupním otvorem. V deštivém počasí by bylo uzavření kopce řešeno poklopem s otvory po stranách, aby bylo zachováno přirozené větrání. Interiér kopce bude možno osvětlit též umělým osvětlením.</p><h2>Opakem kopce se stává “ďolík” a amfiteátr.</h2><p>V severní části hřiště, u zahloubených sousedních dvorků, navrhujeme ponížení terénu, krajinu s prohlubněmi, ve kterých se dá sedět při výuce i ležet při relaxaci. V tomto místě je také jediná travnatá plocha s automatickou závlahou. V místě současného vzrostlého javoru počítáme s výsadbou nového listnatého stromu. Zároveň do travnaté plochy umisťujeme další stromy, které dotvářejí přírodní atmosféru. Okolo stromů je možné umístit hamaky.<br>V koutě vzniklém mezi jižním křídlem školy a tělocvičnou vytváříme amfiteátr. Zahloubený prostor s kapacitou až 50 dospělých osob, který slouží jako největší venkovní učebna a může být využit také pro malé besídky či dramatickou výuku. Žák stojící uprostřed publika není na vyvýšeném pódiu ale naopak pod úrovní hlediště, prostor se stává příjemnějším pro přednes před ostatními. Tento princip výuky využívá také montessori vzdělávání. Plocha za jevištěm slouží jako velká tabule. Amfiteátr je od nového sportovního hřiště oddělen mříží s popínavými rostlinami, která slouží jako ochrana před míči, stínění, chlazení a také jako akustická bariéra.<br>Před amfiteátrem u stěny tělocvičny se nachází místo zvané “hájíček”, prostor pro čtení, sezení na lavičkách pod stromy. Ty jsou osazeny v organicky tvarované ploše vyplněné oblázky. V tomto místě je možné pozorovat stékání dešťové vody a její postupné vsakování do terénu, kde je následně využita pro závlahu stromů. Hájíček slouží také jako bariéra mezi klidnou zónou relaxace (výuky) a živým sportovním hřištěm.<br>Mezi hájíčkem a novým sportovním hřištěm vede rozběhová dráha pro skok daleký. Její délka nesplňuje předepsané parametry (40-45m), je zkrácená zhruba na polovinu. U škol bez sportovního zaměření je zkrácení dráhy běžné. Pískové doskočiště však požadované rozměry dodržuje. Jeho plocha je v rámci hřiště poměrně velká, proto jej využíváme také jako dopadovou plochu z přiléhající lezecké stěny.<br>Jižní křídlo školního dvora je celkově více věnováno sportu. Nachází se zde také workout – venkovní posilovna. Může sloužit jak při tělesné výchově, tak i k vlastnímu cvičení žáků. Mladší žáci mohou sestavu využívat jako prolézačku.<br>Oddělení stávajícího i nového hřiště od ostatních aktivit zajišťuje kopec, mříž s popínavými rostlinami a variabilní posuvné sítě, které je možno roztáhnout podél kratších stran hřiště při tělesné výchově, aby bránily před míči.<br>Podél východní strany nového sportovního hřiště jsou umístěny betonové sochy ryb. Zachováváme je a hřiště umísťujeme tak, aby splňovalo bezpečnostní odstup 1,2m od překážky. Za rybami vytváříme dlouhou zvlněnou tribunu, na jejímž vrcholu jsou umístěny truhlíky s popínavými rostlinami, které porostou fasádu sousedního Křižíkova domu.<br>V úzkém koutě mezi Křižíkovým domem a budovou školy vytváříme terénní vlnu, pod níž bude skryta retenční nádrž. Z ní na vrchol kopce povede pumpa. Žáci svým vlastním úsilím získají vodu pro zalévání truhlíků za tribunami.<br>Stejný princip práce s vodou používáme také v pěstitelské části dvora. Vpravo od hlavního vstupu na dvůr je umístěna sestava truhlíků – pro každou třídu jeden – mezi nimiž se nachází plocha se stromy vyplněná oblázky. Pod terénem je zde umístěna retenční nádrž s pumpou, která zároveň slouží k automatické závlaze okolních stromů. Nalevo od vstupu je umístěn betonový pingpongový stůl, který je možno využít také jako pracovní stůl při výuce. Po obou stranách vstupu se nachází boxy sloužící jako sklad zahradního náčiní a úložný prostor pro učební pomůcky.<br>Celý dvůr propojuje pěšina, která kříží samostatné prostory a svazuje je do jednoho celku. Použitý pryžový povrch umožňuje libovolné grafické pojednání plochy. Hřiště je tak materiálové sjednocené, pěšina nijak nenarušuje jednotlivé aktivity. Stejným způsobem jsou podél západní strany stávajícího hřiště umístěny tři kruhy – studijní hnízda – sloužící jak pro montessori třídy, tak např. pro rekapitulaci aktivit ve skupině po tělesné výchově.</p><h2>Koncepce vody a zeleně</h2><p>Současný stav kanalizace a odvodnění dvora je nevyhovující. Je potřeba jeho celková revize a nové řešení v samostatném projektu. Jeho součástí musí být také řešení sanace části podmáčené školní budovy okolo jižního křídla dvora. Toto řešení musí nutně předcházet nebo být součástí samotné realizace nového školního hřiště.<br>Cílem našeho návrhu je mimojiné maximální možné využití dešťové vody. Ta je sbírána svody ze střechy a odtokem po asfaltu pod pryží (popř. po novém povrchu v severní části dvora) do společné kanalizace a následně do nádrží. V “hájíčku” využíváme z edukačních důvodů vedení vody po povrchu do oblázkového kačírku okolo stromů, přebytek následně kanalizací do nádrže.Na pozemku jsou umístěny celkem 3 nádrže. Jedna na povrchu v anglickém dvorku u kuchyně, která slouží k automatické závlaze trávníku a na zimní období se vypouští. Další nádrž je umístěna pod kačírkem v pěstitelské části. Odsud vede automatická závlaha ke stromům a zároveň pumpa, kterou využívají žáci k zalévání truhlíků. Třetí nádrž se nachází v koutě mezi školní budovou a Křižíkovým domem. Zde je opět pumpa k zalévání truhlíků na tribunách za rybami.<br><h2>U každého sportovního hřiště je umístěno jedno pítko pro občerstvení.</h2><br>V patě kopce mezi hřišti je umístěno mlžítko ve tvaru korunky (znak školy) pro osvěžení žáků v letních měsících.Stromy jsou navrhovány jako už částečně vzrostlé s dostatečným místem pro jejich další růst. V pěstitelském koutku je umístěn ovocný strom. Pro větší ochlazení celého hřiště a příjemnější atmosféru navrhujeme umístit popínavé rostliny nejen na fasádu Křižíkova domu, ale také na fasády školy, mříž u amfiteátru a částečně i na plot oddělující dvůr od sousedních pozemků.Řešení osvětlení, detailní projekty ZTI, statiky či konkrétní sadové úpravy budou součástí dalších fází projektu, stejně tak jako podrobná výkresová dokumentace veškerých atypických prvků návrhu.<br></p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "31",
+                "nickname": "Středa",
+                "title": "Památník pátera Středy",
+                "klient" : "Statutární město Brno",
+                "lokace" : "Brno – Střed, Česká republika",
+                "typologie" : ["socha" ],
+                "typ" : "stálá instalace",
+                "rok" : "2018",
+                "status" : "soutěž – otevřená",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Irena&nbsp;Armutidisová, MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "",
+                 "odbspoluprace" : "",
+                "text": "<p>&bdquo;Netrap se předčasně starostmi o to, co se stane. Stačí zlé, co přináší každý den.&ldquo;</p><p>Život pátera Středy byl lemován mnoha strastmi a překážkami, které dokázal díky své pevné víře a modlitbě překonat a ještě přitom povzbudit i své široké okolí. Lidé u něj hledali v časech utrpení útočiště a povzbuzení duše.<br>Tyto základní aspekty jeho působení formují koncepci památníku. Na první pohled nahodilý shluk trámů expresivně znázorňuje nesnáze, strasti, utrpení, bolesti – kříž Ježíše Krista. Kříž, který p. Martin Středa nesl nejen za sebe, ale i za své bližní je znázorněn mnohostí prvků. Jeden člověk, který pomáhá překonat utrpení mnohých, vytvářející jednotu v mnohosti. Při procházení chodce kolem památníku má objekt působit právě tímto dojmem. Procházejícímu člověku se při bočním pohledu bude jevit socha jako nuspořádaná změt prvků. Teprve ve chvíli, kdy se člověk přiblíží ke vchodu do jezuitského kostela a stane přímo naproti reliéfnímu portrétu Martina Středy se ze „změťi křížů“ objekt promění v uspořádané “sluncové” paprsky a celá kompozice z tohoto pohledu působí jako oltář.</p><p>Reliéf samotný je uspořádán tak, aby páterův pohled směřoval na kolemjdoucí. Dílo o rozměru 90 cm x 65 cm bude vyveden v bronzu ve střední až vysokém reliéfu. Důraz je kladen na klasickou realistickou modelaci. Navazuje na tradici klasického reliéfního sochařství a klade důraz na řemeslo. Naturalisticky a detailně propracovaný reliéfní portrét Středy vychází z dobových podkladů a má snahu ukázat divákům jeho přibližnou podobu. Ti se tak seznámí nejen s jeho podobou, ale i s jeho myšlenkami a surovou atmosférou jeho života. Domnívám se, že kombinace realistického portrétu p. Martina Středy a sakrálně působící konstrukce navodí velmi intenzivní dojem a vtáhne kolemjdoucího alespoň na okamžik do života M.Středy.<br>Na jednotlivých „trámech křížů“ jsou reliéfně umístěny citáty z díla p. Středy jeho poznání získané pevnou vírou. Texty by mohly být provedeny na všech trámech. Objekt je řešen jako spojení klasického reliéfu a prostorového objektu doplňujícího veřejný prostor. Při procházení okolo obchozího objektu si může chodec zapřemýšlet nad jednotlivými výroky. Reliéf je bronzový. „Kříže“ jsou z vysokopevnostního betonu zaručující životnost blízkou žule. Okolí objektu je pojednáno tradičně – štětovou dlažbou dle barokních vzorů, což by bylo vhodné realizovat kolem celého kostela. Samotný chodník by již vycházel z městské koncepce a to buď v tradiční či současné velkoformátové dlažbě. Památník je osvětlen jedním zemním bodovým světlem, které umocňuje jeho působení v nočních hodinách pomocí dopadajího stínu na stěny přilehlého kostela.</p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "32",
+                "nickname": "Loos",
+                "title": "Památník Adolfa Loose",
+                "klient" : "Statutární město Brno",
+                "lokace" : "Brno – Střed, Česká republika",
+                "typologie" : ["socha" ],
+                "typ" : "stálá instalace",
+                "rok" : "2018",
+                "status" : "soutěž – otevřená",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Mark&nbsp;Ther, MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "",
+                 "odbspoluprace" : "",
+                "text": "<p>Adolf Loos byl velice pozoruhodný architekt 20.století. Ve své době slavným, někdy i dokonce méně žádaným architektem a v každém případě i výstřední vyhraněnou osobností. Přesto se mu povedlo zrealizovat v Evropě několik staveb, ze kterých se architekti a umělci inspirují dodnes. Některé z nich se staly klíčovými stavbami dějin světové architektury.</p><p>Při tvorbě sochy věnované architektovi Adolfovi Loosovi jsme si kladli otázku. Jak jednoduše a výstižně upozornit na osobnost Adolfa Loose ve veřejném prostoru, aniž bychom přímo citovali jeho koncepci prostoru všeobecně známou jako Raumplan. Realizovat ve veřejném prostoru objekt, který se vztahuje k jeho tolik typické prostorové koncepci architektury by bylo příliš obtížné a navíc by to postrádalo smysl, protože socha není architektura. Hledali jsme tedy typický symbol, který charakterizuje tvorbu Adolfa Loose. Zároveň jsme nechtěli příliš zacházet do intelektuálních debat a přespřílis konceptualizovat tvorbu této výrazné osobnosti. Po dlouhé rozvaze jsme došli k názoru, že nejlepší volbou bude najít něco typického z jeho uskutečněných interierů. Snažili jsme se najít takový typický prvek, který Loos používal ve svých vilách, bytech, kavárnách a obchodních domech, ale který by vyjádřil i ducha jeho tvorby. Objekt, který bychom mohli považovat za symbol.</p><p>Loosovy interiery jsou rozmanité, bohaté působí romantizujícím dojmem a jsou plné užitého  umění, které autor přímo nenavrhoval, ale velmi často je používal a dohromady kombinoval různé styly a tím spolu s pečlivě volenými materiály a kvalitním řemeslem vyvtářel nádherné interiery. Křeslo, které se v interierech nachází, často opakuje a nedá se přehlédnout, je proslulé nádherné křeslo zvané Knieschwimmer”. Bylo vyráběné a pravděpodobně i navrhnuté designérem a architektem F. O. Schmidtem, s jehož vídeňskou firmou Adolf Loos počátkem 20.století spolupracoval.  Důležitým momentem je to, že A. Loos sice nenavrhl tento kus nábytku, ale používal jej jako doplněk vetšiny svých interierů. To se netýká pouze tohoto křesla jedná se o princip tvorby Adolfa Loose. Toto je důvod proč jsme se v našem návrhu rozhodli použít “knieswimmer” jako symbolický a podle našeho názoru i adekvátní motiv k životu a dílu brněnského rodáka Adolfa Loose.</p><p>Dalším specifikem jeho tvorby byl pečlivý výběr materiálů a jejich kombinace. Typickým materiálem je zelený italský mramor zvaný Cipollino. Křeslo bude provedeno právě z tohoto druhu mramoru a osazeno přímo do trávníku. Měřítkem 2,5 krát větším než-li ve skutečnosti docílíme, že objekt přestane být nábytkem a stane se součástí prostoru. Knieschwimmer umístíme v nadživotní velikosti na dané místo a prostor kolem pomníku bude postupně zarůstat břečťanem, též patřícím mezi Loosovy oblíbené a často používané rostliny. Popínavé rostiny pokrývající navenek fasády jeho staveb jsou dalším typickým symbolem jeho tvorby.Věříme, že se nám použitím křesla Knieschwimmer, materiálovým pojednáním a umístěním v břečťanovém podhoubí podaří skloubit podstatné principy tvorby Adolfa Loose a vytvořit soudobý a živý památník, který se stane součástí veřejného prostoru.</p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "33",
+                "nickname": "Blanka",
+                "title": "Půdní vestavba – Nad Zemankou – Bráník",
+                "klient" : "soukromý",
+                "lokace" : "Praha 4 – Bráník, Česká republika",
+                "typologie" : ["bytový dům" ],
+                "typ" : "konverze",
+                "rok" : "2019 - dosud",
+                "status" : "územní řízení",
+                "uzplocha" : "55,9 m²",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, Bc.&nbsp;Barbora&nbsp;Tauerová",
+                "spoluautori" : "Ing. arch. Petr Müller",
+                 "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "34",
+                "nickname": "Lovecraft",
+                "title": "Život je bolestný a přináší zklamání,<br>Massakr, Vol. 1: H. P. Lovecraft",
+                "klient" : "Galerie města Plzně o.p.s.",
+                "lokace" : "náměstí Republiky 40, Plzeň",
+                "typologie" : ["výstava" ],
+                "typ" : "dočasná instalace",
+                "rok" : "2016",
+                "status" : "realizováno",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Ondřej&nbsp;Císler&nbsp;,PhD.",
+                "spoluautori" : "Ing. arch. Petr Müller",
+                "odbspoluprace" : [
+                       {"profese" : "kurátor výstavy", "name" : "Otto M. Urban"},
+                       {"profese" : "grafický design", "name" : "Petr Krejzek (ReDesign)"},
+                       {"profese" : "produkce", "name" : "Blanka Čermáková"},
+                       {"profese" : "osvětlení", "name" : "RCNKSK"}
+                       ],
+                "text": "<p><b>Vystavující autoři:</b> Josef Bolf, Jakub Gajdošík, Stanislav Karoli, Eva Maceková, Martin Mulač, Martin Salajka, Richard Stipl, Marek Škubal, František Štorm, Jan Vytiska</p><p>Výstava Život je bolestný a přináší zklamání: Lovecraft se zabývá vlivem klíčové osobnosti moderního horroru H. P. Lovecrafta v současném výtvarném umění a je prvním pokusem o zmapování této tématiky v českém prostředí. Seriózní a narůstající zájem o jeho tvorbu se projevil i v nedávných publikacích, které se jí věnovaly i v oblasti filmové či literární. V letech 2010 – 2013 vydalo nakladatelství Puls jeho sebrané spisy, velkou pozornost věnoval Lovecraftovi i časopisy Živel č. 37 z roku 2013 či A2, č. 6 z roku 2015. Jeho jméno se poprvé objevilo již v antologii Lupiči mrtvol (1970).  Lovecraftem se tehdy zabývaly takové výrazné osobnosti, jako například Josef Škvorecký či František Jungwirth. Následně však nadlouho Lovecraftovo dílo nemohlo vycházet.  Žánr hororu byl komunistickou ideologií vnímán jako buržoázně úpadkový. To v praxi znamenalo, že se nevydávaly hororové knihy (až na malé výjimky), stejně jako se filmové horory nedostávaly příliš často do filmové distribuce. Určitá změna nastala až v průběhu 80. let s nástupem videa.  Primitivně nadabované (většinou jedním člověkem) horory patřily mezi nejoblíbenější filmové kopie, které tehdy soukromě putovaly celou republikou.  Byla to právě generace, která v 80. letech dospívala a měla tak v určitém smyslu jako první možnost poznat nejen klasiku žánru, ale i béčkovou produkci. V tomto smyslu se tedy generační zkušenost českých umělců příliš nelišila od té,kterou měli jejich vrstevníci v zahraničí. Není tedy náhodou, že 90. léta přinášejí v celosvětovém kontextu razantní průnik hororové tématiky do výtvarného umění. Spektrum děl je velice široké svou formou i obsahem, od atmosférických zobrazení úzkosti přes popovou zdivočelost po drásající krutost. Málokteré téma tak silně rezonuje s naší současností, která je také protkána strachem a úzkostí.  H. P. Lovecraft již dávno není literárními historiky podceňován a přehlížen, jeho dílu je věnována seriózní pozornost.  Výstava představí tvorbu umělců a umělkyň, kteří se s fenoménem díla H.  P. Lovecrafta vyrovnávají různými způsoby a v různých formách, od malby,  kresby, přes plastiku, až po instalace a videa.  K výstavě bude vydán stejnojmenný katalog, který vedle vystavených děl bude obsahovat i čtyři teoretické texty (Urban, Hříbek, Adamovič, Jiroušek).  Jako doprovodné programy se nabízejí filmová představení, čtení literárních děl či hudební koncerty. Výstava také nabízí bohaté spektrum dětských doprovodných programů.</p><p><b>Web výstavy:</b><br><a href=\"http://galerie-plzen.cz/vystavy/vystavy-2016/zivot-je-bolestny-a-prinasi-zklamani\" target=\"_blank\">galerie-plzen.cz</a><br><a href=\"https://ct24.ceskatelevize.cz/kultura/1964540-zivot-je-bolestny-a-prinasi-zklamani-ceske-umeni-cte-lovecrafta\" target=\"_blank\">ct24.ceskatelevize.cz</a></p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "35",
+                "nickname": "Orlík",
+                "title": "Rekonstrukce chaty na Orlíku",
+                "klient" : "soukromý",
+                "lokace" : "Bohostice, Česká republika",
+                "typologie" : ["rekreační chata" ],
+                "typ" : "novostavba",
+                "rok" : "2019",
+                "status" : "studie",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, Herrmann&nbsp;&&nbsp;oufal: MgA.&nbsp;Eduard&nbsp;Herrman, MgA.",
+                "spoluautori" : "",
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "36",
+                "nickname": "Apotéka",
+                "title": "Apotheca alchymica – parfumerie Brno",
+                "klient" : "Chytrá lékárna",
+                "lokace" : "Brno – Střed, Česká repulika",
+                "typologie" : ["komerční prostor" ],
+                "typ" : "interier",
+                "rok" : "2015",
+                "status" : "studie",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, Herrmann&nbsp;&&nbsp;oufal: MgA.&nbsp;Eduard&nbsp;Herrman,&nbsp;MgA.",
+                "spoluautori" : "",                
+                "odbspoluprace" : [
+                       {"profese" : "grafický design", "name" : "Veronika Vacková"}
+                   ],
+                "text": "<p>Apotheca Alchymica je nová značka parfémů a kosmetiky, která na český trh vrací prvotřídní kvalitu ingrediencí a tradičního řemesla. Této filosofii odpovídá i návrh interieru prodejny. Návštěvníkovi musí být na první pohled jasné, že se nejedná o “obyčejnou” parfumerii světových značek. Kvalita kosmetiky a parfémů se propisuje jak do obalů, grafického designu, tak i do návrhu interieru, do kvality materiálů a zpracování. Zákazník by ale neměl přijít pouze do exkluzivní prodejny. Z filosofie chytrých lékáren Apotheca přebírá především přívětivost k zákazníkovi. Interiér by tedy měl odkazovat jak ke tradičnímu lékárenskému řemeslu, tak být příjemným až útulným prostorem, kde se zákazník uvolní, zdrží se o něco déle než by musel a rád se opět vrátí..</p><p>Ústředním tématem, ještě před započetím návrhu, bylo vyřešení funkčního členění prostor. Snadno by mohlo dojít ke znečitelnění až zmatení zákazníka, který chce jít do parfumerie, ale vidí pouze vchod lékárny. Dublování označení obou prodejen u jednoho vstupu by ubíralo oběma z nich. Řešením je proto vstup nový, který se otevírá do prostor frekventovaného náměstíčka před Velkým Špalíčkem. Vznikají dva vstupy, dva oddělené provozy, které ale zároveň profitují ze své vnitřní propojenosti. (Při koupi léků mohu nahlédnou a uslyšet něco o kvalitní kosmetice – kterou by zákazník lékárny jinak třeba nevyhledával a naopak, při koupi parfému ještě vyřídí nutný nákup v lékárně).</p> <p>Oba prostory bylo tedy nutné na jednu stranu funkčně propojit, na stranu druhou vizuálně předělit aby si svoji různorodostí navzájem neubírali na atmosféře. Především z intimního prostoru parfumérie se otevíral pohled do prostoru lékárny s vysokou intenzitou světla a rušil tak její komorní atmosféru.</p> <p>Důležitým východiskem pro návrh byl postupný růst a proměnlivost produktů. Zároveň by měla instalace vždy působit uceleně s jednotkami i několika desítkami druhů vůní a kosmetiky. Proto je hlavním motivem prostoru úložný systém, který je možné variabilně a kreativně přestavovat a také zvyšovat a snižovat jeho kapacitu. Jsou to bíle lazurované dřevěné profily s drážkami na plechové poličky, které se do něj jednoduše zasouvají. Zadní stěny jsou vyrobeny z překližky, která by měla přirozenou světlou barevnost dřeva. Kombinace dřevěných materiálů dodá interieru příjemnou měkkost a útulnost. Budou kontrastovat s tmavými lahvičkami, které na světlém pozadí dobře vyniknout. Podlaha parfumerie je vyvýšena o 20cm na úroveň chodníku. To umožní bezbariérový přístup a zároveň se jedním schodem lépe oddělí oba vnitřní prostory. Otvor okenní výlohy je využit pro posezení zákazníků s lékárnicí. Nachází se v meziprostoru mezi ulicí a parfumerií kde může návštěvník objevovat nové vůně a objednat si další čerstvé produkty. Stěna, která přiléhá k sezení bude věnována především uskladnění prázdých lahviček. Které budou upozorňovat na míchání kosmetiky přímo na místě a podle individuálního přání zákazníka. Hlavní stěna naproti bude prezentovat již hotové řady v různorodých obrazcích a variacích. Ve středu místnosti se nachází stůl pro prezentaci nových vůní. Odkazuje k tradičním lékárenským pultům mramorovou deskou a čtveratými šuplíky. Osvětlení prostoru je celkově potlumené, intimní atmosféry se dosáhne bodovým nasvětlením pouze důležitých prvků - středového stolu a instalace lahviček na stěnách.</p> <p>Exterier bude doplněn jednotným vývěsním štítem přes celou šířku domu, který bude nad jednotlivými vstupy nést označení Apotheca Alchymica a Chytrá Lékárna. Docílí se tak jednoznačného oddělení provozů, ale také naznačení příbuznosti značek. Roh domu, který se obrací do náměstíčka bude doplněn písmomalířským logem Apothecy.</p> <p>Už zadání projektu investorem naznačuje, že Apotheca Alchymica může být v každém detailu prvotřídní produkt. Pokud má být opravdu úspěšný nesmí být oslabena žádná z jeho částí. Vůně, produktový design ani architektura prodejny, přístup k zákazníkovi, marketing apod.. Protože celek je vždy více než pouhý souhrn jeho částí. Stejně jako hezké obaly nemohou být bez kvalitní vůně, tak kvalitní produkt nemůže být bez charakteristického místa, které ho prezentuje a prodává.</p>",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "37",
+                "nickname": "CarSpa",
+                "title": "CarSpa – Karlovy Vary",
+                "klient" : "soukromý",
+                "lokace" : "Karlovy Vary, Česká republika",
+                "typologie" : ["komerční prostor" ],
+                "typ" : "interier",
+                "rok" : "2019",
+                "status" : "studie",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, Bc.&nbsp;Barbora&nbsp;Tauerová, Ing.&nbsp;arch.&nbsp;Petr&nbsp;Müller",
+                "spoluautori" : "",                
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "38",
+                "nickname": "Kolařovic dům",
+                "title": "Kolařovic dům – Rosice",
+                "klient" : "soukromý",
+                "lokace" : "Rosice, Brno – Venkov, Česká republika",
+                "typologie" : ["rodinný dům" ],
+                "typ" : "rekonstrukce, dostavba",
+                "rok" : "2016",
+                "status" : "ve výstavbě",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "3 000 000",
+                "autori" : "MgA. Jan Říčný",
+                "spoluautori" : "Ing.&nbsp;arch.&nbsp;Michal Říčný",                
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "39",
+                "nickname": "kostel Líšeň",
+                "title": "Kostel Seslání Ducha svatého v Brně – Líšni",
+                "klient" : "Salesiánská provincie Prahy a Nadace pro radost",
+                "lokace" : "Brno – Líšeň, Česká republika",
+                "typologie" : ["sakrální stavba" ],
+                "typ" : "novostavba",
+                "rok" : "2014",
+                "status" : "soutěž – otevřená",
+                "uzplocha" : "",
+                "velikost" : "",
+                "naklady" : "3 000 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Zuzana&nbsp;Hebronová",
+                "spoluautori" : "",                
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
+            }]
+        },
+        { "project": [{
+                "id" : "40",
+                "nickname": "Korunovační",
+                "title": "Korunovační – rekonstrukce bytu",
+                "klient" : "Jan Říčný",
+                "lokace" : "Praha 7 – Bubeneč, Česká republika",
+                "typologie" : ["bytový dům" ],
+                "typ" : "interiér",
+                "rok" : "2011",
+                "status" : "realizováno",
+                "uzplocha" : "97 m²",
+                "velikost" : "",
+                "naklady" : "3 000 000",
+                "autori" : "MgA.&nbsp;Jan&nbsp;Říčný",
+                "spoluautori" : "",                
+                "odbspoluprace" : "",
+                "text": "",
+                "bgcolor" : ""
             }]
         }
 

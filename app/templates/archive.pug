@@ -28,7 +28,8 @@ block content
 							li.item.item-container
 								.attribute.atribute-img
 									.crop
-										img(src=gimg[index][0][0], alt="")
+										if gimg[index]
+											img(src=gimg[index][0][0], alt="")
 
 								.attribute-container.part-information.nevim
 									.attribute-container.part-id
