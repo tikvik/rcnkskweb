@@ -6,10 +6,12 @@ block content
 			ul
 				each item, index in projects
 					//- p #{item.project[0].title}
-					li 
+					li
 						a(href="single"+ index +".html" style="background-color:"+projects[index].project[0].bgcolor)
 							if gimg[index]
-								img(src=gimg[index][0][0] alt="")
+								img(src=gimg[index][0][0], alt="", data-aos="fade-in")
 							div.hovertext #{item.project[0].nickname}
+		.script
+			AOS.init()
 
 

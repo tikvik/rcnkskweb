@@ -24,27 +24,32 @@ block content
 			ol.collection.collection-container
 				each proj, index in projects
 					each item in proj.project
-						a(href="single"+ index +".html")
-							li.item.item-container
-								.attribute.atribute-img
-									.crop
-										if gimg[index]
-											img(src=gimg[index][0][0], alt="")
+						//- a(href="single"+ index +".html")
+						li.item.clickable-row.item-container(data-href="single"+ index +".html")
+							.attribute.atribute-img
+								.crop
+									if gimg[index]
+										img(src=gimg[index][0][0], alt="")
 
-								.attribute-container.part-information.nevim
-									.attribute-container.part-id
-										.attribute(data-name='Project') #{item.nickname}
-										.attribute(data-name='Location') #{item.lokace}
+							.attribute-container.part-information.nevim
+								.attribute-container.part-id
+									.attribute(data-name='Project') #{item.nickname}
+									.attribute(data-name='Location') #{item.lokace}
 
-								.attribute-container.quantity.clientcosts.nevim
-									.attribute(data-name='Typologie')
-										div
-											each stat in projects[index].project[0].typologie
-													span #{stat} <br>
+							.attribute-container.quantity.clientcosts.nevim
+								.attribute(data-name='Typologie')
+									div
+										each stat in projects[index].project[0].typologie
+												span #{stat} <br>
 
-									.attribute-container.vendor-information
-										.attribute(data-name='Client') #{item.klient}
-										.attribute(data-name='Costs') #{item.naklady}
-								.attribute-container.quantity.nevim
-									.attribute(data-name='Year').justify-self-end #{item.rok}
-									.attribute(data-name='File').justify-self-end PDF
+								.attribute-container.vendor-information
+									.attribute(data-name='Client') #{item.klient}
+									.attribute(data-name='Costs') #{item.naklady}
+							.attribute-container.quantity.nevim
+								.attribute(data-name='Year').justify-self-end #{item.rok}
+								.attribute(data-name='File').justify-self-end
+									a(href="#").nav-link PDF
+		script.
+			jQuery(document).ready(function($) {
+			$(".clickable-row").click(function() {
+				window.location = $(this).data("href")})})
