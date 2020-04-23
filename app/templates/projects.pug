@@ -6,12 +6,18 @@ block content
 			ul
 				each item, index in projects
 					//- p #{item.project[0].title}
-					li
+					li(data-aos="")
 						a(href="single"+ index +".html" style="background-color:"+projects[index].project[0].bgcolor)
 							if gimg[index]
-								img(src=gimg[index][0][0], alt="", data-aos="fade-in")
+								img(src=gimg[index][0][0], alt="")
 							div.hovertext #{item.project[0].nickname}
-		.script
-			AOS.init()
+		script.
+			AOS.init({
+				offset: 450,
+				disable: function() {
+				    var maxWidth = 767;
+				    return window.innerWidth > maxWidth;
+				  }
+			})
 
 

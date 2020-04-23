@@ -665,3 +665,9 @@ a {
 
 .closed {
   display: none !important; }
+
+.aos-animate a img {
+  opacity: 0 !important; }
+
+.aos-animate a .hovertext {
+  opacity: 1 !important; }
