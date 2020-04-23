@@ -173,7 +173,7 @@ p
 	.atribute-img
 		width: 180px
 		.crop
-			margin-bottom: $gap/2
+			margin-bottom: $gap
 			margin-right: $gap/2
 			float: left
 			position: relative
@@ -191,17 +191,22 @@ p
 				        transform: translate(-50%,-50%)
 
 
-@media screen and (max-width: 350px)
+@media screen and (max-width: 500px)
 	.atribute-img
 		display: inline
 		.crop
-			width: 180px
-			height: 180px
-
+			width: 250px
+			height: 250px
+			float: none
+			margin-left: auto
+			margin-right: auto
+			
 	.nevim
 		float: left
+		width: 100%
 
-
+	.item
+		padding-bottom: 4vh
 
 
 
