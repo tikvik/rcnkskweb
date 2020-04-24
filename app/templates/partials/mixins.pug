@@ -69,47 +69,58 @@ mixin mimages (index)
 					h1 !{projects[i].project[0].title}<br><br>
 					p !{projects[i].project[0].text}
 					table
-						tr
-							td Klient
-							td !{projects[i].project[0].klient}
+						if (projects[i].project[0].klient !="")
+							tr
+								td Klient
+								td !{projects[i].project[0].klient}
+						if (projects[i].project[0].lokace !="")
 						tr
 							td Lokace
 							td !{projects[i].project[0].lokace}
-						tr
-							td Typologie
-							td 
-								each item in projects[i].project[0].typologie
-									span !{item}<br>
-						tr
-							td Typ
-							td !{projects[i].project[0].typ}
+						if (projects[i].project[0].typologie != "")
+							tr
+								td Typologie
+								td 
+									each item in projects[i].project[0].typologie
+										span !{item}<br>
+						if (projects[i].project[0].typ != "")			
+							tr
+								td Typ
+								td !{projects[i].project[0].typ}
 						tr
 							td Rok
 							td !{projects[i].project[0].rok}
-						tr
-							td Status
-							td !{projects[i].project[0].status}	
-						tr
-							td Užitná plocha
-							td !{projects[i].project[0].uzplocha}
-						tr
-							td Velikost
-							td !{projects[i].project[0].velikost}
-						tr
-							td Náklady
-							td !{projects[i].project[0].naklady} Kč
-						tr
-							td Autoři
-							td !{projects[i].project[0].autori}
-						tr
-							td Spoluautoři
-							td !{projects[i].project[0].spoluautori}
-						tr
-							td Spolupráce 
-							td 
-								each item in projects[i].project[0].odbspoluprace
-									span !{item.profese}: !{item.name}<br>
-								
+						if (projects[i].project[0].status != "")	
+							tr
+								td Status
+								td !{projects[i].project[0].status}
+						if (projects[i].project[0].uzplocha != "")	
+							tr
+								td Užitná plocha
+								td !{projects[i].project[0].uzplocha}
+						if (projects[i].project[0].velikost != "")
+							tr
+								td Velikost
+								td !{projects[i].project[0].velikost}
+						if (projects[i].project[0].naklady != "")	
+							tr
+								td Náklady
+								td !{projects[i].project[0].naklady} Kč
+						if (projects[i].project[0].autori != "")
+							tr
+								td Autoři
+								td !{projects[i].project[0].autori}
+						if (projects[i].project[0].spoluautori != "")
+							tr
+								td Spoluautoři
+								td !{projects[i].project[0].spoluautori}
+						if (projects[i].project[0].odbspoluprace != "")
+							tr
+								td Spolupráce 
+								td 
+									each item in projects[i].project[0].odbspoluprace
+										span !{item.profese}: !{item.name}<br>
+									
 								
 
 				
