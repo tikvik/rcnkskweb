@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="initial-scale=1, user-scalable=1"/>
+    <title>
+    </title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="slick/slick.css"/>
+    <link rel="stylesheet" href="slick/slick-theme.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  </head>
+  <body class="body_single pcolor" id="body" style="background-color:"></body>
+  <body class="body_index">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <div class="wrap">
+      <div class="menu">
+        <div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""/></a></div>
+        <nav class="nav_menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"> <a class="nav-link" href="archive.html">Archive</a></li>
+            <li class="nav-item"> <a class="nav-link" href="profile.html">Profile</a></li>
+            <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="langer">
+          <ul class="navbar-nav lang">
+            <li class="nav-item"><a class="nav-link active" href="index.html">CZ</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">EN</a></li>
+          </ul>
+        </nav>
+      </div><br/>
+            <div class="pag-info hidelg"></div>
+            <div class="pag-info2 hidelg"></div>
+            <div class="footer">
+              <div class="footer-left">
+                <div class="pag-info hidemob"></div><br/><span><a class="nav-link" href="single48.html">Prev project</a></span>
+              </div>
+              <div class="project-text-modal">Obytný soubor Stárka – Košíře<br/><span>2011<br/><a class="open-button nav-link active" href="#" onclick="return false">View text</a></span>
+              </div>
+              <div class="footer-right">
+                <div class="pag-info2 hidemob"></div><br/><span><a class="nav-link" href="single50.html">Next project</a></span>
+              </div>
+            </div>
+            <div class="grid" id="content">
+              <ul class="grid-ul">
+                <li>
+                  <div class="carousel">
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal()"><img src="images/projects/49_Starka/00.jpg"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal()"><img src="images/projects/49_Starka/01.jpg"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal()"><img src="images/projects/49_Starka/02.jpg"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal()"><img src="images/projects/49_Starka/03.jpg"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal()"><img src="images/projects/49_Starka/04.jpg"/></div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="carousel2">
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/49_Starka/plans/00.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/49_Starka/plans/01.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/49_Starka/plans/02.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/49_Starka/plans/03.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/49_Starka/plans/04.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/49_Starka/plans/05.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/49_Starka/plans/06.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/49_Starka/plans/07.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/49_Starka/plans/08.png"/></div>
+                    </div>
+                    <div>
+                      <div class="pmodal-ico" onclick="mymodal2()"><img src="images/projects/49_Starka/plans/09.png"/></div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-wrap closed" id="modal">
+              <div class="modal-window">
+                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
+                <div class="modal-content">
+                  <h1>Obytný soubor Stárka – Košíře<br><br></h1>
+                  <p><p>Lokalita Na Stárce je z hlediska pražského kontextu velmi specifická.  Položená vysoko na úbočí pražské Vidoule uprostřed různorodých městských struktur a přírodních ploch. Místo vzdálené vzdušnou čarou méně než 2 kilometry od rušného Anděla, ale zároveň téměř „na konci města“. Tato vrozená kontradikce bude vždy představovat enormní, ale křehký potenciál. Jeho využití vyžaduje vyváženou kombinaci kvalit městského a přírodního prostředí.</p><h2>pozemek</h2><p>Parcela samotná je klínem, vnořeným do zeleného ostrova uprostřed Košíř. Obklopená zalesněnými svahy, svou užší stranou se dotýká stávající zástavby. Charakter prostředí definuje především složitá morfologie, dva terénní zlomy, jeden těsně pod pozemkem, druhý procházející středem po celé jeho délce (z větší části vytvořený dřívějšími terénními úpravami). V podélném směru se pozemek mírně svažuje od východu k západu.<br>Zastavět takové prostředí uniformní zástavbou by vzhledem k urbanistickému kontextu a topografii pozemku znamenalo promrhání značné části potenciálu místa.<br><h2>„cesta z města“</h2>V jihovýchodním cípu se pozemek setkává s městem a směřuje k západu do přírody. Prostor se otevýrá širokému výhledu na sever do košířského údolí. </p><p>Představujeme tři základní charaktery, vycházející z celkové logiky prostředí a složité morfologie parcely. Každý z nich využívá předností místa, ve kterém se nachází, dohromady tvoří pestrou škálu typologií bydlení.</p><p>Východní cíp pozemku je zároveň jeho nejvyšším bodem. Jediné místo, odkud lze přehlédnout hřeben Vidoule směrem k jihovýchodu. Zároveň místo kontaktu se stávajícím městským prostředím. Do místa, jehož potenciál zvýšila nová výstavba v prostoru Na Pomezí , lze důvodně uvažovat o přemístění železniční zastávky z dlouhodobě neudržitelné současné polohy. Urbanistickou figuru veřejného prostranství doplňujeme dominantou – věží, která může napomoci vzniku funkčního veřejného prostranství. Zahuštění přináší přidanou hodnotu jak pro nové bydlení (daleké výhledy), tak pro stávající strukturu jako potenciál rozvoje lokálních služeb a zlepšení dopravní dostupnosti.</p><p>Terénní hrana určuje charakter jižní části pozemku. Jedno z mála míst, které v severním svahu umožňuje zachytit jižní slunce. Zároveň s nadhledem nad okolním prostorem a výhledem k severu. Hranu zastavujeme lineární hmotou s ulicí – promenádou.</p><p>Terasa v severní části pozemku vytváří svět sám pro sebe, doslova louka u lesa. Místo vyplňujeme drobnou strukturou viladomů, vytvářející skrytá zákoutí a chráněné intimní prostory</p>.<p>Převýšený kubus věže uzavírá prostor náměstí a přináší urbánní kvalitu do stávající struktury. Hmota věže je navržena tak, aby co nejméně zastínila stávající zástavbu, ale zároveň vytvořila lokální dominantu.<br>V parteru objektu je vzhledem k poloze možné umístit lokální vybavenost orientovanou do veřejného prostoru.  Ve věži jsou umístěny převážně menší byty. Ke každému bytu náleží stíněná terasa.  V horních patrech se nachází exkluzivní bydlení s výhledem na celou pražskou kotlinu.</p><h2>bytový dům na hraně</h2><p>Hrana v horní části pozemku definuje linii.  Hmota o výšce čtyř, maximálně pěti podlaží tvoří díky bohatému členění příjemně měřítko. Objem zástavby klesá směrem k západu, kde vzniká intimnější prostředí.<br>Zástavba profituje z terénní situace, zlomu, zvýrazněného navíc existujícím fotbalovým hřištěm. Díky rozdílu úrovní je umožněn vjezd do podzemního podlaží přímo z ulice.  Navržené výškové úrovně domu a ulice redukují nutné výkopové práce. Zemina, kterou je nutné vytěžit, lze umístit přímo v návaznosti na stavební jámu a eliminovat tak složitý transport mimo pozemek.<br>Zvolený modul 4,3m vytváří ideální proporci pro interiéry bytů, orientované sever-jih. Kvalita všech bytových jednotek je definována základní charakteristikou hlavního obytného prostoru  - průhledu napříč celou dispozicí. Přináší do interiéru jak jižní slunce, tak výhled na Prahu směrem k severu. Takové řešení umožňuje příčné provětrání všech bytů, tedy možnost udržení tepelné pohody interiéru v letních měsících bez nutnosti používání klimatizace. Díky striktní modulaci a pravidelnému rastru instalačních jader je zajištěna variabilita různých velikostí bytů.<br>Ulice je doplněna stromořadím a vytváří tak příjemný sdílený prostor. Při jižní fasádě vznikají v úrovni 1.NP soukromé zahrady navazující na byty. Bydlení je od železniční trati chráněno zahuštěným lesním porostem. V exponovanější západní části pozemku lze uvažovat o instalaci jednoduché protihlukové stěny.</p><p>Struktura subtilních objemů vytváří drobné, lokální měřítko. Systém volně stojících komunikačních jader mezi objemy s byty vytváří atmosféru individuálního bydlení, zároveň ale zachovává efektivitu bytového domu. Způsob vstupu do jednotlivých bytů zvyšuje pocit soukromí a individuální charakter bydlení. Byty tak zabírají vždy celé podlaží a otevírají se do všech světových stran. K bytům ve vyšších podlažích náleží prostorné balkony. Větší byty jsou řešeny atraktivním mezonetovým uspořádáním.<br>Společné podzemní garáže jsou umístěny tak, aby modul parkoviště co nejméně kolidoval s optimální proporcí domů.<br> Většina plochy parteru je připojena k přízemním bytům jako soukromé zahrady. Ve středu struktury při vjezdu z ulice Na Stárce se nachází sdílené prostranství s dětským hřištěm.</p><p>Pozemek je dopravně napojen na stávající skelet komunikací dvěma vjezdy z ulice Na Stárce. Průjezd do ulice Na Výši je ponechán pouze pro zásobování (popeláři, hasiči, stěhování, záchranka atd.), tak aby byla eliminována průjezdná doprava. Hustota zástavby na pozemku je strukturována i s ohledem na dopravní obslužnost a eliminování dlouhých příjezdových komunikací. </p><p>Všechna stání, náležející k bytovým jednotkám jsou umístěny v krytých garážích. Ty jsou doplněny příslušným počtem návštěvnických stání na terénu. Koncepce garáží je postavena na co nejtěsnější vazbě mezi parkovacím stáním, úložným prostorem (sklípkem), bytem a vstupem do domu tak, aby se každý obyvatel mohl snadno identifikovat s konkrétním místem, domem. Klíčový objem garáží je v kontaktu s přímým denním osvětlením, což zvyšuje komfort používání těchto prostor.</p><p>Každému vertikálnímu komunikačnímu jádru přináleží vlastní prostory pro technické vybavení domu. Prostory pro správu areálu jsou umístěny u vjezdu v 1.PP bytového domu. Přístup ke všem bytovým jednotkám je bezbariérový.</p><p>Na železobetonové konstrukce podzemních prostor navazuje v objektu bytového domu příčný žb systém bytů s částečnými vyzdívkami v modulu tablet4,3 m. Nadzemní podlaží viladomů jsou zděná s žb stropy. </p><p>Objekt věže je navržen jako železobetonový skelet s modulem 6 x 5,3 m s vyzdívaným obvodovým pláštěm.</p><p>Zděné fasády budou kontaktně zatepleny. Okna budou černá hliníková nebo černě lazurovaná dřevěná a na osluněných místech budou opatřeny  předokenními žaluziemi respektive posuvnými stínícími elementy (věž). Parter ulice s vjezdy do garáží i vertikální komunikace viladomů budou z polo-transparentních kovových prvků. Střechy všech objektů jsou navrženy ploché.</p></p>
+                  <table>
+                    <tr>
+                      <td>Klient</td>
+                      <td>V - invest</td>
+                    </tr>
+                    <tr>
+                      <td>Lokace</td>
+                      <td>Praha 5 – Košíře, Česká republika</td>
+                    </tr>
+                    <tr>
+                      <td>Typologie</td>
+                      <td> <span>bytový dům<br></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Typ</td>
+                      <td>novostavba</td>
+                    </tr>
+                    <tr>
+                      <td>Rok</td>
+                      <td>2011</td>
+                    </tr>
+                    <tr>
+                      <td>Status</td>
+                      <td>soutěž – vyzvaná	</td>
+                    </tr>
+                    <tr>
+                      <td>Užitná plocha</td>
+                      <td>11800 m²</td>
+                    </tr>
+                    <tr>
+                      <td>Velikost</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Náklady</td>
+                      <td>400 000 000 Kč</td>
+                    </tr>
+                    <tr>
+                      <td>Autoři</td>
+                      <td>ing.&nbsp;arch.&nbsp;Filip &nbsp;Tittl, ing.arch. &nbsp;akad.arch.&nbsp;Jaroslav&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Filip&nbsp;Kosek</td>
+                    </tr>
+                    <tr>
+                      <td>Spoluautoři</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Spolupráce </td>
+                      <td> 
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <!-- The Modal-->
+            <div class="pmodal" id="myModal">
+              <!-- Modal content-->
+              <div class="pmodal-content">
+                <div class="slider-for">
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/00.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/01.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/02.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/03.jpg"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/04.jpg"/></div>
+                </div>
+              </div>
+            </div>
+            <!-- The Modal-->
+            <div class="pmodal pmodal2" id="myModal2">
+              <!-- Modal content-->
+              <div class="pmodal-content">
+                <div class="slider-for2">
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/plans/00.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/plans/01.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/plans/02.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/plans/03.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/plans/04.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/plans/05.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/plans/06.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/plans/07.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/plans/08.png"/></div>
+                  <div><img class="img-fluid img-close" src="images/projects/49_Starka/plans/09.png"/></div>
+                </div>
+              </div>
+            </div>
+      <script>
+        		var content = document.querySelector("#content");
+        		var popiska = document.querySelector(".open-button");
+        		var modal = document.querySelector("#modal");
+        		var closeButton = document.querySelector("#close-button");
+        		var openButton = document.querySelector(".open-button");
+        		var pinfo = document.querySelector(".pag-info");
+        		var pinfo2 = document.querySelector(".pag-info2");
+        
+        
+        		openButton.addEventListener("click", function() {
+        			content.classList.toggle("closed");
+        			//- popiska.classList.toggle("closed");
+        			modal.classList.toggle("closed");
+        			pinfo.classList.toggle("closed");
+        			pinfo2.classList.toggle("closed");
+        
+        			if (openButton.innerHTML === "View text") {
+        			    openButton.innerHTML = "Close text";
+        			  } else {
+        			    openButton.innerHTML = "View text";
+        			  }
+        		});
+        
+        		closeButton.addEventListener("click", function() {
+        			modal.classList.toggle("closed");
+        			content.classList.toggle("closed");
+        			pinfo.classList.toggle("closed");
+        			pinfo2.classList.toggle("closed");
+        			//- popiska.classList.toggle("closed");
+        			if (popiska.innerHTML === "View text") {
+        			    popiska.innerHTML = "Close text";
+        			  } else {
+        			    popiska.innerHTML = "View text";
+        			  }
+        		});
+        
+        		//- $('.lazy').slick({
+        		//-   lazyLoad: 'ondemand',
+        		//-   slidesToShow: 2,
+        		//-   slidesToScroll: 2
+        		//- });
+        
+        
+        
+        		$(document).ready(function(){
+        
+        
+        			var $status = $('.pag-info');
+        			var $status2 = $('.pag-info2');
+        			var $slickElement = $('.carousel');
+        			var $slickElement2 = $('.carousel2');
+        
+        			$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        			  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        				var i = (currentSlide ? currentSlide : 0) + 1;
+        				$status.text(i + '/' + slick.slideCount);
+        			});
+        
+        			$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        				//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        				var i = (currentSlide ? currentSlide : 0) + 1;
+        				$status2.text(i + '/' + slick.slideCount);
+        			});
+        
+        
+        			$('.slider-for').slick({
+        				arrows: true,
+        				fade: false,
+        				asNavFor: '.carousel',
+        				variableWidth: false,
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0,
+        				verticalSwiping: false
+        
+        			});
+        			$('.slider-for2').slick({
+        				arrows: true,
+        				fade: false,
+        				asNavFor: '.carousel2',
+        				variableWidth: false,
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0,
+        				verticalSwiping: false
+        
+        			});
+        
+        			$('.carousel').slick({
+        				arrows: true,
+        				asNavFor: '.slider-for',
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0,
+        				verticalSwiping: false
+        			});
+        
+        			$('.carousel2').slick({
+        				arrows: true,
+        				asNavFor: '.slider-for2',
+        				focusOnSelect: false,
+        				accessibility: true,
+        				speed: 300,
+        				initialSlide: 0,
+        				verticalSwiping: false
+        			});
+        
+        		});
+        
+        
+        var pmodal = document.getElementById("myModal");
+        var btn = document.getElementById("#myBtn");
+        var span = document.getElementsByClassName("pclose")[0];
+        var color = document.getElementById("body").style.backgroundColor;
+        var body = document.getElementById("body");
+        
+        var pmodal2 = document.getElementById("myModal2");
+        var btn2 = document.getElementById("#myBtn");
+        var span2 = document.getElementsByClassName("pclose")[0];
+        var color2 = document.getElementById("body").style.backgroundColor
+        
+        
+        $(document).keyup(function(e) {
+          if (e.keyCode == 27) { 
+          	pmodal.style.display = "none";
+          	pmodal2.style.display = "none";
+          	body.style.overflow = "auto"
+           }   // esc
+        });
+        $('.img-close').click(function() {
+           pmodal.style.display = "none";
+        });
+        
+        
+        
+        function mymodal() {
+        	  pmodal.style.display = "flex";
+        	  pmodal.style.background = color;
+        	  $('.slider-for').slick('refresh');
+        	  body.style.overflow = "hidden";
+        
+        	  var arrow = document.querySelectorAll(".slick-arrow");
+        	  for (i = 0; i < arrow.length; i++) {
+        	    arrow[i].removeAttribute("style");
+        	  }
+        }
+        //- span.onclick = function() {
+        //-   pmodal.style.display = "none";
+        //- }
+        //- slickSlide.onclick = function() {
+        //-   pmodal.style.display = "none";
+        //- }
+        window.onclick = function(event) {
+          if (event.target == pmodal) {
+            pmodal.style.display = "none";
+            body.style.overflow = "auto"
+        
+          }
+        }
+        
+        
+        $('.img-close').click(function() {
+           pmodal2.style.display = "none";
+           body.style.overflow = "auto"
+        });
+        
+        function mymodal2() {
+        	  pmodal2.style.display = "flex";
+        	  pmodal2.style.background = color;
+        	  $('.slider-for2').slick('refresh');
+        	  body.style.overflow = "hidden";
+        	  //- vypnutí šipek na mobilu
+        	  var arrow = document.querySelectorAll(".slick-arrow");
+        	  for (i = 0; i < arrow.length; i++) {
+        	    arrow[i].removeAttribute("style");
+        	  }
+        
+        }
+        //- span.onclick = function() {
+        //-   pmodal2.style.display = "none";
+        //- }
+        //- slickSlide.onclick = function() {
+        //-   pmodal2.style.display = "none";
+        //- }
+        window.onclick = function(event) {
+          if (event.target == pmodal2) {
+            pmodal2.style.display = "none";
+          }
+        }
+        
+        
+        $(window).on('load', function() {
+        
+        //- Odstranění arrows pro slide 
+        var arrow = document.querySelectorAll(".slick-arrow");
+        for (i = 0; i < arrow.length; i++) {
+          arrow[i].removeAttribute("style");
+        }
+        
+        })
+      </script>
+    </div>
+  </body>
+</html>

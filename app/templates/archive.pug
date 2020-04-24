@@ -19,7 +19,7 @@ block content
 							.attribute Costs
 					.attribute-container.quantity
 						.attribute.justify-self-end Year
-						.attribute.justify-self-end File
+						//- .attribute.justify-self-end File
 
 			ol.collection.collection-container
 				each proj, index in projects
@@ -47,8 +47,8 @@ block content
 									.attribute(data-name='Costs') #{item.naklady}
 							.attribute-container.quantity.nevim
 								.attribute(data-name='Year').justify-self-end #{item.rok}
-								.attribute(data-name='File').justify-self-end
-									a(href="#") PDF
+								//- .attribute(data-name='File').justify-self-end
+								//- 	a(href="#") PDF
 		script.
 			jQuery(document).ready(function($) {
 			$(".clickable-row").click(function() {
