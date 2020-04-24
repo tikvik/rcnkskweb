@@ -158,6 +158,11 @@ h2 {
 p {
   margin-block-end: 2vh; }
 
+.modal-content a {
+  margin-bottom: -3px !important;
+  line-height: 2 !important;
+  padding: 0 !important; }
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -332,13 +337,13 @@ a {
 .clickable-row {
   cursor: pointer; }
 
-.nav-link {
+.nav-link, .modal-content a {
   display: inline-block;
   padding: .5rem .2rem;
   margin: 0 1.6vh;
   line-height: 1.5;
   display: block; }
-  .nav-link::after {
+  .nav-link::after, .modal-content a::after {
     content: "";
     position: absolute;
     bottom: 5px;
@@ -346,7 +351,7 @@ a {
     width: 0%;
     height: 2px;
     background: black; }
-  .nav-link:hover::after {
+  .nav-link:hover::after, .modal-content a:hover::after {
     width: 100%;
     background-color: black; }
 
@@ -386,7 +391,7 @@ a {
       margin-right: auto !important;
       padding: 0;
       margin: 0; }
-      .menu nav .navbar-nav .nav-item .nav-link {
+      .menu nav .navbar-nav .nav-item .nav-link, .menu nav .navbar-nav .nav-item .modal-content a, .modal-content .menu nav .navbar-nav .nav-item a {
         font-family: TriviaSansMedium, sans-serif;
         font-weight: 600;
         font-size: 10pt; }
@@ -395,7 +400,7 @@ a {
     @media (min-width: 600px) {
       .menu .langer {
         order: 0; } }
-    .menu .langer .lang .nav-item .nav-link {
+    .menu .langer .lang .nav-item .nav-link, .menu .langer .lang .nav-item .modal-content a, .modal-content .menu .langer .lang .nav-item a {
       margin: 0 0.4vh; }
 
 .slick-initialized .slick-slide {
@@ -421,7 +426,7 @@ a {
   align-self: end;
   display: flex;
   justify-content: space-between; }
-  .footer .nav-link {
+  .footer .nav-link, .footer .modal-content a, .modal-content .footer a {
     margin: 0;
     padding: .5rem 0rem; }
   .footer .footer-left {
@@ -433,7 +438,7 @@ a {
 .project-text-modal {
   grid-area: footer;
   text-align: center; }
-  .project-text-modal .nav-link {
+  .project-text-modal .nav-link, .project-text-modal .modal-content a, .modal-content .project-text-modal a {
     padding-top: 0; }
 
 .pcolor {
@@ -657,10 +662,10 @@ a {
     margin-bottom: 0;
     list-style: none;
     flex-direction: column; }
-    .body_pages .gridpages .vertmenu .nav .nav-item .nav-link {
+    .body_pages .gridpages .vertmenu .nav .nav-item .nav-link, .body_pages .gridpages .vertmenu .nav .nav-item .modal-content a, .modal-content .body_pages .gridpages .vertmenu .nav .nav-item a {
       display: inline-block; }
 
-.nav-link {
+.nav-link, .modal-content a {
   display: inline-block; }
 
 .closed {
