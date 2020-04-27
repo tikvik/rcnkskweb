@@ -521,7 +521,7 @@
                             {"profese" : "osvětlení", "name" : "RCNKSK"}
 
                         ],
-                "text": "<p>K letošnímu 50. výročí úmrtí Jiřího Trnky probíhá v Galerii Středočeského kraje v Kutné Hoře výstava. Stoly, skříně i postel jsou zvětšeny tak, aby si i dospělý návštěvník připadal jako dítě. V jednotlivých místnostech přeneseného Trnkova bytu je představeno jeho dílo z oblasti loutkového divadla, ilustrace, malby, sochařské tvorby a animovaného filmu.</p><p>kurátor výstavy: Jan Trnka, Matyáš Trnka<br>produkce: Jakub Hora <br>spolupráce na realizaci: Monika Březinová Seifertová (GASK)<br>instalace a výroba: rodina Kroupových, Martin Houska<br>architektura– Jan Říčný, Filip Kosek, Bibiana Heinich <br>osvětlení – Jan Říčný, Filip Kosek</p>",
+                "text": "<h2>Datum konání: 27. 10.2019 - 26. 06.2020<br>Místo konání: GASK, Kutná Hora</h2><p>K 50. výročí úmrtí Jiřího Trnky proběhla v Galerii Středočeského kraje v Kutné Hoře výstava.</p><p>Stoly, skříně i postel jsou zvětšeny tak, aby si i dospělý návštěvník připadal jako dítě.</p><p>V jednotlivých místnostech přeneseného Trnkova bytu je představeno jeho dílo z oblasti loutkového divadla, ilustrace, malby, sochařské tvorby a animovaného filmu.</p><p>Web výstavy: <a href=\"https://www.gask.cz/cs/vystavy/jiri-trnka-v-zahradach-imaginace\" target=\"_blank\">gask.cz</a></p><p>Recenze výstav:<br>Třistatřicettři, <a href=\"https://www.ceskatelevize.cz/porady/1096008034-tristatricettri/219562254200009/?fbclid=IwAR230dAV93p_P_35LGZnPQxswY07FemSftrDcZi5BnFxGYOMDeBrZ22a6cA\" target=\"_blank\">ceskatelevize.cz</a><br>Magdalena Čechlovská, <a href=\"https://magazin.aktualne.cz/kultura/umeni/jiri-trnka-gask-vystava/r~30858d74fa6c11e99b40ac1f6b220ee8/\">magazin.aktualne.cz</a><br>Dzejn, <a href=\"https://www.maleradosti.net/2019/11/12/vystava-v-zahradach-imaginace/?fbclid=IwAR3FY8lDguiXEjCPcJIhQ4XodvPrwYnu53hz5W6bV4vopnJlmXE8CnSXZKE\" target=\"_blank\">maleradosti.net</a></p>",
                 "bgcolor" : ""
             }]
         },
@@ -1122,7 +1122,7 @@
                 "odbspoluprace" : [
                        {"profese" : "vedoucí práce", "name" : "prof.&nbsp;ak.&nbsp;arch&nbsp;Jindřich&nbsp;Smetana"}
                    ],
-                "text": "",
+                "text": "Evropskou třídu považuji v současnosti za silně nevyhovující, ale významnou komunikaci v rámci Prahy, jejíž význam a pozice v rámci města se výrazně změní. Vznikla z polní cesty procházející skrz historické vesnice a stala se z ní důležitá dopravní tepna. Původní lokální centra ztratila svoji gravitaci, která nebyla ničím nahrazena. Evropská se nestala novým lineárním centrem. Evropská třída nemá potenciál na to být městským bulvárem. Navrhuji tedy nové urbanisticko-dopravní řešení, které obnovuje minulé (Kladenská), navazuje na plánované (Ruzyně) a předkládá vizi do budoucna (Kampus). Tramvaj opisuje na své dráze pohyb oblázku skákajícího po vodní hladině a vytváří tak 4 úseky s pěti významnými uzly. Evropská, ztlumena a ponechána na svém místě, zůstává hlavním nositelem automobilové stopy.",
                 "bgcolor" : ""
             }]
         },
@@ -1162,7 +1162,7 @@
                 "autori" : "ing.&nbsp;arch.&nbsp;Filip &nbsp;Tittl, ing.arch. &nbsp;akad.arch.&nbsp;Jaroslav&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Filip&nbsp;Kosek",
                 "spoluautori" : "",                
                 "odbspoluprace" : [{
-                    "profese" : "vedoucí práce", "name" : "Viel Arets"
+                    "profese" : "vedoucí práce", "name" : "wiel Arets"
                 }],
                 "text": "",
                 "bgcolor" : ""
@@ -1171,22 +1171,20 @@
         { "project": [{
                 "id" : "51",
                 "nickname": "Hala Modřice",
-                "title": "",
-                "klient" : "V - invest",
-                "lokace" : "Praha 5 – Košíře, Česká republika",
+                "title": "Sportovní Hala Modřice",
+                "klient" : "VÍCEÚČELOVÁ SPORTOVNÍ HALA MODŘICE",
+                "lokace" : "Brno – Modřice, Česká republika",
                 "typologie" : ["občanská vybavenost" ],
                 "typ" : "novostavba",
-                "rok" : "2010",
-                "status" : "akademický projekt",
-                "uzplocha" : "",
+                "rok" : "2015",
+                "status" : "soutěž – otevřená",
+                "uzplocha" : "4800 m²",
                 "velikost" : "",
-                "naklady" : "",
-                "autori" : "ing.&nbsp;arch.&nbsp;Filip &nbsp;Tittl, ing.arch. &nbsp;akad.arch.&nbsp;Jaroslav&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Filip&nbsp;Kosek",
-                "spoluautori" : "",                
-                "odbspoluprace" : [{
-                    "profese" : "vedoucí práce", "name" : "Viel Arets"
-                }],
-                "text": "",
+                "naklady" : "110 000 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek, MgA.&nbsp;Filip&nbsp;Kotlář, ADNS&nbsp;architekti",
+                "spoluautori" : "Ing.&nbsp;arch.&nbsp;Radka&nbsp;Dosedlová, Ing.&nbsp;arch.&nbsp;Hana&nbsp;Liškutínová, Ing.&nbsp;arch.&nbsp;David&nbsp;Zelenka, Bc.&nbsp;Bohuslav&nbsp;Šenkýř",                
+                "odbspoluprace" : "",
+                "text": "Dvoukolová veřejná architektonická soutěž.<br>Oceněný návrh.",
                 "bgcolor" : ""
             }]
         },
@@ -1194,20 +1192,18 @@
                 "id" : "52",
                 "nickname": "Kouty u Bělče",
                 "title": "",
-                "klient" : "V - invest",
+                "klient" : "",
                 "lokace" : "Praha 5 – Košíře, Česká republika",
                 "typologie" : ["rodinný dům" ],
                 "typ" : "novostavba",
-                "rok" : "2010",
-                "status" : "akademický projekt",
-                "uzplocha" : "",
+                "rok" : "2012",
+                "status" : "prováděcí dokumentace",
+                "uzplocha" : "142 m²",
                 "velikost" : "",
-                "naklady" : "",
-                "autori" : "ing.&nbsp;arch.&nbsp;Filip &nbsp;Tittl, ing.arch. &nbsp;akad.arch.&nbsp;Jaroslav&nbsp;Kosek, MgA.&nbsp;Jan&nbsp;Říčný, MgA.&nbsp;Filip&nbsp;Kosek",
-                "spoluautori" : "",                
-                "odbspoluprace" : [{
-                    "profese" : "vedoucí práce", "name" : "Viel Arets"
-                }],
+                "naklady" : "3 000 000",
+                "autori" : "MgA.&nbsp;Filip&nbsp;Kosek",
+                "spoluautori" : "MgA.&nbsp;Jan&nbsp;Dobeš, ing.&nbsp;arch. akad.&nbsp;arch.&nbsp;Jaroslav&nbsp;Kosek",                
+                "odbspoluprace" : "",
                 "text": "",
                 "bgcolor" : ""
             }]
