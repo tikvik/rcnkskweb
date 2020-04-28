@@ -3,13 +3,13 @@
     "site": {
         "nickname": "RCNKSK architekti",
         "email": "rcnksk@gmail.com",
-        "scolor": "gray"
+        "scolor": "#B4B4B4"
     },
     "pages" : [
-        {"link" : "projects", "name" : "Projects"},
+        {"link" : "projects", "name" : "Projekty"},
         {"link" : "archive", "name" : "Archive"},
-        {"link" : "profile", "name" : "Profile"},
-        {"link" : "contact", "name" : "Contact"}
+        {"link" : "profile", "name" : "Profil"},
+        {"link" : "contact", "name" : "Kontakt"}
     ],
     
     "projects": [

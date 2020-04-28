@@ -1,5 +1,11 @@
 @font-face {
-  font-family: "TriviaSans";
+  font-family: "TriviaSansRegular";
+  src: url("/fonts/TriviaSansRegular.ttf");
+  font-size: 10pt;
+  unicode-range: U+0000-07FF; }
+
+@font-face {
+  font-family: "TriviaSansMedium";
   src: url("/fonts/TriviaSansMedium.ttf");
   font-size: 10pt;
   unicode-range: U+0000-07FF; }
@@ -144,24 +150,30 @@ html {
   font-size: 10pt; }
 
 h1 {
+  margin-inline-start: 2.66667vh;
   margin-block-start: 0;
   margin-block-end: 10pt;
-  font-family: TriviaSansMedium, sans-serif;
+  font-family: TriviaSansMedium;
   font-size: 10pt;
-  font-weight: 600; }
+  font-weight: normal; }
 
 h2 {
-  margin-block-start: 1.5em;
-  margin-block-end: 0.83em;
-  font-size: 10pt; }
+  margin-inline-start: 2.66667vh;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 10pt;
+  font-family: TriviaSansMedium;
+  font-weight: normal; }
 
 p {
   margin-block-end: 2vh; }
 
-.modal-content a {
-  margin-bottom: -3px !important;
-  line-height: 2 !important;
-  padding: 0 !important; }
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0.66667vh;
+  margin-block-end: 2vh; }
+  ul li {
+    margin-block-end: 0.5vh; }
 
 .img-fluid {
   max-width: 100%;
@@ -298,7 +310,7 @@ p {
     padding-bottom: 4vh; } }
 
 body {
-  font-family: TriviaSansRegular, sans-serif;
+  font-family: TriviaSansRegular;
   background-color: white;
   color: rgba(28, 32, 24, 0.8);
   font-size: 9pt;
@@ -336,13 +348,13 @@ a {
 .clickable-row {
   cursor: pointer; }
 
-.nav-link, .modal-content a {
+.nav-link, a {
   display: inline-block;
   padding: .5rem .2rem;
   margin: 0 1.6vh;
   line-height: 1.5;
   display: block; }
-  .nav-link::after, .modal-content a::after {
+  .nav-link::after, a::after {
     content: "";
     position: absolute;
     bottom: 5px;
@@ -350,7 +362,7 @@ a {
     width: 0%;
     height: 2px;
     background: black; }
-  .nav-link:hover::after, .modal-content a:hover::after {
+  .nav-link:hover::after, a:hover::after {
     width: 100%;
     background-color: black; }
 
@@ -390,16 +402,15 @@ a {
       margin-right: auto !important;
       padding: 0;
       margin: 0; }
-      .menu nav .navbar-nav .nav-item .nav-link, .menu nav .navbar-nav .nav-item .modal-content a, .modal-content .menu nav .navbar-nav .nav-item a {
-        font-family: TriviaSansMedium, sans-serif;
-        font-weight: 600;
+      .menu nav .navbar-nav .nav-item .nav-link, .menu nav .navbar-nav .nav-item a {
+        font-family: TriviaSansMedium;
         font-size: 10pt; }
   .menu .langer {
     order: -1; }
     @media (min-width: 600px) {
       .menu .langer {
         order: 0; } }
-    .menu .langer .lang .nav-item .nav-link, .menu .langer .lang .nav-item .modal-content a, .modal-content .menu .langer .lang .nav-item a {
+    .menu .langer .lang .nav-item .nav-link, .menu .langer .lang .nav-item a {
       margin: 0 0.4vh; }
 
 .slick-initialized .slick-slide {
@@ -425,7 +436,7 @@ a {
   align-self: end;
   display: flex;
   justify-content: space-between; }
-  .footer .nav-link, .footer .modal-content a, .modal-content .footer a {
+  .footer .nav-link, .footer a {
     margin: 0;
     padding: .5rem 0rem; }
   .footer .footer-left {
@@ -437,7 +448,7 @@ a {
 .project-text-modal {
   grid-area: footer;
   text-align: center; }
-  .project-text-modal .nav-link, .project-text-modal .modal-content a, .modal-content .project-text-modal a {
+  .project-text-modal .nav-link, .project-text-modal a {
     padding-top: 0; }
 
 .pcolor {
@@ -662,10 +673,10 @@ a {
     margin-bottom: 0;
     list-style: none;
     flex-direction: column; }
-    .body_pages .gridpages .vertmenu .nav .nav-item .nav-link, .body_pages .gridpages .vertmenu .nav .nav-item .modal-content a, .modal-content .body_pages .gridpages .vertmenu .nav .nav-item a {
+    .body_pages .gridpages .vertmenu .nav .nav-item .nav-link, .body_pages .gridpages .vertmenu .nav .nav-item a {
       display: inline-block; }
 
-.nav-link, .modal-content a {
+.nav-link, a {
   display: inline-block; }
 
 .closed {
@@ -676,3 +687,6 @@ a {
 
 .aos-animate a .hovertext {
   opacity: 1 !important; }
+
+a {
+  margin: 0; }

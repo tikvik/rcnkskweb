@@ -28,18 +28,20 @@ fs.readdirSync(folderPath).forEach(fileName => {
 		// thumbs[i][2] = imgPath+fileName+"/"
 		fs.readdirSync(folderPath+fileName+"/").forEach(images => {
 			if (images != ".DS_Store") {
-				if (images != "plans") {
-					if (images != "PDF") {
-						thumbs[i][0][j] = imgPath+fileName+"/"+images
-						j=j+1
-			}}}
+				if (images != "img") {
+					if (images != "Icon") {
+						if (images != "plans") {
+								thumbs[i][0][j] = imgPath+fileName+"/"+images
+								j=j+1
+			}}}}
 		})
 
 		fs.readdirSync(folderPath+fileName+"/plans/").forEach(planimages => {
 			if (planimages != ".DS_Store") {
-				thumbs[i][1][x] = imgPath+fileName+"/plans/"+planimages
-				x=x+1
-			}
+				if (planimages != "Icon?") {
+					thumbs[i][1][x] = imgPath+fileName+"/plans/"+planimages
+					x=x+1
+			}}
 		})
 
 		j=0
