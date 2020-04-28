@@ -77,6 +77,7 @@ p
 	z-index: 6000
 .pmodal-ico
 	cursor: url("../images/magnif.png") 34 12, auto !important
+
 .pmodal
 	display: none /* Hidden by default */
 	position: fixed /* Stay in place */
@@ -166,7 +167,8 @@ p
 			left: 50%
 			top: 50%
 			height: 100%
-			width: auto
+			width: 100%
+			object-fit: cover
 			-webkit-transform: translate(-50%,-50%)
 			    -ms-transform: translate(-50%,-50%)
 			        transform: translate(-50%,-50%)
@@ -192,8 +194,6 @@ p
 				position: absolute
 				left: 50%
 				top: 50%
-				height: 100%
-				width: auto
 				-webkit-transform: translate(-50%,-50%)
 				    -ms-transform: translate(-50%,-50%)
 				        transform: translate(-50%,-50%)
