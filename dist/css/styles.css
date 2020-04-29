@@ -348,13 +348,13 @@ a {
 .clickable-row {
   cursor: pointer; }
 
-.nav-link, a {
+.nav-link, .body_single .modal-wrap a, .body_single .text a, .body_pages .modal-wrap a, .body_pages .text a {
   display: inline-block;
   padding: .5rem .2rem;
   margin: 0 1.6vh;
   line-height: 1.5;
   display: block; }
-  .nav-link::after, a::after {
+  .nav-link::after, .body_single .modal-wrap a::after, .body_single .text a::after, .body_pages .modal-wrap a::after, .body_pages .text a::after {
     content: "";
     position: absolute;
     bottom: 5px;
@@ -362,7 +362,7 @@ a {
     width: 0%;
     height: 2px;
     background: black; }
-  .nav-link:hover::after, a:hover::after {
+  .nav-link:hover::after, .body_single .modal-wrap a:hover::after, .body_single .text a:hover::after, .body_pages .modal-wrap a:hover::after, .body_pages .text a:hover::after {
     width: 100%;
     background-color: black; }
 
@@ -402,7 +402,7 @@ a {
       margin-right: auto !important;
       padding: 0;
       margin: 0; }
-      .menu nav .navbar-nav .nav-item .nav-link, .menu nav .navbar-nav .nav-item a {
+      .menu nav .navbar-nav .nav-item .nav-link, .menu nav .navbar-nav .nav-item .body_single .modal-wrap a, .body_single .modal-wrap .menu nav .navbar-nav .nav-item a, .menu nav .navbar-nav .nav-item .body_single .text a, .body_single .text .menu nav .navbar-nav .nav-item a, .menu nav .navbar-nav .nav-item .body_pages .modal-wrap a, .body_pages .modal-wrap .menu nav .navbar-nav .nav-item a, .menu nav .navbar-nav .nav-item .body_pages .text a, .body_pages .text .menu nav .navbar-nav .nav-item a {
         font-family: TriviaSansMedium;
         font-size: 10pt; }
   .menu .langer {
@@ -410,7 +410,7 @@ a {
     @media (min-width: 600px) {
       .menu .langer {
         order: 0; } }
-    .menu .langer .lang .nav-item .nav-link, .menu .langer .lang .nav-item a {
+    .menu .langer .lang .nav-item .nav-link, .menu .langer .lang .nav-item .body_single .modal-wrap a, .body_single .modal-wrap .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_single .text a, .body_single .text .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_pages .modal-wrap a, .body_pages .modal-wrap .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_pages .text a, .body_pages .text .menu .langer .lang .nav-item a {
       margin: 0 0.4vh; }
 
 .slick-initialized .slick-slide {
@@ -436,7 +436,7 @@ a {
   align-self: end;
   display: flex;
   justify-content: space-between; }
-  .footer .nav-link, .footer a {
+  .footer .nav-link, .footer .body_single .modal-wrap a, .body_single .modal-wrap .footer a, .footer .body_single .text a, .body_single .text .footer a, .footer .body_pages .modal-wrap a, .body_pages .modal-wrap .footer a, .footer .body_pages .text a, .body_pages .text .footer a {
     margin: 0;
     padding: .5rem 0rem; }
   .footer .footer-left {
@@ -448,7 +448,7 @@ a {
 .project-text-modal {
   grid-area: footer;
   text-align: center; }
-  .project-text-modal .nav-link, .project-text-modal a {
+  .project-text-modal .nav-link, .project-text-modal .body_single .modal-wrap a, .body_single .modal-wrap .project-text-modal a, .project-text-modal .body_single .text a, .body_single .text .project-text-modal a, .project-text-modal .body_pages .modal-wrap a, .body_pages .modal-wrap .project-text-modal a, .project-text-modal .body_pages .text a, .body_pages .text .project-text-modal a {
     padding-top: 0; }
 
 .pcolor {
@@ -673,10 +673,10 @@ a {
     margin-bottom: 0;
     list-style: none;
     flex-direction: column; }
-    .body_pages .gridpages .vertmenu .nav .nav-item .nav-link, .body_pages .gridpages .vertmenu .nav .nav-item a {
+    .body_pages .gridpages .vertmenu .nav .nav-item .nav-link, .body_single .modal-wrap .body_pages .gridpages .vertmenu .nav .nav-item a, .body_single .text .body_pages .gridpages .vertmenu .nav .nav-item a, .body_pages .gridpages .vertmenu .nav .nav-item .modal-wrap a, .body_pages .modal-wrap .gridpages .vertmenu .nav .nav-item a, .body_pages .gridpages .vertmenu .nav .nav-item .text a, .body_pages .text .gridpages .vertmenu .nav .nav-item a {
       display: inline-block; }
 
-.nav-link, a {
+.nav-link, .body_single .modal-wrap a, .body_single .text a, .body_pages .modal-wrap a, .body_pages .text a {
   display: inline-block; }
 
 .closed {
@@ -688,5 +688,10 @@ a {
 .aos-animate a .hovertext {
   opacity: 1 !important; }
 
-a {
-  margin: 0; }
+.body_single .modal-wrap a, .body_single .text a, .body_pages .modal-wrap a, .body_pages .text a {
+  margin: 0;
+  padding: 0; }
+  .body_single .modal-wrap a::after, .body_single .text a::after, .body_pages .modal-wrap a::after, .body_pages .text a::after {
+    width: 100%;
+    background-color: black;
+    margin-bottom: -3px; }

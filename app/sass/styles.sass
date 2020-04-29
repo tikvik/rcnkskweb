@@ -14,7 +14,7 @@
 @include font('TriviaSansMedium', '/fonts/');
 @import "mixins.scss"
 @import "table.sass"
-// @import "../bootstrap/bootstrap"
+
 
 
 
@@ -723,13 +723,22 @@ a
 			opacity: 0 !important
 		.hovertext
 			opacity: 1 !important
-
-a
-	@extend .nav-link
-	// margin-bottom: -3px !important
-	// line-height: 2 !important
-	margin: 0
-
+.body_single,.body_pages	
+	.modal-wrap, .text
+		a
+			@extend .nav-link
+			// margin-bottom: -3px !important
+			// line-height: 2 !important
+			margin: 0
+			padding: 0
+			&::after 
+				width: 100%
+				background-color: black
+				margin-bottom: -3px
+			// &:hover
+			// 	&::after 
+			// 		width: 0%
+			// 		background-color: black
 
 
 
