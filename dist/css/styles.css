@@ -756,7 +756,7 @@ a {
 .sticky {
   position: fixed;
   top: 0;
-  left: 0;
+  margin-left: -3.2vh;
   width: 100%; }
 
 ol li {
