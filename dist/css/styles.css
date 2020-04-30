@@ -182,7 +182,6 @@ p {
   margin-block-end: 2vh; }
 
 ul {
-  padding-inline-start: 0;
   margin-block-start: 0.66667vh;
   margin-block-end: 2vh; }
   ul li {
@@ -642,8 +641,7 @@ a {
           .body_single .modal-wrap .modal-window .modal-content table tbody tr td:nth-child(1) {
             width: 30%;
             padding-right: 4vh;
-            font-family: TriviaSansMedium, sans-serif;
-            font-weight: 600; }
+            font-family: TriviaSansMedium, sans-serif; }
   .body_single .modal-wrap .credentials .cred {
     float: left;
     width: 25%; }
@@ -667,6 +665,9 @@ a {
   display: flex;
   justify-content: center;
   align-self: start !important; }
+
+.body_pages ul {
+  padding-inline-start: 0; }
 
 .body_pages .wrap {
   grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"; }
@@ -726,11 +727,17 @@ a {
 .closed {
   display: none !important; }
 
-.aos-animate a img {
+.aos-init a img {
   opacity: 0 !important; }
 
-.aos-animate a .hovertext {
+.aos-init a .hovertext {
   opacity: 1 !important; }
+
+.aos-animate a img {
+  opacity: 1 !important; }
+
+.aos-animate a .hovertext {
+  opacity: 0 !important; }
 
 .body_single .modal-wrap a, .body_single .text a, .body_pages .modal-wrap a, .body_pages .text a {
   margin: 0;
@@ -745,3 +752,6 @@ a {
   top: 0;
   left: 0;
   width: 100%; }
+
+ol li {
+  list-style-type: decimal; }

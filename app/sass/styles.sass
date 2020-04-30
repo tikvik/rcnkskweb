@@ -79,7 +79,7 @@ p
 
 
 ul
-	padding-inline-start: 0
+	// padding-inline-start: 0
 	margin-block-start: $gap/6
 	margin-block-end: $gap/2
 	li
@@ -654,7 +654,7 @@ a
 									width: 30%
 									padding-right: $gap
 									font-family: TriviaSansMedium, sans-serif
-									font-weight: 600
+
 									
 		.credentials
 			.cred
@@ -689,6 +689,8 @@ a
 		align-self: start !important
 
 .body_pages
+	ul
+		padding-inline-start: 0
 	.wrap
 		grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"
 		@include for-size(md)
@@ -756,13 +758,18 @@ a
 .closed
 	display: none !important
 	// background-color: white
-
-.aos-animate
+.aos-init
 	a
 		img
 			opacity: 0 !important
 		.hovertext
 			opacity: 1 !important
+.aos-animate
+	a
+		img
+			opacity: 1 !important
+		.hovertext
+			opacity: 0 !important
 .body_single,.body_pages	
 	.modal-wrap, .text
 		a
@@ -787,4 +794,7 @@ a
 	left: 0
 	width: 100%
 
+ol
+	li
+		list-style-type: decimal
 
