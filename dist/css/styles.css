@@ -1,12 +1,12 @@
 @font-face {
   font-family: "TriviaSansRegular";
-  src: url("/fonts/TriviaSansRegular.ttf");
+  src: url("https://tikvik.github.io/rcnkskweb/dist/fonts/TriviaSansRegular.ttf");
   font-size: 10pt;
   unicode-range: U+0000-07FF; }
 
 @font-face {
   font-family: "TriviaSansMedium";
-  src: url("/fonts/TriviaSansMedium.ttf");
+  src: url("https://tikvik.github.io/rcnkskweb/dist/fonts/TriviaSansMedium.ttf");
   font-size: 10pt;
   unicode-range: U+0000-07FF; }
 
