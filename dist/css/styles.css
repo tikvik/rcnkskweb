@@ -733,6 +733,12 @@ a {
 .aos-init a .hovertext {
   opacity: 1 !important; }
 
+@media (min-width: 600px) {
+  .aos-init img {
+    opacity: 1 !important; }
+  .aos-init .hovertext {
+    opacity: 0 !important; } }
+
 .aos-animate a img {
   opacity: 1 !important; }
 
