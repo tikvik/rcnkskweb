@@ -690,23 +690,39 @@ a
 
 .body_pages
 	.wrap
-		grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"
+		grid-template-areas: "header header header header header header header" "content content content content content content content"  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"
+		@include for-size(md)
+			grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  ". . . . . . ."  "footer footer footer footer footer footer footer"
 
 	.gridpages
 		display: grid
 		grid-area: content
-		grid-template-columns: 1fr 1fr 1fr
 
-		grid-template-rows: 1fr
-		grid-gap: $gap*3
+		grid-template-columns: 1fr
+		grid-template-rows: auto auto auto
+		grid-template-areas: "nav" "img" "content"
+		grid-gap: $gap/2
+		@include for-size(md)
+			grid-template-areas: "img content nav"
+			grid-template-columns: 1fr 1fr 1fr
+			grid-template-rows: 1fr
+			grid-gap: $gap
+
+		@include for-size(md)
+			grid-gap: $gap
+		@include for-size(lg)
+			grid-gap: $gap*2
 		height: 100%
 		.obr
+			grid-area: img
 			// order: 2
 
 		.text
+			grid-area: content
 			// order: 1
 
 		.vertmenu
+			grid-area: nav
 			// order: 0
 			.nav
 				display: flex
@@ -715,7 +731,11 @@ a
 				padding-left: 0
 				margin-bottom: 0
 				list-style: none
-				flex-direction: column
+				flex-direction: row
+				justify-content: center
+				@include for-size(md)
+					flex-direction: column
+
 				.nav-item
 					margin-block-end: 0
 					.nav-link
