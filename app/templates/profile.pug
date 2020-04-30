@@ -141,20 +141,37 @@ block content
 
 
 		.vertmenu
-			ul.nav
-				li.nav-item 
-					a.nav-link(href="#bio") Biografie
-				li.nav-item 
-					a.nav-link(href="#prices") Ocenění
-				li.nav-item 
-					a.nav-link(href="#exhi") Výstavy
-				li.nav-item 
-					a.nav-link(href="#media") Média
-				li.nav-item 
-					a.nav-link(href="#team") Tým
-				li.nav-item 
-					a.nav-link(href="#coop") Spolupráce
-				li.nav-item 
-					a.nav-link(href="#clients") Klienti
-				li.nav-item 
-					a.nav-link(href="#tiraz") Tiráž
+			div.defheight#myHeader(style="background-color:" + site.scolor)
+				ul.nav
+					li.nav-item 
+						a.nav-link(href="#bio") Biografie
+					li.nav-item 
+						a.nav-link(href="#prices") Ocenění
+					li.nav-item 
+						a.nav-link(href="#exhi") Výstavy
+					li.nav-item 
+						a.nav-link(href="#media") Média
+					li.nav-item 
+						a.nav-link(href="#team") Tým
+					li.nav-item 
+						a.nav-link(href="#coop") Spolupráce
+					li.nav-item 
+						a.nav-link(href="#clients") Klienti
+					li.nav-item 
+						a.nav-link(href="#tiraz") Tiráž
+
+
+
+		script.
+			window.onscroll = function() {myFunction()};
+
+			var header = document.getElementById("myHeader");
+			var sticky = header.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset > sticky) {
+			    header.classList.add("sticky");
+			  } else {
+			    header.classList.remove("sticky");
+			  }
+			}

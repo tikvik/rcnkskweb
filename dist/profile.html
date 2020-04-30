@@ -152,17 +152,33 @@
           </ul>
         </div>
         <div class="vertmenu">
-          <ul class="nav">
-            <li class="nav-item"> <a class="nav-link" href="#bio">Biografie</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#prices">Ocenění</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#exhi">Výstavy</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#media">Média</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#team">Tým</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#coop">Spolupráce</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#clients">Klienti</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#tiraz">Tiráž</a></li>
-          </ul>
+          <div class="defheight" id="myHeader" style="background-color:#B4B4B4">
+            <ul class="nav">
+              <li class="nav-item"> <a class="nav-link" href="#bio">Biografie</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#prices">Ocenění</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#exhi">Výstavy</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#media">Média</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#team">Tým</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#coop">Spolupráce</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#clients">Klienti</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#tiraz">Tiráž</a></li>
+            </ul>
+          </div>
         </div>
+        <script>
+          window.onscroll = function() {myFunction()};
+          
+          var header = document.getElementById("myHeader");
+          var sticky = header.offsetTop;
+          
+          function myFunction() {
+            if (window.pageYOffset > sticky) {
+              header.classList.add("sticky");
+            } else {
+              header.classList.remove("sticky");
+            }
+          }
+        </script>
       </div>
     </div>
   </body>

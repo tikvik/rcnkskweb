@@ -699,7 +699,10 @@ a {
   .body_pages .gridpages .text {
     grid-area: content; }
   .body_pages .gridpages .vertmenu {
-    grid-area: nav; }
+    grid-area: nav;
+    min-height: 4vh; }
+    .body_pages .gridpages .vertmenu .defheight {
+      min-height: 4vh; }
     .body_pages .gridpages .vertmenu .nav {
       display: flex;
       -ms-flex-wrap: wrap;
@@ -736,3 +739,9 @@ a {
     width: 100%;
     background-color: black;
     margin-bottom: -3px; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
