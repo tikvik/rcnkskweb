@@ -7,7 +7,7 @@
     },
     "pages" : [
         {"link" : "projects", "name" : "Projekty"},
-        {"link" : "archive", "name" : "Archive"},
+        {"link" : "archive", "name" : "Archiv"},
         {"link" : "profile", "name" : "Profil"},
         {"link" : "contact", "name" : "Kontakt"}
     ],
