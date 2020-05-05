@@ -437,10 +437,10 @@ a {
   display: block; }
 
 .slick-slider .slick-arrow {
-  display: none; }
+  display: none !important; }
   @media (min-width: 900px) {
     .slick-slider .slick-arrow {
-      display: block; } }
+      display: block !important; } }
 
 .nav_menu {
   grid-area: pagl; }

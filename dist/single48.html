@@ -252,7 +252,21 @@
         		var pinfo = document.querySelector(".pag-info");
         		var pinfo2 = document.querySelector(".pag-info2");
         
+        		$(document).keyup(function(e) {
+        		  if (e.keyCode == 27) { 
+        		  	content.classList.toggle("closed");
+        		  	//- popiska.classList.toggle("closed");
+        		  	modal.classList.toggle("closed");
+        		  	pinfo.classList.toggle("closed");
+        		  	pinfo2.classList.toggle("closed");
         
+        		  	if (openButton.innerHTML === "Text") {
+        		  	    openButton.innerHTML = "Zavřít text";
+        		  	  } else {
+        		  	    openButton.innerHTML = "Text";
+        		  	  }
+        		   }   // esc
+        		});
         		openButton.addEventListener("click", function() {
         			content.classList.toggle("closed");
         			//- popiska.classList.toggle("closed");
