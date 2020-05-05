@@ -2,13 +2,15 @@
   font-family: "TriviaSansRegular";
   src: url("https://tikvik.github.io/rcnkskweb/dist/fonts/TriviaSansRegular.ttf");
   font-size: 10pt;
-  unicode-range: U+0000-07FF; }
+  unicode-range: U+0000-07FF;
+  font-display: block; }
 
 @font-face {
   font-family: "TriviaSansMedium";
   src: url("https://tikvik.github.io/rcnkskweb/dist/fonts/TriviaSansMedium.ttf");
   font-size: 10pt;
-  unicode-range: U+0000-07FF; }
+  unicode-range: U+0000-07FF;
+  font-display: block; }
 
 ol.collection {
   margin: 0px;

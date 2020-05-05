@@ -7,9 +7,9 @@ div.menu
 			img(src="images/logo.svg", alt="")
 	nav.nav_menu
 		ul.navbar-nav
-			each item in pages
-				li.nav-item 
-					a.nav-link(href=item.link + ".html") #{item.name}
+			each item, index in pages
+				li.nav-item
+					a.nav-link(href=item.link + ".html", id="pageid"+index) #{item.name}
 				
 				
 				
@@ -18,5 +18,27 @@ div.menu
 		ul.navbar-nav.lang
 			li.nav-item
 				a.nav-link.active(href="index.html") CZ
-			li.nav-item
-				a.nav-link(href="index.html") EN
+			//- li.nav-item
+			//- 	a.nav-link(href="index.html") EN
+
+
+		script.
+			$(document).ready(function(){
+			var page = window.location.pathname
+			var pagids = document.querySelectorAll(".nav-link");
+			console.log(page);
+			//- for (i = 0; i < pagids.length; i++) {
+				if ( page == "/projects.html"){
+						$('#pageid'+0).addClass("active")
+					}
+				if ( page == "/archive.html"){
+						$('#pageid'+1).addClass("active")
+					}
+				if ( page == "/profile.html"){
+						$('#pageid'+2).addClass("active")
+					}
+				if ( page == "/contact.html"){
+						$('#pageid'+3).addClass("active")
+					}
+				
+			});
