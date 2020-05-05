@@ -461,7 +461,8 @@ a {
 
 .project-text-modal {
   grid-area: footer;
-  text-align: center; }
+  text-align: center;
+  margin-top: auto; }
   .project-text-modal .nav-link, .project-text-modal .body_single .modal-wrap a, .body_single .modal-wrap .project-text-modal a, .project-text-modal .body_single .text a, .body_single .text .project-text-modal a, .project-text-modal .body_pages .modal-wrap a, .body_pages .modal-wrap .project-text-modal a, .project-text-modal .body_pages .text a, .body_pages .text .project-text-modal a {
     padding-top: 0; }
 
