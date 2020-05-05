@@ -560,16 +560,17 @@ a {
 
 .body_single .pag-info {
   grid-area: content;
-  align-self: center !important; }
+  align-self: center !important;
+  padding-bottom: 1vh; }
 
 .body_single .pag-info2 {
   grid-area: content;
-  text-align: right; }
+  text-align: right;
+  align-self: end !important; }
 
 .body_single .grid .grid-ul {
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 2vh; }
+  grid-template-rows: 1fr 1fr; }
   @media (min-width: 600px) {
     .body_single .grid .grid-ul {
       grid-template-columns: 1fr 1fr;
