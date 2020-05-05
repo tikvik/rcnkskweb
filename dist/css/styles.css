@@ -185,7 +185,7 @@ p {
 
 ul {
   margin-block-start: 0.66667vh;
-  margin-block-end: 2vh; }
+  margin-block-end: 4vh; }
   ul li {
     margin-block-end: 0.5vh; }
 
@@ -723,7 +723,9 @@ a {
       .body_pages .gridpages .vertmenu .nav .nav-item {
         margin-block-end: 0; }
         .body_pages .gridpages .vertmenu .nav .nav-item .nav-link, .body_single .modal-wrap .body_pages .gridpages .vertmenu .nav .nav-item a, .body_single .text .body_pages .gridpages .vertmenu .nav .nav-item a, .body_pages .gridpages .vertmenu .nav .nav-item .modal-wrap a, .body_pages .modal-wrap .gridpages .vertmenu .nav .nav-item a, .body_pages .gridpages .vertmenu .nav .nav-item .text a, .body_pages .text .gridpages .vertmenu .nav .nav-item a {
-          display: inline-block; }
+          display: inline-block;
+          font-family: TriviaSansMedium;
+          font-size: 10pt; }
 
 .nav-link, .body_single .modal-wrap a, .body_single .text a, .body_pages .modal-wrap a, .body_pages .text a {
   display: inline-block; }
