@@ -25,7 +25,7 @@ block content
 				each proj, index in projects
 					each item in proj.project
 						//- a(href="single"+ index +".html")
-						li.item.clickable-row.item-container(data-href="single"+ index +".html")
+						li.item.clickable-row.item-container(data-href="single"+ index +".html", onmouseover="this.style.backgroundColor='"+item.bgcolor+"'", onmouseout="this.style.backgroundColor=''")
 							.attribute.atribute-img
 								.crop
 									if gimg[index]

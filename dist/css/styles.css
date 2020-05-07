@@ -263,6 +263,8 @@ ul {
 
 .reset {
   min-height: 4vh; }
+  .reset:hover {
+    background-color: white !important; }
 
 .atribute-img {
   width: 120px;
