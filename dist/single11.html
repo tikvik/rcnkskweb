@@ -60,7 +60,7 @@
               <div class="footer-left">
                 <div class="pag-info hidemob"></div><br/><span><a class="nav-link" href="single10.html">Předešlý projekt</a></span>
               </div>
-              <div class="project-text-modal">Norbert Grund (1717–1767): Půvab všedního dne<br/><span>2018<br/><a class="open-button nav-link active" href="#" onclick="return false">Text</a></span>
+              <div class="project-text-modal">Norbert Grund (1717–1767): Půvab všedního dne<br/><span>2018<br/><a class="open-button nav-link active" href="#" onclick="return false">Zobrazit text</a></span>
               </div>
               <div class="footer-right">
                 <div class="pag-info2 hidemob"></div><br/><span><a class="nav-link" href="single12.html">Následující projekt</a></span>
@@ -119,7 +119,6 @@
             </div>
             <div class="modal-wrap closed" id="modal">
               <div class="modal-window">
-                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
                 <div class="modal-content">
                   <h1>Norbert Grund (1717–1767): Půvab všedního dne<br><br></h1>
                   <p><p>Datum konání : 1.12.2017 - 18.3.2018<br>Místo konání: Palác Kinských</p><p>Výstava Norbert Grund (1717–1787). Půvab všedního dne představuje poprvé v širších souvislostech Grundovu žánrovou malbu, tedy výjevy z běžného života. V jednotlivých oddílech ukazuje pestrost námětů a přináší možnost porovnat Grundovy práce se soudobou středoevropskou kabinetní malbou i obrazy, z nichž mohl malíř čerpat inspiraci. Samostatná kapitola je věnována grafickým listům Jana Jiřího Balzera (1734–1799), které dokládají oblibu Grundových děl. Expozici navíc doplňují ukázky uměleckého řemesla, ilustrující kulturu doby rokoka.</p><p>Umělecky se Norbert Grund vyškolil u svého otce Christiana Grunda, dvorního malíře a správce obrazárny Libštejnských z Kolowrat. Po vyučení se odebral na cesty a mnohé podněty načerpal také ve šlechtických obrazárnách či z grafických listů. Do Prahy se Grund vrátil nejpozději roku 1751, kdy se oženil. Až do své smrti roku 1767 pak působil na Malé Straně jako člen tamního malířského cechu. Grund nejspíše pracoval pro volný trh a na bezprostřední objednávku asi jen ojediněle. Jeho díla byla oblíbená mezi vzdělanými příslušníky středního stavu a umělci, nacházela se ale také v klášterních a aristokratických sbírkách.</p><p>Poslední monografické výstavy Norberta Grunda se konaly roku 1967 ve vídeňském Belvederu a pražské Loretě (a v menším rozsahu ještě roku 1972 v Liberci). Od té doby se poznatky o Grundově uměleckém díle značně rozšířily a obohatily tak přípravu aktuální výstavy v paláci Kinských i velké monografie o Norbertu Grundovi, která vyjde v roce 2018.</p><p>Kurátorka: Marcela Vondráčková</p><p>Web výstavy: <a href="https://www.ngprague.cz/exposition-detail/norbert-grund-1717-1767/" target="_blank">ngprague.cz</a></p><p>Recenze:<br>Jan Šída, <a href="https://www.novinky.cz/kultura/clanek/recenze-vsedni-den-okem-nevsedniho-malire-40054216" target="_blank">Právo</a><br>Peter Kováč, <a href="http://www.stavitele-katedral.cz/praha-narodni-galerie-pripomina-300-vyroci-narozeni-malire-norberta-grunda-vystavou-v-palaci-kinskych/" target="_blank">Stavitelé katedrál</a><br>Soňa Šálková, <a href="https://artmagazin.eu/narodni-galerie-norbert-grund-vystava-v-palaci-kinskych/">Artmagazín</a></p></p>
@@ -212,10 +211,10 @@
         		  	pinfo.classList.toggle("closed");
         		  	pinfo2.classList.toggle("closed");
         
-        		  	if (openButton.innerHTML === "Text") {
+        		  	if (openButton.innerHTML === "Zobrazit text") {
         		  	    openButton.innerHTML = "Zavřít text";
         		  	  } else {
-        		  	    openButton.innerHTML = "Text";
+        		  	    openButton.innerHTML = "Zobrazit Text";
         		  	  }
         		   }   // esc
         		});
@@ -226,25 +225,25 @@
         			pinfo.classList.toggle("closed");
         			pinfo2.classList.toggle("closed");
         
-        			if (openButton.innerHTML === "Text") {
+        			if (openButton.innerHTML === "Zobrazit text") {
         			    openButton.innerHTML = "Zavřít text";
         			  } else {
-        			    openButton.innerHTML = "Text";
+        			    openButton.innerHTML = "Zobrazit text";
         			  }
         		});
         
-        		closeButton.addEventListener("click", function() {
-        			modal.classList.toggle("closed");
-        			content.classList.toggle("closed");
-        			pinfo.classList.toggle("closed");
-        			pinfo2.classList.toggle("closed");
-        			//- popiska.classList.toggle("closed");
-        			if (popiska.innerHTML === "Text") {
-        			    popiska.innerHTML = "Zavřít text";
-        			  } else {
-        			    popiska.innerHTML = "Text";
-        			  }
-        		});
+        		//- closeButton.addEventListener("click", function() {
+        		//- 	modal.classList.toggle("closed");
+        		//- 	content.classList.toggle("closed");
+        		//- 	pinfo.classList.toggle("closed");
+        		//- 	pinfo2.classList.toggle("closed");
+        		//- 	//- popiska.classList.toggle("closed");
+        		//- 	if (popiska.innerHTML === "Text") {
+        		//- 	    popiska.innerHTML = "Zavřít text";
+        		//- 	  } else {
+        		//- 	    popiska.innerHTML = "Text";
+        		//- 	  }
+        		//- });
         
         		//- $('.lazy').slick({
         		//-   lazyLoad: 'ondemand',

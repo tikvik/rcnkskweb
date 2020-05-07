@@ -420,7 +420,8 @@ a {
         font-family: TriviaSansMedium;
         font-size: 10pt; }
   .menu .langer {
-    order: -1; }
+    order: -1;
+    width: 8rem; }
     @media (min-width: 600px) {
       .menu .langer {
         order: 0; } }

@@ -15,10 +15,10 @@ script.
 			  	pinfo.classList.toggle("closed");
 			  	pinfo2.classList.toggle("closed");
 
-			  	if (openButton.innerHTML === "Text") {
+			  	if (openButton.innerHTML === "Zobrazit text") {
 			  	    openButton.innerHTML = "Zavřít text";
 			  	  } else {
-			  	    openButton.innerHTML = "Text";
+			  	    openButton.innerHTML = "Zobrazit Text";
 			  	  }
 			   }   // esc
 			});
@@ -29,25 +29,25 @@ script.
 				pinfo.classList.toggle("closed");
 				pinfo2.classList.toggle("closed");
 
-				if (openButton.innerHTML === "Text") {
+				if (openButton.innerHTML === "Zobrazit text") {
 				    openButton.innerHTML = "Zavřít text";
 				  } else {
-				    openButton.innerHTML = "Text";
+				    openButton.innerHTML = "Zobrazit text";
 				  }
 			});
 
-			closeButton.addEventListener("click", function() {
-				modal.classList.toggle("closed");
-				content.classList.toggle("closed");
-				pinfo.classList.toggle("closed");
-				pinfo2.classList.toggle("closed");
-				//- popiska.classList.toggle("closed");
-				if (popiska.innerHTML === "Text") {
-				    popiska.innerHTML = "Zavřít text";
-				  } else {
-				    popiska.innerHTML = "Text";
-				  }
-			});
+			//- closeButton.addEventListener("click", function() {
+			//- 	modal.classList.toggle("closed");
+			//- 	content.classList.toggle("closed");
+			//- 	pinfo.classList.toggle("closed");
+			//- 	pinfo2.classList.toggle("closed");
+			//- 	//- popiska.classList.toggle("closed");
+			//- 	if (popiska.innerHTML === "Text") {
+			//- 	    popiska.innerHTML = "Zavřít text";
+			//- 	  } else {
+			//- 	    popiska.innerHTML = "Text";
+			//- 	  }
+			//- });
 
 			//- $('.lazy').slick({
 			//-   lazyLoad: 'ondemand',

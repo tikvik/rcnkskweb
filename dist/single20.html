@@ -60,7 +60,7 @@
               <div class="footer-left">
                 <div class="pag-info hidemob"></div><br/><span><a class="nav-link" href="single19.html">Předešlý projekt</a></span>
               </div>
-              <div class="project-text-modal">Jiří Trnka: V zahradách imaginace<br/><span>2019<br/><a class="open-button nav-link active" href="#" onclick="return false">Text</a></span>
+              <div class="project-text-modal">Jiří Trnka: V zahradách imaginace<br/><span>2019<br/><a class="open-button nav-link active" href="#" onclick="return false">Zobrazit text</a></span>
               </div>
               <div class="footer-right">
                 <div class="pag-info2 hidemob"></div><br/><span><a class="nav-link" href="single21.html">Následující projekt</a></span>
@@ -146,7 +146,6 @@
             </div>
             <div class="modal-wrap closed" id="modal">
               <div class="modal-window">
-                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
                 <div class="modal-content">
                   <h1>Jiří Trnka: V zahradách imaginace<br><br></h1>
                   <p><h2>Datum konání: 27. 10.2019 - 26. 06.2020<br>Místo konání: GASK, Kutná Hora</h2><p>K 50. výročí úmrtí Jiřího Trnky proběhla v Galerii Středočeského kraje v Kutné Hoře výstava.</p><p>Stoly, skříně i postel jsou zvětšeny tak, aby si i dospělý návštěvník připadal jako dítě.</p><p>V jednotlivých místnostech přeneseného Trnkova bytu je představeno jeho dílo z oblasti loutkového divadla, ilustrace, malby, sochařské tvorby a animovaného filmu.</p><p>Web výstavy: <a href="https://www.gask.cz/cs/vystavy/jiri-trnka-v-zahradach-imaginace" target="_blank">gask.cz</a></p><p>Recenze výstav:<br>Třistatřicettři, <a href="https://www.ceskatelevize.cz/porady/1096008034-tristatricettri/219562254200009/?fbclid=IwAR230dAV93p_P_35LGZnPQxswY07FemSftrDcZi5BnFxGYOMDeBrZ22a6cA" target="_blank">ceskatelevize.cz</a><br>Magdalena Čechlovská, <a href="https://magazin.aktualne.cz/kultura/umeni/jiri-trnka-gask-vystava/r~30858d74fa6c11e99b40ac1f6b220ee8/">magazin.aktualne.cz</a><br>Dzejn, <a href="https://www.maleradosti.net/2019/11/12/vystava-v-zahradach-imaginace/?fbclid=IwAR3FY8lDguiXEjCPcJIhQ4XodvPrwYnu53hz5W6bV4vopnJlmXE8CnSXZKE" target="_blank">maleradosti.net</a></p></p>
@@ -248,10 +247,10 @@
         		  	pinfo.classList.toggle("closed");
         		  	pinfo2.classList.toggle("closed");
         
-        		  	if (openButton.innerHTML === "Text") {
+        		  	if (openButton.innerHTML === "Zobrazit text") {
         		  	    openButton.innerHTML = "Zavřít text";
         		  	  } else {
-        		  	    openButton.innerHTML = "Text";
+        		  	    openButton.innerHTML = "Zobrazit Text";
         		  	  }
         		   }   // esc
         		});
@@ -262,25 +261,25 @@
         			pinfo.classList.toggle("closed");
         			pinfo2.classList.toggle("closed");
         
-        			if (openButton.innerHTML === "Text") {
+        			if (openButton.innerHTML === "Zobrazit text") {
         			    openButton.innerHTML = "Zavřít text";
         			  } else {
-        			    openButton.innerHTML = "Text";
+        			    openButton.innerHTML = "Zobrazit text";
         			  }
         		});
         
-        		closeButton.addEventListener("click", function() {
-        			modal.classList.toggle("closed");
-        			content.classList.toggle("closed");
-        			pinfo.classList.toggle("closed");
-        			pinfo2.classList.toggle("closed");
-        			//- popiska.classList.toggle("closed");
-        			if (popiska.innerHTML === "Text") {
-        			    popiska.innerHTML = "Zavřít text";
-        			  } else {
-        			    popiska.innerHTML = "Text";
-        			  }
-        		});
+        		//- closeButton.addEventListener("click", function() {
+        		//- 	modal.classList.toggle("closed");
+        		//- 	content.classList.toggle("closed");
+        		//- 	pinfo.classList.toggle("closed");
+        		//- 	pinfo2.classList.toggle("closed");
+        		//- 	//- popiska.classList.toggle("closed");
+        		//- 	if (popiska.innerHTML === "Text") {
+        		//- 	    popiska.innerHTML = "Zavřít text";
+        		//- 	  } else {
+        		//- 	    popiska.innerHTML = "Text";
+        		//- 	  }
+        		//- });
         
         		//- $('.lazy').slick({
         		//-   lazyLoad: 'ondemand',

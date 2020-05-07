@@ -60,7 +60,7 @@
               <div class="footer-left">
                 <div class="pag-info hidemob"></div><br/><span><a class="nav-link" href="single33.html">Předešlý projekt</a></span>
               </div>
-              <div class="project-text-modal">Život je bolestný a přináší zklamání,<br>Massakr, Vol. 1: H. P. Lovecraft<br/><span>2016<br/><a class="open-button nav-link active" href="#" onclick="return false">Text</a></span>
+              <div class="project-text-modal">Život je bolestný a přináší zklamání,<br>Massakr, Vol. 1: H. P. Lovecraft<br/><span>2016<br/><a class="open-button nav-link active" href="#" onclick="return false">Zobrazit text</a></span>
               </div>
               <div class="footer-right">
                 <div class="pag-info2 hidemob"></div><br/><span><a class="nav-link" href="single35.html">Následující projekt</a></span>
@@ -131,7 +131,6 @@
             </div>
             <div class="modal-wrap closed" id="modal">
               <div class="modal-window">
-                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
                 <div class="modal-content">
                   <h1>Život je bolestný a přináší zklamání,<br>Massakr, Vol. 1: H. P. Lovecraft<br><br></h1>
                   <p><p><b>Vystavující autoři:</b> Josef Bolf, Jakub Gajdošík, Stanislav Karoli, Eva Maceková, Martin Mulač, Martin Salajka, Richard Stipl, Marek Škubal, František Štorm, Jan Vytiska</p><p>Výstava Život je bolestný a přináší zklamání: Lovecraft se zabývá vlivem klíčové osobnosti moderního horroru H. P. Lovecrafta v současném výtvarném umění a je prvním pokusem o zmapování této tématiky v českém prostředí. Seriózní a narůstající zájem o jeho tvorbu se projevil i v nedávných publikacích, které se jí věnovaly i v oblasti filmové či literární. V letech 2010 – 2013 vydalo nakladatelství Puls jeho sebrané spisy, velkou pozornost věnoval Lovecraftovi i časopisy Živel č. 37 z roku 2013 či A2, č. 6 z roku 2015. Jeho jméno se poprvé objevilo již v antologii Lupiči mrtvol (1970).  Lovecraftem se tehdy zabývaly takové výrazné osobnosti, jako například Josef Škvorecký či František Jungwirth. Následně však nadlouho Lovecraftovo dílo nemohlo vycházet.  Žánr hororu byl komunistickou ideologií vnímán jako buržoázně úpadkový. To v praxi znamenalo, že se nevydávaly hororové knihy (až na malé výjimky), stejně jako se filmové horory nedostávaly příliš často do filmové distribuce. Určitá změna nastala až v průběhu 80. let s nástupem videa.  Primitivně nadabované (většinou jedním člověkem) horory patřily mezi nejoblíbenější filmové kopie, které tehdy soukromě putovaly celou republikou.  Byla to právě generace, která v 80. letech dospívala a měla tak v určitém smyslu jako první možnost poznat nejen klasiku žánru, ale i béčkovou produkci. V tomto smyslu se tedy generační zkušenost českých umělců příliš nelišila od té,kterou měli jejich vrstevníci v zahraničí. Není tedy náhodou, že 90. léta přinášejí v celosvětovém kontextu razantní průnik hororové tématiky do výtvarného umění. Spektrum děl je velice široké svou formou i obsahem, od atmosférických zobrazení úzkosti přes popovou zdivočelost po drásající krutost. Málokteré téma tak silně rezonuje s naší současností, která je také protkána strachem a úzkostí.  H. P. Lovecraft již dávno není literárními historiky podceňován a přehlížen, jeho dílu je věnována seriózní pozornost.  Výstava představí tvorbu umělců a umělkyň, kteří se s fenoménem díla H.  P. Lovecrafta vyrovnávají různými způsoby a v různých formách, od malby,  kresby, přes plastiku, až po instalace a videa.  K výstavě bude vydán stejnojmenný katalog, který vedle vystavených děl bude obsahovat i čtyři teoretické texty (Urban, Hříbek, Adamovič, Jiroušek).  Jako doprovodné programy se nabízejí filmová představení, čtení literárních děl či hudební koncerty. Výstava také nabízí bohaté spektrum dětských doprovodných programů.</p><p><b>Web výstavy:</b><br><a href="http://galerie-plzen.cz/vystavy/vystavy-2016/zivot-je-bolestny-a-prinasi-zklamani" target="_blank">galerie-plzen.cz</a><br><a href="https://ct24.ceskatelevize.cz/kultura/1964540-zivot-je-bolestny-a-prinasi-zklamani-ceske-umeni-cte-lovecrafta" target="_blank">ct24.ceskatelevize.cz</a></p></p>
@@ -228,10 +227,10 @@
         		  	pinfo.classList.toggle("closed");
         		  	pinfo2.classList.toggle("closed");
         
-        		  	if (openButton.innerHTML === "Text") {
+        		  	if (openButton.innerHTML === "Zobrazit text") {
         		  	    openButton.innerHTML = "Zavřít text";
         		  	  } else {
-        		  	    openButton.innerHTML = "Text";
+        		  	    openButton.innerHTML = "Zobrazit Text";
         		  	  }
         		   }   // esc
         		});
@@ -242,25 +241,25 @@
         			pinfo.classList.toggle("closed");
         			pinfo2.classList.toggle("closed");
         
-        			if (openButton.innerHTML === "Text") {
+        			if (openButton.innerHTML === "Zobrazit text") {
         			    openButton.innerHTML = "Zavřít text";
         			  } else {
-        			    openButton.innerHTML = "Text";
+        			    openButton.innerHTML = "Zobrazit text";
         			  }
         		});
         
-        		closeButton.addEventListener("click", function() {
-        			modal.classList.toggle("closed");
-        			content.classList.toggle("closed");
-        			pinfo.classList.toggle("closed");
-        			pinfo2.classList.toggle("closed");
-        			//- popiska.classList.toggle("closed");
-        			if (popiska.innerHTML === "Text") {
-        			    popiska.innerHTML = "Zavřít text";
-        			  } else {
-        			    popiska.innerHTML = "Text";
-        			  }
-        		});
+        		//- closeButton.addEventListener("click", function() {
+        		//- 	modal.classList.toggle("closed");
+        		//- 	content.classList.toggle("closed");
+        		//- 	pinfo.classList.toggle("closed");
+        		//- 	pinfo2.classList.toggle("closed");
+        		//- 	//- popiska.classList.toggle("closed");
+        		//- 	if (popiska.innerHTML === "Text") {
+        		//- 	    popiska.innerHTML = "Zavřít text";
+        		//- 	  } else {
+        		//- 	    popiska.innerHTML = "Text";
+        		//- 	  }
+        		//- });
         
         		//- $('.lazy').slick({
         		//-   lazyLoad: 'ondemand',

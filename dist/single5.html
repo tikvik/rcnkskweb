@@ -60,7 +60,7 @@
               <div class="footer-left">
                 <div class="pag-info hidemob"></div><br/><span><a class="nav-link" href="single4.html">Předešlý projekt</a></span>
               </div>
-              <div class="project-text-modal">Viladomy Hvězdárna, Velká Chuchle, Praha<br/><span>2012 - dosud<br/><a class="open-button nav-link active" href="#" onclick="return false">Text</a></span>
+              <div class="project-text-modal">Viladomy Hvězdárna, Velká Chuchle, Praha<br/><span>2012 - dosud<br/><a class="open-button nav-link active" href="#" onclick="return false">Zobrazit text</a></span>
               </div>
               <div class="footer-right">
                 <div class="pag-info2 hidemob"></div><br/><span><a class="nav-link" href="single6.html">Následující projekt</a></span>
@@ -158,7 +158,6 @@
             </div>
             <div class="modal-wrap closed" id="modal">
               <div class="modal-window">
-                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
                 <div class="modal-content">
                   <h1>Viladomy Hvězdárna, Velká Chuchle, Praha<br><br></h1>
                   <p><p>Řešené území se nachází v okrajové jižní části zastavěného území městské části Praha – Velká Chuchle. Od zástavby staré Chuchle je území odděleno strmým svahem se vzrostlým lesním porostem, následně pak na řešené území navazuje zástavba rodinných domů z druhé poloviny 20. století, dále pak současná výstavba rodinných a bytových objektů. Na řešený pozemek jsou navrženy 3 objekty, 1 bytový dům v severní části pozemku a 2 vilové objekty.</p><p>Objekt SO.01 je bytový dům o 3 nadzemních podlažích a jednom podzemním podlaží. Bytový dům byl navržen jako jednoduchý tvar obdélníku, který má do ulice Na Hvězdárně z důvodu zachování uliční čáry zkosenou hranu. Dům je ze severní a západní strany strohý, z jižní a východní je naopak velmi prosklený s bohatými terasami a posuvnými stínícími prvky. Výrazným prvkem na severní a západní fasádě bude zavěšená nerezová síť pro popínavé rostliny a vykonzolovaná stříška uvozující vstup do domu. V suterénu je umístěno zázemí domu a 17 parkovacích stání. Celkem je v objektu 8 bytů a ke každému přináleží velká terasa.</p><p>Vilový objekt SO 02 ja navržen jako jednoduchá kubická hmota, která sleduje svažitost pozemku. Někde se patro zakousává (1.PP), někde vystupuje jako konzola (2.NP). Fasáda domu kombinuje omítku na kontaktním zateplovacím systému a provětrávanou fasádu s obkladem z cementových desek. Omítka je ve světle béžové barvě se strukturovanou texturou. Obkladové desky jsou žluto-béžové. Na sever, směrem k bytovému domu SO.01, jsou převážně okna s vysokým parapetem sloužící jen pro prosvětlení místností denním světlem. Rámy oken budou černé. Zábradlí u francouzských oken bude z bezpečnostního čirého skla bez horního madla.</p><p>Objekt SO.03 je téměř čtvercového půdorysu. Je to jednoduchá hmota s vystupujícím schodišťovým rizalitem a střiženou hlavní hmotou. Dům je díky konfiguraci terénu ze severu odkryt a lemují ho opěrné zídky a terénní valy. Schodišťový rizalit vybíhá nad římsu objektu. Fasáda domu kombinuje omítku na kontaktním zateplovacím systému a provětrávanou fasádu s obkladem z cementových desek. Schodišťový rizalit bude obložen tmavě šedými deskami, betonová deska nad vstupem a vjezdem do garáže bude betonová. Zbytek domu bude mít světle béžovou omítku se strukturovanou texturou. U obou rodinných domů jsou schránky pro předokenní žaluzie schované pod fasádou. V obytných místnostech jsou použita převážně okna bez parapetu (francouzské). Rámy oken budou černé. Zábradlí u francouzských oken, pokud je potřeba, bude z bezpečnostního čirého skla bez horního madla.</p></p>
@@ -272,10 +271,10 @@
         		  	pinfo.classList.toggle("closed");
         		  	pinfo2.classList.toggle("closed");
         
-        		  	if (openButton.innerHTML === "Text") {
+        		  	if (openButton.innerHTML === "Zobrazit text") {
         		  	    openButton.innerHTML = "Zavřít text";
         		  	  } else {
-        		  	    openButton.innerHTML = "Text";
+        		  	    openButton.innerHTML = "Zobrazit Text";
         		  	  }
         		   }   // esc
         		});
@@ -286,25 +285,25 @@
         			pinfo.classList.toggle("closed");
         			pinfo2.classList.toggle("closed");
         
-        			if (openButton.innerHTML === "Text") {
+        			if (openButton.innerHTML === "Zobrazit text") {
         			    openButton.innerHTML = "Zavřít text";
         			  } else {
-        			    openButton.innerHTML = "Text";
+        			    openButton.innerHTML = "Zobrazit text";
         			  }
         		});
         
-        		closeButton.addEventListener("click", function() {
-        			modal.classList.toggle("closed");
-        			content.classList.toggle("closed");
-        			pinfo.classList.toggle("closed");
-        			pinfo2.classList.toggle("closed");
-        			//- popiska.classList.toggle("closed");
-        			if (popiska.innerHTML === "Text") {
-        			    popiska.innerHTML = "Zavřít text";
-        			  } else {
-        			    popiska.innerHTML = "Text";
-        			  }
-        		});
+        		//- closeButton.addEventListener("click", function() {
+        		//- 	modal.classList.toggle("closed");
+        		//- 	content.classList.toggle("closed");
+        		//- 	pinfo.classList.toggle("closed");
+        		//- 	pinfo2.classList.toggle("closed");
+        		//- 	//- popiska.classList.toggle("closed");
+        		//- 	if (popiska.innerHTML === "Text") {
+        		//- 	    popiska.innerHTML = "Zavřít text";
+        		//- 	  } else {
+        		//- 	    popiska.innerHTML = "Text";
+        		//- 	  }
+        		//- });
         
         		//- $('.lazy').slick({
         		//-   lazyLoad: 'ondemand',

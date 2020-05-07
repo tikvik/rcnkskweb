@@ -26,7 +26,7 @@ mixin mfooter (footerData)
 				if projects[i]
 					| #{projects[i].project[0].rok}
 				br
-				a.open-button.nav-link.active(href="#",onclick="return false" ) Text
+				a.open-button.nav-link.active(href="#",onclick="return false" ) Zobrazit text
 		div.footer-right
 			.pag-info2.hidemob
 			br
@@ -61,9 +61,9 @@ mixin mimages (index)
 
 	.modal-wrap.closed#modal
 		.modal-window
-			.modal-close#close-button
-				a(class="nav-link", href="#",onclick="return false" )
-					img(src="images/ico_close.svg", alt="")
+			//- .modal-close#close-button
+			//- 	a(class="nav-link", href="#",onclick="return false" )
+			//- 		img(src="images/ico_close.svg", alt="")
 			.modal-content
 				if projects[i] 
 					h1 !{projects[i].project[0].title}<br><br>

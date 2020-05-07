@@ -60,7 +60,7 @@
               <div class="footer-left">
                 <div class="pag-info hidemob"></div><br/><span><a class="nav-link" href="single27.html">Předešlý projekt</a></span>
               </div>
-              <div class="project-text-modal">Byt Vršovická 15<br/><span>2017<br/><a class="open-button nav-link active" href="#" onclick="return false">Text</a></span>
+              <div class="project-text-modal">Byt Vršovická 15<br/><span>2017<br/><a class="open-button nav-link active" href="#" onclick="return false">Zobrazit text</a></span>
               </div>
               <div class="footer-right">
                 <div class="pag-info2 hidemob"></div><br/><span><a class="nav-link" href="single29.html">Následující projekt</a></span>
@@ -125,7 +125,6 @@
             </div>
             <div class="modal-wrap closed" id="modal">
               <div class="modal-window">
-                <div class="modal-close" id="close-button"><a class="nav-link" href="#" onclick="return false"><img src="images/ico_close.svg" alt=""/></a></div>
                 <div class="modal-content">
                   <h1>Byt Vršovická 15<br><br></h1>
                   <p>Byt se nachází v činžovním domě z 30. let 20.století. V domě jsou dobře zachované a udržováné původní společné prostory. Byt je po kompletní rekonstrukci s drobnými dispozičními úpravami avšak s veškerými zachovalými materiály, detaily i povrchy. Srdcem celého bytu je obývací pokoj s velkoryse řešeným kuchyňským koutem kompletně vybaveným vestavěnými spotřebiči. Do všech třech obytných místností se dostaneme z prosvětlené, prostorné haly s původní a velmi originální dlažbou. Hlavní ložnice je orientovaná do vnitrobloku s výhledem do zeleně a je neprůchozí. Druhá ložnice je rovněž neprůchozí a je orientovaná do ulice. Koupelna nově obložená a oproti původní zvětšená a opatřená mozaikovými obklady disponuje vanou. Ve vstupní hale je rovněž nově zbudovaná polotransparentní příčka, která odděluje samostatnou toaletu a šatnu a z pohledové strany tvoří knihovnu. V bytě je dále technická místnost s kotlem, výlevkou a připojením na pračku. K bytu náleží sklepní kóje. V domě je nový výtah. Zabezpečení bytu zajišťuje poplašné zařízení. Byt je částečně vybaven nábytkem a jeho použití, doplnění nebo případné odstranění je na domluvě s nájemcem.</p>
@@ -223,10 +222,10 @@
         		  	pinfo.classList.toggle("closed");
         		  	pinfo2.classList.toggle("closed");
         
-        		  	if (openButton.innerHTML === "Text") {
+        		  	if (openButton.innerHTML === "Zobrazit text") {
         		  	    openButton.innerHTML = "Zavřít text";
         		  	  } else {
-        		  	    openButton.innerHTML = "Text";
+        		  	    openButton.innerHTML = "Zobrazit Text";
         		  	  }
         		   }   // esc
         		});
@@ -237,25 +236,25 @@
         			pinfo.classList.toggle("closed");
         			pinfo2.classList.toggle("closed");
         
-        			if (openButton.innerHTML === "Text") {
+        			if (openButton.innerHTML === "Zobrazit text") {
         			    openButton.innerHTML = "Zavřít text";
         			  } else {
-        			    openButton.innerHTML = "Text";
+        			    openButton.innerHTML = "Zobrazit text";
         			  }
         		});
         
-        		closeButton.addEventListener("click", function() {
-        			modal.classList.toggle("closed");
-        			content.classList.toggle("closed");
-        			pinfo.classList.toggle("closed");
-        			pinfo2.classList.toggle("closed");
-        			//- popiska.classList.toggle("closed");
-        			if (popiska.innerHTML === "Text") {
-        			    popiska.innerHTML = "Zavřít text";
-        			  } else {
-        			    popiska.innerHTML = "Text";
-        			  }
-        		});
+        		//- closeButton.addEventListener("click", function() {
+        		//- 	modal.classList.toggle("closed");
+        		//- 	content.classList.toggle("closed");
+        		//- 	pinfo.classList.toggle("closed");
+        		//- 	pinfo2.classList.toggle("closed");
+        		//- 	//- popiska.classList.toggle("closed");
+        		//- 	if (popiska.innerHTML === "Text") {
+        		//- 	    popiska.innerHTML = "Zavřít text";
+        		//- 	  } else {
+        		//- 	    popiska.innerHTML = "Text";
+        		//- 	  }
+        		//- });
         
         		//- $('.lazy').slick({
         		//-   lazyLoad: 'ondemand',
