@@ -105,7 +105,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 .slick-prev {
     left: -25px;
-    cursor: url("../images/arrowl.png") 34 12, auto;
+    cursor: url("/images/arrowl.png") 34 12, auto;
     width: 5px
     // cursor: url("../../images/arrowl.svg"), pointer;
     [dir="rtl"] & {
@@ -122,7 +122,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 .slick-next {
     right: -25px;
-    cursor: url('../images/arrowr.png') 34 12, auto;
+    cursor: url('/images/arrowr.png') 34 12, auto;
     // cursor: url("../../images/arrowr.svg"), pointer;
     [dir="rtl"] & {
         left: -25px;

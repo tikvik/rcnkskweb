@@ -57,7 +57,7 @@
 
 .slick-prev {
   left: -25px;
-  cursor: url("../images/arrowl.png") 34 12, auto;
+  cursor: url("/images/arrowl.png") 34 12, auto;
   width: 5px [dir= "rtl"] .slick-prev;
     width-left: auto;
     width-right: -25px; }
@@ -68,7 +68,7 @@
 
 .slick-next {
   right: -25px;
-  cursor: url("../images/arrowr.png") 34 12, auto; }
+  cursor: url("/images/arrowr.png") 34 12, auto; }
   [dir="rtl"] .slick-next {
     left: -25px;
     right: auto; }
