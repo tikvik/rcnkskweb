@@ -57,10 +57,10 @@
 
 .slick-prev {
   left: -25px;
-  cursor: url("../images/arrowl.png") 34 12, auto; }
-  [dir="rtl"] .slick-prev {
-    left: auto;
-    right: -25px; }
+  cursor: url("../images/arrowl.png") 34 12, auto;
+  width: 5px [dir= "rtl"] .slick-prev;
+    width-left: auto;
+    width-right: -25px; }
   .slick-prev:before {
     content: ""; }
     [dir="rtl"] .slick-prev:before {

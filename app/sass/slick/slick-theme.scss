@@ -106,6 +106,7 @@ $slick-opacity-not-active: 0.25 !default;
 .slick-prev {
     left: -25px;
     cursor: url("../images/arrowl.png") 34 12, auto;
+    width: 5px
     // cursor: url("../../images/arrowl.svg"), pointer;
     [dir="rtl"] & {
         left: auto;

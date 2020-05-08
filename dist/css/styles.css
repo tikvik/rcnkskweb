@@ -204,7 +204,7 @@ ul {
   z-index: 6000; }
 
 .pmodal-ico {
-  cursor: url("../images/magnif.png") 34 12, auto !important; }
+  cursor: url("../images/zoomplus.png") 34 12, auto !important; }
 
 .pmodal {
   display: none;
@@ -222,7 +222,7 @@ ul {
 .pmodal-content {
   width: 90% !important;
   position: relative;
-  cursor: url("../images/ico_close.svg") 34 12, auto !important;
+  cursor: url("../images/zoominus.png") 34 12, auto !important;
   margin: auto auto; }
 
 /* The Close Button */
@@ -370,7 +370,6 @@ a {
   display: inline-block;
   padding: .5rem .2rem;
   margin: 0 1.6vh;
-  line-height: 1.5;
   display: block; }
   .nav-link::after, .body_single .modal-wrap a::after, .body_single .text a::after, .body_pages .modal-wrap a::after, .body_pages .text a::after {
     content: "";
