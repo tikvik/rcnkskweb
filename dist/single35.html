@@ -216,6 +216,7 @@
       <script>
         		var content = document.querySelector("#content");
         		var popiska = document.querySelector(".open-button");
+        		var navbarmenu = document.querySelector(".nav_menu");
         		var modal = document.querySelector("#modal");
         		var closeButton = document.querySelector("#close-button");
         		var openButton = document.querySelector(".open-button");
@@ -238,7 +239,7 @@
         		//- 		});
         		openButton.addEventListener("click", function() {
         			content.classList.toggle("closed");
-        			//- popiska.classList.toggle("closed");
+        			navbarmenu.classList.toggle("closed");
         			modal.classList.toggle("closed");
         			pinfo.classList.toggle("closed");
         			pinfo2.classList.toggle("closed");
