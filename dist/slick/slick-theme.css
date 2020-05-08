@@ -68,7 +68,7 @@
 
 .slick-next {
   right: -25px;
-  cursor: url("dist/images/arrowr.png") 34 12, auto; }
+  cursor: url("/dist/images/arrowr.png") 34 12, auto; }
   [dir="rtl"] .slick-next {
     left: -25px;
     right: auto; }

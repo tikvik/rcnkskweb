@@ -122,7 +122,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 .slick-next {
     right: -25px;
-    cursor: url('dist/images/arrowr.png') 34 12, auto;
+    cursor: url('/dist/images/arrowr.png') 34 12, auto;
     // cursor: url("../../images/arrowr.svg"), pointer;
     [dir="rtl"] & {
         left: -25px;
