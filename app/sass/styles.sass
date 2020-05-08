@@ -34,6 +34,9 @@ $font-size-sm: 9pt
 // .carousel2
 // 	background-color: $white
 
+
+
+
 html
 	text-rendering: optimizeLegibility
 	text-rendering: optimizeLegibility
@@ -50,6 +53,7 @@ h1
 	font-family: TriviaSansMedium
 	font-size: $font-size
 	font-weight: normal
+	position: relative
 
 h2	
 	margin-inline-start: $gap/1.75
@@ -73,6 +77,10 @@ h2
 		bottom: 6px
 		left: - $gap/1.75
 	
+h3
+	@extend h1
+
+
 
 p
 	margin-block-end: $gap/2
@@ -141,7 +149,7 @@ ul
 
 .pclose:hover,
 .pclose:focus 
-	color: black
+	color: $black
 	text-decoration: none
 	cursor: pointer
 
@@ -273,13 +281,13 @@ body
 *
 	box-sizing: border-box
 a
-	color: black
+	color: $black
 	position: relative
 	outline: none!important
 	text-decoration: none
 	&:hover
 		text-decoration: none!important
-		color: black
+		color: $black
 	&:focus
 		outline: none!important
 		-webkit-tap-highlight-color: transparent
@@ -307,12 +315,12 @@ a
 		height: $underline
 		// @include for-size(sm)
 		//  height: $stroke
-		background: black
+		background: $black
 		// transition: all 0.3s ease
 	&:hover
 		&::after 
 			width: 100%
-			background-color: black
+			background-color: $black
 
 .active
 	&::after
@@ -371,9 +379,12 @@ a
 		@include for-size(sm)
 			order: 0
 		.lang
+			margin-right: 0 !important
 			.nav-item
 				.nav-link
 					margin: 0 $gap/10
+
+
 
 // vypnutí šipek pro mobily
 // .slick-slide 
@@ -630,7 +641,7 @@ a
 			display: grid
 			position: relative
 			grid-template-columns: $gap/2 repeat(4, 1fr) $gap/2
-			grid-template-areas: "mt mt mt mt  . ."
+			grid-template-areas: "mt mt mt mt mt mt"
 			@include for-size(md)
 				grid-template-areas: ". . mt mt  . ."
 			// background: red
@@ -795,7 +806,7 @@ a
 			padding: 0
 			&::after 
 				width: 100%
-				background-color: black
+				background-color: $black
 				margin-bottom: -3px
 			// &:hover
 			// 	&::after 
@@ -808,8 +819,13 @@ a
 	top: 0
 	margin-left: - $gap/1.25
 	width: 100%
+	background-color: $white
 	@include for-size(sm)
+		margin-left: 0
 
+.anchor
+	position: absolute
+	top: -90px
 
 ol
 	li

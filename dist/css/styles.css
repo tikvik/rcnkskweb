@@ -26,7 +26,8 @@ li {
   border: none !important; }
 
 .attribute {
-  margin-right: .5rem; }
+  margin-right: .5rem;
+  margin-left: 1rem; }
 
 .boldborder {
   border-bottom: 3px solid black !important; }
@@ -87,9 +88,9 @@ li {
     white-space: wrap;
     text-overflow: ellipsis; }
   .collection-container > .item-container:first-child {
-    border-bottom: 2px solid black; }
+    border-bottom: 1px solid black; }
   .item-container:hover {
-    background-color: #D1D1CD; }
+    background-color: red; }
   /* Center header labels*/
   .collection-container > .item-container:first-child .attribute {
     display: flex;
@@ -109,7 +110,7 @@ li {
     display: grid;
     grid-template-columns: 10em 4fr 4fr 2fr;
     border-bottom: 1px solid black;
-    padding-top: .25rem; }
+    padding-top: .25re m; }
   .attribute-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(var(--column-width-min), 1fr)); }
@@ -128,9 +129,9 @@ li {
     white-space: wrap;
     text-overflow: ellipsis; }
   .collection-container > .item-container:first-child {
-    border-bottom: 2px solid black; }
+    border-bottom: 1px solid black; }
   .item-container:hover {
-    background-color: #ECF0EE; }
+    background-color: #F8F8F8; }
   /* Center header labels*/
   .collection-container > .item-container:first-child .attribute {
     display: flex;
@@ -151,13 +152,14 @@ html {
   height: 100%;
   font-size: 10pt; }
 
-h1 {
+h1, h3 {
   margin-inline-start: 2.28571vh;
   margin-block-start: 0;
   margin-block-end: 10pt;
   font-family: TriviaSansMedium;
   font-size: 10pt;
-  font-weight: normal; }
+  font-weight: normal;
+  position: relative; }
 
 h2 {
   margin-inline-start: 2.28571vh;
@@ -427,8 +429,10 @@ a {
     @media (min-width: 600px) {
       .menu .langer {
         order: 0; } }
-    .menu .langer .lang .nav-item .nav-link, .menu .langer .lang .nav-item .body_single .modal-wrap a, .body_single .modal-wrap .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_single .text a, .body_single .text .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_pages .modal-wrap a, .body_pages .modal-wrap .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_pages .text a, .body_pages .text .menu .langer .lang .nav-item a {
-      margin: 0 0.4vh; }
+    .menu .langer .lang {
+      margin-right: 0 !important; }
+      .menu .langer .lang .nav-item .nav-link, .menu .langer .lang .nav-item .body_single .modal-wrap a, .body_single .modal-wrap .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_single .text a, .body_single .text .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_pages .modal-wrap a, .body_pages .modal-wrap .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_pages .text a, .body_pages .text .menu .langer .lang .nav-item a {
+        margin: 0 0.4vh; }
 
 .slick-initialized .slick-slide {
   float: inherit;
@@ -623,7 +627,7 @@ a {
     display: grid;
     position: relative;
     grid-template-columns: 2vh repeat(4, 1fr) 2vh;
-    grid-template-areas: "mt mt mt mt  . .";
+    grid-template-areas: "mt mt mt mt mt mt";
     height: 100%; }
     @media (min-width: 900px) {
       .body_single .modal-wrap .modal-window {
@@ -766,7 +770,15 @@ a {
   position: fixed;
   top: 0;
   margin-left: -3.2vh;
-  width: 100%; }
+  width: 100%;
+  background-color: white; }
+  @media (min-width: 600px) {
+    .sticky {
+      margin-left: 0; } }
+
+.anchor {
+  position: absolute;
+  top: -90px; }
 
 ol li {
   list-style-type: decimal; }
