@@ -211,8 +211,6 @@ ul {
   margin-block-start: 0.66667vh;
   margin-block-end: 4vh;
   margin-bottom: 4vh; }
-  ul li {
-    margin-block-end: 0.5vh; }
 
 .nospacebehind {
   margin-block-end: 2vh;
@@ -393,12 +391,12 @@ a {
 .clickable-row {
   cursor: pointer; }
 
-.nav-link, .body_single .modal-wrap a, .body_single .text a, .body_pages .modal-wrap a, .body_pages .text a {
+.nav-link, .menu .logo, .body_single .modal-wrap a, .body_single .text a, .body_pages .modal-wrap a, .body_pages .text a {
   display: inline-block;
   padding: .5rem .2rem;
   margin: 0 1.6vh;
   display: block; }
-  .nav-link::after, .body_single .modal-wrap a::after, .body_single .text a::after, .body_pages .modal-wrap a::after, .body_pages .text a::after {
+  .nav-link::after, .menu .logo::after, .body_single .modal-wrap a::after, .body_single .text a::after, .body_pages .modal-wrap a::after, .body_pages .text a::after {
     content: "";
     position: absolute;
     bottom: 5px;
@@ -406,7 +404,7 @@ a {
     width: 0%;
     height: 2px;
     background: black; }
-  .nav-link:hover::after, .body_single .modal-wrap a:hover::after, .body_single .text a:hover::after, .body_pages .modal-wrap a:hover::after, .body_pages .text a:hover::after {
+  .nav-link:hover::after, .menu .logo:hover::after, .body_single .modal-wrap a:hover::after, .body_single .text a:hover::after, .body_pages .modal-wrap a:hover::after, .body_pages .text a:hover::after {
     width: 100%;
     background-color: black; }
 
@@ -426,14 +424,19 @@ a {
   flex-wrap: wrap; }
   .menu .logo {
     width: 7rem;
-    order: -1; }
+    order: -1;
+    align-self: end;
+    margin-left: 0; }
     @media (min-width: 600px) {
       .menu .logo {
+        align-self: start;
         order: 0; } }
   .menu .nav_menu {
-    width: 100%; }
+    width: 100%;
+    min-height: 8vh; }
     @media (min-width: 600px) {
       .menu .nav_menu {
+        min-height: auto;
         width: auto;
         padding-top: auto; } }
   .menu nav {
@@ -446,18 +449,18 @@ a {
       margin-right: auto !important;
       padding: 0;
       margin: 0; }
-      .menu nav .navbar-nav .nav-item .nav-link, .menu nav .navbar-nav .nav-item .body_single .modal-wrap a, .body_single .modal-wrap .menu nav .navbar-nav .nav-item a, .menu nav .navbar-nav .nav-item .body_single .text a, .body_single .text .menu nav .navbar-nav .nav-item a, .menu nav .navbar-nav .nav-item .body_pages .modal-wrap a, .body_pages .modal-wrap .menu nav .navbar-nav .nav-item a, .menu nav .navbar-nav .nav-item .body_pages .text a, .body_pages .text .menu nav .navbar-nav .nav-item a {
+      .menu nav .navbar-nav .nav-item .nav-link, .menu nav .navbar-nav .nav-item .logo, .menu nav .navbar-nav .nav-item .body_single .modal-wrap a, .body_single .modal-wrap .menu nav .navbar-nav .nav-item a, .menu nav .navbar-nav .nav-item .body_single .text a, .body_single .text .menu nav .navbar-nav .nav-item a, .menu nav .navbar-nav .nav-item .body_pages .modal-wrap a, .body_pages .modal-wrap .menu nav .navbar-nav .nav-item a, .menu nav .navbar-nav .nav-item .body_pages .text a, .body_pages .text .menu nav .navbar-nav .nav-item a {
         font-family: TriviaSansMedium;
         font-size: 10pt; }
   .menu .langer {
     order: -1;
-    width: 8rem; }
+    width: 9rem; }
     @media (min-width: 600px) {
       .menu .langer {
         order: 0; } }
     .menu .langer .lang {
       margin-right: 0 !important; }
-      .menu .langer .lang .nav-item .nav-link, .menu .langer .lang .nav-item .body_single .modal-wrap a, .body_single .modal-wrap .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_single .text a, .body_single .text .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_pages .modal-wrap a, .body_pages .modal-wrap .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_pages .text a, .body_pages .text .menu .langer .lang .nav-item a {
+      .menu .langer .lang .nav-item .nav-link, .menu .langer .lang .nav-item .logo, .menu .langer .lang .nav-item .body_single .modal-wrap a, .body_single .modal-wrap .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_single .text a, .body_single .text .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_pages .modal-wrap a, .body_pages .modal-wrap .menu .langer .lang .nav-item a, .menu .langer .lang .nav-item .body_pages .text a, .body_pages .text .menu .langer .lang .nav-item a {
         margin: 0 0.4vh; }
 
 .slick-initialized .slick-slide {
@@ -483,7 +486,7 @@ a {
   align-self: end;
   display: flex;
   justify-content: space-between; }
-  .footer .nav-link, .footer .body_single .modal-wrap a, .body_single .modal-wrap .footer a, .footer .body_single .text a, .body_single .text .footer a, .footer .body_pages .modal-wrap a, .body_pages .modal-wrap .footer a, .footer .body_pages .text a, .body_pages .text .footer a {
+  .footer .nav-link, .footer .menu .logo, .menu .footer .logo, .footer .body_single .modal-wrap a, .body_single .modal-wrap .footer a, .footer .body_single .text a, .body_single .text .footer a, .footer .body_pages .modal-wrap a, .body_pages .modal-wrap .footer a, .footer .body_pages .text a, .body_pages .text .footer a {
     margin: 0;
     padding: .5rem 0rem; }
   .footer .footer-left {
@@ -496,7 +499,7 @@ a {
   grid-area: footer;
   text-align: center;
   margin-top: auto; }
-  .project-text-modal .nav-link, .project-text-modal .body_single .modal-wrap a, .body_single .modal-wrap .project-text-modal a, .project-text-modal .body_single .text a, .body_single .text .project-text-modal a, .project-text-modal .body_pages .modal-wrap a, .body_pages .modal-wrap .project-text-modal a, .project-text-modal .body_pages .text a, .body_pages .text .project-text-modal a {
+  .project-text-modal .nav-link, .project-text-modal .menu .logo, .menu .project-text-modal .logo, .project-text-modal .body_single .modal-wrap a, .body_single .modal-wrap .project-text-modal a, .project-text-modal .body_single .text a, .body_single .text .project-text-modal a, .project-text-modal .body_pages .modal-wrap a, .body_pages .modal-wrap .project-text-modal a, .project-text-modal .body_pages .text a, .body_pages .text .project-text-modal a {
     padding-top: 0; }
 
 .pcolor {
@@ -509,7 +512,7 @@ a {
   display: grid;
   grid-template-areas: "header header header header header header header" ". . . . . . ."  "content content content content content content content"  "footer footer footer footer footer footer footer";
   grid-template-columns: 8% 2vh 2vh auto 2vh 2vh 8%;
-  grid-template-rows: 8vh 6vh auto 6vh 6vh;
+  grid-template-rows: 10vh 6vh auto 6vh 6vh;
   align-items: center;
   padding: 4vh 4%;
   overflow: hidden; }
@@ -757,12 +760,12 @@ a {
           flex-direction: column; } }
       .body_pages .gridpages .vertmenu .nav .nav-item {
         margin-block-end: 0; }
-        .body_pages .gridpages .vertmenu .nav .nav-item .nav-link, .body_single .modal-wrap .body_pages .gridpages .vertmenu .nav .nav-item a, .body_single .text .body_pages .gridpages .vertmenu .nav .nav-item a, .body_pages .gridpages .vertmenu .nav .nav-item .modal-wrap a, .body_pages .modal-wrap .gridpages .vertmenu .nav .nav-item a, .body_pages .gridpages .vertmenu .nav .nav-item .text a, .body_pages .text .gridpages .vertmenu .nav .nav-item a {
+        .body_pages .gridpages .vertmenu .nav .nav-item .nav-link, .body_pages .gridpages .vertmenu .nav .nav-item .menu .logo, .menu .body_pages .gridpages .vertmenu .nav .nav-item .logo, .body_single .modal-wrap .body_pages .gridpages .vertmenu .nav .nav-item a, .body_single .text .body_pages .gridpages .vertmenu .nav .nav-item a, .body_pages .gridpages .vertmenu .nav .nav-item .modal-wrap a, .body_pages .modal-wrap .gridpages .vertmenu .nav .nav-item a, .body_pages .gridpages .vertmenu .nav .nav-item .text a, .body_pages .text .gridpages .vertmenu .nav .nav-item a {
           display: inline-block;
           font-family: TriviaSansMedium;
           font-size: 10pt; }
 
-.nav-link, .body_single .modal-wrap a, .body_single .text a, .body_pages .modal-wrap a, .body_pages .text a {
+.nav-link, .menu .logo, .body_single .modal-wrap a, .body_single .text a, .body_pages .modal-wrap a, .body_pages .text a {
   display: inline-block; }
 
 .closed {
