@@ -187,12 +187,14 @@ p {
 
 ul {
   margin-block-start: 0.66667vh;
-  margin-block-end: 4vh; }
+  margin-block-end: 4vh;
+  margin-bottom: 4vh; }
   ul li {
     margin-block-end: 0.5vh; }
 
 .nospacebehind {
-  margin-block-end: 2vh; }
+  margin-block-end: 2vh;
+  margin-bottom: 2vh; }
 
 .img-fluid {
   max-width: 100%;
@@ -712,6 +714,8 @@ a {
     grid-area: img; }
   .body_pages .gridpages .text {
     grid-area: content; }
+    .body_pages .gridpages .text ul {
+      padding-left: 0px; }
   .body_pages .gridpages .vertmenu {
     grid-area: nav;
     min-height: 4vh; }
