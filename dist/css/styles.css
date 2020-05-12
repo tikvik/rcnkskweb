@@ -403,11 +403,11 @@ a {
     position: absolute;
     bottom: 5px;
     left: 0px;
-    width: 0% !important;
+    width: 0%;
     height: 2px;
     background: black; }
   .nav-link:hover::after, .body_single .modal-wrap a:hover::after, .body_single .text a:hover::after, .body_pages .modal-wrap a:hover::after, .body_pages .text a:hover::after {
-    width: 100% !important;
+    width: 100%;
     background-color: black; }
 
 .active::after {
@@ -797,7 +797,7 @@ a {
 .sticky {
   position: fixed;
   top: 0;
-  margin-left: -3.2vh;
+  margin-left: -4vh;
   width: 100%;
   background-color: white; }
   @media (min-width: 600px) {
