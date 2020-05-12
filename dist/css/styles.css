@@ -144,6 +144,27 @@ li {
 .attribute, .attribute-container {
   align-self: start !important; }
 
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFF;
+  z-index: 99999; }
+
+#status {
+  width: 73px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url("../imgs/loader.gif");
+  z-index: 9999;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -10px 0 0 -36px; }
+
 html {
   text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
@@ -163,6 +184,7 @@ h1, h3 {
 
 h2 {
   margin-inline-start: 2.28571vh;
+  margin-left: 2.28571vh;
   margin-block-start: 0;
   margin-block-end: 0;
   font-size: 10pt;
@@ -381,11 +403,11 @@ a {
     position: absolute;
     bottom: 5px;
     left: 0px;
-    width: 0%;
+    width: 0% !important;
     height: 2px;
     background: black; }
   .nav-link:hover::after, .body_single .modal-wrap a:hover::after, .body_single .text a:hover::after, .body_pages .modal-wrap a:hover::after, .body_pages .text a:hover::after {
-    width: 100%;
+    width: 100% !important;
     background-color: black; }
 
 .active::after {
