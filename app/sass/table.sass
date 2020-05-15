@@ -1,184 +1,185 @@
 $black: black
 
 ol.collection
-  margin: 0px
-  padding: 0px
+	margin: 0px
+	padding: 0px
 
 li
-  list-style: none
+	list-style: none
 
 *
-  box-sizing: border-box
+	box-sizing: border-box
 .noborder
-  border: none!important
+	border: none!important
 .attribute
-  margin-right: .5rem
-  margin-left: 1rem
+	margin-right: .5rem
+	margin-left: 1rem
 //   border: 1px solid blue
 // .attribute-container
 //   border: 2px solid red!important
 .boldborder
-  border-bottom: 3px solid black !important
-  .attribute
-    border: none
+	border-bottom: 3px solid black !important
+	.attribute
+		border: none
 
 
 .clientcosts
-  grid-template-columns: 1fr 2fr !important
+	grid-template-columns: 1fr 2fr !important
 
 /* 2 Column Card Layout */
 @media screen and (max-width: 736px)
-  .collection-container
-    display: grid
-    grid-template-columns: 1fr 
-    grid-gap: 4vh
+	.collection-container
+		display: grid
+		grid-template-columns: 1fr 
+		grid-gap: 4vh
 
-  .item
-    border-bottom: 1px solid $black
-    // padding: 10px
+	.item
+		border-bottom: 1px solid $black
+		// padding: 10px
 
-  /* Don't display the first item, since it is used to display the header for tabular layouts*/
+	/* Don't display the first item, since it is used to display the header for tabular layouts*/
 
-  .collection-container > li:first-child
-    display: none
+	.collection-container > li:first-child
+		display: none
 
-  .attribute
-    &::before
-      content: attr(data-name)
+	.attribute
+		&::before
+			content: attr(data-name)
 
-    display: grid
-    grid-template-columns: minmax(9em, 30%) 1fr
+		display: grid
+		grid-template-columns: minmax(9em, 30%) 1fr
 
-  /* Attribute name for first column, and attribute value for second column.*/
+	/* Attribute name for first column, and attribute value for second column.*/
 
 /* 1 Column Card Layout */
 @media screen and (max-width: 580px)
-  .collection-container
-    display: grid
-    grid-template-columns: 1fr
+	.collection-container
+		display: grid
+		grid-template-columns: 1fr
 
 /* Tabular Layout */
 @media screen and (min-width: 737px)
-  /* The maximum column width, that can wrap */
-  .item-container
-    display: grid
-    grid-template-columns: 10em 2fr 4fr 2fr
-    border-bottom: 1px solid bl
-    padding-top: .25remack
-    padding-bottom: .25rem
+	/* The maximum column width, that can wrap */
+	.item-container
+		display: grid
+		grid-template-columns: 10em 2fr 4fr 2fr
+		border-bottom: 1px solid bl
+		padding-top: .25remack
+		padding-bottom: .25rem
 
 
-  .attribute-container
-    display: grid
-    grid-template-columns: repeat(auto-fit, minmax(var(--column-width-min), 1fr))
+	.attribute-container
+		display: grid
+		grid-template-columns: repeat(auto-fit, minmax(var(--column-width-min), 1fr))
 
-  /* Definition of wrapping column width for attribute groups.*/
+	/* Definition of wrapping column width for attribute groups.*/
 
-  .part-information, .part-id
-    --column-width-min: 10em
+	.part-information, .part-id
+		--column-width-min: 10em
 
-  .vendor-information
-    --column-width-min: 8em
+	.vendor-information
+		--column-width-min: 8em
 
-  .quantity, .cost, .duty, .freight
-    --column-width-min: 5em
-
-
-  .collection
-    // border-top: 1px solid $black
-
-  /* In order to maximize row lines, only display one line for a cell*/
-
-  .attribute
-    // border-right: 1px solid gray
-    border-bottom: none
-    padding: 2px
-    overflow: hidden
-    white-space: wrap
-    text-overflow: ellipsis
-
-    
-
-  .collection-container > .item-container:first-child
-    // background-color: blanchedalmond
-    border-bottom: 1px solid $black
-
-  .item-container:hover
-    background-color: red
-
-  /* Center header labels*/
-
-  .collection-container > .item-container:first-child .attribute
-    display: flex
-    align-items: center
-    justify-content: start
-    text-overflow: initial
-    overflow: auto
-    white-space: normal
-.attribute,.attribute-container
-  align-self: start!important
+	.quantity, .cost, .duty, .freight
+		--column-width-min: 5em
 
 
+	.collection
+		// border-top: 1px solid $black
 
+	/* In order to maximize row lines, only display one line for a cell*/
 
+	.attribute
+		// border-right: 1px solid gray
+		border-bottom: none
+		padding: 2px
+		overflow: hidden
+		white-space: wrap
+		text-overflow: ellipsis
 
+		
 
-  /* Tabular Layout */
-@media screen and (min-width: 900px)
-  /* The maximum column width, that can wrap */
-  .item-container
-    display: grid
-    grid-template-columns: 10em 4fr 4fr 2fr
-    border-bottom: 1px solid black
-    padding-top: .25re m
+	.collection-container > .item-container:first-child
+		// background-color: blanchedalmond
+		border-bottom: 1px solid $black
 
+	.item-container:hover
+		background-color: red
 
-  .attribute-container
-    display: grid
-    grid-template-columns: repeat(auto-fit, minmax(var(--column-width-min), 1fr))
+	/* Center header labels*/
 
-  /* Definition of wrapping column width for attribute groups.*/
-
-  .part-information, .part-id
-    --column-width-min: 10em
-
-  .vendor-information
-    --column-width-min: 8em
-
-  .quantity, .cost, .duty, .freight
-    --column-width-min: 5em
-
-
-  .collection
-    // border-top: 1px solid $black
-
-  /* In order to maximize row lines, only display one line for a cell*/
-
-  .attribute
-    // border-right: 1px solid gray
-    border-bottom: none
-    padding: 2px
-    overflow: hidden
-    white-space: wrap
-    text-overflow: ellipsis
-
-    
-
-  .collection-container > .item-container:first-child
-    // background-color: blanchedalmond
-    border-bottom: 1px solid $black
-
-  .item-container:hover
-    background-color: #F8F8F8
-
-  /* Center header labels*/
-
-  .collection-container > .item-container:first-child .attribute
-    display: flex
-    align-items: center
-    justify-content: start
-    text-overflow: initial
-    overflow: auto
-    white-space: normal
+	.collection-container > .item-container:first-child .attribute
+		display: flex
+		align-items: center
+		justify-content: start
+		text-overflow: initial
+		overflow: auto
+		white-space: normal
 .attribute,.attribute-container
 	align-self: start!important
+
+
+
+
+
+
+	/* Tabular Layout */
+@media screen and (min-width: 900px)
+	/* The maximum column width, that can wrap */
+	.item-container
+		display: grid
+		grid-template-columns: 10em 4fr 4fr 2fr
+		border-bottom: 1px solid black
+		padding-top: .25re m
+
+
+	.attribute-container
+		display: grid
+		grid-template-columns: repeat(auto-fit, minmax(var(--column-width-min), 1fr))
+
+	/* Definition of wrapping column width for attribute groups.*/
+
+	.part-information, .part-id
+		--column-width-min: 10em
+
+	.vendor-information
+		--column-width-min: 8em
+
+	.quantity, .cost, .duty, .freight
+		--column-width-min: 5em
+
+
+	.collection
+		// border-top: 1px solid $black
+
+	/* In order to maximize row lines, only display one line for a cell*/
+
+	.attribute
+		// border-right: 1px solid gray
+		border-bottom: none
+		padding: 2px
+		overflow: hidden
+		white-space: wrap
+		text-overflow: ellipsis
+
+		
+
+	.collection-container > .item-container:first-child
+		// background-color: blanchedalmond
+		border-bottom: 1px solid $black
+
+	.item-container:hover
+		background-color: #F8F8F8
+
+	/* Center header labels*/
+
+	.collection-container > .item-container:first-child .attribute
+		display: flex
+		align-items: center
+		justify-content: start
+		text-overflow: initial
+		overflow: auto
+		white-space: normal
+.attribute,.attribute-container
+	align-self: start!important
+	

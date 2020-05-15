@@ -11,10 +11,11 @@
 
 
 // @include font('TriviaSans', '/fonts/TriviaSans', 'Regular');
-@include font('TriviaSansRegular', 'https://tikvik.github.io/rcnkskweb/dist/fonts/');
-@include font('TriviaSansMedium', 'https://tikvik.github.io/rcnkskweb/dist/fonts/');
+@include font('TriviaSansRegular', 'https://tikvik.github.io/rcnkskweb/dist/fonts/')
+@include font('TriviaSansMedium', 'https://tikvik.github.io/rcnkskweb/dist/fonts/')
 @import "mixins.scss"
 @import "table.sass"
+
 
 
 #preloader 
@@ -56,7 +57,6 @@ $font-size-sm: 9pt
 
 
 
-
 html
 	text-rendering: optimizeLegibility
 	text-rendering: optimizeLegibility
@@ -69,59 +69,61 @@ html
 h1
 	margin-inline-start: $gap/1.75
 	margin-block-start: 0
-	margin-block-end: 10pt
+	margin-block-end: $font-size*1.2
+	margin-bottom: $font-size*1.2
 	font-family: TriviaSansMedium
 	font-size: $font-size
 	font-weight: normal
 	position: relative
 
 h2	
-	margin-inline-start: $gap/1.75
-	margin-left: $gap/1.75
-	margin-block-start: 0
+	@extend h1
 	margin-block-end: 0
-	// margin-block-end: 0.83em
-	font-size: $font-size
-	font-family: TriviaSansMedium
-	font-weight: normal
-	position: relative
-	&:before
-		display: inline-block
-		text-indent: -10069px
-		width: 7px
-		height: 7px
-		background: url("/dist/images/headarrow.svg")
-		background-size: 7px 7px
-		content: ""
-		background-repeat: no-repeat
-		position: absolute
-		bottom: 6px
-		left: - $gap/1.75
+	margin-bottom: 0
+	// &:before
+	// 	display: inline-block
+	// 	text-indent: -10069px
+	// 	width: 7px
+	// 	height: 7px
+	// 	background: url("/dist/images/headarrow.svg")
+	// 	background-size: 7px 7px
+	// 	content: ""
+	// 	background-repeat: no-repeat
+	// 	position: absolute
+	// 	bottom: 6px
+	// 	left: - $gap/1.75
 	
 h3
 	@extend h1
 
+b
+	@extend h2
+	margin-inline-start: 0
 
 
 p
-	margin-block-end: $gap/2
+	margin-block-end: $font-size*1.2
+	margin-bottom: $font-size*1.2
 
 
 
 ul
 	// padding-inline-start: 0
-	margin-block-start: $gap/6
-	margin-block-end: $gap
-	margin-bottom: $gap
+	margin-block-start: 0
+	margin-block-end: $font-size*1.2
+	margin-bottom: $font-size*1.2
 	// li
 	// 	margin-block-end: $gap/8
 
 
 
 .nospacebehind
-	margin-block-end: $gap/2
-	margin-bottom: $gap/2
+	margin-block-end: $font-size*1.2
+	margin-bottom: 0
 
+
+.pb-1
+	padding-bottom: $font-size*0.2
 
 .img-fluid
 	max-width: 100%
@@ -231,8 +233,8 @@ ul
 			width: 100%
 			object-fit: cover
 			-webkit-transform: translate(-50%,-50%)
-			    -ms-transform: translate(-50%,-50%)
-			        transform: translate(-50%,-50%)
+			-ms-transform: translate(-50%,-50%)
+			transform: translate(-50%,-50%)
 
 
 @media screen and (max-width: 736px)
@@ -256,8 +258,8 @@ ul
 				left: 50%
 				top: 50%
 				-webkit-transform: translate(-50%,-50%)
-				    -ms-transform: translate(-50%,-50%)
-				        transform: translate(-50%,-50%)
+				-ms-transform: translate(-50%,-50%)
+				transform: translate(-50%,-50%)
 
 
 @media screen and (max-width: 500px)
@@ -436,9 +438,9 @@ a
 // 	display: inline-block
 
 .slick-initialized .slick-slide 
-       float: inherit
-       display: inline-block !important
-       vertical-align: middle
+	float: inherit
+	display: inline-block !important
+	vertical-align: middle
 
 
 .credentials
@@ -693,12 +695,13 @@ a
 				table
 					width: 100%
 					-webkit-border-horizontal-spacing: 0
+					// line-height: 1.2
 					// -webkit-border-vertical-spacing: 0
 					tbody
 						tr
 							td
 								vertical-align: top
-								padding-left: 0
+								padding: 0
 								&:nth-child(1)
 									// background: red
 									width: 30%
@@ -772,6 +775,7 @@ a
 		.text
 			grid-area: content
 			// order: 1
+
 			ul
 				padding-left: 0px
 
@@ -861,6 +865,30 @@ a
 .anchor
 	position: absolute
 	top: -90px
+
+// .nounderline
+// 	&:after
+// 		width: 0 !important
+// 	&:hover
+// 		display: inline-block
+// 		width: 100% !important
+
+.nounderline
+	@extend .nav-link
+	// margin-bottom: -3px !important
+	// line-height: 2 !important
+	margin: 0
+	padding: 0
+	&::after
+		width: 0% !important
+	&:hover
+		&::after 
+			width: 100% !important
+			background-color: $black
+			margin-bottom: -3px
+
+
+
 
 ol
 	li

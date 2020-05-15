@@ -33,20 +33,20 @@ block content
 
 							.attribute-container.part-information.nevim
 								.attribute-container.part-id
-									.attribute(data-name='Projekt') #{item.title}
-									.attribute(data-name='Lokace') #{item.lokace}
+									.attribute(data-name='Projekt') !{item.title}
+									.attribute(data-name='Lokace') !{item.lokace}
 
 							.attribute-container.quantity.clientcosts.nevim
 								.attribute(data-name='Typologie')
 									div
 										each stat in projects[index].project[0].typologie
-												span #{stat} <br>
+												span !{stat} <br>
 
 								.attribute-container.vendor-information
-									.attribute(data-name='Klient') #{item.klient}
-									.attribute(data-name='Náklady') #{item.naklady}
+									.attribute(data-name='Klient') !{item.klient}
+									.attribute(data-name='Náklady') !{item.naklady}
 							.attribute-container.quantity.nevim
-								.attribute(data-name='Rok').justify-self-end #{item.rok}
+								.attribute(data-name='Rok').justify-self-end !{item.rok}
 								//- .attribute(data-name='File').justify-self-end
 								//- 	a(href="#") PDF
 		script.
